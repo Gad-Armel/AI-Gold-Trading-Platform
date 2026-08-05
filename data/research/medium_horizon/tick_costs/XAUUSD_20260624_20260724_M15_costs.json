@@ -1,0 +1,177 @@
+{
+  "status": "OK",
+  "symbol": "XAUUSD",
+  "source": "MT5.copy_ticks_range(COPY_TICKS_INFO)",
+  "from_utc": "2026-06-24T03:20:56.300770+00:00",
+  "to_utc": "2026-07-24T03:20:56.300770+00:00",
+  "buckets": 1926,
+  "ticks": 13236661,
+  "spread_median_usd": 0.22,
+  "spread_p75_usd": 0.235,
+  "spread_p90_usd": 0.26,
+  "path": "data\\research\\medium_horizon\\tick_costs\\XAUUSD_20260624_20260724_M15_costs.csv",
+  "daily": [
+    {
+      "date": "2026-06-24",
+      "ticks": 772103,
+      "buckets": 89
+    },
+    {
+      "date": "2026-06-25",
+      "ticks": 681198,
+      "buckets": 89
+    },
+    {
+      "date": "2026-06-26",
+      "ticks": 556033,
+      "buckets": 79
+    },
+    {
+      "date": "2026-06-27",
+      "ticks": 0,
+      "error": [
+        1,
+        "Success"
+      ]
+    },
+    {
+      "date": "2026-06-28",
+      "ticks": 94160,
+      "buckets": 10
+    },
+    {
+      "date": "2026-06-29",
+      "ticks": 732213,
+      "buckets": 89
+    },
+    {
+      "date": "2026-06-30",
+      "ticks": 647008,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-01",
+      "ticks": 595423,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-02",
+      "ticks": 705470,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-03",
+      "ticks": 309148,
+      "buckets": 68
+    },
+    {
+      "date": "2026-07-04",
+      "ticks": 0,
+      "error": [
+        1,
+        "Success"
+      ]
+    },
+    {
+      "date": "2026-07-05",
+      "ticks": 47668,
+      "buckets": 10
+    },
+    {
+      "date": "2026-07-06",
+      "ticks": 517297,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-07",
+      "ticks": 529294,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-08",
+      "ticks": 832929,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-09",
+      "ticks": 588669,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-10",
+      "ticks": 421579,
+      "buckets": 79
+    },
+    {
+      "date": "2026-07-11",
+      "ticks": 0,
+      "error": [
+        1,
+        "Success"
+      ]
+    },
+    {
+      "date": "2026-07-12",
+      "ticks": 48221,
+      "buckets": 10
+    },
+    {
+      "date": "2026-07-13",
+      "ticks": 595169,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-14",
+      "ticks": 595378,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-15",
+      "ticks": 579612,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-16",
+      "ticks": 549826,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-17",
+      "ticks": 596808,
+      "buckets": 79
+    },
+    {
+      "date": "2026-07-18",
+      "ticks": 0,
+      "error": [
+        1,
+        "Success"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "ticks": 38214,
+      "buckets": 10
+    },
+    {
+      "date": "2026-07-20",
+      "ticks": 585775,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-21",
+      "ticks": 424552,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-22",
+      "ticks": 557130,
+      "buckets": 89
+    },
+    {
+      "date": "2026-07-23",
+      "ticks": 635784,
+      "buckets": 89
+    }
+  ]
+}

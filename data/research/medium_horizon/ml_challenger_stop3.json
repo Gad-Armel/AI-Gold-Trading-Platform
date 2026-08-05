@@ -1,0 +1,113 @@
+{
+  "target_usd": 1.5,
+  "stop_usd": 3.0,
+  "max_bars": 32,
+  "train_end": "2025-10-05T05:39:00+00:00",
+  "validation_end": "2026-02-28T03:57:00+00:00",
+  "holdout_start": "2026-02-28T03:57:00+00:00",
+  "holdout_inspected": false,
+  "qualifying_candidates": 0,
+  "best_validation_candidates": [
+    {
+      "model": "hist_gradient",
+      "threshold": 0.61,
+      "train": {
+        "trades": 617,
+        "win_rate": 0.766613,
+        "expectancy": 0.449757,
+        "profit_factor": 1.642361,
+        "net_profit": 277.5
+      },
+      "validation": {
+        "trades": 33,
+        "win_rate": 0.636364,
+        "expectancy": -0.136364,
+        "profit_factor": 0.875,
+        "net_profit": -4.5
+      },
+      "qualifies": false,
+      "score": -0.136364
+    },
+    {
+      "model": "logistic",
+      "threshold": 0.55,
+      "train": {
+        "trades": 1459,
+        "win_rate": 0.599726,
+        "expectancy": -0.301234,
+        "profit_factor": 0.749144,
+        "net_profit": -439.5
+      },
+      "validation": {
+        "trades": 40,
+        "win_rate": 0.6,
+        "expectancy": -0.3,
+        "profit_factor": 0.75,
+        "net_profit": -12.0
+      },
+      "qualifies": false,
+      "score": -0.301234
+    },
+    {
+      "model": "hist_gradient",
+      "threshold": 0.59,
+      "train": {
+        "trades": 3275,
+        "win_rate": 0.670229,
+        "expectancy": 0.016031,
+        "profit_factor": 1.016204,
+        "net_profit": 52.5
+      },
+      "validation": {
+        "trades": 329,
+        "win_rate": 0.556231,
+        "expectancy": -0.49696,
+        "profit_factor": 0.626712,
+        "net_profit": -163.5
+      },
+      "qualifies": false,
+      "score": -0.49696
+    },
+    {
+      "model": "hist_gradient",
+      "threshold": 0.57,
+      "train": {
+        "trades": 6569,
+        "win_rate": 0.642716,
+        "expectancy": -0.107779,
+        "profit_factor": 0.899446,
+        "net_profit": -708.0
+      },
+      "validation": {
+        "trades": 1175,
+        "win_rate": 0.529362,
+        "expectancy": -0.617872,
+        "profit_factor": 0.562387,
+        "net_profit": -726.0
+      },
+      "qualifies": false,
+      "score": -0.617872
+    },
+    {
+      "model": "hist_gradient",
+      "threshold": 0.55,
+      "train": {
+        "trades": 8109,
+        "win_rate": 0.63522,
+        "expectancy": -0.141509,
+        "profit_factor": 0.87069,
+        "net_profit": -1147.5
+      },
+      "validation": {
+        "trades": 2022,
+        "win_rate": 0.496538,
+        "expectancy": -0.765579,
+        "profit_factor": 0.493124,
+        "net_profit": -1548.0
+      },
+      "qualifies": false,
+      "score": -0.765579
+    }
+  ],
+  "approved": false
+}

@@ -1,0 +1,97 @@
+{
+  "target_usd": 1.5,
+  "stop_usd": 3.0,
+  "max_bars": 32,
+  "intermarket_features": true,
+  "macro_features": true,
+  "outcome_timeframe": "M5",
+  "validation_start": "2025-12-27T13:48:00+00:00",
+  "holdout_start": "2026-04-10T16:24:00+00:00",
+  "holdout_inspected": true,
+  "validation": {
+    "metrics": {
+      "trades": 39,
+      "win_rate": 0.74359,
+      "expectancy": 0.346154,
+      "profit_factor": 1.45,
+      "net_profit": 13.5
+    },
+    "folds": [
+      {
+        "start": "2025-12-27T13:48:00+00:00",
+        "end": "2026-01-26T13:48:00+00:00",
+        "action": "TRADE",
+        "threshold": 0.63,
+        "calibration": {
+          "trades": 54,
+          "win_rate": 0.740741,
+          "expectancy": 0.333333,
+          "profit_factor": 1.428571,
+          "net_profit": 18.0
+        },
+        "test": {
+          "trades": 39,
+          "win_rate": 0.74359,
+          "expectancy": 0.346154,
+          "profit_factor": 1.45,
+          "net_profit": 13.5
+        }
+      },
+      {
+        "start": "2026-01-26T13:48:00+00:00",
+        "end": "2026-02-25T13:48:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 6
+      },
+      {
+        "start": "2026-02-25T13:48:00+00:00",
+        "end": "2026-03-27T13:48:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 4
+      },
+      {
+        "start": "2026-03-27T13:48:00+00:00",
+        "end": "2026-04-10T16:24:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      }
+    ]
+  },
+  "validation_pass": true,
+  "approved": false,
+  "holdout": {
+    "metrics": {
+      "trades": 0,
+      "win_rate": 0.0,
+      "expectancy": 0.0,
+      "profit_factor": 0.0,
+      "net_profit": 0.0
+    },
+    "folds": [
+      {
+        "start": "2026-04-10T16:24:00+00:00",
+        "end": "2026-05-10T16:24:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 2
+      },
+      {
+        "start": "2026-05-10T16:24:00+00:00",
+        "end": "2026-06-09T16:24:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      },
+      {
+        "start": "2026-06-09T16:24:00+00:00",
+        "end": "2026-07-09T16:24:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      },
+      {
+        "start": "2026-07-09T16:24:00+00:00",
+        "end": "2026-07-23T19:00:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      }
+    ]
+  }
+}

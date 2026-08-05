@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-07-21T16:43:47.279598+00:00",
+  "strategy_id": "XAUUSD_SCALP_V6_3_2_CONSERVATIVE_SHADOW_FILLS",
+  "training_rows": 33,
+  "raw_closed_rows": 33,
+  "pre_dedup_rows": 33,
+  "decorrelated_episode_rows": 33,
+  "learned_lane_excluded_from_training": true,
+  "minimum_training_rows": 80,
+  "synthetic_data_used": false,
+  "chronological_validation": true,
+  "purged_overlapping_folds": true,
+  "untouched_final_holdout": true,
+  "target_win_rate": 0.59,
+  "status": "INSUFFICIENT_DATA",
+  "approved": false,
+  "promoted": false,
+  "reason": "Need at least 80 closed shadow trades; found 33."
+}

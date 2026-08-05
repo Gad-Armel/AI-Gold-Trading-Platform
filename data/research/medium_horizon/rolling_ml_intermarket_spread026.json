@@ -1,0 +1,66 @@
+{
+  "target_usd": 1.5,
+  "stop_usd": 3.0,
+  "max_bars": 32,
+  "intermarket_features": true,
+  "validation_start": "2025-10-05T13:21:00+00:00",
+  "holdout_start": "2026-02-28T07:48:00+00:00",
+  "holdout_inspected": false,
+  "validation": {
+    "metrics": {
+      "trades": 13,
+      "win_rate": 0.461538,
+      "expectancy": -0.923077,
+      "profit_factor": 0.428571,
+      "net_profit": -12.0
+    },
+    "folds": [
+      {
+        "start": "2025-10-05T13:21:00+00:00",
+        "end": "2025-11-04T13:21:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 4
+      },
+      {
+        "start": "2025-11-04T13:21:00+00:00",
+        "end": "2025-12-04T13:21:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      },
+      {
+        "start": "2025-12-04T13:21:00+00:00",
+        "end": "2026-01-03T13:21:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      },
+      {
+        "start": "2026-01-03T13:21:00+00:00",
+        "end": "2026-02-02T13:21:00+00:00",
+        "action": "ABSTAIN",
+        "calibration_candidates": 3
+      },
+      {
+        "start": "2026-02-02T13:21:00+00:00",
+        "end": "2026-02-28T07:48:00+00:00",
+        "action": "TRADE",
+        "threshold": 0.57,
+        "calibration": {
+          "trades": 31,
+          "win_rate": 0.709677,
+          "expectancy": 0.193548,
+          "profit_factor": 1.222222,
+          "net_profit": 6.0
+        },
+        "test": {
+          "trades": 13,
+          "win_rate": 0.461538,
+          "expectancy": -0.923077,
+          "profit_factor": 0.428571,
+          "net_profit": -12.0
+        }
+      }
+    ]
+  },
+  "validation_pass": false,
+  "approved": false
+}

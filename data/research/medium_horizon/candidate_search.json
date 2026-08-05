@@ -1,0 +1,513 @@
+{
+  "dataset_start": "2024-07-24T10:45:00+00:00",
+  "dataset_end": "2026-07-24T02:15:00+00:00",
+  "train_end": "2025-10-05T05:39:00+00:00",
+  "validation_end": "2026-02-28T03:57:00+00:00",
+  "holdout_start": "2026-02-28T03:57:00+00:00",
+  "holdout_inspected": false,
+  "entry_configs_screened": 75,
+  "tuned_combinations_tested": 480,
+  "qualifying_candidates": 0,
+  "best_candidates": [
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 8,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 16,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 24,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 8,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 16,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 24,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 62,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 8,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 62,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 16,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 62,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 24,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 38,
+        "rsi_high": 62,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 8,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 16,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 24,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 54,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 8,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 16,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 24,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    },
+    {
+      "config": {
+        "kind": "PULLBACK",
+        "rsi_low": 42,
+        "rsi_high": 58,
+        "session": "ALL"
+      },
+      "stop": 1.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1558,
+        "win_rate": 0.233633,
+        "expectancy": -0.415918,
+        "profit_factor": 0.457286,
+        "net_profit": -648.0
+      },
+      "validation": {
+        "trades": 566,
+        "win_rate": 0.160777,
+        "expectancy": -0.598057,
+        "profit_factor": 0.287368,
+        "net_profit": -338.5
+      },
+      "score": -0.554952
+    }
+  ]
+}

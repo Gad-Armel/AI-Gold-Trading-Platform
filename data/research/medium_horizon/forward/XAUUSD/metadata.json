@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "purpose": "untouched chronological forward confirmation only",
+  "symbol": "XAUUSD",
+  "anchor_utc": "2026-07-24T04:19:44.460538+00:00",
+  "last_collection_utc": "2026-07-24T04:24:44.039790+00:00",
+  "source": {
+    "bars": "MetaTrader5.copy_rates_range",
+    "costs": "MetaTrader5.copy_ticks_range(COPY_TICKS_INFO)"
+  },
+  "immutable_overlap_check": true,
+  "closed_minutes_only": true,
+  "bars": {
+    "rows": 4,
+    "sha256": "6287d70ba3b0c409bb70afc202f8848d4a2c9ccada859fdb965b90b0d1e4a6c5"
+  },
+  "costs": {
+    "rows": 4,
+    "sha256": "f5647ae74b2a1b23c0a3656505ff86b131a3551b09143d627335dd2d9ea5e817"
+  },
+  "warning": "Do not tune candidates on this dataset; use it once for locked-model confirmation."
+}

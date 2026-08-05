@@ -1,0 +1,3251 @@
+{
+  "development_start": "2025-02-18T06:10:00+00:00",
+  "train_end": "2025-10-25T01:43:00+00:00",
+  "development_end": "2026-04-08T22:45:00+00:00",
+  "final_m1_period_reserved_from": "2026-04-09",
+  "holdout_inspected": false,
+  "candidates_evaluated": 384,
+  "qualifying_candidates": 0,
+  "best_candidates": [
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "OVERLAP"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 573,
+        "win_rate": 0.47993,
+        "expectancy": -0.450262,
+        "profit_factor": 0.615213,
+        "net_profit": -258.0,
+        "folds": [
+          {
+            "trades": 28,
+            "win_rate": 0.392857,
+            "expectancy": -0.776786,
+            "profit_factor": 0.431373,
+            "net_profit": -21.75,
+            "month": "2025-02"
+          },
+          {
+            "trades": 68,
+            "win_rate": 0.5,
+            "expectancy": -0.375,
+            "profit_factor": 0.666667,
+            "net_profit": -25.5,
+            "month": "2025-03"
+          },
+          {
+            "trades": 70,
+            "win_rate": 0.428571,
+            "expectancy": -0.642857,
+            "profit_factor": 0.5,
+            "net_profit": -45.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 68,
+            "win_rate": 0.455882,
+            "expectancy": -0.540441,
+            "profit_factor": 0.558559,
+            "net_profit": -36.75,
+            "month": "2025-05"
+          },
+          {
+            "trades": 64,
+            "win_rate": 0.609375,
+            "expectancy": 0.035156,
+            "profit_factor": 1.04,
+            "net_profit": 2.25,
+            "month": "2025-06"
+          },
+          {
+            "trades": 84,
+            "win_rate": 0.464286,
+            "expectancy": -0.508929,
+            "profit_factor": 0.577778,
+            "net_profit": -42.75,
+            "month": "2025-07"
+          },
+          {
+            "trades": 67,
+            "win_rate": 0.477612,
+            "expectancy": -0.458955,
+            "profit_factor": 0.609524,
+            "net_profit": -30.75,
+            "month": "2025-08"
+          },
+          {
+            "trades": 67,
+            "win_rate": 0.492537,
+            "expectancy": -0.402985,
+            "profit_factor": 0.647059,
+            "net_profit": -27.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 57,
+            "win_rate": 0.45614,
+            "expectancy": -0.539474,
+            "profit_factor": 0.55914,
+            "net_profit": -30.75,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 1,
+        "negative_folds": 8
+      },
+      "validation": {
+        "trades": 410,
+        "win_rate": 0.407317,
+        "expectancy": -0.722561,
+        "profit_factor": 0.458162,
+        "net_profit": -296.25,
+        "folds": [
+          {
+            "trades": 15,
+            "win_rate": 0.333333,
+            "expectancy": -1.0,
+            "profit_factor": 0.333333,
+            "net_profit": -15.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 73,
+            "win_rate": 0.383562,
+            "expectancy": -0.811644,
+            "profit_factor": 0.414815,
+            "net_profit": -59.25,
+            "month": "2025-11"
+          },
+          {
+            "trades": 91,
+            "win_rate": 0.527473,
+            "expectancy": -0.271978,
+            "profit_factor": 0.744186,
+            "net_profit": -24.75,
+            "month": "2025-12"
+          },
+          {
+            "trades": 70,
+            "win_rate": 0.428571,
+            "expectancy": -0.642857,
+            "profit_factor": 0.5,
+            "net_profit": -45.0,
+            "month": "2026-01"
+          },
+          {
+            "trades": 81,
+            "win_rate": 0.296296,
+            "expectancy": -1.138889,
+            "profit_factor": 0.280702,
+            "net_profit": -92.25,
+            "month": "2026-02"
+          },
+          {
+            "trades": 64,
+            "win_rate": 0.390625,
+            "expectancy": -0.785156,
+            "profit_factor": 0.42735,
+            "net_profit": -50.25,
+            "month": "2026-03"
+          },
+          {
+            "trades": 16,
+            "win_rate": 0.4375,
+            "expectancy": -0.609375,
+            "profit_factor": 0.518519,
+            "net_profit": -9.75,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.722561
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "OVERLAP"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 575,
+        "win_rate": 0.413913,
+        "expectancy": -0.434087,
+        "profit_factor": 0.588526,
+        "net_profit": -249.6,
+        "folds": [
+          {
+            "trades": 29,
+            "win_rate": 0.275862,
+            "expectancy": -0.889655,
+            "profit_factor": 0.31746,
+            "net_profit": -25.8,
+            "month": "2025-02"
+          },
+          {
+            "trades": 68,
+            "win_rate": 0.441176,
+            "expectancy": -0.344118,
+            "profit_factor": 0.657895,
+            "net_profit": -23.4,
+            "month": "2025-03"
+          },
+          {
+            "trades": 70,
+            "win_rate": 0.371429,
+            "expectancy": -0.574286,
+            "profit_factor": 0.492424,
+            "net_profit": -40.2,
+            "month": "2025-04"
+          },
+          {
+            "trades": 68,
+            "win_rate": 0.338235,
+            "expectancy": -0.683824,
+            "profit_factor": 0.425926,
+            "net_profit": -46.5,
+            "month": "2025-05"
+          },
+          {
+            "trades": 64,
+            "win_rate": 0.53125,
+            "expectancy": -0.046875,
+            "profit_factor": 0.944444,
+            "net_profit": -3.0,
+            "month": "2025-06"
+          },
+          {
+            "trades": 85,
+            "win_rate": 0.388235,
+            "expectancy": -0.518824,
+            "profit_factor": 0.528846,
+            "net_profit": -44.1,
+            "month": "2025-07"
+          },
+          {
+            "trades": 67,
+            "win_rate": 0.41791,
+            "expectancy": -0.420896,
+            "profit_factor": 0.598291,
+            "net_profit": -28.2,
+            "month": "2025-08"
+          },
+          {
+            "trades": 67,
+            "win_rate": 0.462687,
+            "expectancy": -0.273134,
+            "profit_factor": 0.717593,
+            "net_profit": -18.3,
+            "month": "2025-09"
+          },
+          {
+            "trades": 57,
+            "win_rate": 0.438596,
+            "expectancy": -0.352632,
+            "profit_factor": 0.651042,
+            "net_profit": -20.1,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 410,
+        "win_rate": 0.321951,
+        "expectancy": -0.737561,
+        "profit_factor": 0.395683,
+        "net_profit": -302.4,
+        "folds": [
+          {
+            "trades": 15,
+            "win_rate": 0.2,
+            "expectancy": -1.14,
+            "profit_factor": 0.208333,
+            "net_profit": -17.1,
+            "month": "2025-10"
+          },
+          {
+            "trades": 73,
+            "win_rate": 0.287671,
+            "expectancy": -0.850685,
+            "profit_factor": 0.336538,
+            "net_profit": -62.1,
+            "month": "2025-11"
+          },
+          {
+            "trades": 91,
+            "win_rate": 0.417582,
+            "expectancy": -0.421978,
+            "profit_factor": 0.597484,
+            "net_profit": -38.4,
+            "month": "2025-12"
+          },
+          {
+            "trades": 70,
+            "win_rate": 0.371429,
+            "expectancy": -0.574286,
+            "profit_factor": 0.492424,
+            "net_profit": -40.2,
+            "month": "2026-01"
+          },
+          {
+            "trades": 81,
+            "win_rate": 0.271605,
+            "expectancy": -0.903704,
+            "profit_factor": 0.310734,
+            "net_profit": -73.2,
+            "month": "2026-02"
+          },
+          {
+            "trades": 64,
+            "win_rate": 0.25,
+            "expectancy": -0.975,
+            "profit_factor": 0.277778,
+            "net_profit": -62.4,
+            "month": "2026-03"
+          },
+          {
+            "trades": 16,
+            "win_rate": 0.375,
+            "expectancy": -0.5625,
+            "profit_factor": 0.5,
+            "net_profit": -9.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.737561
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "LONDON_NY"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 881,
+        "win_rate": 0.409762,
+        "expectancy": -0.447787,
+        "profit_factor": 0.578526,
+        "net_profit": -394.5,
+        "folds": [
+          {
+            "trades": 43,
+            "win_rate": 0.418605,
+            "expectancy": -0.418605,
+            "profit_factor": 0.6,
+            "net_profit": -18.0,
+            "month": "2025-02"
+          },
+          {
+            "trades": 110,
+            "win_rate": 0.445455,
+            "expectancy": -0.33,
+            "profit_factor": 0.669399,
+            "net_profit": -36.3,
+            "month": "2025-03"
+          },
+          {
+            "trades": 106,
+            "win_rate": 0.40566,
+            "expectancy": -0.461321,
+            "profit_factor": 0.568783,
+            "net_profit": -48.9,
+            "month": "2025-04"
+          },
+          {
+            "trades": 108,
+            "win_rate": 0.37963,
+            "expectancy": -0.547222,
+            "profit_factor": 0.50995,
+            "net_profit": -59.1,
+            "month": "2025-05"
+          },
+          {
+            "trades": 99,
+            "win_rate": 0.424242,
+            "expectancy": -0.4,
+            "profit_factor": 0.614035,
+            "net_profit": -39.6,
+            "month": "2025-06"
+          },
+          {
+            "trades": 118,
+            "win_rate": 0.432203,
+            "expectancy": -0.373729,
+            "profit_factor": 0.634328,
+            "net_profit": -44.1,
+            "month": "2025-07"
+          },
+          {
+            "trades": 98,
+            "win_rate": 0.387755,
+            "expectancy": -0.520408,
+            "profit_factor": 0.527778,
+            "net_profit": -51.0,
+            "month": "2025-08"
+          },
+          {
+            "trades": 107,
+            "win_rate": 0.401869,
+            "expectancy": -0.473832,
+            "profit_factor": 0.559896,
+            "net_profit": -50.7,
+            "month": "2025-09"
+          },
+          {
+            "trades": 92,
+            "win_rate": 0.391304,
+            "expectancy": -0.508696,
+            "profit_factor": 0.535714,
+            "net_profit": -46.8,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 650,
+        "win_rate": 0.321538,
+        "expectancy": -0.738923,
+        "profit_factor": 0.394936,
+        "net_profit": -480.3,
+        "folds": [
+          {
+            "trades": 28,
+            "win_rate": 0.214286,
+            "expectancy": -1.092857,
+            "profit_factor": 0.227273,
+            "net_profit": -30.6,
+            "month": "2025-10"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.306306,
+            "expectancy": -0.789189,
+            "profit_factor": 0.367965,
+            "net_profit": -87.6,
+            "month": "2025-11"
+          },
+          {
+            "trades": 137,
+            "win_rate": 0.350365,
+            "expectancy": -0.643796,
+            "profit_factor": 0.449438,
+            "net_profit": -88.2,
+            "month": "2025-12"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.378378,
+            "expectancy": -0.551351,
+            "profit_factor": 0.507246,
+            "net_profit": -61.2,
+            "month": "2026-01"
+          },
+          {
+            "trades": 124,
+            "win_rate": 0.306452,
+            "expectancy": -0.78871,
+            "profit_factor": 0.368217,
+            "net_profit": -97.8,
+            "month": "2026-02"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.273504,
+            "expectancy": -0.897436,
+            "profit_factor": 0.313725,
+            "net_profit": -105.0,
+            "month": "2026-03"
+          },
+          {
+            "trades": 22,
+            "win_rate": 0.409091,
+            "expectancy": -0.45,
+            "profit_factor": 0.576923,
+            "net_profit": -9.9,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.738923
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "LONDON_NY"
+      },
+      "stop": 4.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 850,
+        "win_rate": 0.651765,
+        "expectancy": -0.415294,
+        "profit_factor": 0.701858,
+        "net_profit": -353.0,
+        "folds": [
+          {
+            "trades": 42,
+            "win_rate": 0.690476,
+            "expectancy": -0.202381,
+            "profit_factor": 0.836538,
+            "net_profit": -8.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 101,
+            "win_rate": 0.673267,
+            "expectancy": -0.29703,
+            "profit_factor": 0.772727,
+            "net_profit": -30.0,
+            "month": "2025-03"
+          },
+          {
+            "trades": 106,
+            "win_rate": 0.59434,
+            "expectancy": -0.731132,
+            "profit_factor": 0.549419,
+            "net_profit": -77.5,
+            "month": "2025-04"
+          },
+          {
+            "trades": 107,
+            "win_rate": 0.691589,
+            "expectancy": -0.196262,
+            "profit_factor": 0.840909,
+            "net_profit": -21.0,
+            "month": "2025-05"
+          },
+          {
+            "trades": 97,
+            "win_rate": 0.639175,
+            "expectancy": -0.484536,
+            "profit_factor": 0.664286,
+            "net_profit": -47.0,
+            "month": "2025-06"
+          },
+          {
+            "trades": 112,
+            "win_rate": 0.651786,
+            "expectancy": -0.415179,
+            "profit_factor": 0.701923,
+            "net_profit": -46.5,
+            "month": "2025-07"
+          },
+          {
+            "trades": 92,
+            "win_rate": 0.673913,
+            "expectancy": -0.293478,
+            "profit_factor": 0.775,
+            "net_profit": -27.0,
+            "month": "2025-08"
+          },
+          {
+            "trades": 103,
+            "win_rate": 0.621359,
+            "expectancy": -0.582524,
+            "profit_factor": 0.615385,
+            "net_profit": -60.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 90,
+            "win_rate": 0.655556,
+            "expectancy": -0.394444,
+            "profit_factor": 0.71371,
+            "net_profit": -35.5,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 648,
+        "win_rate": 0.592593,
+        "expectancy": -0.740741,
+        "profit_factor": 0.545455,
+        "net_profit": -480.0,
+        "folds": [
+          {
+            "trades": 28,
+            "win_rate": 0.571429,
+            "expectancy": -0.857143,
+            "profit_factor": 0.5,
+            "net_profit": -24.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.603604,
+            "expectancy": -0.68018,
+            "profit_factor": 0.571023,
+            "net_profit": -75.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 135,
+            "win_rate": 0.666667,
+            "expectancy": -0.333333,
+            "profit_factor": 0.75,
+            "net_profit": -45.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.576577,
+            "expectancy": -0.828829,
+            "profit_factor": 0.510638,
+            "net_profit": -92.0,
+            "month": "2026-01"
+          },
+          {
+            "trades": 124,
+            "win_rate": 0.548387,
+            "expectancy": -0.983871,
+            "profit_factor": 0.455357,
+            "net_profit": -122.0,
+            "month": "2026-02"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.555556,
+            "expectancy": -0.944444,
+            "profit_factor": 0.46875,
+            "net_profit": -110.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 22,
+            "win_rate": 0.636364,
+            "expectancy": -0.5,
+            "profit_factor": 0.65625,
+            "net_profit": -11.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.740741
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.1,
+        "session": "LONDON_NY"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 1518,
+        "win_rate": 0.440053,
+        "expectancy": -0.347826,
+        "profit_factor": 0.654902,
+        "net_profit": -528.0,
+        "folds": [
+          {
+            "trades": 71,
+            "win_rate": 0.422535,
+            "expectancy": -0.405634,
+            "profit_factor": 0.609756,
+            "net_profit": -28.8,
+            "month": "2025-02"
+          },
+          {
+            "trades": 178,
+            "win_rate": 0.5,
+            "expectancy": -0.15,
+            "profit_factor": 0.833333,
+            "net_profit": -26.7,
+            "month": "2025-03"
+          },
+          {
+            "trades": 185,
+            "win_rate": 0.443243,
+            "expectancy": -0.337297,
+            "profit_factor": 0.66343,
+            "net_profit": -62.4,
+            "month": "2025-04"
+          },
+          {
+            "trades": 180,
+            "win_rate": 0.383333,
+            "expectancy": -0.535,
+            "profit_factor": 0.518018,
+            "net_profit": -96.3,
+            "month": "2025-05"
+          },
+          {
+            "trades": 184,
+            "win_rate": 0.451087,
+            "expectancy": -0.311413,
+            "profit_factor": 0.684818,
+            "net_profit": -57.3,
+            "month": "2025-06"
+          },
+          {
+            "trades": 210,
+            "win_rate": 0.447619,
+            "expectancy": -0.322857,
+            "profit_factor": 0.675287,
+            "net_profit": -67.8,
+            "month": "2025-07"
+          },
+          {
+            "trades": 175,
+            "win_rate": 0.48,
+            "expectancy": -0.216,
+            "profit_factor": 0.769231,
+            "net_profit": -37.8,
+            "month": "2025-08"
+          },
+          {
+            "trades": 187,
+            "win_rate": 0.417112,
+            "expectancy": -0.423529,
+            "profit_factor": 0.59633,
+            "net_profit": -79.2,
+            "month": "2025-09"
+          },
+          {
+            "trades": 148,
+            "win_rate": 0.398649,
+            "expectancy": -0.484459,
+            "profit_factor": 0.552434,
+            "net_profit": -71.7,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 990,
+        "win_rate": 0.320202,
+        "expectancy": -0.743333,
+        "profit_factor": 0.392521,
+        "net_profit": -735.9,
+        "folds": [
+          {
+            "trades": 39,
+            "win_rate": 0.25641,
+            "expectancy": -0.953846,
+            "profit_factor": 0.287356,
+            "net_profit": -37.2,
+            "month": "2025-10"
+          },
+          {
+            "trades": 166,
+            "win_rate": 0.337349,
+            "expectancy": -0.686747,
+            "profit_factor": 0.424242,
+            "net_profit": -114.0,
+            "month": "2025-11"
+          },
+          {
+            "trades": 211,
+            "win_rate": 0.393365,
+            "expectancy": -0.501896,
+            "profit_factor": 0.540365,
+            "net_profit": -105.9,
+            "month": "2025-12"
+          },
+          {
+            "trades": 188,
+            "win_rate": 0.329787,
+            "expectancy": -0.711702,
+            "profit_factor": 0.410053,
+            "net_profit": -133.8,
+            "month": "2026-01"
+          },
+          {
+            "trades": 181,
+            "win_rate": 0.265193,
+            "expectancy": -0.924862,
+            "profit_factor": 0.300752,
+            "net_profit": -167.4,
+            "month": "2026-02"
+          },
+          {
+            "trades": 170,
+            "win_rate": 0.270588,
+            "expectancy": -0.907059,
+            "profit_factor": 0.30914,
+            "net_profit": -154.2,
+            "month": "2026-03"
+          },
+          {
+            "trades": 35,
+            "win_rate": 0.342857,
+            "expectancy": -0.668571,
+            "profit_factor": 0.434783,
+            "net_profit": -23.4,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.743333
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "OVERLAP"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 436,
+        "win_rate": 0.380734,
+        "expectancy": -0.543578,
+        "profit_factor": 0.512346,
+        "net_profit": -237.0,
+        "folds": [
+          {
+            "trades": 25,
+            "win_rate": 0.32,
+            "expectancy": -0.744,
+            "profit_factor": 0.392157,
+            "net_profit": -18.6,
+            "month": "2025-02"
+          },
+          {
+            "trades": 55,
+            "win_rate": 0.381818,
+            "expectancy": -0.54,
+            "profit_factor": 0.514706,
+            "net_profit": -29.7,
+            "month": "2025-03"
+          },
+          {
+            "trades": 55,
+            "win_rate": 0.345455,
+            "expectancy": -0.66,
+            "profit_factor": 0.439815,
+            "net_profit": -36.3,
+            "month": "2025-04"
+          },
+          {
+            "trades": 51,
+            "win_rate": 0.294118,
+            "expectancy": -0.829412,
+            "profit_factor": 0.347222,
+            "net_profit": -42.3,
+            "month": "2025-05"
+          },
+          {
+            "trades": 45,
+            "win_rate": 0.466667,
+            "expectancy": -0.26,
+            "profit_factor": 0.729167,
+            "net_profit": -11.7,
+            "month": "2025-06"
+          },
+          {
+            "trades": 66,
+            "win_rate": 0.393939,
+            "expectancy": -0.5,
+            "profit_factor": 0.541667,
+            "net_profit": -33.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 44,
+            "win_rate": 0.363636,
+            "expectancy": -0.6,
+            "profit_factor": 0.47619,
+            "net_profit": -26.4,
+            "month": "2025-08"
+          },
+          {
+            "trades": 52,
+            "win_rate": 0.384615,
+            "expectancy": -0.530769,
+            "profit_factor": 0.520833,
+            "net_profit": -27.6,
+            "month": "2025-09"
+          },
+          {
+            "trades": 43,
+            "win_rate": 0.465116,
+            "expectancy": -0.265116,
+            "profit_factor": 0.724638,
+            "net_profit": -11.4,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 338,
+        "win_rate": 0.319527,
+        "expectancy": -0.745562,
+        "profit_factor": 0.391304,
+        "net_profit": -252.0,
+        "folds": [
+          {
+            "trades": 13,
+            "win_rate": 0.153846,
+            "expectancy": -1.292308,
+            "profit_factor": 0.151515,
+            "net_profit": -16.8,
+            "month": "2025-10"
+          },
+          {
+            "trades": 59,
+            "win_rate": 0.288136,
+            "expectancy": -0.849153,
+            "profit_factor": 0.337302,
+            "net_profit": -50.1,
+            "month": "2025-11"
+          },
+          {
+            "trades": 76,
+            "win_rate": 0.381579,
+            "expectancy": -0.540789,
+            "profit_factor": 0.514184,
+            "net_profit": -41.1,
+            "month": "2025-12"
+          },
+          {
+            "trades": 52,
+            "win_rate": 0.365385,
+            "expectancy": -0.594231,
+            "profit_factor": 0.479798,
+            "net_profit": -30.9,
+            "month": "2026-01"
+          },
+          {
+            "trades": 69,
+            "win_rate": 0.289855,
+            "expectancy": -0.843478,
+            "profit_factor": 0.340136,
+            "net_profit": -58.2,
+            "month": "2026-02"
+          },
+          {
+            "trades": 56,
+            "win_rate": 0.267857,
+            "expectancy": -0.916071,
+            "profit_factor": 0.304878,
+            "net_profit": -51.3,
+            "month": "2026-03"
+          },
+          {
+            "trades": 13,
+            "win_rate": 0.461538,
+            "expectancy": -0.276923,
+            "profit_factor": 0.714286,
+            "net_profit": -3.6,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.745562
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 1234,
+        "win_rate": 0.433549,
+        "expectancy": -0.369287,
+        "profit_factor": 0.637816,
+        "net_profit": -455.7,
+        "folds": [
+          {
+            "trades": 58,
+            "win_rate": 0.396552,
+            "expectancy": -0.491379,
+            "profit_factor": 0.547619,
+            "net_profit": -28.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 145,
+            "win_rate": 0.475862,
+            "expectancy": -0.229655,
+            "profit_factor": 0.756579,
+            "net_profit": -33.3,
+            "month": "2025-03"
+          },
+          {
+            "trades": 153,
+            "win_rate": 0.444444,
+            "expectancy": -0.333333,
+            "profit_factor": 0.666667,
+            "net_profit": -51.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 141,
+            "win_rate": 0.375887,
+            "expectancy": -0.559574,
+            "profit_factor": 0.501894,
+            "net_profit": -78.9,
+            "month": "2025-05"
+          },
+          {
+            "trades": 149,
+            "win_rate": 0.469799,
+            "expectancy": -0.249664,
+            "profit_factor": 0.738397,
+            "net_profit": -37.2,
+            "month": "2025-06"
+          },
+          {
+            "trades": 175,
+            "win_rate": 0.434286,
+            "expectancy": -0.366857,
+            "profit_factor": 0.639731,
+            "net_profit": -64.2,
+            "month": "2025-07"
+          },
+          {
+            "trades": 145,
+            "win_rate": 0.468966,
+            "expectancy": -0.252414,
+            "profit_factor": 0.735931,
+            "net_profit": -36.6,
+            "month": "2025-08"
+          },
+          {
+            "trades": 152,
+            "win_rate": 0.421053,
+            "expectancy": -0.410526,
+            "profit_factor": 0.606061,
+            "net_profit": -62.4,
+            "month": "2025-09"
+          },
+          {
+            "trades": 116,
+            "win_rate": 0.37931,
+            "expectancy": -0.548276,
+            "profit_factor": 0.509259,
+            "net_profit": -63.6,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 863,
+        "win_rate": 0.318656,
+        "expectancy": -0.748436,
+        "profit_factor": 0.389739,
+        "net_profit": -645.9,
+        "folds": [
+          {
+            "trades": 33,
+            "win_rate": 0.272727,
+            "expectancy": -0.9,
+            "profit_factor": 0.3125,
+            "net_profit": -29.7,
+            "month": "2025-10"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.316901,
+            "expectancy": -0.754225,
+            "profit_factor": 0.386598,
+            "net_profit": -107.1,
+            "month": "2025-11"
+          },
+          {
+            "trades": 185,
+            "win_rate": 0.389189,
+            "expectancy": -0.515676,
+            "profit_factor": 0.530973,
+            "net_profit": -95.4,
+            "month": "2025-12"
+          },
+          {
+            "trades": 164,
+            "win_rate": 0.341463,
+            "expectancy": -0.673171,
+            "profit_factor": 0.432099,
+            "net_profit": -110.4,
+            "month": "2026-01"
+          },
+          {
+            "trades": 159,
+            "win_rate": 0.264151,
+            "expectancy": -0.928302,
+            "profit_factor": 0.299145,
+            "net_profit": -147.6,
+            "month": "2026-02"
+          },
+          {
+            "trades": 148,
+            "win_rate": 0.27027,
+            "expectancy": -0.908108,
+            "profit_factor": 0.308642,
+            "net_profit": -134.4,
+            "month": "2026-03"
+          },
+          {
+            "trades": 32,
+            "win_rate": 0.34375,
+            "expectancy": -0.665625,
+            "profit_factor": 0.436508,
+            "net_profit": -21.3,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.748436
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 1218,
+        "win_rate": 0.495895,
+        "expectancy": -0.390394,
+        "profit_factor": 0.655809,
+        "net_profit": -475.5,
+        "folds": [
+          {
+            "trades": 57,
+            "win_rate": 0.491228,
+            "expectancy": -0.407895,
+            "profit_factor": 0.643678,
+            "net_profit": -23.25,
+            "month": "2025-02"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.514085,
+            "expectancy": -0.322183,
+            "profit_factor": 0.705314,
+            "net_profit": -45.75,
+            "month": "2025-03"
+          },
+          {
+            "trades": 153,
+            "win_rate": 0.477124,
+            "expectancy": -0.460784,
+            "profit_factor": 0.608333,
+            "net_profit": -70.5,
+            "month": "2025-04"
+          },
+          {
+            "trades": 141,
+            "win_rate": 0.460993,
+            "expectancy": -0.521277,
+            "profit_factor": 0.570175,
+            "net_profit": -73.5,
+            "month": "2025-05"
+          },
+          {
+            "trades": 149,
+            "win_rate": 0.543624,
+            "expectancy": -0.211409,
+            "profit_factor": 0.794118,
+            "net_profit": -31.5,
+            "month": "2025-06"
+          },
+          {
+            "trades": 170,
+            "win_rate": 0.517647,
+            "expectancy": -0.308824,
+            "profit_factor": 0.715447,
+            "net_profit": -52.5,
+            "month": "2025-07"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.542254,
+            "expectancy": -0.216549,
+            "profit_factor": 0.789744,
+            "net_profit": -30.75,
+            "month": "2025-08"
+          },
+          {
+            "trades": 149,
+            "win_rate": 0.47651,
+            "expectancy": -0.463087,
+            "profit_factor": 0.606838,
+            "net_profit": -69.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 115,
+            "win_rate": 0.417391,
+            "expectancy": -0.684783,
+            "profit_factor": 0.477612,
+            "net_profit": -78.75,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 862,
+        "win_rate": 0.400232,
+        "expectancy": -0.74913,
+        "profit_factor": 0.444874,
+        "net_profit": -645.75,
+        "folds": [
+          {
+            "trades": 33,
+            "win_rate": 0.333333,
+            "expectancy": -1.0,
+            "profit_factor": 0.333333,
+            "net_profit": -33.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.401408,
+            "expectancy": -0.744718,
+            "profit_factor": 0.447059,
+            "net_profit": -105.75,
+            "month": "2025-11"
+          },
+          {
+            "trades": 184,
+            "win_rate": 0.467391,
+            "expectancy": -0.497283,
+            "profit_factor": 0.585034,
+            "net_profit": -91.5,
+            "month": "2025-12"
+          },
+          {
+            "trades": 164,
+            "win_rate": 0.402439,
+            "expectancy": -0.740854,
+            "profit_factor": 0.44898,
+            "net_profit": -121.5,
+            "month": "2026-01"
+          },
+          {
+            "trades": 159,
+            "win_rate": 0.333333,
+            "expectancy": -1.0,
+            "profit_factor": 0.333333,
+            "net_profit": -159.0,
+            "month": "2026-02"
+          },
+          {
+            "trades": 148,
+            "win_rate": 0.391892,
+            "expectancy": -0.780405,
+            "profit_factor": 0.42963,
+            "net_profit": -115.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 32,
+            "win_rate": 0.4375,
+            "expectancy": -0.609375,
+            "profit_factor": 0.518519,
+            "net_profit": -19.5,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.74913
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "OVERLAP"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 435,
+        "win_rate": 0.441379,
+        "expectancy": -0.594828,
+        "profit_factor": 0.526749,
+        "net_profit": -258.75,
+        "folds": [
+          {
+            "trades": 24,
+            "win_rate": 0.416667,
+            "expectancy": -0.6875,
+            "profit_factor": 0.47619,
+            "net_profit": -16.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 55,
+            "win_rate": 0.436364,
+            "expectancy": -0.613636,
+            "profit_factor": 0.516129,
+            "net_profit": -33.75,
+            "month": "2025-03"
+          },
+          {
+            "trades": 55,
+            "win_rate": 0.4,
+            "expectancy": -0.75,
+            "profit_factor": 0.444444,
+            "net_profit": -41.25,
+            "month": "2025-04"
+          },
+          {
+            "trades": 51,
+            "win_rate": 0.411765,
+            "expectancy": -0.705882,
+            "profit_factor": 0.466667,
+            "net_profit": -36.0,
+            "month": "2025-05"
+          },
+          {
+            "trades": 45,
+            "win_rate": 0.555556,
+            "expectancy": -0.166667,
+            "profit_factor": 0.833333,
+            "net_profit": -7.5,
+            "month": "2025-06"
+          },
+          {
+            "trades": 66,
+            "win_rate": 0.454545,
+            "expectancy": -0.545455,
+            "profit_factor": 0.555556,
+            "net_profit": -36.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 44,
+            "win_rate": 0.386364,
+            "expectancy": -0.801136,
+            "profit_factor": 0.419753,
+            "net_profit": -35.25,
+            "month": "2025-08"
+          },
+          {
+            "trades": 52,
+            "win_rate": 0.423077,
+            "expectancy": -0.663462,
+            "profit_factor": 0.488889,
+            "net_profit": -34.5,
+            "month": "2025-09"
+          },
+          {
+            "trades": 43,
+            "win_rate": 0.488372,
+            "expectancy": -0.418605,
+            "profit_factor": 0.636364,
+            "net_profit": -18.0,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 338,
+        "win_rate": 0.399408,
+        "expectancy": -0.752219,
+        "profit_factor": 0.44335,
+        "net_profit": -254.25,
+        "folds": [
+          {
+            "trades": 13,
+            "win_rate": 0.307692,
+            "expectancy": -1.096154,
+            "profit_factor": 0.296296,
+            "net_profit": -14.25,
+            "month": "2025-10"
+          },
+          {
+            "trades": 59,
+            "win_rate": 0.423729,
+            "expectancy": -0.661017,
+            "profit_factor": 0.490196,
+            "net_profit": -39.0,
+            "month": "2025-11"
+          },
+          {
+            "trades": 76,
+            "win_rate": 0.486842,
+            "expectancy": -0.424342,
+            "profit_factor": 0.632479,
+            "net_profit": -32.25,
+            "month": "2025-12"
+          },
+          {
+            "trades": 52,
+            "win_rate": 0.403846,
+            "expectancy": -0.735577,
+            "profit_factor": 0.451613,
+            "net_profit": -38.25,
+            "month": "2026-01"
+          },
+          {
+            "trades": 69,
+            "win_rate": 0.304348,
+            "expectancy": -1.108696,
+            "profit_factor": 0.291667,
+            "net_profit": -76.5,
+            "month": "2026-02"
+          },
+          {
+            "trades": 56,
+            "win_rate": 0.375,
+            "expectancy": -0.84375,
+            "profit_factor": 0.4,
+            "net_profit": -47.25,
+            "month": "2026-03"
+          },
+          {
+            "trades": 13,
+            "win_rate": 0.461538,
+            "expectancy": -0.519231,
+            "profit_factor": 0.571429,
+            "net_profit": -6.75,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.752219
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "LONDON_NY"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 875,
+        "win_rate": 0.469714,
+        "expectancy": -0.488571,
+        "profit_factor": 0.590517,
+        "net_profit": -427.5,
+        "folds": [
+          {
+            "trades": 42,
+            "win_rate": 0.5,
+            "expectancy": -0.375,
+            "profit_factor": 0.666667,
+            "net_profit": -15.75,
+            "month": "2025-02"
+          },
+          {
+            "trades": 108,
+            "win_rate": 0.481481,
+            "expectancy": -0.444444,
+            "profit_factor": 0.619048,
+            "net_profit": -48.0,
+            "month": "2025-03"
+          },
+          {
+            "trades": 106,
+            "win_rate": 0.443396,
+            "expectancy": -0.587264,
+            "profit_factor": 0.531073,
+            "net_profit": -62.25,
+            "month": "2025-04"
+          },
+          {
+            "trades": 108,
+            "win_rate": 0.472222,
+            "expectancy": -0.479167,
+            "profit_factor": 0.596491,
+            "net_profit": -51.75,
+            "month": "2025-05"
+          },
+          {
+            "trades": 99,
+            "win_rate": 0.525253,
+            "expectancy": -0.280303,
+            "profit_factor": 0.737589,
+            "net_profit": -27.75,
+            "month": "2025-06"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.478632,
+            "expectancy": -0.455128,
+            "profit_factor": 0.612022,
+            "net_profit": -53.25,
+            "month": "2025-07"
+          },
+          {
+            "trades": 96,
+            "win_rate": 0.46875,
+            "expectancy": -0.492188,
+            "profit_factor": 0.588235,
+            "net_profit": -47.25,
+            "month": "2025-08"
+          },
+          {
+            "trades": 107,
+            "win_rate": 0.448598,
+            "expectancy": -0.567757,
+            "profit_factor": 0.542373,
+            "net_profit": -60.75,
+            "month": "2025-09"
+          },
+          {
+            "trades": 92,
+            "win_rate": 0.423913,
+            "expectancy": -0.660326,
+            "profit_factor": 0.490566,
+            "net_profit": -60.75,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 649,
+        "win_rate": 0.399076,
+        "expectancy": -0.753467,
+        "profit_factor": 0.442735,
+        "net_profit": -489.0,
+        "folds": [
+          {
+            "trades": 28,
+            "win_rate": 0.285714,
+            "expectancy": -1.178571,
+            "profit_factor": 0.266667,
+            "net_profit": -33.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.414414,
+            "expectancy": -0.695946,
+            "profit_factor": 0.471795,
+            "net_profit": -77.25,
+            "month": "2025-11"
+          },
+          {
+            "trades": 136,
+            "win_rate": 0.441176,
+            "expectancy": -0.595588,
+            "profit_factor": 0.526316,
+            "net_profit": -81.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 111,
+            "win_rate": 0.423423,
+            "expectancy": -0.662162,
+            "profit_factor": 0.489583,
+            "net_profit": -73.5,
+            "month": "2026-01"
+          },
+          {
+            "trades": 124,
+            "win_rate": 0.354839,
+            "expectancy": -0.919355,
+            "profit_factor": 0.366667,
+            "net_profit": -114.0,
+            "month": "2026-02"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.376068,
+            "expectancy": -0.839744,
+            "profit_factor": 0.401826,
+            "net_profit": -98.25,
+            "month": "2026-03"
+          },
+          {
+            "trades": 22,
+            "win_rate": 0.454545,
+            "expectancy": -0.545455,
+            "profit_factor": 0.555556,
+            "net_profit": -12.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.753467
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 32,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 4.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 631,
+        "win_rate": 0.643423,
+        "expectancy": -0.461173,
+        "profit_factor": 0.676667,
+        "net_profit": -291.0,
+        "folds": [
+          {
+            "trades": 27,
+            "win_rate": 0.703704,
+            "expectancy": -0.12963,
+            "profit_factor": 0.890625,
+            "net_profit": -3.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 69,
+            "win_rate": 0.666667,
+            "expectancy": -0.333333,
+            "profit_factor": 0.75,
+            "net_profit": -23.0,
+            "month": "2025-03"
+          },
+          {
+            "trades": 83,
+            "win_rate": 0.614458,
+            "expectancy": -0.620482,
+            "profit_factor": 0.597656,
+            "net_profit": -51.5,
+            "month": "2025-04"
+          },
+          {
+            "trades": 74,
+            "win_rate": 0.635135,
+            "expectancy": -0.506757,
+            "profit_factor": 0.652778,
+            "net_profit": -37.5,
+            "month": "2025-05"
+          },
+          {
+            "trades": 67,
+            "win_rate": 0.656716,
+            "expectancy": -0.38806,
+            "profit_factor": 0.717391,
+            "net_profit": -26.0,
+            "month": "2025-06"
+          },
+          {
+            "trades": 99,
+            "win_rate": 0.656566,
+            "expectancy": -0.388889,
+            "profit_factor": 0.716912,
+            "net_profit": -38.5,
+            "month": "2025-07"
+          },
+          {
+            "trades": 75,
+            "win_rate": 0.653333,
+            "expectancy": -0.406667,
+            "profit_factor": 0.706731,
+            "net_profit": -30.5,
+            "month": "2025-08"
+          },
+          {
+            "trades": 72,
+            "win_rate": 0.638889,
+            "expectancy": -0.486111,
+            "profit_factor": 0.663462,
+            "net_profit": -35.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 65,
+            "win_rate": 0.6,
+            "expectancy": -0.7,
+            "profit_factor": 0.5625,
+            "net_profit": -45.5,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 412,
+        "win_rate": 0.587379,
+        "expectancy": -0.769417,
+        "profit_factor": 0.533824,
+        "net_profit": -317.0,
+        "folds": [
+          {
+            "trades": 19,
+            "win_rate": 0.631579,
+            "expectancy": -0.526316,
+            "profit_factor": 0.642857,
+            "net_profit": -10.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 68,
+            "win_rate": 0.632353,
+            "expectancy": -0.522059,
+            "profit_factor": 0.645,
+            "net_profit": -35.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 91,
+            "win_rate": 0.571429,
+            "expectancy": -0.857143,
+            "profit_factor": 0.5,
+            "net_profit": -78.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 73,
+            "win_rate": 0.616438,
+            "expectancy": -0.609589,
+            "profit_factor": 0.602679,
+            "net_profit": -44.5,
+            "month": "2026-01"
+          },
+          {
+            "trades": 72,
+            "win_rate": 0.555556,
+            "expectancy": -0.944444,
+            "profit_factor": 0.46875,
+            "net_profit": -68.0,
+            "month": "2026-02"
+          },
+          {
+            "trades": 75,
+            "win_rate": 0.546667,
+            "expectancy": -0.993333,
+            "profit_factor": 0.452206,
+            "net_profit": -74.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 14,
+            "win_rate": 0.642857,
+            "expectancy": -0.464286,
+            "profit_factor": 0.675,
+            "net_profit": -6.5,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.769417
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.1,
+        "session": "LONDON_NY"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 1493,
+        "win_rate": 0.504354,
+        "expectancy": -0.358674,
+        "profit_factor": 0.678378,
+        "net_profit": -535.5,
+        "folds": [
+          {
+            "trades": 69,
+            "win_rate": 0.478261,
+            "expectancy": -0.456522,
+            "profit_factor": 0.611111,
+            "net_profit": -31.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 175,
+            "win_rate": 0.548571,
+            "expectancy": -0.192857,
+            "profit_factor": 0.810127,
+            "net_profit": -33.75,
+            "month": "2025-03"
+          },
+          {
+            "trades": 185,
+            "win_rate": 0.481081,
+            "expectancy": -0.445946,
+            "profit_factor": 0.618056,
+            "net_profit": -82.5,
+            "month": "2025-04"
+          },
+          {
+            "trades": 178,
+            "win_rate": 0.477528,
+            "expectancy": -0.45927,
+            "profit_factor": 0.609319,
+            "net_profit": -81.75,
+            "month": "2025-05"
+          },
+          {
+            "trades": 184,
+            "win_rate": 0.516304,
+            "expectancy": -0.313859,
+            "profit_factor": 0.71161,
+            "net_profit": -57.75,
+            "month": "2025-06"
+          },
+          {
+            "trades": 205,
+            "win_rate": 0.517073,
+            "expectancy": -0.310976,
+            "profit_factor": 0.713805,
+            "net_profit": -63.75,
+            "month": "2025-07"
+          },
+          {
+            "trades": 166,
+            "win_rate": 0.572289,
+            "expectancy": -0.103916,
+            "profit_factor": 0.892019,
+            "net_profit": -17.25,
+            "month": "2025-08"
+          },
+          {
+            "trades": 184,
+            "win_rate": 0.478261,
+            "expectancy": -0.456522,
+            "profit_factor": 0.611111,
+            "net_profit": -84.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 147,
+            "win_rate": 0.44898,
+            "expectancy": -0.566327,
+            "profit_factor": 0.54321,
+            "net_profit": -83.25,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 988,
+        "win_rate": 0.394737,
+        "expectancy": -0.769737,
+        "profit_factor": 0.434783,
+        "net_profit": -760.5,
+        "folds": [
+          {
+            "trades": 39,
+            "win_rate": 0.307692,
+            "expectancy": -1.096154,
+            "profit_factor": 0.296296,
+            "net_profit": -42.75,
+            "month": "2025-10"
+          },
+          {
+            "trades": 165,
+            "win_rate": 0.406061,
+            "expectancy": -0.727273,
+            "profit_factor": 0.455782,
+            "net_profit": -120.0,
+            "month": "2025-11"
+          },
+          {
+            "trades": 210,
+            "win_rate": 0.457143,
+            "expectancy": -0.535714,
+            "profit_factor": 0.561404,
+            "net_profit": -112.5,
+            "month": "2025-12"
+          },
+          {
+            "trades": 188,
+            "win_rate": 0.398936,
+            "expectancy": -0.753989,
+            "profit_factor": 0.442478,
+            "net_profit": -141.75,
+            "month": "2026-01"
+          },
+          {
+            "trades": 181,
+            "win_rate": 0.331492,
+            "expectancy": -1.006906,
+            "profit_factor": 0.330579,
+            "net_profit": -182.25,
+            "month": "2026-02"
+          },
+          {
+            "trades": 170,
+            "win_rate": 0.388235,
+            "expectancy": -0.794118,
+            "profit_factor": 0.423077,
+            "net_profit": -135.0,
+            "month": "2026-03"
+          },
+          {
+            "trades": 35,
+            "win_rate": 0.4,
+            "expectancy": -0.75,
+            "profit_factor": 0.444444,
+            "net_profit": -26.25,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.769737
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 20,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 4.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 772,
+        "win_rate": 0.650259,
+        "expectancy": -0.423575,
+        "profit_factor": 0.697222,
+        "net_profit": -327.0,
+        "folds": [
+          {
+            "trades": 32,
+            "win_rate": 0.65625,
+            "expectancy": -0.390625,
+            "profit_factor": 0.715909,
+            "net_profit": -12.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 83,
+            "win_rate": 0.686747,
+            "expectancy": -0.222892,
+            "profit_factor": 0.822115,
+            "net_profit": -18.5,
+            "month": "2025-03"
+          },
+          {
+            "trades": 101,
+            "win_rate": 0.613861,
+            "expectancy": -0.623762,
+            "profit_factor": 0.596154,
+            "net_profit": -63.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 87,
+            "win_rate": 0.62069,
+            "expectancy": -0.586207,
+            "profit_factor": 0.613636,
+            "net_profit": -51.0,
+            "month": "2025-05"
+          },
+          {
+            "trades": 88,
+            "win_rate": 0.704545,
+            "expectancy": -0.125,
+            "profit_factor": 0.894231,
+            "net_profit": -11.0,
+            "month": "2025-06"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.649573,
+            "expectancy": -0.42735,
+            "profit_factor": 0.695122,
+            "net_profit": -50.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 88,
+            "win_rate": 0.670455,
+            "expectancy": -0.3125,
+            "profit_factor": 0.762931,
+            "net_profit": -27.5,
+            "month": "2025-08"
+          },
+          {
+            "trades": 94,
+            "win_rate": 0.648936,
+            "expectancy": -0.430851,
+            "profit_factor": 0.693182,
+            "net_profit": -40.5,
+            "month": "2025-09"
+          },
+          {
+            "trades": 82,
+            "win_rate": 0.609756,
+            "expectancy": -0.646341,
+            "profit_factor": 0.585938,
+            "net_profit": -53.0,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 545,
+        "win_rate": 0.587156,
+        "expectancy": -0.770642,
+        "profit_factor": 0.533333,
+        "net_profit": -420.0,
+        "folds": [
+          {
+            "trades": 22,
+            "win_rate": 0.636364,
+            "expectancy": -0.5,
+            "profit_factor": 0.65625,
+            "net_profit": -11.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 87,
+            "win_rate": 0.586207,
+            "expectancy": -0.775862,
+            "profit_factor": 0.53125,
+            "net_profit": -67.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 124,
+            "win_rate": 0.645161,
+            "expectancy": -0.451613,
+            "profit_factor": 0.681818,
+            "net_profit": -56.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 100,
+            "win_rate": 0.58,
+            "expectancy": -0.81,
+            "profit_factor": 0.517857,
+            "net_profit": -81.0,
+            "month": "2026-01"
+          },
+          {
+            "trades": 98,
+            "win_rate": 0.530612,
+            "expectancy": -1.081633,
+            "profit_factor": 0.423913,
+            "net_profit": -106.0,
+            "month": "2026-02"
+          },
+          {
+            "trades": 95,
+            "win_rate": 0.557895,
+            "expectancy": -0.931579,
+            "profit_factor": 0.473214,
+            "net_profit": -88.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 19,
+            "win_rate": 0.631579,
+            "expectancy": -0.526316,
+            "profit_factor": 0.642857,
+            "net_profit": -10.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.770642
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "ALL"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 1932,
+        "win_rate": 0.4353,
+        "expectancy": -0.363447,
+        "profit_factor": 0.642152,
+        "net_profit": -702.18,
+        "folds": [
+          {
+            "trades": 85,
+            "win_rate": 0.423529,
+            "expectancy": -0.402353,
+            "profit_factor": 0.612245,
+            "net_profit": -34.2,
+            "month": "2025-02"
+          },
+          {
+            "trades": 237,
+            "win_rate": 0.468354,
+            "expectancy": -0.247806,
+            "profit_factor": 0.739244,
+            "net_profit": -58.73,
+            "month": "2025-03"
+          },
+          {
+            "trades": 225,
+            "win_rate": 0.444444,
+            "expectancy": -0.333333,
+            "profit_factor": 0.666667,
+            "net_profit": -75.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 239,
+            "win_rate": 0.368201,
+            "expectancy": -0.584937,
+            "profit_factor": 0.485651,
+            "net_profit": -139.8,
+            "month": "2025-05"
+          },
+          {
+            "trades": 237,
+            "win_rate": 0.464135,
+            "expectancy": -0.268354,
+            "profit_factor": 0.721785,
+            "net_profit": -63.6,
+            "month": "2025-06"
+          },
+          {
+            "trades": 275,
+            "win_rate": 0.436364,
+            "expectancy": -0.36,
+            "profit_factor": 0.645161,
+            "net_profit": -99.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 228,
+            "win_rate": 0.469298,
+            "expectancy": -0.251316,
+            "profit_factor": 0.736915,
+            "net_profit": -57.3,
+            "month": "2025-08"
+          },
+          {
+            "trades": 234,
+            "win_rate": 0.440171,
+            "expectancy": -0.353632,
+            "profit_factor": 0.649067,
+            "net_profit": -82.75,
+            "month": "2025-09"
+          },
+          {
+            "trades": 172,
+            "win_rate": 0.383721,
+            "expectancy": -0.533721,
+            "profit_factor": 0.518868,
+            "net_profit": -91.8,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 1312,
+        "win_rate": 0.310976,
+        "expectancy": -0.774756,
+        "profit_factor": 0.37532,
+        "net_profit": -1016.48,
+        "folds": [
+          {
+            "trades": 48,
+            "win_rate": 0.3125,
+            "expectancy": -0.76875,
+            "profit_factor": 0.378788,
+            "net_profit": -36.9,
+            "month": "2025-10"
+          },
+          {
+            "trades": 228,
+            "win_rate": 0.320175,
+            "expectancy": -0.743421,
+            "profit_factor": 0.392473,
+            "net_profit": -169.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 273,
+            "win_rate": 0.384615,
+            "expectancy": -0.535458,
+            "profit_factor": 0.516601,
+            "net_profit": -146.18,
+            "month": "2025-12"
+          },
+          {
+            "trades": 248,
+            "win_rate": 0.318548,
+            "expectancy": -0.74879,
+            "profit_factor": 0.389546,
+            "net_profit": -185.7,
+            "month": "2026-01"
+          },
+          {
+            "trades": 231,
+            "win_rate": 0.25974,
+            "expectancy": -0.942857,
+            "profit_factor": 0.292398,
+            "net_profit": -217.8,
+            "month": "2026-02"
+          },
+          {
+            "trades": 233,
+            "win_rate": 0.261803,
+            "expectancy": -0.936052,
+            "profit_factor": 0.295543,
+            "net_profit": -218.1,
+            "month": "2026-03"
+          },
+          {
+            "trades": 51,
+            "win_rate": 0.294118,
+            "expectancy": -0.829412,
+            "profit_factor": 0.347222,
+            "net_profit": -42.3,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.774756
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 12,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 4.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 975,
+        "win_rate": 0.662564,
+        "expectancy": -0.355897,
+        "profit_factor": 0.736322,
+        "net_profit": -347.0,
+        "folds": [
+          {
+            "trades": 45,
+            "win_rate": 0.644444,
+            "expectancy": -0.455556,
+            "profit_factor": 0.679688,
+            "net_profit": -20.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 110,
+            "win_rate": 0.690909,
+            "expectancy": -0.2,
+            "profit_factor": 0.838235,
+            "net_profit": -22.0,
+            "month": "2025-03"
+          },
+          {
+            "trades": 130,
+            "win_rate": 0.607692,
+            "expectancy": -0.657692,
+            "profit_factor": 0.580882,
+            "net_profit": -85.5,
+            "month": "2025-04"
+          },
+          {
+            "trades": 108,
+            "win_rate": 0.648148,
+            "expectancy": -0.435185,
+            "profit_factor": 0.690789,
+            "net_profit": -47.0,
+            "month": "2025-05"
+          },
+          {
+            "trades": 117,
+            "win_rate": 0.65812,
+            "expectancy": -0.380342,
+            "profit_factor": 0.721875,
+            "net_profit": -44.5,
+            "month": "2025-06"
+          },
+          {
+            "trades": 141,
+            "win_rate": 0.687943,
+            "expectancy": -0.216312,
+            "profit_factor": 0.826705,
+            "net_profit": -30.5,
+            "month": "2025-07"
+          },
+          {
+            "trades": 105,
+            "win_rate": 0.695238,
+            "expectancy": -0.17619,
+            "profit_factor": 0.855469,
+            "net_profit": -18.5,
+            "month": "2025-08"
+          },
+          {
+            "trades": 122,
+            "win_rate": 0.672131,
+            "expectancy": -0.303279,
+            "profit_factor": 0.76875,
+            "net_profit": -37.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 97,
+            "win_rate": 0.649485,
+            "expectancy": -0.427835,
+            "profit_factor": 0.694853,
+            "net_profit": -41.5,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 681,
+        "win_rate": 0.585903,
+        "expectancy": -0.777533,
+        "profit_factor": 0.530585,
+        "net_profit": -529.5,
+        "folds": [
+          {
+            "trades": 27,
+            "win_rate": 0.62963,
+            "expectancy": -0.537037,
+            "profit_factor": 0.6375,
+            "net_profit": -14.5,
+            "month": "2025-10"
+          },
+          {
+            "trades": 110,
+            "win_rate": 0.590909,
+            "expectancy": -0.75,
+            "profit_factor": 0.541667,
+            "net_profit": -82.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 150,
+            "win_rate": 0.653333,
+            "expectancy": -0.406667,
+            "profit_factor": 0.706731,
+            "net_profit": -61.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 122,
+            "win_rate": 0.57377,
+            "expectancy": -0.844262,
+            "profit_factor": 0.504808,
+            "net_profit": -103.0,
+            "month": "2026-01"
+          },
+          {
+            "trades": 131,
+            "win_rate": 0.541985,
+            "expectancy": -1.019084,
+            "profit_factor": 0.44375,
+            "net_profit": -133.5,
+            "month": "2026-02"
+          },
+          {
+            "trades": 118,
+            "win_rate": 0.542373,
+            "expectancy": -1.016949,
+            "profit_factor": 0.444444,
+            "net_profit": -120.0,
+            "month": "2026-03"
+          },
+          {
+            "trades": 23,
+            "win_rate": 0.608696,
+            "expectancy": -0.652174,
+            "profit_factor": 0.583333,
+            "net_profit": -15.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.777533
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 12,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 1021,
+        "win_rate": 0.487757,
+        "expectancy": -0.420911,
+        "profit_factor": 0.634799,
+        "net_profit": -429.75,
+        "folds": [
+          {
+            "trades": 47,
+            "win_rate": 0.468085,
+            "expectancy": -0.494681,
+            "profit_factor": 0.586667,
+            "net_profit": -23.25,
+            "month": "2025-02"
+          },
+          {
+            "trades": 122,
+            "win_rate": 0.532787,
+            "expectancy": -0.252049,
+            "profit_factor": 0.760234,
+            "net_profit": -30.75,
+            "month": "2025-03"
+          },
+          {
+            "trades": 131,
+            "win_rate": 0.465649,
+            "expectancy": -0.503817,
+            "profit_factor": 0.580952,
+            "net_profit": -66.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 110,
+            "win_rate": 0.454545,
+            "expectancy": -0.545455,
+            "profit_factor": 0.555556,
+            "net_profit": -60.0,
+            "month": "2025-05"
+          },
+          {
+            "trades": 120,
+            "win_rate": 0.508333,
+            "expectancy": -0.34375,
+            "profit_factor": 0.689266,
+            "net_profit": -41.25,
+            "month": "2025-06"
+          },
+          {
+            "trades": 152,
+            "win_rate": 0.5,
+            "expectancy": -0.375,
+            "profit_factor": 0.666667,
+            "net_profit": -57.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 114,
+            "win_rate": 0.508772,
+            "expectancy": -0.342105,
+            "profit_factor": 0.690476,
+            "net_profit": -39.0,
+            "month": "2025-08"
+          },
+          {
+            "trades": 127,
+            "win_rate": 0.503937,
+            "expectancy": -0.360236,
+            "profit_factor": 0.677249,
+            "net_profit": -45.75,
+            "month": "2025-09"
+          },
+          {
+            "trades": 98,
+            "win_rate": 0.418367,
+            "expectancy": -0.681122,
+            "profit_factor": 0.479532,
+            "net_profit": -66.75,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 686,
+        "win_rate": 0.392128,
+        "expectancy": -0.779519,
+        "profit_factor": 0.430056,
+        "net_profit": -534.75,
+        "folds": [
+          {
+            "trades": 27,
+            "win_rate": 0.333333,
+            "expectancy": -1.0,
+            "profit_factor": 0.333333,
+            "net_profit": -27.0,
+            "month": "2025-10"
+          },
+          {
+            "trades": 110,
+            "win_rate": 0.381818,
+            "expectancy": -0.818182,
+            "profit_factor": 0.411765,
+            "net_profit": -90.0,
+            "month": "2025-11"
+          },
+          {
+            "trades": 154,
+            "win_rate": 0.441558,
+            "expectancy": -0.594156,
+            "profit_factor": 0.527132,
+            "net_profit": -91.5,
+            "month": "2025-12"
+          },
+          {
+            "trades": 123,
+            "win_rate": 0.390244,
+            "expectancy": -0.786585,
+            "profit_factor": 0.426667,
+            "net_profit": -96.75,
+            "month": "2026-01"
+          },
+          {
+            "trades": 131,
+            "win_rate": 0.351145,
+            "expectancy": -0.933206,
+            "profit_factor": 0.360784,
+            "net_profit": -122.25,
+            "month": "2026-02"
+          },
+          {
+            "trades": 118,
+            "win_rate": 0.381356,
+            "expectancy": -0.819915,
+            "profit_factor": 0.410959,
+            "net_profit": -96.75,
+            "month": "2026-03"
+          },
+          {
+            "trades": 23,
+            "win_rate": 0.478261,
+            "expectancy": -0.456522,
+            "profit_factor": 0.611111,
+            "net_profit": -10.5,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.779519
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 20,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 2.25,
+      "max_bars": 24,
+      "train": {
+        "trades": 803,
+        "win_rate": 0.468244,
+        "expectancy": -0.494085,
+        "profit_factor": 0.587041,
+        "net_profit": -396.75,
+        "folds": [
+          {
+            "trades": 33,
+            "win_rate": 0.454545,
+            "expectancy": -0.545455,
+            "profit_factor": 0.555556,
+            "net_profit": -18.0,
+            "month": "2025-02"
+          },
+          {
+            "trades": 89,
+            "win_rate": 0.505618,
+            "expectancy": -0.353933,
+            "profit_factor": 0.681818,
+            "net_profit": -31.5,
+            "month": "2025-03"
+          },
+          {
+            "trades": 102,
+            "win_rate": 0.460784,
+            "expectancy": -0.522059,
+            "profit_factor": 0.569697,
+            "net_profit": -53.25,
+            "month": "2025-04"
+          },
+          {
+            "trades": 88,
+            "win_rate": 0.420455,
+            "expectancy": -0.673295,
+            "profit_factor": 0.48366,
+            "net_profit": -59.25,
+            "month": "2025-05"
+          },
+          {
+            "trades": 89,
+            "win_rate": 0.539326,
+            "expectancy": -0.227528,
+            "profit_factor": 0.780488,
+            "net_profit": -20.25,
+            "month": "2025-06"
+          },
+          {
+            "trades": 128,
+            "win_rate": 0.476562,
+            "expectancy": -0.462891,
+            "profit_factor": 0.606965,
+            "net_profit": -59.25,
+            "month": "2025-07"
+          },
+          {
+            "trades": 94,
+            "win_rate": 0.489362,
+            "expectancy": -0.414894,
+            "profit_factor": 0.638889,
+            "net_profit": -39.0,
+            "month": "2025-08"
+          },
+          {
+            "trades": 97,
+            "win_rate": 0.443299,
+            "expectancy": -0.587629,
+            "profit_factor": 0.530864,
+            "net_profit": -57.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 83,
+            "win_rate": 0.409639,
+            "expectancy": -0.713855,
+            "profit_factor": 0.462585,
+            "net_profit": -59.25,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 551,
+        "win_rate": 0.392015,
+        "expectancy": -0.779946,
+        "profit_factor": 0.429851,
+        "net_profit": -429.75,
+        "folds": [
+          {
+            "trades": 22,
+            "win_rate": 0.363636,
+            "expectancy": -0.886364,
+            "profit_factor": 0.380952,
+            "net_profit": -19.5,
+            "month": "2025-10"
+          },
+          {
+            "trades": 87,
+            "win_rate": 0.37931,
+            "expectancy": -0.827586,
+            "profit_factor": 0.407407,
+            "net_profit": -72.0,
+            "month": "2025-11"
+          },
+          {
+            "trades": 129,
+            "win_rate": 0.426357,
+            "expectancy": -0.651163,
+            "profit_factor": 0.495495,
+            "net_profit": -84.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 101,
+            "win_rate": 0.39604,
+            "expectancy": -0.764851,
+            "profit_factor": 0.437158,
+            "net_profit": -77.25,
+            "month": "2026-01"
+          },
+          {
+            "trades": 98,
+            "win_rate": 0.326531,
+            "expectancy": -1.02551,
+            "profit_factor": 0.323232,
+            "net_profit": -100.5,
+            "month": "2026-02"
+          },
+          {
+            "trades": 95,
+            "win_rate": 0.410526,
+            "expectancy": -0.710526,
+            "profit_factor": 0.464286,
+            "net_profit": -67.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 19,
+            "win_rate": 0.473684,
+            "expectancy": -0.473684,
+            "profit_factor": 0.6,
+            "net_profit": -9.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.779946
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.25,
+        "session": "LONDON_NY"
+      },
+      "stop": 4.0,
+      "max_bars": 32,
+      "train": {
+        "trades": 1163,
+        "win_rate": 0.66724,
+        "expectancy": -0.330181,
+        "profit_factor": 0.751938,
+        "net_profit": -384.0,
+        "folds": [
+          {
+            "trades": 55,
+            "win_rate": 0.672727,
+            "expectancy": -0.3,
+            "profit_factor": 0.770833,
+            "net_profit": -16.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 130,
+            "win_rate": 0.684615,
+            "expectancy": -0.234615,
+            "profit_factor": 0.814024,
+            "net_profit": -30.5,
+            "month": "2025-03"
+          },
+          {
+            "trades": 151,
+            "win_rate": 0.635762,
+            "expectancy": -0.503311,
+            "profit_factor": 0.654545,
+            "net_profit": -76.0,
+            "month": "2025-04"
+          },
+          {
+            "trades": 139,
+            "win_rate": 0.654676,
+            "expectancy": -0.399281,
+            "profit_factor": 0.710938,
+            "net_profit": -55.5,
+            "month": "2025-05"
+          },
+          {
+            "trades": 145,
+            "win_rate": 0.668966,
+            "expectancy": -0.32069,
+            "profit_factor": 0.757812,
+            "net_profit": -46.5,
+            "month": "2025-06"
+          },
+          {
+            "trades": 158,
+            "win_rate": 0.670886,
+            "expectancy": -0.310127,
+            "profit_factor": 0.764423,
+            "net_profit": -49.0,
+            "month": "2025-07"
+          },
+          {
+            "trades": 130,
+            "win_rate": 0.738462,
+            "expectancy": 0.061538,
+            "profit_factor": 1.058824,
+            "net_profit": 8.0,
+            "month": "2025-08"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.647887,
+            "expectancy": -0.43662,
+            "profit_factor": 0.69,
+            "net_profit": -62.0,
+            "month": "2025-09"
+          },
+          {
+            "trades": 113,
+            "win_rate": 0.637168,
+            "expectancy": -0.495575,
+            "profit_factor": 0.658537,
+            "net_profit": -56.0,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 1,
+        "negative_folds": 8
+      },
+      "validation": {
+        "trades": 856,
+        "win_rate": 0.58528,
+        "expectancy": -0.780958,
+        "profit_factor": 0.529225,
+        "net_profit": -668.5,
+        "folds": [
+          {
+            "trades": 33,
+            "win_rate": 0.575758,
+            "expectancy": -0.833333,
+            "profit_factor": 0.508929,
+            "net_profit": -27.5,
+            "month": "2025-10"
+          },
+          {
+            "trades": 142,
+            "win_rate": 0.598592,
+            "expectancy": -0.707746,
+            "profit_factor": 0.559211,
+            "net_profit": -100.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 180,
+            "win_rate": 0.677778,
+            "expectancy": -0.272222,
+            "profit_factor": 0.788793,
+            "net_profit": -49.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 162,
+            "win_rate": 0.561728,
+            "expectancy": -0.910494,
+            "profit_factor": 0.480634,
+            "net_profit": -147.5,
+            "month": "2026-01"
+          },
+          {
+            "trades": 159,
+            "win_rate": 0.522013,
+            "expectancy": -1.128931,
+            "profit_factor": 0.409539,
+            "net_profit": -179.5,
+            "month": "2026-02"
+          },
+          {
+            "trades": 148,
+            "win_rate": 0.560811,
+            "expectancy": -0.915541,
+            "profit_factor": 0.478846,
+            "net_profit": -135.5,
+            "month": "2026-03"
+          },
+          {
+            "trades": 32,
+            "win_rate": 0.5625,
+            "expectancy": -0.90625,
+            "profit_factor": 0.482143,
+            "net_profit": -29.0,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.780958
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.1,
+        "session": "ALL"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 2385,
+        "win_rate": 0.441509,
+        "expectancy": -0.341895,
+        "profit_factor": 0.659343,
+        "net_profit": -815.42,
+        "folds": [
+          {
+            "trades": 110,
+            "win_rate": 0.427273,
+            "expectancy": -0.386636,
+            "profit_factor": 0.623728,
+            "net_profit": -42.53,
+            "month": "2025-02"
+          },
+          {
+            "trades": 288,
+            "win_rate": 0.486111,
+            "expectancy": -0.192222,
+            "profit_factor": 0.79039,
+            "net_profit": -55.36,
+            "month": "2025-03"
+          },
+          {
+            "trades": 271,
+            "win_rate": 0.439114,
+            "expectancy": -0.350923,
+            "profit_factor": 0.652412,
+            "net_profit": -95.1,
+            "month": "2025-04"
+          },
+          {
+            "trades": 303,
+            "win_rate": 0.39604,
+            "expectancy": -0.493069,
+            "profit_factor": 0.546448,
+            "net_profit": -149.4,
+            "month": "2025-05"
+          },
+          {
+            "trades": 288,
+            "win_rate": 0.444444,
+            "expectancy": -0.333333,
+            "profit_factor": 0.666667,
+            "net_profit": -96.0,
+            "month": "2025-06"
+          },
+          {
+            "trades": 330,
+            "win_rate": 0.451515,
+            "expectancy": -0.31,
+            "profit_factor": 0.686004,
+            "net_profit": -102.3,
+            "month": "2025-07"
+          },
+          {
+            "trades": 277,
+            "win_rate": 0.480144,
+            "expectancy": -0.215523,
+            "profit_factor": 0.769676,
+            "net_profit": -59.7,
+            "month": "2025-08"
+          },
+          {
+            "trades": 296,
+            "win_rate": 0.435811,
+            "expectancy": -0.357534,
+            "profit_factor": 0.646444,
+            "net_profit": -105.83,
+            "month": "2025-09"
+          },
+          {
+            "trades": 222,
+            "win_rate": 0.396396,
+            "expectancy": -0.491892,
+            "profit_factor": 0.547264,
+            "net_profit": -109.2,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 1544,
+        "win_rate": 0.308938,
+        "expectancy": -0.781334,
+        "profit_factor": 0.371873,
+        "net_profit": -1206.38,
+        "folds": [
+          {
+            "trades": 57,
+            "win_rate": 0.280702,
+            "expectancy": -0.873684,
+            "profit_factor": 0.325203,
+            "net_profit": -49.8,
+            "month": "2025-10"
+          },
+          {
+            "trades": 265,
+            "win_rate": 0.335849,
+            "expectancy": -0.691698,
+            "profit_factor": 0.421402,
+            "net_profit": -183.3,
+            "month": "2025-11"
+          },
+          {
+            "trades": 319,
+            "win_rate": 0.388715,
+            "expectancy": -0.521254,
+            "profit_factor": 0.526268,
+            "net_profit": -166.28,
+            "month": "2025-12"
+          },
+          {
+            "trades": 296,
+            "win_rate": 0.307432,
+            "expectancy": -0.785473,
+            "profit_factor": 0.369919,
+            "net_profit": -232.5,
+            "month": "2026-01"
+          },
+          {
+            "trades": 271,
+            "win_rate": 0.254613,
+            "expectancy": -0.959779,
+            "profit_factor": 0.284653,
+            "net_profit": -260.1,
+            "month": "2026-02"
+          },
+          {
+            "trades": 279,
+            "win_rate": 0.258065,
+            "expectancy": -0.948387,
+            "profit_factor": 0.289855,
+            "net_profit": -264.6,
+            "month": "2026-03"
+          },
+          {
+            "trades": 57,
+            "win_rate": 0.280702,
+            "expectancy": -0.873684,
+            "profit_factor": 0.325203,
+            "net_profit": -49.8,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.781334
+    },
+    {
+      "config": {
+        "kind": "FAILED_BREAKOUT",
+        "lookback": 8,
+        "wick_atr": 0.4,
+        "session": "ALL"
+      },
+      "stop": 1.8,
+      "max_bars": 16,
+      "train": {
+        "trades": 1382,
+        "win_rate": 0.41534,
+        "expectancy": -0.430427,
+        "profit_factor": 0.591,
+        "net_profit": -594.85,
+        "folds": [
+          {
+            "trades": 64,
+            "win_rate": 0.453125,
+            "expectancy": -0.304688,
+            "profit_factor": 0.690476,
+            "net_profit": -19.5,
+            "month": "2025-02"
+          },
+          {
+            "trades": 180,
+            "win_rate": 0.483333,
+            "expectancy": -0.205,
+            "profit_factor": 0.77957,
+            "net_profit": -36.9,
+            "month": "2025-03"
+          },
+          {
+            "trades": 156,
+            "win_rate": 0.416667,
+            "expectancy": -0.425,
+            "profit_factor": 0.595238,
+            "net_profit": -66.3,
+            "month": "2025-04"
+          },
+          {
+            "trades": 177,
+            "win_rate": 0.367232,
+            "expectancy": -0.588136,
+            "profit_factor": 0.483631,
+            "net_profit": -104.1,
+            "month": "2025-05"
+          },
+          {
+            "trades": 166,
+            "win_rate": 0.415663,
+            "expectancy": -0.428313,
+            "profit_factor": 0.592784,
+            "net_profit": -71.1,
+            "month": "2025-06"
+          },
+          {
+            "trades": 190,
+            "win_rate": 0.4,
+            "expectancy": -0.48,
+            "profit_factor": 0.555556,
+            "net_profit": -91.2,
+            "month": "2025-07"
+          },
+          {
+            "trades": 150,
+            "win_rate": 0.446667,
+            "expectancy": -0.326,
+            "profit_factor": 0.672691,
+            "net_profit": -48.9,
+            "month": "2025-08"
+          },
+          {
+            "trades": 171,
+            "win_rate": 0.415205,
+            "expectancy": -0.438304,
+            "profit_factor": 0.583611,
+            "net_profit": -74.95,
+            "month": "2025-09"
+          },
+          {
+            "trades": 128,
+            "win_rate": 0.351562,
+            "expectancy": -0.639844,
+            "profit_factor": 0.451807,
+            "net_profit": -81.9,
+            "month": "2025-10"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 9
+      },
+      "validation": {
+        "trades": 968,
+        "win_rate": 0.306818,
+        "expectancy": -0.7875,
+        "profit_factor": 0.368852,
+        "net_profit": -762.3,
+        "folds": [
+          {
+            "trades": 39,
+            "win_rate": 0.230769,
+            "expectancy": -1.038462,
+            "profit_factor": 0.25,
+            "net_profit": -40.5,
+            "month": "2025-10"
+          },
+          {
+            "trades": 171,
+            "win_rate": 0.298246,
+            "expectancy": -0.815789,
+            "profit_factor": 0.354167,
+            "net_profit": -139.5,
+            "month": "2025-11"
+          },
+          {
+            "trades": 200,
+            "win_rate": 0.35,
+            "expectancy": -0.645,
+            "profit_factor": 0.448718,
+            "net_profit": -129.0,
+            "month": "2025-12"
+          },
+          {
+            "trades": 169,
+            "win_rate": 0.325444,
+            "expectancy": -0.726036,
+            "profit_factor": 0.402047,
+            "net_profit": -122.7,
+            "month": "2026-01"
+          },
+          {
+            "trades": 173,
+            "win_rate": 0.289017,
+            "expectancy": -0.846243,
+            "profit_factor": 0.338753,
+            "net_profit": -146.4,
+            "month": "2026-02"
+          },
+          {
+            "trades": 179,
+            "win_rate": 0.284916,
+            "expectancy": -0.859777,
+            "profit_factor": 0.332031,
+            "net_profit": -153.9,
+            "month": "2026-03"
+          },
+          {
+            "trades": 37,
+            "win_rate": 0.297297,
+            "expectancy": -0.818919,
+            "profit_factor": 0.352564,
+            "net_profit": -30.3,
+            "month": "2026-04"
+          }
+        ],
+        "positive_folds": 0,
+        "negative_folds": 7
+      },
+      "qualifies": false,
+      "score": -0.7875
+    }
+  ]
+}
