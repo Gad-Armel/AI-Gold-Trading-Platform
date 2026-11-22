@@ -1,64 +1,61 @@
-# Aurum Quant AI — tableau de bord PC
+# Aurum Market Risk & Execution Platform
 
-## Lancement recommande: Gold Demo Desk
+A research-first market intelligence and risk-control platform for XAUUSD (gold). It combines market analysis, validation workflows, a native MetaTrader 5 expert advisor, Python research services, and a local command center designed to make trading decisions more observable, testable, and controlled.
 
-Double-cliquez sur [`Start Gold Demo.cmd`](<./Start Gold Demo.cmd>) ou sur
-**Aurum Gold Demo Desk** sur le Bureau. Le lanceur ouvre le tableau de bord,
-demarre/connecte MT5, refuse tout compte autre que DEMO, puis demande la phrase
-locale de confirmation (saisie masquee) avant de lancer le bot Gold. Live reste
-verrouille. Ctrl+C arrete le bot. L'EA natif reste un executeur distinct a
-attacher manuellement au graphique XAUUSD; ne lancez pas les deux executeurs
-ensemble sans avoir decide lequel tester.
+> This is a research and demo-execution system—not a promise of profitability. Live trading remains disabled by design unless explicitly configured and separately validated.
 
-Equivalent PowerShell depuis la racine du depot:
+## Real-world problem
+
+Gold-trading workflows often scatter signals, account state, execution permissions, and risk decisions across disconnected scripts and terminal windows. That makes it difficult to answer basic operational questions: why was a signal accepted, which safeguards were active, what data supported the decision, and what happened during execution?
+
+Aurum addresses this by providing a single, auditable workflow for research, signal review, risk gating, demo execution, and post-run validation.
+
+## What the platform provides
+
+- XAUUSD market-state analysis and research reports.
+- Python consensus and advisory services for signal investigation.
+- Native MQL5 execution components for MetaTrader 5.
+- Demo-only safeguards, position limits, permission checks, and paper/shadow modes.
+- Local dashboards for account state, positions, signal sources, risk filters, and system timing.
+- Replay, deterministic self-tests, regression checks, and validation tooling.
+- Clear separation between research, advisory logic, and execution.
+
+## Technology and skills demonstrated
+
+- **Languages:** Python, MQL5, PowerShell, YAML, Markdown.
+- **Analytics:** pandas, NumPy, scikit-learn, Joblib, statistical validation, time-series research.
+- **Trading integration:** MetaTrader 5, MT5 Expert Advisors, symbol/session metadata, account and position controls.
+- **Engineering:** modular architecture, configuration management, safety gates, reproducible validation, logging, auditability, and defensive error handling.
+- **Quality practices:** regression suites, deterministic test scripts, replay validation, point-in-time data discipline, and explicit research limitations.
+
+## Run the demo workspace
 
 ```powershell
 python -B tools\launch_gold_demo.py
 ```
 
-Le tableau de bord seul reste disponible avec `python -B
-run_gold_unified_dashboard.py`. Il ne lance pas le bot Python ni les trades.
-
-## Gold Unified Command Center
-
-La seule interface de trading prise en charge regroupe l'EA natif, le bot de
-consensus, Advisor 1, l'analyse manuelle et les rapports V-FINAL. Elle montre
-les controles d'entree/sortie, les sources et leur fraicheur, les positions,
-les comptes, les filtres de risque et les timings de tick/boucle disponibles.
-Ces timings MT5 retail ne constituent pas une infrastructure HFT ni une
-garantie de latence ou de performance.
+To open the dashboard without starting the bot:
 
 ```powershell
 python -B run_gold_unified_dashboard.py
 ```
 
-Adresse par défaut : `http://127.0.0.1:8777/`
+Default address: `http://127.0.0.1:8777/`
 
-Cette page lit les snapshots et rapports locaux existants. Elle ne calcule pas
-de signaux et n'envoie pas directement d'ordres, mais le choix « MT5 demo »
-écrit un fichier de configuration commun qui peut autoriser l'EA natif à
-exécuter des ordres démo. L'EA conserve ses contrôles de compte démo et de
-permissions MT5. Le bandeau distingue l'écriture du fichier de sa confirmation
-par un snapshot EA récent; une erreur d'écriture est affichée. Un profil Live
-nécessitera un compte MT5 distinct et une autorisation explicite.
+The native EA can be compiled and validated with the PowerShell scripts in `tools/`. Read the project safety and validation documentation before connecting MetaTrader 5.
 
-L'analyse native reste fixe en M1. Le calendrier du tableau de bord
-peut ajouter une plage UTC sans nouvelles entrées; la sélection actuelle
-bloque les nouvelles entrées de 22:00 à 23:00 UTC. Cette restriction ne
-remplace pas les filtres de session, d'actualité ou de risque propres à l'EA.
+## Safety and scope
 
-L'EA natif consulte aussi les horaires de session fournis par MT5. Il bloque
-les nouvelles entrées et tente de fermer, pendant les cinq minutes precedant
-chaque fermeture programmee, toutes les positions ouvertes sur le symbole exact
-du graphique XAUUSD, y compris les positions manuelles et celles d'autres
-strategies. Un suffixe de symbole different n'est pas cible sauf si l'EA est
-attache a ce symbole exact. Les horaires sont ceux du serveur du courtier, pas
-UTC; jours feries et changements non programmes peuvent differer. La fermeture
-est une tentative, pas une garantie: connexion, cotations, autorisations ou
-rejets du courtier peuvent l'empecher. Le dashboard affiche le calendrier connu,
-le compte a rebours, le nombre de positions restantes et l'etat des tentatives.
-L'horaire attendu du vendredi 22:00 au dimanche 23:00 n'est pas code en dur:
-les heures XAUUSD varient selon le courtier, son fuseau serveur et les changements
-saisonniers. L'EA lit les sessions du symbole dans MT5 ([`SymbolInfoSessionTrade`](https://www.mql5.com/en/docs/marketinformation/symbolinfosessiontrade));
-verifiez les heures visibles apres connexion au compte demo voulu. Le statut
-affiche les heures du serveur du courtier, pas necessairement UTC.
+The default posture is paper/shadow mode. Demo execution requires explicit configuration. Real-account execution is not enabled by default. Historical validation does not establish future performance, and retail MT5 timing is not HFT infrastructure.
+
+## Project structure
+
+- `run_gold_unified_dashboard.py` — local command center.
+- `tools/` — launch, validation, audit, compilation, and test utilities.
+- `mql5/` — native MetaTrader 5 execution components.
+- `docs/` — architecture, research, validation, and operating guidance.
+- `data/` — research outputs and local snapshots.
+
+## Responsible use
+
+Use only authorized market data and accounts. Validate broker-specific symbol sessions, permissions, spreads, and execution behavior on a demo account before any operational use.
