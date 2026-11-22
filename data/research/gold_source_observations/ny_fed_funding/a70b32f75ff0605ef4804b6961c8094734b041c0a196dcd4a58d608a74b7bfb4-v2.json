@@ -1,0 +1,14 @@
+{
+  "parser_version": 2,
+  "source": "ny_fed_funding",
+  "url": "https://markets.newyorkfed.org/api/rates/all/latest.json",
+  "retrieved_at": "2026-10-05T16:54:55.237014+00:00",
+  "payload_sha256": "a70b32f75ff0605ef4804b6961c8094734b041c0a196dcd4a58d608a74b7bfb4",
+  "effective_date": "2026-10-02",
+  "sofr_percent": 3.88,
+  "effr_percent": 3.88,
+  "sofr_minus_effr_bps": 0.0,
+  "role": "DAILY_FUNDING_CONTEXT_ONLY",
+  "gold_direction": null,
+  "note": "Different secured/unsecured markets; this spread is not a gold entry or exit signal."
+}

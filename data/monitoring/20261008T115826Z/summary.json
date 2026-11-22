@@ -1,0 +1,95 @@
+{
+  "started_at": "2026-10-08T11:58:26.519597+00:00",
+  "latest_at": "2026-10-08T12:18:29.896657+00:00",
+  "minutes": 20.06,
+  "observations": 81,
+  "equity_change": -2.93,
+  "balance_change": -6.51,
+  "maximum_equity_drawdown": 4.16,
+  "maximum_status_lag_seconds": 3.98,
+  "main_realized_change": -6.51,
+  "main_total_change": -2.84,
+  "wins": 0,
+  "losses": 2,
+  "gross_gains": 0,
+  "gross_losses": 6.51,
+  "profit_factor": 0.0,
+  "open_positions": [],
+  "latency_median_ms": 156.0,
+  "latency_p95_ms": 344.0,
+  "common_entry_blocks": [
+    [
+      "INTRADAY: The directional policy has not authorized an entry.",
+      81
+    ],
+    [
+      "INTRADAY: Signal persistence is 0.0s; 15.0s required.",
+      81
+    ],
+    [
+      "INTRADAY: No usable directional evidence at or above 15.0/100.",
+      81
+    ],
+    [
+      "SWING: The directional policy has not authorized an entry.",
+      81
+    ],
+    [
+      "SWING: Signal persistence is 0.0s; 30.0s required.",
+      81
+    ],
+    [
+      "SWING: No usable directional evidence at or above 15.0/100.",
+      81
+    ],
+    [
+      "SCALP: The directional policy has not authorized an entry.",
+      54
+    ],
+    [
+      "SCALP: Signal persistence is 0.0s; 5.0s required.",
+      54
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58820196801,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4128.18,
+      "exit_price": 4124.55,
+      "profit": -3.63,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T11:54:34.623000+00:00",
+      "closed_at": "2026-10-08T11:59:23.602000+00:00",
+      "hold_seconds": 289.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58820412338,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4125.9,
+      "exit_price": 4123.02,
+      "profit": -2.88,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T12:06:02.549000+00:00",
+      "closed_at": "2026-10-08T12:11:20.118000+00:00",
+      "hold_seconds": 317.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    }
+  ],
+  "observed_excursions": {
+    "58820196801": {
+      "peak_floating": -3.67,
+      "trough_floating": -4.16
+    },
+    "58820412338": {
+      "peak_floating": 1.28,
+      "trough_floating": -3.02
+    }
+  }
+}

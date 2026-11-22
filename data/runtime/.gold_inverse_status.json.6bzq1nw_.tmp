@@ -1,0 +1,97 @@
+{
+    "protocol": 1,
+    "state": "RUNNING",
+    "heartbeat_epoch": 1792740128.4683576,
+    "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+    "magic": 631021,
+    "demo_only": true,
+    "lot": 0.01,
+    "max_combined_positions": 4,
+    "detail": {
+        "source_positions": 1,
+        "inverse_positions": 1,
+        "pending_inverse_orders": 0,
+        "inverse_floating_profit": 0.65,
+        "events": [],
+        "uncertain_links": []
+    },
+    "error": "",
+    "trading": {
+        "available": true,
+        "updated_at": "2026-10-23T07:22:07.075730+00:00",
+        "positions": [
+            {
+                "ticket": 59023713759,
+                "horizon": "INVERSE",
+                "source_position_id": "59023713739",
+                "direction": "BUY",
+                "volume": 0.01,
+                "entry_price": 4013.49,
+                "current_price": 4014.13,
+                "sl": 4009.92,
+                "tp": 0.0,
+                "profit": 0.64
+            }
+        ],
+        "closed_trades": [
+            {
+                "position_id": 59023681877,
+                "direction": "SELL",
+                "volume": 0.01,
+                "profit": -0.08,
+                "closed_at": "2026-10-23T07:18:03.763000+00:00"
+            }
+        ],
+        "reset_epoch": 1792739517.5983813,
+        "main_display": {
+            "closed_trades": [
+                {
+                    "position_id": 59023681812,
+                    "direction": "BUY",
+                    "volume": 0.01,
+                    "profit": -0.39,
+                    "closed_at": "2026-10-23T07:18:03.643000+00:00"
+                },
+                {
+                    "position_id": 59023639065,
+                    "direction": "BUY",
+                    "volume": 0.01,
+                    "profit": -1.29,
+                    "closed_at": "2026-10-23T07:14:55.532000+00:00"
+                },
+                {
+                    "position_id": 59023626578,
+                    "direction": "SELL",
+                    "volume": 0.01,
+                    "profit": -0.77,
+                    "closed_at": "2026-10-23T07:13:56.357000+00:00"
+                }
+            ],
+            "pnl": {
+                "available": true,
+                "realized": -2.45,
+                "floating": -1.24,
+                "total": -3.6900000000000004,
+                "actual_floating": -1.24
+            }
+        },
+        "pnl": {
+            "available": true,
+            "realized": -0.08,
+            "floating": 0.64,
+            "total": 0.56,
+            "actual_floating": 0.64
+        },
+        "scope": "Display change since reset (open P/L baseline included)",
+        "paired": {
+            "available": true,
+            "linked_sources": 6,
+            "main_net": -1.63,
+            "inverse_net": 0.56,
+            "main_actual_floating": -1.24,
+            "combined_net": -1.0699999999999998,
+            "scope": "Linked experiment since display reset"
+        },
+        "note": "Position cards show broker floating P/L; aggregate open P/L includes recorded fees/swap."
+    }
+}

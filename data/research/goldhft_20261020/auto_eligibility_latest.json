@@ -1,0 +1,61 @@
+{
+  "as_of": "2026-10-21T07:06:22.255372+00:00",
+  "read_only": true,
+  "costs": {
+    "available": false,
+    "reconciled_pairs": 0,
+    "commission_price": 0.1,
+    "slippage_price": 0.2,
+    "profile_type": "PROVISIONAL_DEMO",
+    "calibration_age_seconds": 8242.685183048248,
+    "calibration_stale": false,
+    "calibration_expiry_enforced": false
+  },
+  "summary": {
+    "S5": {
+      "counts": {
+        "evaluated_seconds": 799,
+        "directional_seconds": 122
+      },
+      "distinct_candidate_setups": 0,
+      "blocker_counts": {
+        "Recent S5 range does not clear three times estimated round-trip cost": 609,
+        "Completed S5 candles do not agree": 487,
+        "Insufficient continuous six-second quote coverage": 12,
+        "Incomplete S5 tick coverage; no synthetic fill": 190,
+        "Current quote has reversed or is extended beyond one recent S5 range": 14
+      }
+    },
+    "S15": {
+      "counts": {
+        "evaluated_seconds": 799,
+        "directional_seconds": 87
+      },
+      "distinct_candidate_setups": 0,
+      "blocker_counts": {
+        "Recent S15 range does not clear three times estimated round-trip cost": 799,
+        "Insufficient continuous six-second quote coverage": 43,
+        "Current quote has reversed or is extended beyond one recent S15 range": 31,
+        "Completed S15 candles do not agree": 712
+      }
+    },
+    "S30": {
+      "counts": {
+        "evaluated_seconds": 799,
+        "directional_seconds": 120
+      },
+      "distinct_candidate_setups": 0,
+      "blocker_counts": {
+        "Completed S30 candles do not agree": 679,
+        "Recent S30 range does not clear three times estimated round-trip cost": 799,
+        "Insufficient continuous six-second quote coverage": 43,
+        "Current quote has reversed or is extended beyond one recent S30 range": 29
+      }
+    }
+  },
+  "limitations": [
+    "Eligibility counts only, not profitability or a portfolio backtest.",
+    "Does not replay news, broker sends, evidence threshold, persistence or latency.",
+    "Signal overlap and per-second counts are not independent trades."
+  ]
+}

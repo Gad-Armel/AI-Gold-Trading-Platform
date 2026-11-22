@@ -1,0 +1,12 @@
+{
+  "symbol": "XAUUSD",
+  "mode": "demo",
+  "timeframe": "M1",
+  "execution_enabled": true,
+  "schedule_mode": "exclude_window",
+  "blocked_start_utc": 22,
+  "blocked_end_utc": 23,
+  "updated_at": 1795326509.1715965,
+  "bridge_write_state": "written",
+  "bridge_write_error": null
+}

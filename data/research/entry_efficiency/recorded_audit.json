@@ -1,0 +1,198 @@
+{
+  "note": "Diagnostic trade subsets only; not out-of-sample or counterfactual portfolio returns.",
+  "rules": {
+    "baseline": {
+      "ALL": {
+        "trades": 37,
+        "net": -24.08,
+        "profit_factor": 0.635
+      },
+      "SCALP": {
+        "trades": 20,
+        "net": -1.41,
+        "profit_factor": 0.947
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 9,
+        "net": -6.49,
+        "profit_factor": 0.609
+      }
+    },
+    "risk_fits": {
+      "ALL": {
+        "trades": 32,
+        "net": -24.27,
+        "profit_factor": 0.596
+      },
+      "SCALP": {
+        "trades": 18,
+        "net": -3.91,
+        "profit_factor": 0.849
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 6,
+        "net": -4.18,
+        "profit_factor": 0.641
+      }
+    },
+    "no_chase": {
+      "ALL": {
+        "trades": 37,
+        "net": -24.08,
+        "profit_factor": 0.635
+      },
+      "SCALP": {
+        "trades": 20,
+        "net": -1.41,
+        "profit_factor": 0.947
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 9,
+        "net": -6.49,
+        "profit_factor": 0.609
+      }
+    },
+    "m5_aligned": {
+      "ALL": {
+        "trades": 28,
+        "net": -21.55,
+        "profit_factor": 0.597
+      },
+      "SCALP": {
+        "trades": 17,
+        "net": -8.27,
+        "profit_factor": 0.692
+      },
+      "INTRADAY": {
+        "trades": 5,
+        "net": -10.36,
+        "profit_factor": 0.311
+      },
+      "SWING": {
+        "trades": 6,
+        "net": -2.92,
+        "profit_factor": 0.749
+      }
+    },
+    "directional_path": {
+      "ALL": {
+        "trades": 27,
+        "net": -25.46,
+        "profit_factor": 0.554
+      },
+      "SCALP": {
+        "trades": 12,
+        "net": -0.12,
+        "profit_factor": 0.993
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 7,
+        "net": -9.16,
+        "profit_factor": 0.449
+      }
+    },
+    "leading_alignment": {
+      "ALL": {
+        "trades": 36,
+        "net": -24.86,
+        "profit_factor": 0.623
+      },
+      "SCALP": {
+        "trades": 20,
+        "net": -1.41,
+        "profit_factor": 0.947
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 8,
+        "net": -7.27,
+        "profit_factor": 0.562
+      }
+    },
+    "actual_reward_risk": {
+      "ALL": {
+        "trades": 17,
+        "net": -22.67,
+        "profit_factor": 0.421
+      },
+      "SCALP": {
+        "trades": 0,
+        "net": 0,
+        "profit_factor": null
+      },
+      "INTRADAY": {
+        "trades": 8,
+        "net": -16.18,
+        "profit_factor": 0.281
+      },
+      "SWING": {
+        "trades": 9,
+        "net": -6.49,
+        "profit_factor": 0.609
+      }
+    }
+  },
+  "staged_exposure": {
+    "accepted": {
+      "trades": 25,
+      "net": -16.25,
+      "profit_factor": 0.615
+    },
+    "rejected": {
+      "trades": 12,
+      "net": -7.83,
+      "profit_factor": 0.671
+    },
+    "tickets": [
+      58813636984,
+      58813744249,
+      58814349549,
+      58814540299,
+      58814702449,
+      58814803141,
+      58814871315,
+      58815077075,
+      58815117038,
+      58815211445,
+      58816200127,
+      58816498560,
+      58816734208,
+      58816815953,
+      58816847530,
+      58816895359,
+      58817158563,
+      58817264732,
+      58817398845,
+      58817453721,
+      58817836016,
+      58817977603,
+      58818280230,
+      58818365021,
+      58818447638
+    ]
+  }
+}

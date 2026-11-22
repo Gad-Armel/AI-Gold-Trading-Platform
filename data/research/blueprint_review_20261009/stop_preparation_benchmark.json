@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-10-09T05:56:07.557223+00:00",
+  "measured_terminal": true,
+  "broker_symbol": {
+    "point": 0.01,
+    "digits": 2,
+    "trade_tick_size": 0.01,
+    "trade_contract_size": 100.0,
+    "trade_stops_level": 0,
+    "volume_min": 0.01,
+    "volume_step": 0.01
+  },
+  "results": {
+    "BUY_previous": {
+      "median_ms": 4.448799998499453,
+      "p95_ms": 5.451099947094917,
+      "mean_calls": 52,
+      "stop": 4189.3,
+      "rejected_by_final_risk_check": false
+    },
+    "BUY_broker_grid": {
+      "median_ms": 0.26350002735853195,
+      "p95_ms": 0.34010002855211496,
+      "mean_calls": 2,
+      "stop": 4189.29,
+      "rejected_by_final_risk_check": false
+    },
+    "SELL_previous": {
+      "median_ms": 4.154199967160821,
+      "p95_ms": 4.933899966999888,
+      "mean_calls": 52,
+      "stop": 4198.99,
+      "rejected_by_final_risk_check": false
+    },
+    "SELL_broker_grid": {
+      "median_ms": 0.2886999864131212,
+      "p95_ms": 0.7964000105857849,
+      "mean_calls": 2,
+      "stop": 4199.0,
+      "rejected_by_final_risk_check": false
+    }
+  },
+  "note": "Read-only calculator latency; not order latency or measured profit improvement."
+}

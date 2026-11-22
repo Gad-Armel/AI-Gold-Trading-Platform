@@ -1,0 +1,193 @@
+{
+  "hypothesis": {
+    "frozen_at": "2026-10-09T05:49:21.434142+00:00",
+    "groups": {
+      "development": [
+        "20260908",
+        "20260909",
+        "20260910",
+        "20260911",
+        "20260912",
+        "20260913",
+        "20260914",
+        "20260915",
+        "20260916",
+        "20260917",
+        "20260918",
+        "20260919",
+        "20260920",
+        "20260921",
+        "20260922",
+        "20260923",
+        "20260924",
+        "20260925"
+      ],
+      "validation": [
+        "20260926",
+        "20260927",
+        "20260928",
+        "20260929",
+        "20260930",
+        "20261001"
+      ],
+      "holdout": [
+        "20261002",
+        "20261003",
+        "20261004",
+        "20261005",
+        "20261006",
+        "20261007"
+      ]
+    },
+    "families": [
+      "pullback",
+      "sweep",
+      "breakout"
+    ],
+    "parameters": {
+      "stop_usd": 5,
+      "target_usd": 6,
+      "horizon_seconds": 300,
+      "latency_ms": 100,
+      "slippage_each_side": 0.05,
+      "commission_round_trip_per_001": 0.07,
+      "spread_cap": 0.75,
+      "post_exit_seconds": 30
+    },
+    "sources": {
+      "tools\\research_gold_blueprint_setups.py": "1acb1ad976274231629aaffa1fd95a1058882ed7ceb68a6c7114133746f37cc7",
+      "services\\research\\gold_scalp_setups.py": "457015a31598b4e5c03cd7afd7f526cb9fab26e98d4e17f88ecfe967e2f99167"
+    },
+    "acceptance": {
+      "minimum_validation_trades": 100,
+      "base_pf": 1.1,
+      "stress_pf": 1.05
+    },
+    "limitations": [
+      "Historical dates have been inspected by earlier research; not a blind experiment.",
+      "Fixed 300s/$6 target exits isolate setup quality, not full production adaptive exits.",
+      "One position per family; no averaging, scaling, financing, news or liquidity model.",
+      "Commission is conservative assumed $7/lot round trip, not a broker tariff.",
+      "Bid/ask already include spread; it is not subtracted a second time.",
+      "No live promotion; a future independent evaluation remains necessary."
+    ]
+  },
+  "outcomes": {
+    "development": {
+      "pullback": {
+        "base": {
+          "trades": 292,
+          "net": -145.62,
+          "mean": -0.4987,
+          "profit_factor": 0.6813078589717282,
+          "win_rate": 0.4041095890410959,
+          "max_closed_drawdown": 155.28
+        },
+        "stress": {
+          "trades": 292,
+          "net": -216.54,
+          "mean": -0.7416,
+          "profit_factor": 0.5661333787480292,
+          "win_rate": 0.3698630136986301,
+          "max_closed_drawdown": 225.53
+        }
+      },
+      "sweep": {
+        "base": {
+          "trades": 54,
+          "net": -18.76,
+          "mean": -0.3474,
+          "profit_factor": 0.744379343234607,
+          "win_rate": 0.42592592592592593,
+          "max_closed_drawdown": 27.64
+        },
+        "stress": {
+          "trades": 54,
+          "net": -30.58,
+          "mean": -0.5663,
+          "profit_factor": 0.6192492062504198,
+          "win_rate": 0.35185185185185186,
+          "max_closed_drawdown": 38.28
+        }
+      },
+      "breakout": {
+        "base": {
+          "trades": 290,
+          "net": -176.93,
+          "mean": -0.6101,
+          "profit_factor": 0.6407147933799586,
+          "win_rate": 0.4103448275862069,
+          "max_closed_drawdown": 190.92
+        },
+        "stress": {
+          "trades": 288,
+          "net": -250.67,
+          "mean": -0.8704,
+          "profit_factor": 0.5277767312185081,
+          "win_rate": 0.3645833333333333,
+          "max_closed_drawdown": 260.22
+        }
+      }
+    },
+    "validation": {
+      "pullback": {
+        "base": {
+          "trades": 103,
+          "net": -51.42,
+          "mean": -0.4992,
+          "profit_factor": 0.6656479615058707,
+          "win_rate": 0.39805825242718446,
+          "max_closed_drawdown": 67.46
+        },
+        "stress": {
+          "trades": 103,
+          "net": -80.35,
+          "mean": -0.7801,
+          "profit_factor": 0.5367808140206027,
+          "win_rate": 0.34951456310679613,
+          "max_closed_drawdown": 91.95
+        }
+      },
+      "sweep": {
+        "base": {
+          "trades": 21,
+          "net": -5.62,
+          "mean": -0.2676,
+          "profit_factor": 0.7434961204928285,
+          "win_rate": 0.47619047619047616,
+          "max_closed_drawdown": 12.96
+        },
+        "stress": {
+          "trades": 21,
+          "net": -10.93,
+          "mean": -0.5205,
+          "profit_factor": 0.5570415400203793,
+          "win_rate": 0.47619047619047616,
+          "max_closed_drawdown": 16.68
+        }
+      },
+      "breakout": {
+        "base": {
+          "trades": 103,
+          "net": -90.83,
+          "mean": -0.8818,
+          "profit_factor": 0.4411837086254826,
+          "win_rate": 0.42718446601941745,
+          "max_closed_drawdown": 104.76
+        },
+        "stress": {
+          "trades": 103,
+          "net": -116.16,
+          "mean": -1.1278,
+          "profit_factor": 0.34319074948407036,
+          "win_rate": 0.3300970873786408,
+          "max_closed_drawdown": 126.4
+        }
+      }
+    }
+  },
+  "validation_qualified_families": [],
+  "holdout_evaluated": false,
+  "live_approved": false,
+  "result": "RESEARCH_ONLY"
+}

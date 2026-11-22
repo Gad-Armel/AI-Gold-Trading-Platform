@@ -1,0 +1,1110 @@
+{
+  "advisor_name": "GOLD ECONOMIC NEWS ADVISOR V6",
+  "version": "6.4",
+  "generated_at": "2026-09-14T15:46:37.907091+00:00",
+  "symbol": "XAUUSD",
+  "bid": 4294.74,
+  "ask": 4295.0,
+  "spread": 0.2600000000002183,
+  "mid": 4294.87,
+  "session": "New York",
+  "overall": "BUY",
+  "overall_prediction": "BUY",
+  "overall_confidence": 8.45,
+  "horizons": {
+    "SCALP": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "prediction": "WAIT",
+      "directional_score": 0.0,
+      "confidence": 0.0,
+      "confidence_band": "NO DATA",
+      "confirming_points": 0.0,
+      "contradiction_points": 0.0,
+      "data_coverage": 0.0,
+      "active_source_count": 0,
+      "available_source_count": 2,
+      "confidence_breakdown": [
+        {
+          "component": "verified_release_surprise",
+          "maximum_points": 70.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        },
+        {
+          "component": "official_release_reaction_scalp",
+          "maximum_points": 30.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        }
+      ],
+      "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract",
+      "economic_pressure": 0.0,
+      "data_quality": 0.0,
+      "valid_for_minutes": 5,
+      "review_at": "2026-09-14T15:47:37.907091+00:00",
+      "valid_until": "2026-09-14T15:51:37.907091+00:00",
+      "reasons": [
+        "No sufficiently fresh verified economic component is available."
+      ],
+      "components": [],
+      "role": "DISPLAY_ONLY_PREDICTION",
+      "levels": {}
+    },
+    "INTRADAY": {
+      "action": "BUY",
+      "bias": "BUY",
+      "prediction": "BUY",
+      "directional_score": 1.23,
+      "confidence": 1.23,
+      "confidence_band": "VERY LOW",
+      "confirming_points": 2.52,
+      "contradiction_points": 1.29,
+      "data_coverage": 8.98,
+      "active_source_count": 3,
+      "available_source_count": 6,
+      "confidence_breakdown": [
+        {
+          "component": "verified_release_surprise",
+          "maximum_points": 35.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        },
+        {
+          "component": "official_release_change",
+          "maximum_points": 10.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        },
+        {
+          "component": "official_release_reaction_intraday",
+          "maximum_points": 20.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        },
+        {
+          "component": "usd_yields_risk_regime",
+          "maximum_points": 25.0,
+          "points": -0.83,
+          "absolute_points": 0.83,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.2102,
+          "source_quality": 0.1587
+        },
+        {
+          "component": "us_policy_uncertainty",
+          "maximum_points": 5.0,
+          "points": 2.52,
+          "absolute_points": 2.52,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.6593,
+          "source_quality": 0.7632
+        },
+        {
+          "component": "systemic_financial_stress",
+          "maximum_points": 5.0,
+          "points": -0.46,
+          "absolute_points": 0.46,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.3854,
+          "source_quality": 0.2388
+        }
+      ],
+      "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract",
+      "economic_pressure": 0.1361,
+      "data_quality": 8.98,
+      "valid_for_minutes": 30,
+      "review_at": "2026-09-14T15:47:37.907091+00:00",
+      "valid_until": "2026-09-14T16:16:37.907091+00:00",
+      "reasons": [
+        "usd_yields_risk_regime: pressure -0.210, quality 0.16. USD, real-yield, nominal-yield and VIX pressure is -0.210; internal agreement 33%.",
+        "us_policy_uncertainty: pressure +0.659, quality 0.76. US policy-uncertainty 5-day mean is +59.4 points versus its 20-day mean.",
+        "systemic_financial_stress: pressure -0.385, quality 0.24. Systemic financial-stress family pressure is -0.385; internal agreement 100%."
+      ],
+      "components": [
+        "usd_yields_risk_regime",
+        "us_policy_uncertainty",
+        "systemic_financial_stress"
+      ],
+      "role": "DISPLAY_ONLY_PREDICTION",
+      "levels": {}
+    },
+    "SWING": {
+      "action": "BUY",
+      "bias": "BUY",
+      "prediction": "BUY",
+      "directional_score": 15.66,
+      "confidence": 15.66,
+      "confidence_band": "VERY LOW",
+      "confirming_points": 19.22,
+      "contradiction_points": 3.56,
+      "data_coverage": 41.51,
+      "active_source_count": 9,
+      "available_source_count": 10,
+      "confidence_breakdown": [
+        {
+          "component": "verified_release_surprise",
+          "maximum_points": 10.0,
+          "points": 0.0,
+          "absolute_points": 0.0,
+          "relationship": "NEUTRAL",
+          "source_direction": "NEUTRAL",
+          "source_score": 0.0,
+          "source_quality": 0.0
+        },
+        {
+          "component": "usd_yields_risk_regime",
+          "maximum_points": 20.0,
+          "points": -0.67,
+          "absolute_points": 0.67,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.2102,
+          "source_quality": 0.1587
+        },
+        {
+          "component": "us_policy_uncertainty",
+          "maximum_points": 5.0,
+          "points": 2.52,
+          "absolute_points": 2.52,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.6593,
+          "source_quality": 0.7632
+        },
+        {
+          "component": "global_policy_uncertainty",
+          "maximum_points": 5.0,
+          "points": -1.56,
+          "absolute_points": 1.56,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.8469,
+          "source_quality": 0.3695
+        },
+        {
+          "component": "systemic_financial_stress",
+          "maximum_points": 10.0,
+          "points": -0.92,
+          "absolute_points": 0.92,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.3854,
+          "source_quality": 0.2388
+        },
+        {
+          "component": "inflation_recession_regime",
+          "maximum_points": 7.5,
+          "points": 0.83,
+          "absolute_points": 0.83,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.2633,
+          "source_quality": 0.4221
+        },
+        {
+          "component": "world_bank_growth_outlook",
+          "maximum_points": 5.0,
+          "points": 1.44,
+          "absolute_points": 1.44,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.4879,
+          "source_quality": 0.5894
+        },
+        {
+          "component": "central_bank_gold_demand",
+          "maximum_points": 20.0,
+          "points": 7.25,
+          "absolute_points": 7.25,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.645,
+          "source_quality": 0.578
+        },
+        {
+          "component": "gold_etf_physical_flows",
+          "maximum_points": 10.0,
+          "points": 7.18,
+          "absolute_points": 7.18,
+          "relationship": "CONFIRMS",
+          "source_direction": "BUY",
+          "source_score": 0.9999,
+          "source_quality": 0.7385
+        },
+        {
+          "component": "cftc_managed_money_flow",
+          "maximum_points": 7.5,
+          "points": -0.41,
+          "absolute_points": 0.41,
+          "relationship": "CONTRADICTS",
+          "source_direction": "SELL",
+          "source_score": -0.0816,
+          "source_quality": 0.6968
+        }
+      ],
+      "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract",
+      "economic_pressure": 0.3923,
+      "data_quality": 41.05,
+      "valid_for_minutes": 120,
+      "review_at": "2026-09-14T15:47:37.907091+00:00",
+      "valid_until": "2026-09-14T17:46:37.907091+00:00",
+      "reasons": [
+        "usd_yields_risk_regime: pressure -0.210, quality 0.16. USD, real-yield, nominal-yield and VIX pressure is -0.210; internal agreement 33%.",
+        "us_policy_uncertainty: pressure +0.659, quality 0.76. US policy-uncertainty 5-day mean is +59.4 points versus its 20-day mean.",
+        "global_policy_uncertainty: pressure -0.847, quality 0.37. Global economic-policy uncertainty changed -31.1% over five observations.",
+        "systemic_financial_stress: pressure -0.385, quality 0.24. Systemic financial-stress family pressure is -0.385; internal agreement 100%.",
+        "inflation_recession_regime: pressure +0.263, quality 0.42. Inflation-expectation/recession pressure is +0.263; internal agreement 100%.",
+        "world_bank_growth_outlook: pressure +0.488, quality 0.59. World Bank forecasts 2026 world growth at 2.5%, -0.4 points versus the prior year.",
+        "institutional_demand_positioning: pressure +0.610, quality 0.63. Quality-weighted central-bank, gold-ETF and CFTC institutional demand regime."
+      ],
+      "components": [
+        "usd_yields_risk_regime",
+        "us_policy_uncertainty",
+        "global_policy_uncertainty",
+        "systemic_financial_stress",
+        "inflation_recession_regime",
+        "world_bank_growth_outlook",
+        "institutional_demand_positioning"
+      ],
+      "role": "DISPLAY_ONLY_PREDICTION",
+      "levels": {}
+    }
+  },
+  "news_data_mode": "CALENDAR_PROTECTION_ONLY",
+  "news_events": [
+    {
+      "title": "CPI - Conservative Watch",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "source": "AUTO_FREE_FALLBACK",
+      "event_time": "2026-09-14 13:30:00",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "surprise": null,
+      "calendar_confidence": "ESTIMATED",
+      "comparison_basis": "CONSENSUS",
+      "directional_quality": 0.0,
+      "reaction_eligible": false,
+      "source_url": "",
+      "gold_bias": 0.0,
+      "reason": "Scheduled event is not yet released or is not verified; calendar protection only."
+    },
+    {
+      "title": "Retail Sales - Conservative Watch",
+      "currency": "USD",
+      "impact": "MEDIUM",
+      "source": "AUTO_FREE_FALLBACK",
+      "event_time": "2026-09-14 13:30:00",
+      "actual": null,
+      "forecast": null,
+      "previous": null,
+      "surprise": null,
+      "calendar_confidence": "ESTIMATED",
+      "comparison_basis": "CONSENSUS",
+      "directional_quality": 0.0,
+      "reaction_eligible": false,
+      "source_url": "",
+      "gold_bias": 0.0,
+      "reason": "Scheduled event is not yet released or is not verified; calendar protection only."
+    }
+  ],
+  "calendar_status": {
+    "success": true,
+    "skipped": true,
+    "message": "Auto economic calendar already fresh.",
+    "provider": "FREE_FALLBACK+OFFICIAL_US",
+    "added_events": 7,
+    "total_events": 7,
+    "last_sync": "2026-09-14T15:20:33.182233",
+    "fmp_calendar_enabled": true,
+    "fmp_api_call_made": false,
+    "official_release_monitor": {
+      "providers": {
+        "census_rss": "LIVE",
+        "federal_reserve_rss": "LIVE",
+        "bea_api": "LIVE"
+      },
+      "errors": {}
+    }
+  },
+  "institutional_context": {
+    "refresh_status": "LIVE_REFRESH",
+    "refresh_errors": {},
+    "last_attempt_at": "2026-09-14T14:20:37.389825+00:00",
+    "observations": {
+      "central_bank": {
+        "available": true,
+        "metric": "REPORTED_MONTHLY_NET_PURCHASES_TONNES",
+        "period": "MONTHLY",
+        "net_tonnes": 23.0,
+        "observed_at": "2026-07-31T00:00:00+00:00",
+        "published_at": "2026-09-03T00:00:00+00:00",
+        "source": "World Gold Council central-bank statistics",
+        "source_url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold",
+        "source_quality": 0.9,
+        "revision_risk": "HIGH",
+        "year_to_date_net_tonnes": 130.0,
+        "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+      },
+      "managed_money": {
+        "available": true,
+        "metric": "COMEX_GOLD_MANAGED_MONEY_FUTURES_ONLY",
+        "period": "WEEKLY",
+        "managed_money_net": 134972.0,
+        "managed_money_net_change_4w": -2690.0,
+        "managed_money_percentile_52w": 0.8269230769230769,
+        "open_interest": 411227.0,
+        "observed_at": "2026-09-08T00:00:00+00:00",
+        "published_at": "2026-09-11T20:30:00+00:00",
+        "source": "U.S. CFTC Disaggregated Futures Only",
+        "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+        "source_quality": 0.98,
+        "revision_risk": "MEDIUM",
+        "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+      },
+      "gold_etf": {
+        "available": true,
+        "metric": "GLOBAL_PHYSICALLY_BACKED_GOLD_ETF_NET_FLOW_TONNES",
+        "period": "MONTHLY",
+        "net_tonnes": 121.0,
+        "observed_at": "2026-08-31T00:00:00+00:00",
+        "published_at": "2026-09-09T07:00:00+00:00",
+        "source": "World Gold Council gold ETF holdings and flows",
+        "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows",
+        "source_quality": 0.9,
+        "revision_risk": "MEDIUM",
+        "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+      }
+    }
+  },
+  "institutional_components": [
+    {
+      "name": "central_bank_gold_demand",
+      "score": 0.6449869945758524,
+      "quality": 0.5780493661024917,
+      "cadence": "MONTHLY",
+      "value": 23.0,
+      "unit": "tonnes net",
+      "observed_at": "2026-07-31T00:00:00+00:00",
+      "published_at": "2026-09-03T00:00:00+00:00",
+      "source": "World Gold Council central-bank statistics",
+      "source_url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold",
+      "summary": "Central banks reported +23.0 net tonnes (monthly)."
+    },
+    {
+      "name": "gold_etf_physical_flows",
+      "score": 0.9998749648098385,
+      "quality": 0.7384650808336913,
+      "cadence": "MONTHLY",
+      "value": 121.0,
+      "unit": "tonnes net",
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "published_at": "2026-09-09T07:00:00+00:00",
+      "source": "World Gold Council gold ETF holdings and flows",
+      "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows",
+      "summary": "Physically backed gold ETFs changed by +121.0 net tonnes."
+    },
+    {
+      "name": "cftc_managed_money_flow",
+      "score": -0.08158574661253924,
+      "quality": 0.6968100193746254,
+      "cadence": "WEEKLY",
+      "value": -2690.0,
+      "unit": "contracts / 4 weeks",
+      "open_interest": 411227.0,
+      "percentile_52w": 0.8269230769230769,
+      "observed_at": "2026-09-08T00:00:00+00:00",
+      "published_at": "2026-09-11T20:30:00+00:00",
+      "source": "U.S. CFTC Disaggregated Futures Only",
+      "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+      "summary": "CFTC managed-money net positioning changed -2690 contracts over 4 weeks."
+    }
+  ],
+  "macro_context": {
+    "source": "FRED official observations API + World Bank Global Economic Prospects API",
+    "providers": [
+      "FRED",
+      "World Bank Global Economic Prospects"
+    ],
+    "generated_at": "2026-09-14T15:22:37.841270+00:00",
+    "errors": {},
+    "warnings": {},
+    "observation_count": 17
+  },
+  "macro_components": [
+    {
+      "name": "usd_yields_risk_regime",
+      "score": -0.21022176891861594,
+      "quality": 0.15871757611630669,
+      "cadence": "DAILY",
+      "coherence": 0.3284,
+      "inputs": [
+        {
+          "name": "broad_usd_5d",
+          "score": 0.8131834038959314,
+          "quality": 0.0,
+          "weight": 0.35
+        },
+        {
+          "name": "real_yield_5d",
+          "score": -0.5827829453479102,
+          "quality": 0.33465954515376983,
+          "weight": 0.35
+        },
+        {
+          "name": "nominal_yield_5d",
+          "score": -0.6640367702678489,
+          "quality": 0.33465954515376983,
+          "weight": 0.15
+        },
+        {
+          "name": "risk_aversion_5d",
+          "score": 0.7170677381492393,
+          "quality": 0.4775166880109126,
+          "weight": 0.15
+        }
+      ],
+      "observed_at": "2026-09-11T00:00:00+00:00",
+      "source": "Federal Reserve and market series via FRED",
+      "source_url": "https://fred.stlouisfed.org/",
+      "summary": "USD, real-yield, nominal-yield and VIX pressure is -0.210; internal agreement 33%."
+    },
+    {
+      "name": "global_policy_uncertainty",
+      "score": -0.8468629692378908,
+      "quality": 0.3695218068006365,
+      "cadence": "MONTHLY",
+      "value": -31.123883,
+      "unit": "% change / 5 observations",
+      "observed_at": "2026-07-01T00:00:00+00:00",
+      "source": "FRED GEPUCURRENT",
+      "source_url": "https://fred.stlouisfed.org/series/GEPUCURRENT",
+      "summary": "Global economic-policy uncertainty changed -31.1% over five observations."
+    },
+    {
+      "name": "us_policy_uncertainty",
+      "score": 0.6592692506684844,
+      "quality": 0.7632309737251984,
+      "cadence": "DAILY_7_DAY",
+      "value": 59.364,
+      "unit": "index points: 5-day mean minus 20-day mean",
+      "observed_at": "2026-09-13T00:00:00+00:00",
+      "source": "FRED USEPUINDXD",
+      "source_url": "https://fred.stlouisfed.org/series/USEPUINDXD",
+      "summary": "US policy-uncertainty 5-day mean is +59.4 points versus its 20-day mean."
+    },
+    {
+      "name": "systemic_financial_stress",
+      "score": -0.3853580323846115,
+      "quality": 0.23875834400545626,
+      "cadence": "WEEKLY",
+      "coherence": 1.0,
+      "inputs": [
+        {
+          "name": "st_louis_financial_stress",
+          "score": -0.3604297262797115,
+          "quality": 0.23875834400545626,
+          "weight": 0.5
+        },
+        {
+          "name": "chicago_financial_conditions",
+          "score": -0.41028633848951157,
+          "quality": 0.23875834400545626,
+          "weight": 0.5
+        }
+      ],
+      "observed_at": "2026-09-04T00:00:00+00:00",
+      "source": "Federal Reserve Banks of St. Louis and Chicago via FRED",
+      "source_url": "https://fred.stlouisfed.org/series/STLFSI4",
+      "summary": "Systemic financial-stress family pressure is -0.385; internal agreement 100%."
+    },
+    {
+      "name": "inflation_recession_regime",
+      "score": 0.2632670462896493,
+      "quality": 0.42206508607516935,
+      "cadence": "DAILY_MONTHLY",
+      "coherence": 1.0,
+      "inputs": [
+        {
+          "name": "market_inflation_expectation",
+          "score": 0.31026023129745817,
+          "quality": 0.4775166880109126,
+          "weight": 0.75
+        },
+        {
+          "name": "sahm_recession_risk",
+          "score": 0.0,
+          "quality": 0.25571028026793974,
+          "weight": 0.25
+        }
+      ],
+      "observed_at": "2026-09-11T00:00:00+00:00",
+      "source": "FRED T10YIE and SAHMREALTIME",
+      "source_url": "https://fred.stlouisfed.org/series/T10YIE",
+      "summary": "Inflation-expectation/recession pressure is +0.263; internal agreement 100%."
+    },
+    {
+      "name": "world_bank_growth_outlook",
+      "score": 0.487924982649516,
+      "quality": 0.5893990186656451,
+      "cadence": "SEMI_ANNUAL",
+      "value": 2.5,
+      "unit": "% world real GDP growth",
+      "forecast_year": 2026,
+      "change_from_previous_year": -0.4,
+      "observed_at": "2026-06-11T00:00:00+00:00",
+      "source": "World Bank Global Economic Prospects",
+      "source_url": "https://databank.worldbank.org/source/global-economic-prospects",
+      "summary": "World Bank forecasts 2026 world growth at 2.5%, -0.4 points versus the prior year."
+    }
+  ],
+  "economic_v5": {
+    "advisor_name": "GOLD ECONOMIC ADVISOR V5",
+    "version": "5.4",
+    "generated_at": "2026-09-14T15:46:37.907091+00:00",
+    "horizons": {
+      "SCALP": {
+        "bias": "NEUTRAL",
+        "score": 0.0,
+        "quality": 0.0,
+        "role": "CONTEXT_AND_VETO_ONLY",
+        "components": [],
+        "confidence_points": 0.0,
+        "confirming_points": 0.0,
+        "contradiction_points": 0.0,
+        "data_coverage": 0.0,
+        "active_source_count": 0,
+        "available_source_count": 2,
+        "confidence_breakdown": [
+          {
+            "component": "verified_release_surprise",
+            "maximum_points": 70.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          },
+          {
+            "component": "official_release_reaction_scalp",
+            "maximum_points": 30.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          }
+        ],
+        "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract"
+      },
+      "INTRADAY": {
+        "bias": "NEUTRAL",
+        "score": 0.1361,
+        "quality": 0.0898,
+        "role": "CONTEXT_AND_VETO_ONLY",
+        "components": [
+          "usd_yields_risk_regime",
+          "us_policy_uncertainty",
+          "systemic_financial_stress"
+        ],
+        "confidence_points": 1.23,
+        "confirming_points": 2.52,
+        "contradiction_points": 1.29,
+        "data_coverage": 8.98,
+        "active_source_count": 3,
+        "available_source_count": 6,
+        "confidence_breakdown": [
+          {
+            "component": "verified_release_surprise",
+            "maximum_points": 35.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          },
+          {
+            "component": "official_release_change",
+            "maximum_points": 10.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          },
+          {
+            "component": "official_release_reaction_intraday",
+            "maximum_points": 20.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          },
+          {
+            "component": "usd_yields_risk_regime",
+            "maximum_points": 25.0,
+            "points": -0.83,
+            "absolute_points": 0.83,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.2102,
+            "source_quality": 0.1587
+          },
+          {
+            "component": "us_policy_uncertainty",
+            "maximum_points": 5.0,
+            "points": 2.52,
+            "absolute_points": 2.52,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.6593,
+            "source_quality": 0.7632
+          },
+          {
+            "component": "systemic_financial_stress",
+            "maximum_points": 5.0,
+            "points": -0.46,
+            "absolute_points": 0.46,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.3854,
+            "source_quality": 0.2388
+          }
+        ],
+        "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract"
+      },
+      "SWING": {
+        "bias": "BUY",
+        "score": 0.3923,
+        "quality": 0.4105,
+        "role": "CONTEXT_AND_VETO_ONLY",
+        "components": [
+          "usd_yields_risk_regime",
+          "us_policy_uncertainty",
+          "global_policy_uncertainty",
+          "systemic_financial_stress",
+          "inflation_recession_regime",
+          "world_bank_growth_outlook",
+          "institutional_demand_positioning"
+        ],
+        "confidence_points": 15.66,
+        "confirming_points": 19.22,
+        "contradiction_points": 3.56,
+        "data_coverage": 41.51,
+        "active_source_count": 9,
+        "available_source_count": 10,
+        "confidence_breakdown": [
+          {
+            "component": "verified_release_surprise",
+            "maximum_points": 10.0,
+            "points": 0.0,
+            "absolute_points": 0.0,
+            "relationship": "NEUTRAL",
+            "source_direction": "NEUTRAL",
+            "source_score": 0.0,
+            "source_quality": 0.0
+          },
+          {
+            "component": "usd_yields_risk_regime",
+            "maximum_points": 20.0,
+            "points": -0.67,
+            "absolute_points": 0.67,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.2102,
+            "source_quality": 0.1587
+          },
+          {
+            "component": "us_policy_uncertainty",
+            "maximum_points": 5.0,
+            "points": 2.52,
+            "absolute_points": 2.52,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.6593,
+            "source_quality": 0.7632
+          },
+          {
+            "component": "global_policy_uncertainty",
+            "maximum_points": 5.0,
+            "points": -1.56,
+            "absolute_points": 1.56,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.8469,
+            "source_quality": 0.3695
+          },
+          {
+            "component": "systemic_financial_stress",
+            "maximum_points": 10.0,
+            "points": -0.92,
+            "absolute_points": 0.92,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.3854,
+            "source_quality": 0.2388
+          },
+          {
+            "component": "inflation_recession_regime",
+            "maximum_points": 7.5,
+            "points": 0.83,
+            "absolute_points": 0.83,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.2633,
+            "source_quality": 0.4221
+          },
+          {
+            "component": "world_bank_growth_outlook",
+            "maximum_points": 5.0,
+            "points": 1.44,
+            "absolute_points": 1.44,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.4879,
+            "source_quality": 0.5894
+          },
+          {
+            "component": "central_bank_gold_demand",
+            "maximum_points": 20.0,
+            "points": 7.25,
+            "absolute_points": 7.25,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.645,
+            "source_quality": 0.578
+          },
+          {
+            "component": "gold_etf_physical_flows",
+            "maximum_points": 10.0,
+            "points": 7.18,
+            "absolute_points": 7.18,
+            "relationship": "CONFIRMS",
+            "source_direction": "BUY",
+            "source_score": 0.9999,
+            "source_quality": 0.7385
+          },
+          {
+            "component": "cftc_managed_money_flow",
+            "maximum_points": 7.5,
+            "points": -0.41,
+            "absolute_points": 0.41,
+            "relationship": "CONTRADICTS",
+            "source_direction": "SELL",
+            "source_score": -0.0816,
+            "source_quality": 0.6968
+          }
+        ],
+        "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract"
+      }
+    },
+    "components": [
+      {
+        "name": "verified_release_surprise",
+        "score": 0.0,
+        "quality": 0.0,
+        "cadence": "EVENT"
+      },
+      {
+        "name": "official_release_change",
+        "score": 0.0,
+        "quality": 0.0,
+        "cadence": "EVENT",
+        "summary": "Official released value changed versus the prior release; this is not a market-consensus surprise."
+      },
+      {
+        "name": "official_release_reaction_scalp",
+        "score": 0.0,
+        "quality": 0.0,
+        "cadence": "EVENT_MARKET_REACTION",
+        "summary": "No fresh official release with measurable XAUUSD reaction."
+      },
+      {
+        "name": "official_release_reaction_intraday",
+        "score": 0.0,
+        "quality": 0.0,
+        "cadence": "EVENT_MARKET_REACTION",
+        "summary": "No fresh official release with measurable XAUUSD reaction."
+      },
+      {
+        "name": "usd_yields_risk_regime",
+        "score": -0.21022176891861594,
+        "quality": 0.15871757611630669,
+        "cadence": "DAILY",
+        "coherence": 0.3284,
+        "inputs": [
+          {
+            "name": "broad_usd_5d",
+            "score": 0.8131834038959314,
+            "quality": 0.0,
+            "weight": 0.35
+          },
+          {
+            "name": "real_yield_5d",
+            "score": -0.5827829453479102,
+            "quality": 0.33465954515376983,
+            "weight": 0.35
+          },
+          {
+            "name": "nominal_yield_5d",
+            "score": -0.6640367702678489,
+            "quality": 0.33465954515376983,
+            "weight": 0.15
+          },
+          {
+            "name": "risk_aversion_5d",
+            "score": 0.7170677381492393,
+            "quality": 0.4775166880109126,
+            "weight": 0.15
+          }
+        ],
+        "observed_at": "2026-09-11T00:00:00+00:00",
+        "source": "Federal Reserve and market series via FRED",
+        "source_url": "https://fred.stlouisfed.org/",
+        "summary": "USD, real-yield, nominal-yield and VIX pressure is -0.210; internal agreement 33%."
+      },
+      {
+        "name": "global_policy_uncertainty",
+        "score": -0.8468629692378908,
+        "quality": 0.3695218068006365,
+        "cadence": "MONTHLY",
+        "value": -31.123883,
+        "unit": "% change / 5 observations",
+        "observed_at": "2026-07-01T00:00:00+00:00",
+        "source": "FRED GEPUCURRENT",
+        "source_url": "https://fred.stlouisfed.org/series/GEPUCURRENT",
+        "summary": "Global economic-policy uncertainty changed -31.1% over five observations."
+      },
+      {
+        "name": "us_policy_uncertainty",
+        "score": 0.6592692506684844,
+        "quality": 0.7632309737251984,
+        "cadence": "DAILY_7_DAY",
+        "value": 59.364,
+        "unit": "index points: 5-day mean minus 20-day mean",
+        "observed_at": "2026-09-13T00:00:00+00:00",
+        "source": "FRED USEPUINDXD",
+        "source_url": "https://fred.stlouisfed.org/series/USEPUINDXD",
+        "summary": "US policy-uncertainty 5-day mean is +59.4 points versus its 20-day mean."
+      },
+      {
+        "name": "systemic_financial_stress",
+        "score": -0.3853580323846115,
+        "quality": 0.23875834400545626,
+        "cadence": "WEEKLY",
+        "coherence": 1.0,
+        "inputs": [
+          {
+            "name": "st_louis_financial_stress",
+            "score": -0.3604297262797115,
+            "quality": 0.23875834400545626,
+            "weight": 0.5
+          },
+          {
+            "name": "chicago_financial_conditions",
+            "score": -0.41028633848951157,
+            "quality": 0.23875834400545626,
+            "weight": 0.5
+          }
+        ],
+        "observed_at": "2026-09-04T00:00:00+00:00",
+        "source": "Federal Reserve Banks of St. Louis and Chicago via FRED",
+        "source_url": "https://fred.stlouisfed.org/series/STLFSI4",
+        "summary": "Systemic financial-stress family pressure is -0.385; internal agreement 100%."
+      },
+      {
+        "name": "inflation_recession_regime",
+        "score": 0.2632670462896493,
+        "quality": 0.42206508607516935,
+        "cadence": "DAILY_MONTHLY",
+        "coherence": 1.0,
+        "inputs": [
+          {
+            "name": "market_inflation_expectation",
+            "score": 0.31026023129745817,
+            "quality": 0.4775166880109126,
+            "weight": 0.75
+          },
+          {
+            "name": "sahm_recession_risk",
+            "score": 0.0,
+            "quality": 0.25571028026793974,
+            "weight": 0.25
+          }
+        ],
+        "observed_at": "2026-09-11T00:00:00+00:00",
+        "source": "FRED T10YIE and SAHMREALTIME",
+        "source_url": "https://fred.stlouisfed.org/series/T10YIE",
+        "summary": "Inflation-expectation/recession pressure is +0.263; internal agreement 100%."
+      },
+      {
+        "name": "world_bank_growth_outlook",
+        "score": 0.487924982649516,
+        "quality": 0.5893990186656451,
+        "cadence": "SEMI_ANNUAL",
+        "value": 2.5,
+        "unit": "% world real GDP growth",
+        "forecast_year": 2026,
+        "change_from_previous_year": -0.4,
+        "observed_at": "2026-06-11T00:00:00+00:00",
+        "source": "World Bank Global Economic Prospects",
+        "source_url": "https://databank.worldbank.org/source/global-economic-prospects",
+        "summary": "World Bank forecasts 2026 world growth at 2.5%, -0.4 points versus the prior year."
+      },
+      {
+        "name": "central_bank_gold_demand",
+        "score": 0.6449869945758524,
+        "quality": 0.5780493661024917,
+        "cadence": "MONTHLY",
+        "value": 23.0,
+        "unit": "tonnes net",
+        "observed_at": "2026-07-31T00:00:00+00:00",
+        "published_at": "2026-09-03T00:00:00+00:00",
+        "source": "World Gold Council central-bank statistics",
+        "source_url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold",
+        "summary": "Central banks reported +23.0 net tonnes (monthly)."
+      },
+      {
+        "name": "gold_etf_physical_flows",
+        "score": 0.9998749648098385,
+        "quality": 0.7384650808336913,
+        "cadence": "MONTHLY",
+        "value": 121.0,
+        "unit": "tonnes net",
+        "observed_at": "2026-08-31T00:00:00+00:00",
+        "published_at": "2026-09-09T07:00:00+00:00",
+        "source": "World Gold Council gold ETF holdings and flows",
+        "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows",
+        "summary": "Physically backed gold ETFs changed by +121.0 net tonnes."
+      },
+      {
+        "name": "cftc_managed_money_flow",
+        "score": -0.08158574661253924,
+        "quality": 0.6968100193746254,
+        "cadence": "WEEKLY",
+        "value": -2690.0,
+        "unit": "contracts / 4 weeks",
+        "open_interest": 411227.0,
+        "percentile_52w": 0.8269230769230769,
+        "observed_at": "2026-09-08T00:00:00+00:00",
+        "published_at": "2026-09-11T20:30:00+00:00",
+        "source": "U.S. CFTC Disaggregated Futures Only",
+        "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+        "summary": "CFTC managed-money net positioning changed -2690 contracts over 4 weeks."
+      },
+      {
+        "name": "institutional_demand_positioning",
+        "score": 0.6101600854653215,
+        "quality": 0.6323024352056351,
+        "cadence": "WEEKLY_MONTHLY",
+        "coherence": 0.9458,
+        "source": "U.S. CFTC Disaggregated Futures Only | World Gold Council central-bank statistics | World Gold Council gold ETF holdings and flows",
+        "summary": "Quality-weighted central-bank, gold-ETF and CFTC institutional demand regime.",
+        "inputs": [
+          "central_bank_gold_demand",
+          "gold_etf_physical_flows",
+          "cftc_managed_money_flow"
+        ]
+      }
+    ],
+    "macro_context": {
+      "source": "FRED official observations API + World Bank Global Economic Prospects API",
+      "providers": [
+        "FRED",
+        "World Bank Global Economic Prospects"
+      ],
+      "generated_at": "2026-09-14T15:22:37.841270+00:00",
+      "errors": {},
+      "warnings": {},
+      "observation_count": 17
+    },
+    "institutional_context_available": true,
+    "institutional_context": {
+      "refresh_status": "LIVE_REFRESH",
+      "refresh_errors": {},
+      "last_attempt_at": "2026-09-14T14:20:37.389825+00:00",
+      "observations": {
+        "central_bank": {
+          "available": true,
+          "metric": "REPORTED_MONTHLY_NET_PURCHASES_TONNES",
+          "period": "MONTHLY",
+          "net_tonnes": 23.0,
+          "observed_at": "2026-07-31T00:00:00+00:00",
+          "published_at": "2026-09-03T00:00:00+00:00",
+          "source": "World Gold Council central-bank statistics",
+          "source_url": "https://www.gold.org/goldhub/gold-focus/2026/09/central-bank-gold-statistics-central-banks-make-positive-headlines-gold",
+          "source_quality": 0.9,
+          "revision_risk": "HIGH",
+          "year_to_date_net_tonnes": 130.0,
+          "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+        },
+        "managed_money": {
+          "available": true,
+          "metric": "COMEX_GOLD_MANAGED_MONEY_FUTURES_ONLY",
+          "period": "WEEKLY",
+          "managed_money_net": 134972.0,
+          "managed_money_net_change_4w": -2690.0,
+          "managed_money_percentile_52w": 0.8269230769230769,
+          "open_interest": 411227.0,
+          "observed_at": "2026-09-08T00:00:00+00:00",
+          "published_at": "2026-09-11T20:30:00+00:00",
+          "source": "U.S. CFTC Disaggregated Futures Only",
+          "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+          "source_quality": 0.98,
+          "revision_risk": "MEDIUM",
+          "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+        },
+        "gold_etf": {
+          "available": true,
+          "metric": "GLOBAL_PHYSICALLY_BACKED_GOLD_ETF_NET_FLOW_TONNES",
+          "period": "MONTHLY",
+          "net_tonnes": 121.0,
+          "observed_at": "2026-08-31T00:00:00+00:00",
+          "published_at": "2026-09-09T07:00:00+00:00",
+          "source": "World Gold Council gold ETF holdings and flows",
+          "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows",
+          "source_quality": 0.9,
+          "revision_risk": "MEDIUM",
+          "retrieved_at": "2026-09-14T14:20:37.389825+00:00"
+        }
+      }
+    },
+    "execution_enabled": false,
+    "orders_sent": false,
+    "warning": "Scores are economic context, not calibrated probabilities or standalone trade signals."
+  },
+  "execution_enabled": false,
+  "orders_sent": false,
+  "warning": "Confidence is a bounded quality-adjusted confirmation-point score, not a calibrated win probability. No order is sent."
+}

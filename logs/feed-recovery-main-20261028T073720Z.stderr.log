@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_consensus_bot.py", line 1026, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_consensus_bot.py", line 517, in main
+    existing = horizon_position_details(mt5, 'SCALP')
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\services\execution\gold_consensus_demo_broker.py", line 676, in horizon_position_details
+    for position in horizon_positions(mt5, horizon):
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\services\execution\gold_consensus_demo_broker.py", line 89, in horizon_positions
+    raise RuntimeError(f"Unable to read MT5 positions: {mt5.last_error()}")
+RuntimeError: Unable to read MT5 positions: (-10001, 'IPC send failed')
+Bot exited with code 1. Read the error above; do not launch another copy.
+At C:\Users\Gad Asopjio\Desktop\AI Trading Platform\tools\start_gold_consensus.ps1:23 char:28
++ ... DE -ne 0) { throw "Bot exited with code $LASTEXITCODE. Read the error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Bot exited with...h another copy.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Bot exited with code 1. Read the error above; do not launch another copy.
+ 

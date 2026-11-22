@@ -1,0 +1,11 @@
+{
+  "parser_version": 2,
+  "source": "bls_cpi",
+  "url": "https://www.bls.gov/feed/cpi.rss",
+  "retrieved_at": "2026-11-09T09:49:49.415505+00:00",
+  "payload_sha256": "a5f2a686cebc14c09693431899d7e4ce56c15c752febbdba1156b30d33f1f387",
+  "events": [],
+  "role": "PUBLICATION_DETECTION_ONLY",
+  "feed_entries": 12,
+  "unverified_recent_releases": []
+}

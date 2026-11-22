@@ -1,0 +1,187 @@
+{
+    "started": "2026-10-26T05:36:43.054918+00:00",
+    "ended": "2026-10-26T05:56:43.334304+00:00",
+    "requested_minutes": 20.0,
+    "samples": 240,
+    "directions": {
+        "SELL": 10,
+        "WAIT": 207,
+        "BUY": 23
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            237
+        ],
+        [
+            "Recent S30 range does not clear three times estimated round-trip cost",
+            227
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            223
+        ],
+        [
+            "Signal persistence is 0.0s; 2.0s required.",
+            208
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            207
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            207
+        ],
+        [
+            "Completed S30 candles do not agree",
+            207
+        ],
+        [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            70
+        ],
+        [
+            "Adding a position requires evidence >= 75.0/100.",
+            21
+        ],
+        [
+            "SCALP additions require the same direction as every open SCALP position.",
+            21
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            11
+        ],
+        [
+            "SCALP additions wait until every open position is profitable beyond dealing noise.",
+            7
+        ],
+        [
+            "Adding a position requires evidence >= 73.3/100.",
+            6
+        ],
+        [
+            "SCALP paused during volatility expansion.",
+            4
+        ],
+        [
+            "Insufficient continuous six-second quote coverage",
+            4
+        ],
+        [
+            "Position-add spacing is 4.8s; 5.0s required.",
+            1
+        ],
+        [
+            "S30 addition requires a fresh completed candle after the last entry",
+            1
+        ],
+        [
+            "Post-exit market analysis: 26s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 26s remaining.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 20s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 20s remaining.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 15s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 15s remaining.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 10s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 10s remaining.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 5s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 5s remaining.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 1s remaining.",
+            1
+        ],
+        [
+            "SCALP re-entry cooldown: 1s remaining.",
+            1
+        ]
+    ],
+    "observed_position_tickets": [
+        "59041249548"
+    ],
+    "initial_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [],
+        "quote_age": 0.250503
+    },
+    "final_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [],
+        "quote_age": 0.199106,
+        "history_available": true,
+        "deals": [
+            {
+                "ticket": 58643038179,
+                "position_id": 59041249548,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58643038243,
+                "position_id": 59041249613,
+                "magic": 631021,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58643063220,
+                "position_id": 59041249548,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": -2.91
+            },
+            {
+                "ticket": 58643063249,
+                "position_id": 59041249613,
+                "magic": 631021,
+                "entry": 1,
+                "volume": 0.01,
+                "net": 2.05
+            }
+        ]
+    },
+    "errors": [
+        {
+            "at": "2026-10-26T05:48:25.680396+00:00",
+            "error": "[Errno 13] Permission denied: 'data\\\\runtime\\\\gold_consensus_status.json'"
+        }
+    ],
+    "account_continuity": true,
+    "note": "Read-only observation, not calibrated signal accuracy or proof of future profitability."
+}

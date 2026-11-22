@@ -1,0 +1,169 @@
+{
+  "captured_utc": "2026-09-30T07:31:11.546541+00:00",
+  "version": "3.00",
+  "source": "native browser snapshot recent deal list; matched complete positions only",
+  "closed": 15,
+  "wins": 5,
+  "losses": 10,
+  "net": -4.9,
+  "profit_factor": 0.547,
+  "mean_win": 1.182,
+  "mean_loss": -1.081,
+  "mean_seconds": 34.2,
+  "account": {
+    "balance": 23643.11,
+    "equity": 23643.11,
+    "floating": 0.0,
+    "margin_free": 23643.11,
+    "position_count": 0,
+    "pending_count": 0
+  },
+  "risk": {
+    "text": "SECURITE jusqu'au 2026.09.30 22:17",
+    "lot": 0.01,
+    "max_positions": 3,
+    "per_trade": 2.0,
+    "aggregate": 4.0,
+    "daily_equity_percent": 3.0,
+    "locked_until": "2026.09.30 22:17:04"
+  },
+  "status": "Perte glissante 24 h",
+  "trades": [
+    {
+      "position": "58681767950",
+      "opened_server": "2026.09.29 19:49:24",
+      "closed_server": "2026.09.29 19:49:38",
+      "seconds": 14.0,
+      "side": "SELL",
+      "net": -0.61,
+      "exit_reason": "DEAL_REASON_EXPERT"
+    },
+    {
+      "position": "58681782383",
+      "opened_server": "2026.09.29 19:50:09",
+      "closed_server": "2026.09.29 19:50:34",
+      "seconds": 25.0,
+      "side": "BUY",
+      "net": -1.03,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58681893442",
+      "opened_server": "2026.09.29 19:55:51",
+      "closed_server": "2026.09.29 19:56:33",
+      "seconds": 42.0,
+      "side": "SELL",
+      "net": 0.56,
+      "exit_reason": "DEAL_REASON_EXPERT"
+    },
+    {
+      "position": "58682071396",
+      "opened_server": "2026.09.29 20:05:37",
+      "closed_server": "2026.09.29 20:05:56",
+      "seconds": 19.0,
+      "side": "SELL",
+      "net": -0.97,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58682233799",
+      "opened_server": "2026.09.29 20:16:31",
+      "closed_server": "2026.09.29 20:16:57",
+      "seconds": 26.0,
+      "side": "SELL",
+      "net": -1.0,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58682268304",
+      "opened_server": "2026.09.29 20:19:14",
+      "closed_server": "2026.09.29 20:19:42",
+      "seconds": 28.0,
+      "side": "BUY",
+      "net": -0.55,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58682642423",
+      "opened_server": "2026.09.29 20:46:25",
+      "closed_server": "2026.09.29 20:46:30",
+      "seconds": 5.0,
+      "side": "SELL",
+      "net": 0.56,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58682735845",
+      "opened_server": "2026.09.29 20:53:15",
+      "closed_server": "2026.09.29 20:54:11",
+      "seconds": 56.0,
+      "side": "SELL",
+      "net": 0.54,
+      "exit_reason": "DEAL_REASON_EXPERT"
+    },
+    {
+      "position": "58683096361",
+      "opened_server": "2026.09.29 21:07:44",
+      "closed_server": "2026.09.29 21:08:32",
+      "seconds": 48.0,
+      "side": "SELL",
+      "net": -1.75,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58683441687",
+      "opened_server": "2026.09.29 21:22:58",
+      "closed_server": "2026.09.29 21:23:12",
+      "seconds": 14.0,
+      "side": "BUY",
+      "net": 1.0,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58683528964",
+      "opened_server": "2026.09.29 21:27:08",
+      "closed_server": "2026.09.29 21:29:31",
+      "seconds": 143.0,
+      "side": "BUY",
+      "net": 3.25,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58683712511",
+      "opened_server": "2026.09.29 21:36:17",
+      "closed_server": "2026.09.29 21:36:31",
+      "seconds": 14.0,
+      "side": "BUY",
+      "net": -1.17,
+      "exit_reason": "DEAL_REASON_EXPERT"
+    },
+    {
+      "position": "58683940033",
+      "opened_server": "2026.09.29 21:46:52",
+      "closed_server": "2026.09.29 21:47:01",
+      "seconds": 9.0,
+      "side": "BUY",
+      "net": -1.79,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58684047091",
+      "opened_server": "2026.09.29 21:53:11",
+      "closed_server": "2026.09.29 21:54:11",
+      "seconds": 60.0,
+      "side": "BUY",
+      "net": -1.4,
+      "exit_reason": "DEAL_REASON_SL"
+    },
+    {
+      "position": "58684351957",
+      "opened_server": "2026.09.29 22:16:54",
+      "closed_server": "2026.09.29 22:17:04",
+      "seconds": 10.0,
+      "side": "BUY",
+      "net": -0.54,
+      "exit_reason": "DEAL_REASON_EXPERT"
+    }
+  ],
+  "limitations": "Small demo sample, one session, no 3.10 outcomes. Does not establish future profitability or performance on a $100 account."
+}

@@ -1,0 +1,60 @@
+{
+  "observed_at": "2026-10-08T14:01:27.428972+00:00",
+  "rows": [
+    {
+      "lane": "SWING",
+      "order": 58822390665,
+      "after_close_seconds": 112.226
+    },
+    {
+      "lane": "SWING",
+      "order": 58822452245,
+      "after_close_seconds": 68.542
+    },
+    {
+      "lane": "SCALP",
+      "order": 58822541403,
+      "after_close_seconds": 1562.819
+    },
+    {
+      "lane": "SWING",
+      "order": 58822581341,
+      "after_close_seconds": 151.933
+    },
+    {
+      "lane": "SWING",
+      "order": 58822687734,
+      "after_close_seconds": 30.693
+    },
+    {
+      "lane": "SCALP",
+      "order": 58822758836,
+      "after_close_seconds": 509.088
+    },
+    {
+      "lane": "SWING",
+      "order": 58822814938,
+      "after_close_seconds": 103.854
+    },
+    {
+      "lane": "SCALP",
+      "order": 58822836715,
+      "after_close_seconds": 81.096
+    },
+    {
+      "lane": "SCALP",
+      "order": 58822930407,
+      "after_close_seconds": 33.427
+    },
+    {
+      "lane": "SWING",
+      "order": 58822937269,
+      "after_close_seconds": 100.82
+    }
+  ],
+  "minimum_seconds": 30.693,
+  "limitations": [
+    "Bounded latest captured closed history, with original journal acknowledgement timestamps rather than exact fill times.",
+    "Checks same-lane re-entry only; no inference about uncaptured prior closes."
+  ]
+}

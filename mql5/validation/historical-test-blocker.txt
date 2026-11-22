@@ -1,0 +1,2 @@
+﻿FP	2	10:55:12.207	Tester	tester not started because the account is not specified
+KL	0	10:55:14.042	Terminal	shutdown with -1000012353 (tester not started because the account is not specified)

@@ -1,0 +1,11 @@
+{
+  "day": "20260910",
+  "status": "EXPORTED",
+  "received_ticks": 513562,
+  "usable_ticks": 513562,
+  "broker_utc_offset_seconds": 10800,
+  "artifact_bytes": 2632876,
+  "first_utc_msc": 1788998400029,
+  "last_utc_msc": 1789084799661,
+  "maximum_gap_seconds": 7200.703
+}

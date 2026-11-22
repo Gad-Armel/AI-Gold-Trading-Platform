@@ -1,0 +1,883 @@
+{
+  "groups": [
+    {
+      "horizon": "SCALP",
+      "trades": 16,
+      "uncensored_signals": 15,
+      "median_observed_signal_age": 34.56,
+      "median_price_travel": 0.15,
+      "strong_source_conflicts": 0,
+      "ready_observations_before_entry": 3
+    },
+    {
+      "horizon": "INTRADAY",
+      "trades": 9,
+      "uncensored_signals": 9,
+      "median_observed_signal_age": 65.38,
+      "median_price_travel": -0.2,
+      "strong_source_conflicts": 0,
+      "ready_observations_before_entry": 1
+    },
+    {
+      "horizon": "SWING",
+      "trades": 10,
+      "uncensored_signals": 10,
+      "median_observed_signal_age": 50.105000000000004,
+      "median_price_travel": -0.47000000000000003,
+      "strong_source_conflicts": 0,
+      "ready_observations_before_entry": 0
+    },
+    {
+      "horizon": "ALL",
+      "trades": 35,
+      "uncensored_signals": 34,
+      "median_observed_signal_age": 47.55,
+      "median_price_travel": -0.135,
+      "strong_source_conflicts": 0,
+      "ready_observations_before_entry": 4
+    }
+  ],
+  "rows": [
+    {
+      "ticket": "58813636984",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T04:12:09.963000+00:00",
+      "profit": -5.05,
+      "observed_signal_age_seconds": 598.38,
+      "signal_left_censored": true,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 12.66,
+      "price_travel_before_entry": 1.88,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "SCALP spread $0.62 exceeds the scalping ceiling $0.50.",
+        "SCALP paused during volatility expansion."
+      ],
+      "last_execution": {
+        "message": "No execution attempted."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 12.5,
+      "recorded_local_risk": 1.32
+    },
+    {
+      "ticket": "58813640577",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T04:12:36.187000+00:00",
+      "profit": -5.06,
+      "observed_signal_age_seconds": 68.91,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": 23.87,
+      "pre_entry_observation_age_seconds": 8.86,
+      "price_travel_before_entry": -0.34,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [],
+      "last_execution": {
+        "success": false,
+        "action": "COST_BLOCK",
+        "message": "INTRADAY spread exceeds the configured absolute ceiling."
+      },
+      "ready_run_execution_results": [
+        {
+          "success": false,
+          "action": "COST_BLOCK",
+          "message": "INTRADAY spread exceeds the configured absolute ceiling."
+        },
+        {
+          "success": false,
+          "action": "COST_BLOCK",
+          "message": "INTRADAY spread exceeds the configured absolute ceiling."
+        }
+      ],
+      "signal_age_at_last_observation": 42.6,
+      "recorded_local_risk": 1.43
+    },
+    {
+      "ticket": "58813744249",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T04:22:03.429000+00:00",
+      "profit": -4.64,
+      "observed_signal_age_seconds": 65.38,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 5.33,
+      "price_travel_before_entry": -0.16,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "message": "No execution attempted."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 73.9,
+      "recorded_local_risk": 1.48
+    },
+    {
+      "ticket": "58814540299",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T05:39:36.322000+00:00",
+      "profit": 3.4,
+      "observed_signal_age_seconds": 32.65,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": 2.61,
+      "pre_entry_observation_age_seconds": 2.61,
+      "price_travel_before_entry": 0.1,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [],
+      "last_execution": {
+        "success": false,
+        "action": "RISK_REWARD_BLOCK",
+        "message": "SCALP analysed reward/risk is 0.69; minimum is 0.70."
+      },
+      "ready_run_execution_results": [
+        {
+          "success": false,
+          "action": "RISK_REWARD_BLOCK",
+          "message": "SCALP analysed reward/risk is 0.69; minimum is 0.70."
+        }
+      ],
+      "signal_age_at_last_observation": 31.0,
+      "recorded_local_risk": 6.06
+    },
+    {
+      "ticket": "58814702449",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T05:51:32.843000+00:00",
+      "profit": 3.48,
+      "observed_signal_age_seconds": 208.41,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": 13.15,
+      "pre_entry_observation_age_seconds": 13.15,
+      "price_travel_before_entry": 2.0,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [],
+      "last_execution": {
+        "success": false,
+        "action": "RISK_REWARD_BLOCK",
+        "message": "SCALP analysed reward/risk is 0.60; minimum is 0.70."
+      },
+      "ready_run_execution_results": [
+        {
+          "success": false,
+          "action": "RISK_REWARD_BLOCK",
+          "message": "SCALP analysed reward/risk is 0.60; minimum is 0.70."
+        }
+      ],
+      "signal_age_at_last_observation": 204.5,
+      "recorded_local_risk": 4.55
+    },
+    {
+      "ticket": "58814803141",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T05:56:20.830000+00:00",
+      "profit": -4.99,
+      "observed_signal_age_seconds": 45.81,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": 0.77,
+      "pre_entry_observation_age_seconds": 0.77,
+      "price_travel_before_entry": 2.39,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [],
+      "last_execution": {
+        "success": false,
+        "action": "RISK_REWARD_BLOCK",
+        "message": "SCALP analysed reward/risk is 0.69; minimum is 0.70."
+      },
+      "ready_run_execution_results": [
+        {
+          "success": false,
+          "action": "RISK_REWARD_BLOCK",
+          "message": "SCALP analysed reward/risk is 0.69; minimum is 0.70."
+        }
+      ],
+      "signal_age_at_last_observation": 32.2,
+      "recorded_local_risk": 4.7
+    },
+    {
+      "ticket": "58814871315",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T06:00:58.398000+00:00",
+      "profit": -0.9,
+      "observed_signal_age_seconds": 23.0,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 7.98,
+      "price_travel_before_entry": 0.83,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 5s remaining.",
+        "SCALP re-entry cooldown: 5s remaining."
+      ],
+      "last_execution": {
+        "success": true,
+        "action": "ORDER_SENT",
+        "message": "Request executed"
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 27.3,
+      "recorded_local_risk": -0.09
+    },
+    {
+      "ticket": "58815077075",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T06:19:08.863000+00:00",
+      "profit": 2.19,
+      "observed_signal_age_seconds": 5.08,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 5.08,
+      "price_travel_before_entry": -0.15,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 0.2s; 5.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 0.2,
+      "recorded_local_risk": 2.19
+    },
+    {
+      "ticket": "58815117038",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T06:22:01.390000+00:00",
+      "profit": 0.56,
+      "observed_signal_age_seconds": 26.97,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 11.95,
+      "price_travel_before_entry": 0.04,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 7s remaining.",
+        "SCALP re-entry cooldown: 7s remaining."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 0.80 while 2.19 in profit (floor 0.76); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 5.9,
+      "recorded_local_risk": 3.25
+    },
+    {
+      "ticket": "58815211445",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T06:29:18.643000+00:00",
+      "profit": -3.78,
+      "observed_signal_age_seconds": 28.71,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 13.7,
+      "price_travel_before_entry": 0.36,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 9s remaining.",
+        "SCALP re-entry cooldown: 9s remaining."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Profit giveback of 1.75 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 21.2,
+      "recorded_local_risk": 1.13
+    },
+    {
+      "ticket": "58816257294",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T07:45:18.466000+00:00",
+      "profit": -4.99,
+      "observed_signal_age_seconds": 8.19,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 8.19,
+      "price_travel_before_entry": 0.14,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 7.2s; 15.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "INTRADAY: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 7.2,
+      "recorded_local_risk": 4.1
+    },
+    {
+      "ticket": "58816260761",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T07:45:33.376000+00:00",
+      "profit": -4.99,
+      "observed_signal_age_seconds": 23.1,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 8.09,
+      "price_travel_before_entry": -0.54,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 22.0s; 30.0s required."
+      ],
+      "last_execution": {
+        "message": "No execution attempted."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 22.0,
+      "recorded_local_risk": 3.46
+    },
+    {
+      "ticket": "58816498560",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T08:04:45.987000+00:00",
+      "profit": -4.98,
+      "observed_signal_age_seconds": 49.29,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 4.24,
+      "price_travel_before_entry": -2.14,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 4s remaining."
+      ],
+      "last_execution": {
+        "success": true,
+        "action": "ORDER_SENT",
+        "message": "Request executed"
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 49.4,
+      "recorded_local_risk": -1.77
+    },
+    {
+      "ticket": "58816553703",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T08:07:15.483000+00:00",
+      "profit": -2.83,
+      "observed_signal_age_seconds": 213.82,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 3.6,
+      "price_travel_before_entry": -3.73,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 11.7s; 15.0s required."
+      ],
+      "last_execution": {
+        "message": "No execution attempted."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 11.7,
+      "recorded_local_risk": 3.11
+    },
+    {
+      "ticket": "58816815953",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T08:25:49.390000+00:00",
+      "profit": 0.78,
+      "observed_signal_age_seconds": 21.06,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 6.05,
+      "price_travel_before_entry": -0.98,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 24.0s; 30.0s required.",
+        "Post-exit market analysis: 6s remaining."
+      ],
+      "last_execution": {
+        "message": "No execution attempted."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 24.0,
+      "recorded_local_risk": -1.74
+    },
+    {
+      "ticket": "58816847530",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T08:28:00.645000+00:00",
+      "profit": -1.88,
+      "observed_signal_age_seconds": 107.28,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 2.15,
+      "price_travel_before_entry": -0.32,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 0.76 while 2.36 in profit (floor 0.66); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 106.5,
+      "recorded_local_risk": 2.3
+    },
+    {
+      "ticket": "58816895359",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T08:31:04.550000+00:00",
+      "profit": 1.89,
+      "observed_signal_age_seconds": 50.92,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 5.87,
+      "price_travel_before_entry": 2.19,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 6s remaining."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Profit giveback of 2.67 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 54.1,
+      "recorded_local_risk": 5.32
+    },
+    {
+      "ticket": "58817158563",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T08:48:03.149000+00:00",
+      "profit": -3.48,
+      "observed_signal_age_seconds": 258.5,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 3.23,
+      "price_travel_before_entry": -2.48,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Profit giveback of 2.73 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 260.9,
+      "recorded_local_risk": 2.17
+    },
+    {
+      "ticket": "58817398845",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T09:05:50.750000+00:00",
+      "profit": -1.39,
+      "observed_signal_age_seconds": 34.56,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 4.54,
+      "price_travel_before_entry": -0.58,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 1.8s; 5.0s required.",
+        "Fresh micro-flow opposes entry direction; waiting for alignment."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 0.72 while 1.66 in profit (floor 0.66); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 1.8,
+      "recorded_local_risk": 2.25
+    },
+    {
+      "ticket": "58817977603",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T09:51:00.235000+00:00",
+      "profit": -4.99,
+      "observed_signal_age_seconds": 356.42,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 11.07,
+      "price_travel_before_entry": -0.6,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 9.0s; 15.0s required.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "INTRADAY: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 9.0,
+      "recorded_local_risk": 1.41
+    },
+    {
+      "ticket": "58817978259",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T09:51:02.181000+00:00",
+      "profit": -2.75,
+      "observed_signal_age_seconds": 208.22,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 13.01,
+      "price_travel_before_entry": 0.66,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Profit giveback of 1.70 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 9.0,
+      "recorded_local_risk": 1.46
+    },
+    {
+      "ticket": "58817979767",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T09:51:09.927000+00:00",
+      "profit": -3.16,
+      "observed_signal_age_seconds": 366.1,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 5.74,
+      "price_travel_before_entry": -0.4,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 24.2s; 30.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 24.2,
+      "recorded_local_risk": 1.7
+    },
+    {
+      "ticket": "58818280230",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T10:15:09.094000+00:00",
+      "profit": 1.27,
+      "observed_signal_age_seconds": 3.44,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 3.44,
+      "price_travel_before_entry": 0.27,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 2.7s; 5.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Confirmed market thesis invalidation; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 2.7,
+      "recorded_local_risk": 1.0
+    },
+    {
+      "ticket": "58818281831",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T10:15:18.091000+00:00",
+      "profit": 1.65,
+      "observed_signal_age_seconds": 12.44,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 12.44,
+      "price_travel_before_entry": -0.2,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 2.7s; 15.0s required."
+      ],
+      "last_execution": {
+        "success": true,
+        "action": "ORDER_SENT",
+        "message": "Request executed"
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 2.7,
+      "recorded_local_risk": 0.53
+    },
+    {
+      "ticket": "58818284557",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T10:15:33.029000+00:00",
+      "profit": 0.63,
+      "observed_signal_age_seconds": 27.38,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 12.37,
+      "price_travel_before_entry": -0.12,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 17.7s; 30.0s required.",
+        "Fresh micro-flow opposes entry direction; waiting for alignment."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 17.7,
+      "recorded_local_risk": 0.57
+    },
+    {
+      "ticket": "58818365021",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T10:22:00.031000+00:00",
+      "profit": 4.07,
+      "observed_signal_age_seconds": 69.0,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 8.94,
+      "price_travel_before_entry": -0.25,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 9s remaining.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 1.00 while 1.27 in profit (floor 1.02); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 23.6,
+      "recorded_local_risk": 1.07
+    },
+    {
+      "ticket": "58818365033",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T10:22:00.193000+00:00",
+      "profit": 4.03,
+      "observed_signal_age_seconds": 69.17,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 9.1,
+      "price_travel_before_entry": -0.25,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 8s remaining.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "INTRADAY: Flow reversal risk 1.00 while 1.57 in profit (floor 1.02); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 72.3,
+      "recorded_local_risk": 1.07
+    },
+    {
+      "ticket": "58818365050",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T10:22:00.324000+00:00",
+      "profit": 2.54,
+      "observed_signal_age_seconds": 24.26,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 9.24,
+      "price_travel_before_entry": 0.37,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 21.5s; 30.0s required.",
+        "Post-exit market analysis: 8s remaining.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Profit giveback of 2.55 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 21.5,
+      "recorded_local_risk": 1.07
+    },
+    {
+      "ticket": "58818447638",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T10:27:02.161000+00:00",
+      "profit": 0.65,
+      "observed_signal_age_seconds": 25.75,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 10.74,
+      "price_travel_before_entry": 0.15,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 11s remaining."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "INTRADAY: Flow reversal risk 0.88 while 4.03 in profit (floor 0.72); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 19.0,
+      "recorded_local_risk": 4.96
+    },
+    {
+      "ticket": "58818447862",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T10:27:02.802000+00:00",
+      "profit": 2.82,
+      "observed_signal_age_seconds": 26.39,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 11.38,
+      "price_travel_before_entry": 0.15,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Post-exit market analysis: 11s remaining.",
+        "SCALP re-entry cooldown: 10s remaining.",
+        "SCALP paused during volatility expansion."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 0.76 while 4.07 in profit (floor 0.90); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 20.0,
+      "recorded_local_risk": 4.96
+    },
+    {
+      "ticket": "58818482453",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T10:29:15.479000+00:00",
+      "profit": 4.28,
+      "observed_signal_age_seconds": 83.99,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 8.89,
+      "price_travel_before_entry": 0.51,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 21.0s; 30.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Profit giveback of 2.62 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 21.0,
+      "recorded_local_risk": 1.26
+    },
+    {
+      "ticket": "58819281991",
+      "horizon": "SWING",
+      "opened_at": "2026-10-08T11:10:00.788000+00:00",
+      "profit": -4.99,
+      "observed_signal_age_seconds": 1763.49,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 6.66,
+      "price_travel_before_entry": -2.93,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 29.3s; 30.0s required.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.",
+        "Leading SCALP signal weakened: same-direction SWING entry waits for its two completed M5 candles."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SWING: Profit giveback of 2.69 from peak with support fading; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 29.3,
+      "recorded_local_risk": null
+    },
+    {
+      "ticket": "58819282931",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T11:10:03.240000+00:00",
+      "profit": -5.02,
+      "observed_signal_age_seconds": 114.21,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 9.11,
+      "price_travel_before_entry": 0.1,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal weakened: waiting for two consecutive completed M5 candles agreeing with the next direction.",
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Flow reversal risk 0.84 while 2.82 in profit (floor 0.70); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 13.3,
+      "recorded_local_risk": null
+    },
+    {
+      "ticket": "58819288175",
+      "horizon": "INTRADAY",
+      "opened_at": "2026-10-08T11:10:18.270000+00:00",
+      "profit": -5.08,
+      "observed_signal_age_seconds": 9.13,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 9.13,
+      "price_travel_before_entry": -0.15,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Signal persistence is 6.2s; 15.0s required."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "INTRADAY: Flow reversal risk 0.94 while 0.67 in profit (floor 0.56); banking it rather than waiting for a target; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 6.2,
+      "recorded_local_risk": null
+    },
+    {
+      "ticket": "58820412338",
+      "horizon": "SCALP",
+      "opened_at": "2026-10-08T12:06:02.549000+00:00",
+      "profit": -2.88,
+      "observed_signal_age_seconds": 50.23,
+      "signal_left_censored": false,
+      "observed_ready_age_seconds": null,
+      "pre_entry_observation_age_seconds": 5.14,
+      "price_travel_before_entry": 0.57,
+      "opposing_strong_sources": [],
+      "last_entry_blocks": [
+        "Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through."
+      ],
+      "last_execution": {
+        "action": "CLOSE",
+        "success": true,
+        "message": "SCALP: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+      },
+      "ready_run_execution_results": [],
+      "signal_age_at_last_observation": 54.0,
+      "recorded_local_risk": null
+    }
+  ],
+  "limitations": [
+    "Diagnostic of actually recorded entries only; not chronological holdout or a counterfactual portfolio.",
+    "15-second observation cadence cannot establish precise signal onset or millisecond execution latency.",
+    "Signal runs exclude occupied lanes and break at observation gaps over 45 seconds.",
+    "Signal age includes legitimate candle confirmation, cooldown, cost and freshness waits.",
+    "Price travel is relative to the first observed executable quote, not the attainable historical fill.",
+    "Mixed deployed policies and left-censored runs limit causal attribution; missing pre-entry records are excluded."
+  ]
+}

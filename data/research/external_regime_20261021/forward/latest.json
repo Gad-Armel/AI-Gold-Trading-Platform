@@ -1,0 +1,158 @@
+{
+  "observed_at": "2026-10-21T19:18:46.830202+00:00",
+  "read_only": true,
+  "execution_enabled": false,
+  "strategy": "ABC_REGIME_RESEARCH_V1",
+  "evaluation": "PROSPECTIVE_PAPER",
+  "completed": true,
+  "duration_seconds": 120.3827748298645,
+  "ticks": 977,
+  "last_signal": {
+    "available": false,
+    "execution_enabled": false,
+    "strategy": "ABC_REGIME_RESEARCH_V1",
+    "calibrated_probability": null,
+    "candidates": [],
+    "blocks": [
+      "Invalid/stale setup, quote or explicit cost inputs"
+    ]
+  },
+  "engines": {
+    "A": {
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 0,
+        "net_r_sum": 0,
+        "shrunk_mean_r": 0.0,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 0
+    },
+    "B": {
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 0,
+        "net_r_sum": 0,
+        "shrunk_mean_r": 0.0,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 0
+    },
+    "C": {
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 0,
+        "net_r_sum": 0,
+        "shrunk_mean_r": 0.0,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 0
+    }
+  },
+  "errors": [
+    {
+      "at": 1792610267.6600246,
+      "message": "Current quote is stale; do not paper-enter on an old price"
+    },
+    {
+      "at": 1792610268.691576,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792610269.2327363,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792610269.7836068,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792610270.3391774,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792610270.932061,
+      "message": "MT5 tick history is stale"
+    }
+  ],
+  "limitations": [
+    "Independent paper paths, not a combined funded account or broker fills.",
+    "Assumed 350 ms latency and .30 price-unit round-trip costs plus observed spread.",
+    "No news/calendar execution model, no fixed TP, no automatic order authorization."
+  ]
+}

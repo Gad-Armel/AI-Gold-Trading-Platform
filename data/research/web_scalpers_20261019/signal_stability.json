@@ -1,0 +1,98 @@
+{
+  "as_of": "2026-10-19T08:48:56.078983+00:00",
+  "read_only": true,
+  "cache_parity": {
+    "SCALP": {
+      "bias": true,
+      "directional_score": true,
+      "levels": true,
+      "votes": true
+    },
+    "INTRADAY": {
+      "bias": true,
+      "directional_score": true,
+      "levels": true,
+      "votes": true
+    },
+    "SWING": {
+      "bias": true,
+      "directional_score": true,
+      "levels": true,
+      "votes": true
+    }
+  },
+  "warmup_windows": {
+    "64": {
+      "SCALP": {
+        "bias": "SELL",
+        "score": 78.02,
+        "score_change": -0.04,
+        "same_bias": true
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "score": 15.0,
+        "score_change": 0.0,
+        "same_bias": true
+      },
+      "SWING": {
+        "bias": "BUY",
+        "score": 59.71,
+        "score_change": 2.15,
+        "same_bias": true
+      }
+    },
+    "128": {
+      "SCALP": {
+        "bias": "SELL",
+        "score": 78.06,
+        "score_change": 0.0,
+        "same_bias": true
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "score": 15.0,
+        "score_change": 0.0,
+        "same_bias": true
+      },
+      "SWING": {
+        "bias": "BUY",
+        "score": 57.56,
+        "score_change": 0.0,
+        "same_bias": true
+      }
+    },
+    "256": {
+      "SCALP": {
+        "bias": "SELL",
+        "score": 78.06,
+        "score_change": 0.0,
+        "same_bias": true
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "score": 15.0,
+        "score_change": 0.0,
+        "same_bias": true
+      },
+      "SWING": {
+        "bias": "BUY",
+        "score": 57.56,
+        "score_change": 0.0,
+        "same_bias": true
+      }
+    }
+  },
+  "source_rows": {
+    "M1": 180,
+    "M5": 160,
+    "M15": 140,
+    "H1": 120,
+    "H4": 100
+  },
+  "limitations": [
+    "Single snapshot diagnostic, not a performance or full lookahead audit.",
+    "Warm-up sensitivity is reported; no model is promoted or retuned.",
+    "Framework methods are adapted, not a run of Freqtrade on MT5."
+  ]
+}

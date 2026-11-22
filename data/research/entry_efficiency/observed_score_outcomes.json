@@ -1,0 +1,809 @@
+{
+  "latest_observed": "2026-10-08T14:03:12.627249+00:00",
+  "matched_trades": 68,
+  "rows": [
+    {
+      "ticket": 58812654939,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T02:51:16.167000+00:00",
+      "evidence": 78.33,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58812714923,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T02:55:35.023000+00:00",
+      "evidence": 78.33,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58813249890,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T03:35:28.260000+00:00",
+      "evidence": 74.96,
+      "profit": 0.71,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58813342001,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T03:43:42.911000+00:00",
+      "evidence": 76.34,
+      "profit": 3.09,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58813636984,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T04:12:09.963000+00:00",
+      "evidence": 98.88,
+      "profit": -5.05,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58813640577,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T04:12:36.187000+00:00",
+      "evidence": 77.24,
+      "profit": -5.06,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58813744249,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T04:22:03.429000+00:00",
+      "evidence": 76.22,
+      "profit": -4.64,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58814349549,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T05:25:09.425000+00:00",
+      "evidence": 68.89,
+      "profit": 3.28,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58814540299,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T05:39:36.322000+00:00",
+      "evidence": 61.99,
+      "profit": 3.4,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58814702449,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T05:51:32.843000+00:00",
+      "evidence": 77.94,
+      "profit": 3.48,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58814803141,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T05:56:20.830000+00:00",
+      "evidence": 78.33,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58814871315,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T06:00:58.398000+00:00",
+      "evidence": 78.33,
+      "profit": -0.9,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58815077075,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T06:19:08.863000+00:00",
+      "evidence": 73.99,
+      "profit": 2.19,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58815117038,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T06:22:01.390000+00:00",
+      "evidence": 76.81,
+      "profit": 0.56,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58815211445,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T06:29:18.643000+00:00",
+      "evidence": 78.33,
+      "profit": -3.78,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816200127,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T07:40:08.762000+00:00",
+      "evidence": 72.77,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816257294,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T07:45:18.466000+00:00",
+      "evidence": 64.68,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816260761,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T07:45:33.376000+00:00",
+      "evidence": 61.36,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816498560,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T08:04:45.987000+00:00",
+      "evidence": 72.53,
+      "profit": -4.98,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816553703,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T08:07:15.483000+00:00",
+      "evidence": 55.75,
+      "profit": -2.83,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816734208,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T08:20:08.460000+00:00",
+      "evidence": 73.31,
+      "profit": 2.36,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816815953,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T08:25:49.390000+00:00",
+      "evidence": 62.88,
+      "profit": 0.78,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816847530,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T08:28:00.645000+00:00",
+      "evidence": 73.62,
+      "profit": -1.88,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58816895359,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T08:31:04.550000+00:00",
+      "evidence": 62.88,
+      "profit": 1.89,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817158563,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T08:48:03.149000+00:00",
+      "evidence": 62.88,
+      "profit": -3.48,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817264732,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T08:56:08.653000+00:00",
+      "evidence": 55.18,
+      "profit": 1.66,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817398845,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T09:05:50.750000+00:00",
+      "evidence": 73.15,
+      "profit": -1.39,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817453721,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T09:10:14.503000+00:00",
+      "evidence": 59.51,
+      "profit": -1.11,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817836016,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T09:40:10.226000+00:00",
+      "evidence": 68.45,
+      "profit": 0.34,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817977603,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T09:51:00.235000+00:00",
+      "evidence": 60.43,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817978259,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T09:51:02.181000+00:00",
+      "evidence": 78.66,
+      "profit": -2.75,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58817979767,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T09:51:09.927000+00:00",
+      "evidence": 61.71,
+      "profit": -3.16,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818280230,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T10:15:09.094000+00:00",
+      "evidence": 52.28,
+      "profit": 1.27,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818281831,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T10:15:18.091000+00:00",
+      "evidence": 52.28,
+      "profit": 1.65,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818284557,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T10:15:33.029000+00:00",
+      "evidence": 58.77,
+      "profit": 0.63,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818365021,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T10:22:00.031000+00:00",
+      "evidence": 73.54,
+      "profit": 4.07,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818365033,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T10:22:00.193000+00:00",
+      "evidence": 57.66,
+      "profit": 4.03,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818365050,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T10:22:00.324000+00:00",
+      "evidence": 59.14,
+      "profit": 2.54,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818447638,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T10:27:02.161000+00:00",
+      "evidence": 59.55,
+      "profit": 0.65,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818447862,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T10:27:02.802000+00:00",
+      "evidence": 81.33,
+      "profit": 2.82,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58818482453,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T10:29:15.479000+00:00",
+      "evidence": 59.14,
+      "profit": 4.28,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819281991,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T11:10:00.788000+00:00",
+      "evidence": 61.25,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819282931,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T11:10:03.240000+00:00",
+      "evidence": 84.27,
+      "profit": -5.02,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819288175,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T11:10:18.270000+00:00",
+      "evidence": 62.87,
+      "profit": -5.08,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819434875,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T11:18:00.125000+00:00",
+      "evidence": 62.96,
+      "profit": -2.89,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819434937,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T11:18:00.365000+00:00",
+      "evidence": 64.48,
+      "profit": -1.83,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819435861,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T11:18:03.617000+00:00",
+      "evidence": 63.23,
+      "profit": -0.8,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58819548525,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T11:25:02.318000+00:00",
+      "evidence": 58.34,
+      "profit": -2.11,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58820147397,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T11:52:19.117000+00:00",
+      "evidence": 62.84,
+      "profit": 0.97,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58820196801,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T11:54:34.623000+00:00",
+      "evidence": 66.1,
+      "profit": -3.63,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58820412338,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T12:06:02.549000+00:00",
+      "evidence": 63.28,
+      "profit": -2.88,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58820839154,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T12:26:11.409000+00:00",
+      "evidence": 66.92,
+      "profit": 1.13,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821566589,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T12:56:02.948000+00:00",
+      "evidence": 71.57,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821688867,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:01:59.994000+00:00",
+      "evidence": 72.45,
+      "profit": -4.96,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821696953,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T13:02:15.407000+00:00",
+      "evidence": 68.45,
+      "profit": -5.02,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821926864,
+      "lane": "INTRADAY",
+      "opened_at": "2026-10-08T13:10:00.457000+00:00",
+      "evidence": 66.55,
+      "profit": 1.12,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821927871,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T13:10:02.379000+00:00",
+      "evidence": 56.25,
+      "profit": -1.12,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58821933421,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:10:14.329000+00:00",
+      "evidence": 72.45,
+      "profit": 1.66,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822390665,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:31:00.406000+00:00",
+      "evidence": 63.5,
+      "profit": -5.12,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822452245,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:33:00.323000+00:00",
+      "evidence": 63.5,
+      "profit": 1.42,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822541403,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T13:37:12.350000+00:00",
+      "evidence": 57.3,
+      "profit": 1.76,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822581341,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:39:11.427000+00:00",
+      "evidence": 63.5,
+      "profit": 2.63,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822687734,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:43:40.696000+00:00",
+      "evidence": 63.5,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822758836,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T13:47:08.905000+00:00",
+      "evidence": 63.6,
+      "profit": 0.84,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822814938,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:49:12.411000+00:00",
+      "evidence": 63.5,
+      "profit": -4.99,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822836715,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T13:50:02.695000+00:00",
+      "evidence": 67.67,
+      "profit": 2.76,
+      "entry_mode": "NOT_RECORDED"
+    },
+    {
+      "ticket": 58822930407,
+      "lane": "SCALP",
+      "opened_at": "2026-10-08T13:52:46.310000+00:00",
+      "evidence": 72.49,
+      "profit": -4.96,
+      "entry_mode": "ADVISOR1_PRIMARY"
+    },
+    {
+      "ticket": 58822937269,
+      "lane": "SWING",
+      "opened_at": "2026-10-08T13:53:00.356000+00:00",
+      "evidence": 63.5,
+      "profit": 2.96,
+      "entry_mode": "CONSENSUS_2_OF_3"
+    }
+  ],
+  "groups": [
+    {
+      "lane": "SCALP",
+      "score_range": [
+        15,
+        40
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "SCALP",
+      "score_range": [
+        40,
+        60
+      ],
+      "trades": 6,
+      "wins": 3,
+      "win_fraction": 0.5,
+      "net": 0.35,
+      "profit_factor": 1.0806
+    },
+    {
+      "lane": "SCALP",
+      "score_range": [
+        60,
+        75
+      ],
+      "trades": 18,
+      "wins": 10,
+      "win_fraction": 0.5555555555555556,
+      "net": -4.18,
+      "profit_factor": 0.8362
+    },
+    {
+      "lane": "SCALP",
+      "score_range": [
+        75,
+        85
+      ],
+      "trades": 8,
+      "wins": 3,
+      "win_fraction": 0.375,
+      "net": -10.58,
+      "profit_factor": 0.3933
+    },
+    {
+      "lane": "SCALP",
+      "score_range": [
+        85,
+        100
+      ],
+      "trades": 1,
+      "wins": 0,
+      "win_fraction": 0.0,
+      "net": -5.05,
+      "profit_factor": 0.0
+    },
+    {
+      "lane": "INTRADAY",
+      "score_range": [
+        15,
+        40
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "INTRADAY",
+      "score_range": [
+        40,
+        60
+      ],
+      "trades": 4,
+      "wins": 3,
+      "win_fraction": 0.75,
+      "net": 3.5,
+      "profit_factor": 2.2367
+    },
+    {
+      "lane": "INTRADAY",
+      "score_range": [
+        60,
+        75
+      ],
+      "trades": 7,
+      "wins": 2,
+      "win_fraction": 0.2857142857142857,
+      "net": -21.14,
+      "profit_factor": 0.0797
+    },
+    {
+      "lane": "INTRADAY",
+      "score_range": [
+        75,
+        85
+      ],
+      "trades": 5,
+      "wins": 1,
+      "win_fraction": 0.2,
+      "net": -16.59,
+      "profit_factor": 0.157
+    },
+    {
+      "lane": "INTRADAY",
+      "score_range": [
+        85,
+        100
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "SWING",
+      "score_range": [
+        15,
+        40
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "SWING",
+      "score_range": [
+        40,
+        60
+      ],
+      "trades": 3,
+      "wins": 3,
+      "win_fraction": 1.0,
+      "net": 7.45,
+      "profit_factor": null
+    },
+    {
+      "lane": "SWING",
+      "score_range": [
+        60,
+        75
+      ],
+      "trades": 16,
+      "wins": 6,
+      "win_fraction": 0.375,
+      "net": -32.15,
+      "profit_factor": 0.2607
+    },
+    {
+      "lane": "SWING",
+      "score_range": [
+        75,
+        85
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "SWING",
+      "score_range": [
+        85,
+        100
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "ALL",
+      "score_range": [
+        15,
+        40
+      ],
+      "trades": 0,
+      "wins": 0,
+      "win_fraction": null,
+      "net": 0,
+      "profit_factor": null
+    },
+    {
+      "lane": "ALL",
+      "score_range": [
+        40,
+        60
+      ],
+      "trades": 13,
+      "wins": 9,
+      "win_fraction": 0.6923076923076923,
+      "net": 11.3,
+      "profit_factor": 2.576
+    },
+    {
+      "lane": "ALL",
+      "score_range": [
+        60,
+        75
+      ],
+      "trades": 41,
+      "wins": 18,
+      "win_fraction": 0.43902439024390244,
+      "net": -57.47,
+      "profit_factor": 0.3752
+    },
+    {
+      "lane": "ALL",
+      "score_range": [
+        75,
+        85
+      ],
+      "trades": 13,
+      "wins": 4,
+      "win_fraction": 0.3076923076923077,
+      "net": -27.17,
+      "profit_factor": 0.268
+    },
+    {
+      "lane": "ALL",
+      "score_range": [
+        85,
+        100
+      ],
+      "trades": 1,
+      "wins": 0,
+      "win_fraction": 0.0,
+      "net": -5.05,
+      "profit_factor": 0.0
+    }
+  ],
+  "limitations": [
+    "Descriptive actual closed trades from captured bounded histories and accepted order journals; excludes open/unmatched positions.",
+    "Heuristic scores are not probabilities; outcome-selected historical bins do not validate a new cutoff.",
+    "Mixed deployed policies, source types, overlapping market exposures and inspected data limit independence and calibration claims.",
+    "Bins fixed before this audit from existing operating score levels; no thresholds optimized or policy changed."
+  ],
+  "payoff_summary": {
+    "trades": 68,
+    "wins": 31,
+    "losses": 37,
+    "net": -78.39,
+    "average_win": 2.03,
+    "average_loss": 3.8195,
+    "observed_win_fraction": 0.45588235294117646,
+    "break_even_win_fraction_at_observed_payoffs": 0.6529593864066904,
+    "profit_factor": 0.44530144353240875
+  }
+}

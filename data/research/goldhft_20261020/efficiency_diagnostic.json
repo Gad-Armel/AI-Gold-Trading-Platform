@@ -1,0 +1,19 @@
+{
+  "as_of": "2026-10-20T14:43:02.985054+00:00",
+  "read_only": true,
+  "execution_enabled": false,
+  "counts": {
+    "evaluated_seconds": 798,
+    "three_directional_S30_seconds": 150,
+    "one_second_gate_pass_seconds": 9
+  },
+  "blockers": {
+    "Completed S30 candles do not agree": 648,
+    "Six-second follow-through is too weak relative to spread or too noisy": 777,
+    "Recent S30 range does not clear three times estimated round-trip cost": 158,
+    "Current quote has reversed or is extended beyond one recent S30 range": 40
+  },
+  "old_candidate_setups": 0,
+  "corrected_candidate_setups": 3,
+  "limitation": "Candidate-gate diagnostic only; not portfolio execution or profitability evidence."
+}

@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-09-07T07:04:41.726345+00:00",
+  "pending": [
+    {
+      "horizon": "INTRADAY",
+      "started_at": "2026-09-07T06:42:47.424004+00:00",
+      "due_at": "2026-09-07T07:12:47.424004+00:00",
+      "entry_bid": 4399.1,
+      "entry_ask": 4399.36,
+      "forecasts": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 93.36,
+          "quality": 1.0
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.54,
+          "quality": 0.1137
+        }
+      }
+    },
+    {
+      "horizon": "SWING",
+      "started_at": "2026-09-07T06:42:47.424004+00:00",
+      "due_at": "2026-09-07T08:42:47.424004+00:00",
+      "entry_bid": 4399.1,
+      "entry_ask": 4399.36,
+      "forecasts": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 94.68,
+          "quality": 1.0
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.54,
+          "quality": 0.1137
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T07:04:41.726345+00:00",
+      "due_at": "2026-09-07T07:09:41.726345+00:00",
+      "entry_bid": 4400.93,
+      "entry_ask": 4401.48,
+      "forecasts": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 75.7,
+          "quality": 1.0
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0
+        }
+      }
+    }
+  ],
+  "resolved": [
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T04:42:47.153407+00:00",
+      "due_at": "2026-09-07T04:47:47.153407+00:00",
+      "resolved_at": "2026-09-07T04:47:47.165288+00:00",
+      "entry_bid": 4396.75,
+      "entry_ask": 4397.06,
+      "exit_bid": 4396.94,
+      "exit_ask": 4397.25,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 99.98,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -0.5
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T04:47:47.165288+00:00",
+      "due_at": "2026-09-07T04:52:47.165288+00:00",
+      "resolved_at": "2026-09-07T04:52:47.170915+00:00",
+      "entry_bid": 4396.94,
+      "entry_ask": 4397.25,
+      "exit_bid": 4396.53,
+      "exit_ask": 4396.97,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 100.0,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -0.03
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T04:52:47.170915+00:00",
+      "due_at": "2026-09-07T04:57:47.170915+00:00",
+      "resolved_at": "2026-09-07T04:57:47.178452+00:00",
+      "entry_bid": 4396.53,
+      "entry_ask": 4396.97,
+      "exit_bid": 4397.78,
+      "exit_ask": 4398.17,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -1.64
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T04:57:47.178452+00:00",
+      "due_at": "2026-09-07T05:02:47.178452+00:00",
+      "resolved_at": "2026-09-07T05:03:47.182815+00:00",
+      "entry_bid": 4397.78,
+      "entry_ask": 4398.17,
+      "exit_bid": 4399.24,
+      "exit_ask": 4399.65,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -1.87
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:03:47.182815+00:00",
+      "due_at": "2026-09-07T05:08:47.182815+00:00",
+      "resolved_at": "2026-09-07T05:09:47.173113+00:00",
+      "entry_bid": 4399.24,
+      "entry_ask": 4399.65,
+      "exit_bid": 4400.72,
+      "exit_ask": 4401.19,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -1.95
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "INTRADAY",
+      "started_at": "2026-09-07T04:42:47.153407+00:00",
+      "due_at": "2026-09-07T05:12:47.153407+00:00",
+      "resolved_at": "2026-09-07T05:12:47.186400+00:00",
+      "entry_bid": 4396.75,
+      "entry_ask": 4397.06,
+      "exit_bid": 4398.85,
+      "exit_ask": 4399.17,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 98.73,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.42
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.68,
+          "quality": 0.1172,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.42
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:09:47.173113+00:00",
+      "due_at": "2026-09-07T05:14:47.173113+00:00",
+      "resolved_at": "2026-09-07T05:14:47.202083+00:00",
+      "entry_bid": 4400.72,
+      "entry_ask": 4401.19,
+      "exit_bid": 4401.9,
+      "exit_ask": 4402.31,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 77.0,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -1.59
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:14:47.202083+00:00",
+      "due_at": "2026-09-07T05:19:47.202083+00:00",
+      "resolved_at": "2026-09-07T05:19:47.241910+00:00",
+      "entry_bid": 4401.9,
+      "entry_ask": 4402.31,
+      "exit_bid": 4404.94,
+      "exit_ask": 4405.35,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:19:47.241910+00:00",
+      "due_at": "2026-09-07T05:24:47.241910+00:00",
+      "resolved_at": "2026-09-07T05:24:47.248015+00:00",
+      "entry_bid": 4404.94,
+      "entry_ask": 4405.35,
+      "exit_bid": 4404.47,
+      "exit_ask": 4404.94,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:24:47.248015+00:00",
+      "due_at": "2026-09-07T05:29:47.248015+00:00",
+      "resolved_at": "2026-09-07T05:29:47.257293+00:00",
+      "entry_bid": 4404.47,
+      "entry_ask": 4404.94,
+      "exit_bid": 4410.6,
+      "exit_ask": 4411.12,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:29:47.257293+00:00",
+      "due_at": "2026-09-07T05:34:47.257293+00:00",
+      "resolved_at": "2026-09-07T05:34:47.277493+00:00",
+      "entry_bid": 4410.6,
+      "entry_ask": 4411.12,
+      "exit_bid": 4408.56,
+      "exit_ask": 4409.0,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:34:47.277493+00:00",
+      "due_at": "2026-09-07T05:39:47.277493+00:00",
+      "resolved_at": "2026-09-07T05:40:47.275644+00:00",
+      "entry_bid": 4408.56,
+      "entry_ask": 4409.0,
+      "exit_bid": 4402.08,
+      "exit_ask": 4402.53,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "INTRADAY",
+      "started_at": "2026-09-07T05:12:47.186400+00:00",
+      "due_at": "2026-09-07T05:42:47.186400+00:00",
+      "resolved_at": "2026-09-07T05:42:47.287603+00:00",
+      "entry_bid": 4398.85,
+      "entry_ask": 4399.17,
+      "exit_bid": 4403.66,
+      "exit_ask": 4404.04,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -5.19
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.65,
+          "quality": 0.1163,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -5.19
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:40:47.275644+00:00",
+      "due_at": "2026-09-07T05:45:47.275644+00:00",
+      "resolved_at": "2026-09-07T05:45:47.296550+00:00",
+      "entry_bid": 4402.08,
+      "entry_ask": 4402.53,
+      "exit_bid": 4406.19,
+      "exit_ask": 4406.78,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:45:47.296550+00:00",
+      "due_at": "2026-09-07T05:50:47.296550+00:00",
+      "resolved_at": "2026-09-07T05:50:47.304429+00:00",
+      "entry_bid": 4406.19,
+      "entry_ask": 4406.78,
+      "exit_bid": 4398.59,
+      "exit_ask": 4399.16,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:50:47.304429+00:00",
+      "due_at": "2026-09-07T05:55:47.304429+00:00",
+      "resolved_at": "2026-09-07T05:55:47.307416+00:00",
+      "entry_bid": 4398.59,
+      "entry_ask": 4399.16,
+      "exit_bid": 4397.1,
+      "exit_ask": 4397.42,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T05:55:47.307416+00:00",
+      "due_at": "2026-09-07T06:00:47.307416+00:00",
+      "resolved_at": "2026-09-07T06:01:47.316274+00:00",
+      "entry_bid": 4397.1,
+      "entry_ask": 4397.42,
+      "exit_bid": 4391.22,
+      "exit_ask": 4391.61,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 74.43,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 5.49
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:01:47.316274+00:00",
+      "due_at": "2026-09-07T06:06:47.316274+00:00",
+      "resolved_at": "2026-09-07T06:06:47.344651+00:00",
+      "entry_bid": 4391.22,
+      "entry_ask": 4391.61,
+      "exit_bid": 4387.55,
+      "exit_ask": 4387.92,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 97.33,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 3.3
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:06:47.344651+00:00",
+      "due_at": "2026-09-07T06:11:47.344651+00:00",
+      "resolved_at": "2026-09-07T06:11:47.360300+00:00",
+      "entry_bid": 4387.55,
+      "entry_ask": 4387.92,
+      "exit_bid": 4390.07,
+      "exit_ask": 4390.39,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 98.27,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.84
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "INTRADAY",
+      "started_at": "2026-09-07T05:42:47.287603+00:00",
+      "due_at": "2026-09-07T06:12:47.287603+00:00",
+      "resolved_at": "2026-09-07T06:12:47.367376+00:00",
+      "entry_bid": 4403.66,
+      "entry_ask": 4404.04,
+      "exit_bid": 4392.89,
+      "exit_ask": 4393.24,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 73.89,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 10.42
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.61,
+          "quality": 0.1154,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 10.42
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:11:47.360300+00:00",
+      "due_at": "2026-09-07T06:16:47.360300+00:00",
+      "resolved_at": "2026-09-07T06:16:47.365272+00:00",
+      "entry_bid": 4390.07,
+      "entry_ask": 4390.39,
+      "exit_bid": 4393.39,
+      "exit_ask": 4393.72,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 98.27,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -3.65
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:16:47.365272+00:00",
+      "due_at": "2026-09-07T06:21:47.365272+00:00",
+      "resolved_at": "2026-09-07T06:21:47.373910+00:00",
+      "entry_bid": 4393.39,
+      "entry_ask": 4393.72,
+      "exit_bid": 4390.07,
+      "exit_ask": 4390.39,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 3.0
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:21:47.373910+00:00",
+      "due_at": "2026-09-07T06:26:47.373910+00:00",
+      "resolved_at": "2026-09-07T06:26:47.419722+00:00",
+      "entry_bid": 4390.07,
+      "entry_ask": 4390.39,
+      "exit_bid": 4396.74,
+      "exit_ask": 4397.04,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 78.33,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -6.97
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:26:47.419722+00:00",
+      "due_at": "2026-09-07T06:31:47.419722+00:00",
+      "resolved_at": "2026-09-07T06:32:47.413793+00:00",
+      "entry_bid": 4396.74,
+      "entry_ask": 4397.04,
+      "exit_bid": 4395.09,
+      "exit_ask": 4395.47,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 74.0,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 1.27
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:32:47.413793+00:00",
+      "due_at": "2026-09-07T06:37:47.413793+00:00",
+      "resolved_at": "2026-09-07T06:37:47.435059+00:00",
+      "entry_bid": 4395.09,
+      "entry_ask": 4395.47,
+      "exit_bid": 4394.59,
+      "exit_ask": 4394.82,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 75.86,
+          "quality": 1.0,
+          "result": "WIN",
+          "net_move_usd_per_ounce": 0.27
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SWING",
+      "started_at": "2026-09-07T04:42:47.153407+00:00",
+      "due_at": "2026-09-07T06:42:47.153407+00:00",
+      "resolved_at": "2026-09-07T06:42:47.424004+00:00",
+      "entry_bid": 4396.75,
+      "entry_ask": 4397.06,
+      "exit_bid": 4399.1,
+      "exit_ask": 4399.36,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 90.17,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.61
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.68,
+          "quality": 0.1172,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.61
+        }
+      }
+    },
+    {
+      "horizon": "INTRADAY",
+      "started_at": "2026-09-07T06:12:47.367376+00:00",
+      "due_at": "2026-09-07T06:42:47.367376+00:00",
+      "resolved_at": "2026-09-07T06:42:47.424004+00:00",
+      "entry_bid": 4392.89,
+      "entry_ask": 4393.24,
+      "exit_bid": 4399.1,
+      "exit_ask": 4399.36,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 98.27,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -6.47
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "SELL",
+          "strength": 4.57,
+          "quality": 0.1145,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -6.47
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:37:47.435059+00:00",
+      "due_at": "2026-09-07T06:42:47.435059+00:00",
+      "resolved_at": "2026-09-07T06:43:47.442647+00:00",
+      "entry_bid": 4394.59,
+      "entry_ask": 4394.82,
+      "exit_bid": 4396.38,
+      "exit_ask": 4396.6,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 71.13,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.01
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:43:47.442647+00:00",
+      "due_at": "2026-09-07T06:48:47.442647+00:00",
+      "resolved_at": "2026-09-07T06:48:47.495259+00:00",
+      "entry_bid": 4396.38,
+      "entry_ask": 4396.6,
+      "exit_bid": 4398.1,
+      "exit_ask": 4398.42,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 71.69,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -2.04
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:48:47.495259+00:00",
+      "due_at": "2026-09-07T06:53:47.495259+00:00",
+      "resolved_at": "2026-09-07T06:53:47.495912+00:00",
+      "entry_bid": 4398.1,
+      "entry_ask": 4398.42,
+      "exit_bid": 4396.98,
+      "exit_ask": 4397.25,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:53:47.495912+00:00",
+      "due_at": "2026-09-07T06:58:47.495912+00:00",
+      "resolved_at": "2026-09-07T06:59:41.705067+00:00",
+      "entry_bid": 4396.98,
+      "entry_ask": 4397.25,
+      "exit_bid": 4392.86,
+      "exit_ask": 4393.26,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "WAIT",
+          "strength": 15.0,
+          "quality": 1.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    },
+    {
+      "horizon": "SCALP",
+      "started_at": "2026-09-07T06:59:41.705067+00:00",
+      "due_at": "2026-09-07T07:04:41.705067+00:00",
+      "resolved_at": "2026-09-07T07:04:41.726345+00:00",
+      "entry_bid": 4392.86,
+      "entry_ask": 4393.26,
+      "exit_bid": 4400.93,
+      "exit_ask": 4401.48,
+      "predictions": {
+        "GOLD_ADVISOR_V1": {
+          "direction": "SELL",
+          "strength": 95.98,
+          "quality": 1.0,
+          "result": "LOSS",
+          "net_move_usd_per_ounce": -8.62
+        },
+        "ECONOMIC_ADVISOR_V6": {
+          "direction": "WAIT",
+          "strength": 0.0,
+          "quality": 0.0,
+          "result": "ABSTAIN",
+          "net_move_usd_per_ounce": null
+        }
+      }
+    }
+  ],
+  "resolved_this_cycle": 1,
+  "statistics": {
+    "GOLD_ADVISOR_V1": {
+      "SCALP": {
+        "episodes": 27,
+        "predictions": 17,
+        "abstentions": 10,
+        "coverage_percent": 62.96,
+        "wins": 5,
+        "losses_or_flat": 12,
+        "accuracy_percent": 29.41,
+        "average_net_move_usd_per_ounce": -1.198824,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      },
+      "INTRADAY": {
+        "episodes": 4,
+        "predictions": 4,
+        "abstentions": 0,
+        "coverage_percent": 100.0,
+        "wins": 1,
+        "losses_or_flat": 3,
+        "accuracy_percent": 25.0,
+        "average_net_move_usd_per_ounce": -0.915,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      },
+      "SWING": {
+        "episodes": 1,
+        "predictions": 1,
+        "abstentions": 0,
+        "coverage_percent": 100.0,
+        "wins": 0,
+        "losses_or_flat": 1,
+        "accuracy_percent": 0.0,
+        "average_net_move_usd_per_ounce": -2.61,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      }
+    },
+    "ECONOMIC_ADVISOR_V6": {
+      "SCALP": {
+        "episodes": 27,
+        "predictions": 0,
+        "abstentions": 27,
+        "coverage_percent": 0.0,
+        "wins": 0,
+        "losses_or_flat": 0,
+        "accuracy_percent": null,
+        "average_net_move_usd_per_ounce": null,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      },
+      "INTRADAY": {
+        "episodes": 4,
+        "predictions": 4,
+        "abstentions": 0,
+        "coverage_percent": 100.0,
+        "wins": 1,
+        "losses_or_flat": 3,
+        "accuracy_percent": 25.0,
+        "average_net_move_usd_per_ounce": -0.915,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      },
+      "SWING": {
+        "episodes": 1,
+        "predictions": 1,
+        "abstentions": 0,
+        "coverage_percent": 100.0,
+        "wins": 0,
+        "losses_or_flat": 1,
+        "accuracy_percent": 0.0,
+        "average_net_move_usd_per_ounce": -2.61,
+        "minimum_reliable_sample": 30,
+        "sample_reliable": false
+      }
+    }
+  },
+  "method": "Paired forward windows scored only on fresh executable bid/ask, including spread; one episode per horizon.",
+  "quote_usable": true,
+  "warning": "Accuracy is descriptive, not proof of future profitability. Treat samples below 30 as preliminary."
+}

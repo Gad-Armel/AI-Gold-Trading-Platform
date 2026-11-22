@@ -1,0 +1,11 @@
+{
+  "start_utc": "2026-10-07T11:00:00+00:00",
+  "end_utc": "2026-10-07T12:00:00+00:00",
+  "received_ticks": 25341,
+  "usable_ticks": 25341,
+  "broker_utc_offset_seconds": 10800,
+  "maximum_gap_seconds": 25.323,
+  "median_spread": 0.31999999999970896,
+  "artifact": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\tick_probe\\20261007T110000Z.npz",
+  "note": "Historical executable quotes, no inferred aggressors, order book or institutional order flow."
+}

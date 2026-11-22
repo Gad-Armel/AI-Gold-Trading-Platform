@@ -1,0 +1,201 @@
+{
+  "as_of": "2026-10-21T23:22:40.901198+00:00",
+  "read_only": true,
+  "execution_enabled": false,
+  "strategy": "ABC_REGIME_RESEARCH_V1",
+  "evaluation": "OFFLINE_REPLAY_NOT_LIVE",
+  "config": {
+    "latency": 0.35,
+    "round_trip_cost": 0.3,
+    "maximum_hold": 3600.0,
+    "trailing_arm_r": 1.2,
+    "trailing_gap_r": 0.5,
+    "cooldown": 5.0,
+    "maximum_entry_risk": 10.0,
+    "breakeven_arm_r": 0.8,
+    "trailing_gap_atr": 1.5
+  },
+  "source_sha256": "ce552c3d98722be815f10cfb07692804475ef8ecc0e7d612d9c6afbce360c3d7",
+  "engines": {
+    "A": {
+      "summary": {
+        "trades": 4,
+        "net_price": -2.73,
+        "wins": 3,
+        "losses": 1,
+        "win_rate": 0.75,
+        "profit_factor": 0.6714801444045544,
+        "average_price": -0.6824999999994817
+      },
+      "trades": [
+        {
+          "entered_at": 1792581600.582,
+          "exited_at": 1792582681.302,
+          "direction": "BUY",
+          "entry": 4130.76,
+          "exit": 4131.14,
+          "setup": "ABC_A",
+          "gross_price": 0.38000000000010914,
+          "initial_risk_price": 6.2299490531404444,
+          "net_price": 0.08000000000010915,
+          "reason": "BREAKEVEN_PROTECTION",
+          "hold_seconds": 1080.7200000286102
+        },
+        {
+          "entered_at": 1792588500.387,
+          "exited_at": 1792591200.36,
+          "direction": "BUY",
+          "entry": 4136.73,
+          "exit": 4128.72,
+          "setup": "ABC_A",
+          "gross_price": -8.009999999999309,
+          "initial_risk_price": 7.968642891863055,
+          "net_price": -8.30999999999931,
+          "reason": "BROKER_SL",
+          "hold_seconds": 2699.9729998111725
+        },
+        {
+          "entered_at": 1792593000.537,
+          "exited_at": 1792596600.956,
+          "direction": "BUY",
+          "entry": 4133.53,
+          "exit": 4139.27,
+          "setup": "ABC_A",
+          "gross_price": 5.740000000000691,
+          "initial_risk_price": 8.551492018980753,
+          "net_price": 5.440000000000691,
+          "reason": "TIME_EXIT",
+          "hold_seconds": 3600.419000148773
+        },
+        {
+          "entered_at": 1792605300.548,
+          "exited_at": 1792606132.764,
+          "direction": "BUY",
+          "entry": 4137.07,
+          "exit": 4137.43,
+          "setup": "ABC_A",
+          "gross_price": 0.3600000000005821,
+          "initial_risk_price": 3.949619488573262,
+          "net_price": 0.06000000000058209,
+          "reason": "BREAKEVEN_PROTECTION",
+          "hold_seconds": 832.2159998416901
+        }
+      ],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 4,
+        "net_r_sum": -0.37865871373940707,
+        "shrunk_mean_r": -0.042073190415489674,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 7
+    },
+    "B": {
+      "summary": {
+        "trades": 1,
+        "net_price": -5.33,
+        "wins": 0,
+        "losses": 1,
+        "win_rate": 0.0,
+        "profit_factor": 0.0,
+        "average_price": -5.330000000000655
+      },
+      "trades": [
+        {
+          "entered_at": 1792595700.47,
+          "exited_at": 1792596153.859,
+          "direction": "SELL",
+          "entry": 4127.24,
+          "exit": 4132.27,
+          "setup": "ABC_B",
+          "gross_price": -5.030000000000655,
+          "initial_risk_price": 4.850000000000364,
+          "net_price": -5.330000000000655,
+          "reason": "BROKER_SL",
+          "hold_seconds": 453.38899993896484
+        }
+      ],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 1,
+        "net_r_sum": -1.098969072165001,
+        "shrunk_mean_r": -0.18316151202750017,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 2
+    },
+    "C": {
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0,
+        "duplicate_range": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true,
+      "score": {
+        "state": "PAPER_ACTIVE",
+        "results": 0,
+        "net_r_sum": 0,
+        "shrunk_mean_r": 0.0,
+        "paused_at": null,
+        "review_due_at": null,
+        "new_paper_results_since_pause": 0,
+        "execution_enabled": false,
+        "calibrated_probability": null,
+        "reason": "Expiry requests review; elapsed time alone cannot prove recovery"
+      },
+      "entry_candidates": 0
+    }
+  },
+  "limitations": [
+    "One broker, short overlapping historical sample; no profitability established.",
+    "Each engine has its own paper path; outcomes are correlated, not a margin-aware combined portfolio.",
+    "No broker orders, no automatic unpause, no trained probability and no selection on this reused sample.",
+    "Sessions only define opening ranges; news and complete broker-session trading restrictions are not replayed.",
+    "Cost/room ratio is diagnostic only, not a restored main entry veto.",
+    "Opening ranges are consumed only after modeled fills, never merely by detecting a signal."
+  ]
+}

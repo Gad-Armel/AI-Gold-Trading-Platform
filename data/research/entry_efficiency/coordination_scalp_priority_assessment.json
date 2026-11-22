@@ -1,0 +1,204 @@
+{
+  "results": [
+    {
+      "period": "20261008T040208Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 7,
+        "INTRADAY": 1,
+        "SWING": 0
+      },
+      "trades": 7,
+      "realized": 6.6,
+      "floating": 0.81,
+      "maximum_drawdown": 8.54,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4119.86
+        }
+      ],
+      "profit_factor": 1.762,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131251-a229a36b"
+    },
+    {
+      "period": "20261008T040208Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 207,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 7,
+        "INTRADAY": 1,
+        "SWING": 0
+      },
+      "trades": 7,
+      "realized": -0.68,
+      "floating": 0.81,
+      "maximum_drawdown": 12.79,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4119.86
+        }
+      ],
+      "profit_factor": 0.95,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131303-7e7a7e33"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 16,
+        "INTRADAY": 8,
+        "SWING": 9
+      },
+      "trades": 30,
+      "realized": -16.06,
+      "floating": -8.04,
+      "maximum_drawdown": 34.09,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4114.96
+        },
+        {
+          "horizon": "SWING",
+          "direction": "SELL",
+          "entry_price": 4114.86
+        },
+        {
+          "horizon": "INTRADAY",
+          "direction": "SELL",
+          "entry_price": 4114.94
+        }
+      ],
+      "profit_factor": 0.675,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131317-803ba84b"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 685,
+        "SWING": 1802
+      },
+      "entries_by_horizon": {
+        "SCALP": 16,
+        "INTRADAY": 3,
+        "SWING": 3
+      },
+      "trades": 21,
+      "realized": -1.19,
+      "floating": -2.64,
+      "maximum_drawdown": 17.98,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4114.96
+        }
+      ],
+      "profit_factor": 0.954,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131419-e0316f74"
+    },
+    {
+      "period": "20261008T123825Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 3051,
+      "stale_context_quotes": 16,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 1,
+        "INTRADAY": 1,
+        "SWING": 1
+      },
+      "trades": 3,
+      "realized": -15.31,
+      "floating": 0,
+      "maximum_drawdown": 18.32,
+      "remaining_positions": [],
+      "profit_factor": 0.0,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131513-d554c281"
+    },
+    {
+      "period": "20261008T123825Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 3051,
+      "stale_context_quotes": 16,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 93,
+        "SWING": 93
+      },
+      "entries_by_horizon": {
+        "SCALP": 1,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "trades": 1,
+      "realized": -5.09,
+      "floating": 0,
+      "maximum_drawdown": 6.29,
+      "remaining_positions": [],
+      "profit_factor": 0.0,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T131520-d0d4f941"
+    }
+  ],
+  "secondary_exit_context": "ORIGINAL",
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Includes production conscience, quote-only fast exits, own micro-flow and SCALP churn controls.",
+    "Current neutral-thesis exits included; recorded source-policy changes remain and warm-start positions/history are not copied.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

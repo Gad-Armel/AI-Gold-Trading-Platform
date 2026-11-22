@@ -1,0 +1,353 @@
+{
+  "M5": {
+    "rows": 49901,
+    "train_end_utc": "2026-05-27T19:30:00+00:00",
+    "test_start_utc": "2026-07-20T21:00:00+00:00",
+    "validation_candidates": [
+      {
+        "model": "logistic",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 5,
+          "net": -25.08,
+          "mean": -5.0169,
+          "win_rate": 0.4,
+          "profit_factor": 0.4702,
+          "drawdown": 37.3
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 1,
+          "net": -17.0,
+          "mean": -17.0001,
+          "win_rate": 0.0,
+          "profit_factor": 0.0,
+          "drawdown": 17.0
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 117,
+          "net": 63.46,
+          "mean": 0.5424,
+          "win_rate": 0.4615,
+          "profit_factor": 1.1669,
+          "drawdown": 75.64
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 29,
+          "net": 31.89,
+          "mean": 1.0998,
+          "win_rate": 0.5172,
+          "profit_factor": 1.3514,
+          "drawdown": 55.47
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 12,
+          "net": -1.25,
+          "mean": -0.1041,
+          "win_rate": 0.4167,
+          "profit_factor": 0.9725,
+          "drawdown": 35.68
+        }
+      }
+    ],
+    "test": {
+      "fixed": {
+        "trades": 1177,
+        "net": -456.06,
+        "mean": -0.3875,
+        "win_rate": 0.497,
+        "profit_factor": 0.8949,
+        "drawdown": 514.92
+      },
+      "adaptive": {
+        "trades": 876,
+        "net": -214.2,
+        "mean": -0.2445,
+        "win_rate": 0.3938,
+        "profit_factor": 0.9358,
+        "drawdown": 416.45
+      },
+      "learned_adaptive": {
+        "trades": 77,
+        "net": -155.47,
+        "mean": -2.0191,
+        "win_rate": 0.3896,
+        "profit_factor": 0.6276,
+        "drawdown": 214.72
+      },
+      "double_cost": {
+        "trades": 77,
+        "net": -184.73,
+        "mean": -2.3991,
+        "win_rate": 0.3896,
+        "profit_factor": 0.5757,
+        "drawdown": 239.04
+      }
+    },
+    "selected": {
+      "model": "histogram",
+      "threshold": 0.5,
+      "validation": {
+        "trades": 117,
+        "net": 63.46,
+        "mean": 0.5424,
+        "win_rate": 0.4615,
+        "profit_factor": 1.1669,
+        "drawdown": 75.64
+      }
+    },
+    "research_gate_passed": false,
+    "execution_approved": false
+  },
+  "M15": {
+    "rows": 49901,
+    "train_end_utc": "2025-10-29T10:00:00+00:00",
+    "test_start_utc": "2026-04-02T22:45:00+00:00",
+    "validation_candidates": [
+      {
+        "model": "logistic",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 314,
+          "net": 248.31,
+          "mean": 0.7908,
+          "win_rate": 0.3535,
+          "profit_factor": 1.0779,
+          "drawdown": 756.19
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 146,
+          "net": 270.45,
+          "mean": 1.8524,
+          "win_rate": 0.3288,
+          "profit_factor": 1.1844,
+          "drawdown": 459.05
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 41,
+          "net": -44.33,
+          "mean": -1.0812,
+          "win_rate": 0.3171,
+          "profit_factor": 0.8938,
+          "drawdown": 243.2
+        }
+      }
+    ],
+    "test": {
+      "fixed": {
+        "trades": 1362,
+        "net": -296.34,
+        "mean": -0.2176,
+        "win_rate": 0.5999,
+        "profit_factor": 0.9638,
+        "drawdown": 430.17
+      },
+      "adaptive": {
+        "trades": 792,
+        "net": -298.66,
+        "mean": -0.3771,
+        "win_rate": 0.3535,
+        "profit_factor": 0.9523,
+        "drawdown": 500.57
+      },
+      "learned_adaptive": {
+        "trades": 125,
+        "net": -184.82,
+        "mean": -1.4785,
+        "win_rate": 0.304,
+        "profit_factor": 0.8149,
+        "drawdown": 226.52
+      },
+      "double_cost": {
+        "trades": 125,
+        "net": -232.32,
+        "mean": -1.8585,
+        "win_rate": 0.296,
+        "profit_factor": 0.7748,
+        "drawdown": 264.39
+      }
+    },
+    "selected": {
+      "model": "histogram",
+      "threshold": 0.55,
+      "validation": {
+        "trades": 146,
+        "net": 270.45,
+        "mean": 1.8524,
+        "win_rate": 0.3288,
+        "profit_factor": 1.1844,
+        "drawdown": 459.05
+      }
+    },
+    "research_gate_passed": false,
+    "execution_approved": false
+  },
+  "H1": {
+    "rows": 49901,
+    "train_end_utc": "2023-04-20T06:00:00+00:00",
+    "test_start_utc": "2024-12-24T10:00:00+00:00",
+    "validation_candidates": [
+      {
+        "model": "logistic",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 3,
+          "net": -53.96,
+          "mean": -17.9869,
+          "win_rate": 0.0,
+          "profit_factor": 0.0,
+          "drawdown": 53.96
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "logistic",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 0,
+          "net": 0.0,
+          "profit_factor": null,
+          "mean": null,
+          "drawdown": 0.0
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.5,
+        "validation": {
+          "trades": 30,
+          "net": 34.82,
+          "mean": 1.1608,
+          "win_rate": 0.4,
+          "profit_factor": 1.2255,
+          "drawdown": 44.08
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.55,
+        "validation": {
+          "trades": 14,
+          "net": -38.3,
+          "mean": -2.7354,
+          "win_rate": 0.2143,
+          "profit_factor": 0.3996,
+          "drawdown": 43.64
+        }
+      },
+      {
+        "model": "histogram",
+        "threshold": 0.6,
+        "validation": {
+          "trades": 9,
+          "net": -7.15,
+          "mean": -0.7945,
+          "win_rate": 0.3333,
+          "profit_factor": 0.7743,
+          "drawdown": 17.23
+        }
+      }
+    ],
+    "test": {
+      "fixed": {
+        "trades": 1498,
+        "net": -497.12,
+        "mean": -0.3319,
+        "win_rate": 0.6482,
+        "profit_factor": 0.9626,
+        "drawdown": 1377.08
+      },
+      "adaptive": {
+        "trades": 688,
+        "net": 1870.75,
+        "mean": 2.7191,
+        "win_rate": 0.3561,
+        "profit_factor": 1.2032,
+        "drawdown": 646.47
+      }
+    }
+  },
+  "limitations": [
+    "Simplified trend challenger, not full main-bot replay",
+    "Spread point assumed 0.01; minimum 0.28 and 0.10 slippage allowance",
+    "No historical point-in-time news, swaps or commission; no tick execution replay",
+    "Test results never authorize trading; holdout is consumed after this run"
+  ]
+}

@@ -1,0 +1,4 @@
+Gold Consensus dashboard: http://127.0.0.1:8767
+Advisor 1 dashboard: http://127.0.0.1:8767/advisor
+Advisor 1 requested; its existing lock prevents duplicate runners. Log: C:\Users\Gad Asopjio\Desktop\AI Trading Platform\data\runtime\advisor1-consensus-dashboard.log
+Press CTRL+C to stop the dashboard.

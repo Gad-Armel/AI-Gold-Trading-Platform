@@ -1,0 +1,30 @@
+{
+  "open_trade": {
+    "status": "OPEN",
+    "strategy_id": "XAUUSD_LIVE_CANDLE_FADE_5S_V3",
+    "symbol": "XAUUSD",
+    "opened_at": "2026-07-22T19:12:33.447300+00:00",
+    "source_candle": {
+      "candle_id": "2026-07-22T22:12:00",
+      "color": "GREEN",
+      "direction": "SELL",
+      "open": 4135.01,
+      "high": 4135.35,
+      "low": 4134.95,
+      "close": 4135.254999999999,
+      "body_usd": 0.24499999999898137,
+      "age_seconds": 33.0
+    },
+    "direction": "SELL",
+    "entry_price": 4135.15,
+    "entry_spread_usd": 0.21,
+    "lot_size": 0.01,
+    "contract_size": 100.0,
+    "target_profit_usd": 0.4,
+    "stop_loss_usd": 1.0,
+    "max_hold_seconds": 5.0,
+    "current_profit_usd": -0.2,
+    "hold_seconds": 4.767
+  },
+  "updated_at": "2026-07-22T19:12:38.213839+00:00"
+}

@@ -1,0 +1,68 @@
+{
+    "start_utc": "2026-10-28T22:24:57.457752+00:00",
+    "end_utc": "2026-10-28T22:54:57.457752+00:00",
+    "ticks": 9792,
+    "role": "FROZEN_PROFILE_OPPORTUNITY_COMPARISON_NOT_STRATEGY_BACKTEST",
+    "results": [
+        {
+            "profile": "control",
+            "timeframe": "S5",
+            "checked": 330,
+            "eligible_quote_patterns": 0,
+            "labelled_observations": 0,
+            "mean_net_price": null,
+            "positive_fraction": null
+        },
+        {
+            "profile": "control",
+            "timeframe": "S15",
+            "checked": 110,
+            "eligible_quote_patterns": 0,
+            "labelled_observations": 0,
+            "mean_net_price": null,
+            "positive_fraction": null
+        },
+        {
+            "profile": "control",
+            "timeframe": "S30",
+            "checked": 55,
+            "eligible_quote_patterns": 0,
+            "labelled_observations": 0,
+            "mean_net_price": null,
+            "positive_fraction": null
+        },
+        {
+            "profile": "aggressive_demo",
+            "timeframe": "S5",
+            "checked": 330,
+            "eligible_quote_patterns": 3,
+            "labelled_observations": 3,
+            "mean_net_price": -0.5299999999998667,
+            "positive_fraction": 0.0
+        },
+        {
+            "profile": "aggressive_demo",
+            "timeframe": "S15",
+            "checked": 110,
+            "eligible_quote_patterns": 1,
+            "labelled_observations": 1,
+            "mean_net_price": -0.5000000000002729,
+            "positive_fraction": 0.0
+        },
+        {
+            "profile": "aggressive_demo",
+            "timeframe": "S30",
+            "checked": 55,
+            "eligible_quote_patterns": 0,
+            "labelled_observations": 0,
+            "mean_net_price": null,
+            "positive_fraction": null
+        }
+    ],
+    "notes": [
+        "Overlapping observations, no margin/capacity/persistence or adaptive-exit replay.",
+        "Two profiles frozen before comparison; no parameter optimizer.",
+        "Assumed costs are round-trip price equivalents; not measured fill guarantees.",
+        "Higher candidate count does not establish accuracy or profitability."
+    ]
+}

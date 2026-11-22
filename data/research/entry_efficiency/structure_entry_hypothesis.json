@@ -1,0 +1,22 @@
+{
+  "features_family": "COMPLETED_STRUCTURE_V1",
+  "original_examples": 293885,
+  "complete_examples": 293885,
+  "frozen_before_fit": "2026-10-08T13:25:50.973254+00:00",
+  "feature_source_sha256": "2ebdb3daa5e66dcccd55b55bd4f768a210fb1b3935096f411c3086dea42325cb",
+  "model_source_sha256": "61897b865886a25ab44343587dddd5788253f243745966f32f0e137035333922",
+  "validation_gate": {
+    "minimum_trades": 100,
+    "minimum_base_pf": 1.1,
+    "minimum_cost_stress_pf": 1.05
+  },
+  "live_approved": false,
+  "design": [
+    "Only completed M1/M5/M15 bars, available after their close; no future candles.",
+    "Twenty-bar prior extrema, fixed $5 price-distance budget, wicks, sweeps, three-bar gaps, local VWAP and two completed bodies.",
+    "Same two models, training split, hyperparameters, threshold grid and validation acceptance gate as rejected tick challenger.",
+    "Previously inspected validation dates; exploratory hypothesis, not a blind test.",
+    "Actual quote labels unchanged; no new artifact cache or outcome rewriting.",
+    "Final dates evaluated only if the existing validation gate passes; no execution promotion."
+  ]
+}

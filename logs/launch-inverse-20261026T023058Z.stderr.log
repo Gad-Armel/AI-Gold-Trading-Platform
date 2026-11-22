@@ -1,0 +1,7 @@
+Inverse executor exited with code -1. Review the preceding error.
+At C:\Users\Gad Asopjio\Desktop\AI Trading Platform\tools\start_gold_inverse.ps1:18 char:28
++ ... DE -ne 0) { throw "Inverse executor exited with code $LASTEXITCODE. R ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Inverse executo...receding error.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Inverse executor exited with code -1. Review the preceding error.
+ 

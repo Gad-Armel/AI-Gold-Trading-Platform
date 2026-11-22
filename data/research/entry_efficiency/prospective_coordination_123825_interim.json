@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "period": "20261008T123825Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 2970,
+      "stale_context_quotes": 16,
+      "trades": 3,
+      "realized": -15.31,
+      "floating": 0,
+      "maximum_drawdown": 18.32,
+      "remaining_positions": [],
+      "profit_factor": 0.0,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T130752-d05de944"
+    },
+    {
+      "period": "20261008T123825Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 2970,
+      "stale_context_quotes": 16,
+      "trades": 1,
+      "realized": -5.09,
+      "floating": 0,
+      "maximum_drawdown": 6.29,
+      "remaining_positions": [],
+      "profit_factor": 0.0,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T130759-efe388ed"
+    }
+  ],
+  "secondary_exit_context": "ORIGINAL",
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Includes production conscience, quote-only fast exits, own micro-flow and SCALP churn controls.",
+    "Current neutral-thesis exits included; recorded source-policy changes remain and warm-start positions/history are not copied.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

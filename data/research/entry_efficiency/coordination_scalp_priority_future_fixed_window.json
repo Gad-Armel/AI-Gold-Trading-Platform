@@ -1,0 +1,89 @@
+{
+  "results": [
+    {
+      "period": "20261008T130901Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 4153,
+      "stale_context_quotes": 19,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 1,
+        "INTRADAY": 1,
+        "SWING": 5
+      },
+      "trades": 6,
+      "realized": 3.61,
+      "floating": -3.75,
+      "maximum_drawdown": 10.18,
+      "remaining_positions": [
+        {
+          "horizon": "SWING",
+          "direction": "SELL",
+          "entry_price": 4124.34
+        }
+      ],
+      "profit_factor": 1.701,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T134710-2c58d979"
+    },
+    {
+      "period": "20261008T130901Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 4153,
+      "stale_context_quotes": 19,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 264,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 1,
+        "INTRADAY": 0,
+        "SWING": 5
+      },
+      "trades": 5,
+      "realized": 2.95,
+      "floating": -3.75,
+      "maximum_drawdown": 10.18,
+      "remaining_positions": [
+        {
+          "horizon": "SWING",
+          "direction": "SELL",
+          "entry_price": 4124.34
+        }
+      ],
+      "profit_factor": 1.573,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T134718-397aef36"
+    }
+  ],
+  "captured_windows": {
+    "20261008T130901Z": {
+      "first": "2026-10-08T13:09:01.566294+00:00",
+      "last": "2026-10-08T13:46:55.389749+00:00",
+      "complete_observations": 151,
+      "sha256": "dbb28fa3672c09838d6ae01eacf47eb37054ea5ce320f6ce0e99ac341b63eb63",
+      "quote_rows": 4153,
+      "quote_sha256": "9f6a6fe1dcaac35ecadbd738ddeafcf3aa203773bffd9f2c1a646590c13c8489",
+      "last_quote_epoch": 1791467214.949106
+    }
+  },
+  "secondary_exit_context": "ORIGINAL",
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Includes production conscience, quote-only fast exits, own micro-flow and SCALP churn controls.",
+    "Current neutral-thesis exits included; recorded source-policy changes remain and warm-start positions/history are not copied.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

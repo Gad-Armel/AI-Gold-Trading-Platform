@@ -1,0 +1,659 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum 5 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-20 15:20:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 27 | 2026-10-20 15:20:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 58 | 2026-10-20 15:20:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 89 | 2026-10-20 15:20:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 118 | 2026-10-20 15:21:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 148 | 2026-10-20 15:21:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 179 | 2026-10-20 15:21:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 207 | 2026-10-20 15:21:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 234 | 2026-10-20 15:22:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    34.2      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 263 | 2026-10-20 15:22:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    34.2      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 293 | 2026-10-20 15:22:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 324 | 2026-10-20 15:22:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 353 | 2026-10-20 15:23:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 384 | 2026-10-20 15:23:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 413 | 2026-10-20 15:23:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 441 | 2026-10-20 15:23:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 470 | 2026-10-20 15:24:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    68.9      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 501 | 2026-10-20 15:24:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    68.9      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 531 | 2026-10-20 15:24:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    68.3      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 561 | 2026-10-20 15:24:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    68.3      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 589 | 2026-10-20 15:25:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 620 | 2026-10-20 15:25:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 651 | 2026-10-20 15:25:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 681 | 2026-10-20 15:25:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 711 | 2026-10-20 15:26:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 742 | 2026-10-20 15:26:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 773 | 2026-10-20 15:26:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 803 | 2026-10-20 15:27:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 833 | 2026-10-20 15:27:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 863 | 2026-10-20 15:27:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.5      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 892 | 2026-10-20 15:27:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.5      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 920 | 2026-10-20 15:28:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 950 | 2026-10-20 15:28:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 980 | 2026-10-20 15:28:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1010 | 2026-10-20 15:28:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1040 | 2026-10-20 15:29:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1071 | 2026-10-20 15:29:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1101 | 2026-10-20 15:29:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1131 | 2026-10-20 15:29:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1162 | 2026-10-20 15:30:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1191 | 2026-10-20 15:30:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1221 | 2026-10-20 15:30:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1251 | 2026-10-20 15:30:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1280 | 2026-10-20 15:31:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1307 | 2026-10-20 15:31:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1337 | 2026-10-20 15:31:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1368 | 2026-10-20 15:31:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1398 | 2026-10-20 15:32:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1428 | 2026-10-20 15:32:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1458 | 2026-10-20 15:32:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1488 | 2026-10-20 15:32:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1516 | 2026-10-20 15:33:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1544 | 2026-10-20 15:33:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1575 | 2026-10-20 15:33:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1605 | 2026-10-20 15:33:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1634 | 2026-10-20 15:34:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1663 | 2026-10-20 15:34:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1692 | 2026-10-20 15:34:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1723 | 2026-10-20 15:34:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1752 | 2026-10-20 15:35:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1781 | 2026-10-20 15:35:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1811 | 2026-10-20 15:35:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    36.2      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1842 | 2026-10-20 15:35:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    36.2      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1871 | 2026-10-20 15:36:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    27.7      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1898 | 2026-10-20 15:36:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    27.7      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1928 | 2026-10-20 15:36:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1957 | 2026-10-20 15:36:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1987 | 2026-10-20 15:37:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2017 | 2026-10-20 15:37:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2047 | 2026-10-20 15:37:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2077 | 2026-10-20 15:37:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2107 | 2026-10-20 15:38:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2137 | 2026-10-20 15:38:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2167 | 2026-10-20 15:38:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   64.1      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2197 | 2026-10-20 15:38:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   64.1      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2227 | 2026-10-20 15:39:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2257 | 2026-10-20 15:39:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2287 | 2026-10-20 15:39:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2317 | 2026-10-20 15:39:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2347 | 2026-10-20 15:40:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2377 | 2026-10-20 15:40:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2407 | 2026-10-20 15:40:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2437 | 2026-10-20 15:40:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2464 | 2026-10-20 15:41:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2493 | 2026-10-20 15:41:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2523 | 2026-10-20 15:41:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2553 | 2026-10-20 15:41:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2582 | 2026-10-20 15:42:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.8      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2611 | 2026-10-20 15:42:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.8      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2641 | 2026-10-20 15:42:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    68.0      True     0     -           -       Six-second follow-through is too weak relative to spread or too noisy
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2671 | 2026-10-20 15:43:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2701 | 2026-10-20 15:43:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2730 | 2026-10-20 15:43:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S30 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================

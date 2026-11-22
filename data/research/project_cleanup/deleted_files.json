@@ -1,0 +1,562 @@
+﻿[
+    {
+        "path":  "__pycache__/run_gold_advisor.cpython-311.pyc",
+        "bytes":  5100,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/run_gold_consensus_bot.cpython-311.pyc",
+        "bytes":  78058,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_background_refresh.cpython-311.pyc",
+        "bytes":  3627,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_free_macro_context.cpython-311.pyc",
+        "bytes":  12949,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_adaptive_exit.cpython-311.pyc",
+        "bytes":  9195,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_advisory.cpython-311.pyc",
+        "bytes":  8927,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_advisory_consensus.cpython-311.pyc",
+        "bytes":  9706,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_advisory_v2.cpython-311.pyc",
+        "bytes":  8124,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_advisory_v3.cpython-311.pyc",
+        "bytes":  8808,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_ai_integration.cpython-311.pyc",
+        "bytes":  16547,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_broker_clock.cpython-311.pyc",
+        "bytes":  3129,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_consensus_dashboard.cpython-311.pyc",
+        "bytes":  5844,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_consensus_demo_broker.cpython-311.pyc",
+        "bytes":  29982,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_economic_advisor_v5.cpython-311.pyc",
+        "bytes":  25926,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_exit_state.cpython-311.pyc",
+        "bytes":  8243,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_flow_exit.cpython-311.pyc",
+        "bytes":  11194,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_horizon_policy.cpython-311.pyc",
+        "bytes":  11781,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_institutional_context.cpython-311.pyc",
+        "bytes":  9454,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_institutional_context_tool.cpython-311.pyc",
+        "bytes":  2138,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_position_conscience.cpython-311.pyc",
+        "bytes":  18880,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_proposal_features.cpython-311.pyc",
+        "bytes":  7574,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_gold_source_intelligence.cpython-311.pyc",
+        "bytes":  18231,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_official_release_monitor.cpython-311.pyc",
+        "bytes":  8731,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "__pycache__/test_unified_news_intelligence.cpython-311.pyc",
+        "bytes":  9542,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "config/__pycache__/free_data_settings.cpython-311.pyc",
+        "bytes":  5556,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "config/__pycache__/gold_consensus_settings.cpython-311.pyc",
+        "bytes":  6185,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "config/__pycache__/scalping_settings.cpython-311.pyc",
+        "bytes":  38460,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "config/__pycache__/settings.cpython-311.pyc",
+        "bytes":  4163,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "models/__pycache__/market_state.cpython-311.pyc",
+        "bytes":  8905,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "models/__pycache__/scalping_state.cpython-311.pyc",
+        "bytes":  4408,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/analysis/__pycache__/v6_market_structure.cpython-311.pyc",
+        "bytes":  42552,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/analysis/__pycache__/verified_market_context.cpython-311.pyc",
+        "bytes":  19179,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/bot/__pycache__/emergency_stop.cpython-311.pyc",
+        "bytes":  2275,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/bot/__pycache__/scalping_instance_lock.cpython-311.pyc",
+        "bytes":  5731,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/dashboard/__pycache__/gold_consensus_web.cpython-311.pyc",
+        "bytes":  23238,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/dashboard/__pycache__/gold_horizon_history.cpython-311.pyc",
+        "bytes":  3439,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/dashboard/__pycache__/gold_loss_reset.cpython-311.pyc",
+        "bytes":  2427,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/execution/__pycache__/demo_session_guard.cpython-311.pyc",
+        "bytes":  5361,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/execution/__pycache__/gold_consensus_demo_broker.cpython-311.pyc",
+        "bytes":  59927,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/execution/__pycache__/gold_paper_portfolio.cpython-311.pyc",
+        "bytes":  16735,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/execution/__pycache__/mt5_connector.cpython-311.pyc",
+        "bytes":  1357,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/execution/__pycache__/scalp_profit_calculator.cpython-311.pyc",
+        "bytes":  5100,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/candle_service.cpython-311.pyc",
+        "bytes":  1052,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/free_macro_context.cpython-311.pyc",
+        "bytes":  20367,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/gold_broker_clock.cpython-311.pyc",
+        "bytes":  1754,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/gold_institutional_context.cpython-311.pyc",
+        "bytes":  33146,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/oanda_gold.cpython-311.pyc",
+        "bytes":  8175,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/price_service.cpython-311.pyc",
+        "bytes":  1913,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/scalping_snapshot.cpython-311.pyc",
+        "bytes":  17387,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/session_service.cpython-311.pyc",
+        "bytes":  2094,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/spread_utils.cpython-311.pyc",
+        "bytes":  2065,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/timeframe_service.cpython-311.pyc",
+        "bytes":  723,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/market_data/__pycache__/twelve_data_gold.cpython-311.pyc",
+        "bytes":  5788,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/news/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  183,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/news/__pycache__/official_release_monitor.cpython-311.pyc",
+        "bytes":  24920,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/news/__pycache__/unified_news_intelligence.cpython-311.pyc",
+        "bytes":  16966,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  187,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/background_refresh.cpython-311.pyc",
+        "bytes":  2554,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_adaptive_exit.cpython-311.pyc",
+        "bytes":  21581,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_advisory.cpython-311.pyc",
+        "bytes":  14623,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_advisory_consensus.cpython-311.pyc",
+        "bytes":  19404,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_advisory_dashboard.cpython-311.pyc",
+        "bytes":  7953,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_advisory_v2.cpython-311.pyc",
+        "bytes":  2616,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_advisory_v3.cpython-311.pyc",
+        "bytes":  25031,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_cross_market.cpython-311.pyc",
+        "bytes":  12926,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_economic_advisor_v5.cpython-311.pyc",
+        "bytes":  50140,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_exit_state.cpython-311.pyc",
+        "bytes":  7859,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_fast_protection.cpython-311.pyc",
+        "bytes":  2841,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_flow_exit.cpython-311.pyc",
+        "bytes":  7696,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_horizon_policy.cpython-311.pyc",
+        "bytes":  31335,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_learned_policy.cpython-311.pyc",
+        "bytes":  12963,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_micro_flow.cpython-311.pyc",
+        "bytes":  15536,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_position_conscience.cpython-311.pyc",
+        "bytes":  23028,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_research_recorder.cpython-311.pyc",
+        "bytes":  6888,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_runtime_health.cpython-311.pyc",
+        "bytes":  3659,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_scalp_guard.cpython-311.pyc",
+        "bytes":  6470,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_source_intelligence.cpython-311.pyc",
+        "bytes":  19138,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/research/__pycache__/gold_tick_history.cpython-311.pyc",
+        "bytes":  4864,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/risk/__pycache__/automatic_economic_calendar.cpython-311.pyc",
+        "bytes":  46762,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/risk/__pycache__/economic_event_manager.cpython-311.pyc",
+        "bytes":  4655,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/risk/__pycache__/news_event_filter.cpython-311.pyc",
+        "bytes":  7527,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/utils/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  250,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "services/utils/__pycache__/atomic_json.cpython-311.pyc",
+        "bytes":  7307,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "tests/__pycache__/test_core.cpython-311.pyc",
+        "bytes":  3395,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "tests/__pycache__/test_training_promotion.cpython-311.pyc",
+        "bytes":  5621,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "tests/__pycache__/test_walk_forward_integrity.cpython-311.pyc",
+        "bytes":  2941,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "tools/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  217,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "tools/__pycache__/update_gold_institutional_context.cpython-311.pyc",
+        "bytes":  7252,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  176,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/__pycache__/config.cpython-311.pyc",
+        "bytes":  9368,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/__pycache__/schema.cpython-311.pyc",
+        "bytes":  3146,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/cli/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  180,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/data/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  181,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/data/__pycache__/labels.cpython-311.pyc",
+        "bytes":  7658,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/data/__pycache__/quality.cpython-311.pyc",
+        "bytes":  14971,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/execution/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  186,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/features/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  185,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/features/__pycache__/core.cpython-311.pyc",
+        "bytes":  21364,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/model/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  182,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/model/__pycache__/calibration.cpython-311.pyc",
+        "bytes":  2304,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/model/__pycache__/metrics.cpython-311.pyc",
+        "bytes":  5028,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/model/__pycache__/train.cpython-311.pyc",
+        "bytes":  4012,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/model/__pycache__/walk_forward.cpython-311.pyc",
+        "bytes":  16559,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "vfinal/providers/__pycache__/__init__.cpython-311.pyc",
+        "bytes":  186,
+        "reason":  "Regenerable Python bytecode"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6.3_Expanded_Macro_2026-09-07.zip",
+        "bytes":  59917,
+        "sha256":  "D084377C90FBAB17AEB6B185B27750ECCCD8F86CE71D086995773D37829E99EC",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4242973Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6.4_Official_Scalp_Intraday_2026-09-07.zip",
+        "bytes":  110994,
+        "sha256":  "5E4F41E4DD230424085286BA16ADFD79AF1FDFD988E143651F70BCADDA74F07D",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4425783Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_2026-09-07.zip",
+        "bytes":  44643,
+        "sha256":  "5DEB16CDA32E1AAEFCD27AE7F45BAABFC586A54E2A09BAC6A630C3202D393DC6",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4460844Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_6.1_Institutional_2026-09-07.zip",
+        "bytes":  34910,
+        "sha256":  "40C9B4F8F6F2558E7A4C5F89E317086801786693BDBD5C2F22B2E41B9CE491D1",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4495011Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_6.2_Confidence_Points_2026-09-07.zip",
+        "bytes":  46886,
+        "sha256":  "71FFE3E790F19057E9A72F54FDC62C43CD3B1BA5586E911F4BCE9E135180EAB6",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4560479Z"
+    }
+]

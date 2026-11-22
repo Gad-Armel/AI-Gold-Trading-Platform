@@ -1,0 +1,56 @@
+{
+  "updated_at": "2026-10-19T08:50:29.633312+00:00",
+  "status": "RUNNING",
+  "input_health": {
+    "available": true,
+    "frames": {
+      "M1": {
+        "available": true,
+        "last_closed_epoch": 1792399800.0,
+        "seconds_since_close": 29.494382619857788,
+        "maximum_seconds": 65
+      },
+      "M5": {
+        "available": true,
+        "last_closed_epoch": 1792399800.0,
+        "seconds_since_close": 29.494382619857788,
+        "maximum_seconds": 305
+      },
+      "M15": {
+        "available": true,
+        "last_closed_epoch": 1792399500.0,
+        "seconds_since_close": 329.4943826198578,
+        "maximum_seconds": 905
+      }
+    },
+    "entry_blocks": []
+  },
+  "staged": {
+    "required_bars": 5,
+    "after_epoch": 1792399506.0,
+    "execution_enabled": true,
+    "blocks": [
+      "Latest 5 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through."
+    ]
+  },
+  "s30_execution_enabled": false,
+  "adaptive_state_recovery": "RESTORED",
+  "latency_ms": 242.79,
+  "positions": [
+    {
+      "ticket": 58949299306,
+      "opened_epoch": 1792399506.0,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4171.68,
+      "current_price": 4171.04,
+      "profit": 0.64,
+      "sl": 4174.26,
+      "tp": 0.0,
+      "peak_profit_usd": 0.95,
+      "profit_lock_armed": false,
+      "profit_lock_arm_usd": 6.0,
+      "profit_lock_trigger_usd": null
+    }
+  ]
+}

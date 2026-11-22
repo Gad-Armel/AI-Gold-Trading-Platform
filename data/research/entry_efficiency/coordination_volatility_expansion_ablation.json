@@ -1,0 +1,242 @@
+{
+  "results": [
+    {
+      "period": "20261008T040208Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 8,
+        "INTRADAY": 1,
+        "SWING": 0
+      },
+      "trades": 8,
+      "realized": 2.4,
+      "floating": 0.81,
+      "maximum_drawdown": 11.48,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4119.86
+        }
+      ],
+      "profit_factor": 1.187,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T141924-44fa99ec"
+    },
+    {
+      "period": "20261008T040208Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 207,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 8,
+        "INTRADAY": 1,
+        "SWING": 0
+      },
+      "trades": 8,
+      "realized": -4.88,
+      "floating": 0.81,
+      "maximum_drawdown": 16.46,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4119.86
+        }
+      ],
+      "profit_factor": 0.728,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T141935-a4bd6817"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 16,
+        "INTRADAY": 8,
+        "SWING": 9
+      },
+      "trades": 30,
+      "realized": -14.28,
+      "floating": -8.04,
+      "maximum_drawdown": 32.31,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4114.96
+        },
+        {
+          "horizon": "SWING",
+          "direction": "SELL",
+          "entry_price": 4114.86
+        },
+        {
+          "horizon": "INTRADAY",
+          "direction": "SELL",
+          "entry_price": 4114.94
+        }
+      ],
+      "profit_factor": 0.701,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T141954-3e007ab7"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 1098,
+        "SWING": 1802
+      },
+      "entries_by_horizon": {
+        "SCALP": 16,
+        "INTRADAY": 2,
+        "SWING": 3
+      },
+      "trades": 20,
+      "realized": 0.01,
+      "floating": -2.64,
+      "maximum_drawdown": 16.2,
+      "remaining_positions": [
+        {
+          "horizon": "SCALP",
+          "direction": "SELL",
+          "entry_price": 4114.96
+        }
+      ],
+      "profit_factor": 1.0,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T142102-575c7e23"
+    },
+    {
+      "period": "20261008T130901Z",
+      "staged": false,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 6588,
+      "stale_context_quotes": 19,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 0,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 5,
+        "INTRADAY": 1,
+        "SWING": 7
+      },
+      "trades": 13,
+      "realized": -10.38,
+      "floating": 0,
+      "maximum_drawdown": 15.74,
+      "remaining_positions": [],
+      "profit_factor": 0.595,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T142213-ea9e0e9d"
+    },
+    {
+      "period": "20261008T130901Z",
+      "staged": true,
+      "production_controls": true,
+      "fast_secondary_exits": false,
+      "quotes": 6588,
+      "stale_context_quotes": 19,
+      "scalp_priority": true,
+      "blocked_eligible_quote_checks": {
+        "SCALP": 0,
+        "INTRADAY": 264,
+        "SWING": 0
+      },
+      "entries_by_horizon": {
+        "SCALP": 5,
+        "INTRADAY": 0,
+        "SWING": 7
+      },
+      "trades": 12,
+      "realized": -11.04,
+      "floating": 0,
+      "maximum_drawdown": 15.74,
+      "remaining_positions": [],
+      "profit_factor": 0.569,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T142237-74737e38"
+    }
+  ],
+  "captured_windows": {
+    "20261008T040208Z": {
+      "first": "2026-10-08T04:02:08.737416+00:00",
+      "last": "2026-10-08T06:07:18.212406+00:00",
+      "complete_observations": 499,
+      "sha256": "26930f6761e95d3a4a348b91ce146cca5efff4f418f298b17b99190e650852bd",
+      "start_utc": null,
+      "excluded_before_cutoff": 0,
+      "quote_rows": 7843,
+      "quote_sha256": "8ee04c70e8b65c09407db2c5133a968d07f81f0308e11058ab0961c6db675cfc",
+      "last_quote_epoch": 1791439638.015947
+    },
+    "20261008T060830Z": {
+      "first": "2026-10-08T06:08:30.263021+00:00",
+      "last": "2026-10-08T11:13:39.527931+00:00",
+      "complete_observations": 1216,
+      "sha256": "032164d35e96014576c2ee8ed9a76588cd17df5d40a97b9b681e4ba3d2b3d62d",
+      "start_utc": null,
+      "excluded_before_cutoff": 0,
+      "quote_rows": 28917,
+      "quote_sha256": "fd034b7a8f659713a68e730815c71fd3822dbb9958516358dfe67a16ec74a539",
+      "last_quote_epoch": 1791458019.162154
+    },
+    "20261008T130901Z": {
+      "first": "2026-10-08T13:09:01.566294+00:00",
+      "last": "2026-10-08T14:09:13.403201+00:00",
+      "complete_observations": 240,
+      "sha256": "e2647c430c8f992d1486bcb5d1bf280173626048eaec537f831c62b5f7fabcde",
+      "start_utc": null,
+      "excluded_before_cutoff": 0,
+      "quote_rows": 6588,
+      "quote_sha256": "159ec0a775d068a0937f5d40d236c79b0d525c253328af39f5078706be353366",
+      "last_quote_epoch": 1791468553.281069
+    }
+  },
+  "research_policy": {
+    "allow_volatility_expansion": true
+  },
+  "secondary_exit_context": "ORIGINAL",
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Includes production conscience, quote-only fast exits, own micro-flow and SCALP churn controls.",
+    "Current neutral-thesis exits included; recorded source-policy changes remain and warm-start positions/history are not copied.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

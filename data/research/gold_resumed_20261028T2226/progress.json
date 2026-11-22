@@ -1,0 +1,144 @@
+{
+    "started": "2026-10-28T22:27:08.306606+00:00",
+    "samples": 61,
+    "last": {
+        "observed_at": "2026-10-28T22:32:11.871457+00:00",
+        "updated_at": "2026-10-28T22:32:11.746061+00:00",
+        "status": "RUNNING",
+        "direction": "WAIT",
+        "allowed": false,
+        "entry_ready": false,
+        "reasons": [
+            "S30 has no usable direction above the evidence threshold.",
+            "The directional policy has not authorized an entry.",
+            "Signal persistence is 0.0s; 1.0s required.",
+            "Completed S30 candles do not agree",
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            "Recent S30 range does not clear three times estimated round-trip cost"
+        ],
+        "positions": [],
+        "last_execution": {
+            "message": "No execution attempted."
+        },
+        "selection": {
+            "policy": "FASTEST_FEASIBLE",
+            "selected": "S30",
+            "pinned": false,
+            "candidates": [
+                {
+                    "timeframe": "S5",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Completed S5 candles do not agree",
+                        "Six-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S5 range does not clear three times estimated round-trip cost",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S15",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Completed S15 candles do not agree",
+                        "Six-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S15 range does not clear three times estimated round-trip cost",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S30",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Completed S30 candles do not agree",
+                        "Six-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S30 range does not clear three times estimated round-trip cost",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                }
+            ],
+            "reason": "No candidate passed; fallback is for observation only, entry gates still apply"
+        },
+        "candidate": {
+            "execution_enabled": false,
+            "role": "SHADOW_ONLY",
+            "setup": "S30_TICK_CONTINUATION",
+            "direction": "WAIT",
+            "calibrated_probability": null,
+            "expected_value": null,
+            "pattern_ready": false,
+            "cost_screen_passed": false,
+            "blocks": [
+                "Completed S30 candles do not agree",
+                "Six-second follow-through is too weak relative to spread or too noisy",
+                "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                "Recent S30 range does not clear three times estimated round-trip cost"
+            ],
+            "warnings": [],
+            "setup_id": "S30:1793226690:WAIT",
+            "quote_efficiency": 0.1698,
+            "executable_confirmation": false,
+            "signed_bid_move_price": 0.0,
+            "signed_ask_move_price": 0.0,
+            "micro_confirmation_enforced": true,
+            "raw_tick_efficiency": 0.0928,
+            "efficiency_sampling_seconds": 1,
+            "signed_move_price": 0.0,
+            "spread_price": 0.15000000000009095,
+            "recent_range_proxy_price": 1.099999999999909,
+            "extension_price": 0.0,
+            "round_trip_cost_price": 0.45000000000009094,
+            "range_cost_screen_enforced": true,
+            "research_candidate": false
+        },
+        "inverse_state": "UNAVAILABLE"
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            60
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            58
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            56
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            56
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            56
+        ],
+        [
+            "Completed S30 candles do not agree",
+            56
+        ],
+        [
+            "Recent S30 range does not clear three times estimated round-trip cost",
+            38
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            3
+        ],
+        [
+            "Insufficient continuous six-second quote coverage",
+            2
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 2.7s old. Check feed connection and symbol session.",
+            1
+        ]
+    ]
+}

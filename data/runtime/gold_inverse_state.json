@@ -1,0 +1,754 @@
+{
+    "version": 1,
+    "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+    "links": {
+        "59023279604": {
+            "open": "REPORTED_DONE",
+            "source_ticket": 59023279604,
+            "inverse_ticket": 59023279624,
+            "close": "POSITION_ABSENT"
+        },
+        "59023440424": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023440424,
+            "inverse_ticket": 59023440510,
+            "close": "POSITION_ABSENT"
+        },
+        "59023482816": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023482816,
+            "inverse_ticket": 59023482869,
+            "close": "POSITION_ABSENT"
+        },
+        "59023526648": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023526648,
+            "inverse_ticket": 59023526858,
+            "close": "POSITION_ABSENT"
+        },
+        "59023626578": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59023626578
+        },
+        "59023639065": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59023639065
+        },
+        "59023681812": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023681812,
+            "inverse_ticket": 59023681877,
+            "close": "POSITION_ABSENT"
+        },
+        "59023713739": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023713739,
+            "inverse_ticket": 59023713759,
+            "close": "POSITION_ABSENT"
+        },
+        "59023776236": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023776236,
+            "inverse_ticket": 59023776253,
+            "close": "POSITION_ABSENT"
+        },
+        "59023806586": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023806586,
+            "inverse_ticket": 59023806664,
+            "close": "POSITION_ABSENT"
+        },
+        "59023827942": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023827942,
+            "inverse_ticket": 59023827995,
+            "close": "POSITION_ABSENT"
+        },
+        "59023874703": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023874703,
+            "inverse_ticket": 59023874826,
+            "close": "POSITION_ABSENT"
+        },
+        "59023883263": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59023883263
+        },
+        "59023937517": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023937517,
+            "inverse_ticket": 59023937540,
+            "close": "POSITION_ABSENT"
+        },
+        "59023977046": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59023977046,
+            "inverse_ticket": 59023977097,
+            "close": "POSITION_ABSENT"
+        },
+        "59024108802": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024108802,
+            "inverse_ticket": 59024108945,
+            "close": "POSITION_ABSENT"
+        },
+        "59024140223": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024140223,
+            "inverse_ticket": 59024140282,
+            "close": "POSITION_ABSENT"
+        },
+        "59024211421": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024211421,
+            "inverse_ticket": 59024211529,
+            "close": "POSITION_ABSENT"
+        },
+        "59024273959": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024273959,
+            "inverse_ticket": 59024274018,
+            "close": "POSITION_ABSENT"
+        },
+        "59024329028": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59024329028
+        },
+        "59024447995": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024447995,
+            "inverse_ticket": 59024448160,
+            "close": "POSITION_ABSENT"
+        },
+        "59024478047": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59024478047
+        },
+        "59024562508": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024562508,
+            "inverse_ticket": 59024562560,
+            "close": "POSITION_ABSENT"
+        },
+        "59024616891": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59024616891
+        },
+        "59024692076": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024692076,
+            "inverse_ticket": 59024692133,
+            "close": "POSITION_ABSENT"
+        },
+        "59024769268": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024769268,
+            "inverse_ticket": 59024769473,
+            "close": "POSITION_ABSENT"
+        },
+        "59024828894": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024828894,
+            "inverse_ticket": 59024828914,
+            "close": "POSITION_ABSENT"
+        },
+        "59024879621": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024879621,
+            "inverse_ticket": 59024879749,
+            "close": "POSITION_ABSENT"
+        },
+        "59024984982": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59024984982,
+            "inverse_ticket": 59024985021,
+            "close": "POSITION_ABSENT"
+        },
+        "59025088587": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025088587,
+            "inverse_ticket": 59025088722,
+            "close": "POSITION_ABSENT"
+        },
+        "59025115245": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59025115245
+        },
+        "59025165183": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025165183,
+            "inverse_ticket": 59025165209,
+            "close": "POSITION_ABSENT"
+        },
+        "59025237857": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025237857,
+            "inverse_ticket": 59025237954,
+            "close": "POSITION_ABSENT"
+        },
+        "59025299776": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025299776,
+            "inverse_ticket": 59025299832,
+            "close": "POSITION_ABSENT"
+        },
+        "59025357935": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025357935,
+            "inverse_ticket": 59025357989,
+            "close": "POSITION_ABSENT"
+        },
+        "59025390152": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025390152,
+            "inverse_ticket": 59025390228,
+            "close": "POSITION_ABSENT"
+        },
+        "59025474774": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59025474774
+        },
+        "59025498617": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025498617,
+            "inverse_ticket": 59025498638,
+            "close": "POSITION_ABSENT"
+        },
+        "59025560994": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59025560994
+        },
+        "59025595726": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025595726,
+            "inverse_ticket": 59025595778,
+            "close": "POSITION_ABSENT"
+        },
+        "59025676331": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025676331,
+            "inverse_ticket": 59025676455,
+            "close": "POSITION_ABSENT"
+        },
+        "59025725959": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59025725959
+        },
+        "59025766288": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025766288,
+            "inverse_ticket": 59025766301,
+            "close": "POSITION_ABSENT"
+        },
+        "59025800155": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025800155,
+            "inverse_ticket": 59025800278,
+            "close": "POSITION_ABSENT"
+        },
+        "59025868380": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025868380,
+            "inverse_ticket": 59025868402,
+            "close": "POSITION_ABSENT"
+        },
+        "59025908388": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59025908388,
+            "inverse_ticket": 59025908409,
+            "close": "POSITION_ABSENT"
+        },
+        "59026028923": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026028923,
+            "inverse_ticket": 59026028994,
+            "close": "POSITION_ABSENT"
+        },
+        "59026087059": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59026087059
+        },
+        "59026265503": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026265503,
+            "inverse_ticket": 59026265547,
+            "close": "POSITION_ABSENT"
+        },
+        "59026294299": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026294299,
+            "inverse_ticket": 59026294330,
+            "close": "POSITION_ABSENT"
+        },
+        "59026335665": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026335665,
+            "inverse_ticket": 59026335694,
+            "close": "POSITION_ABSENT"
+        },
+        "59026392830": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026392830,
+            "inverse_ticket": 59026392856,
+            "close": "POSITION_ABSENT"
+        },
+        "59026624684": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026624684,
+            "inverse_ticket": 59026624695,
+            "close": "POSITION_ABSENT"
+        },
+        "59026673732": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026673732,
+            "inverse_ticket": 59026673771,
+            "close": "POSITION_ABSENT"
+        },
+        "59026753999": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026753999,
+            "inverse_ticket": 59026754074,
+            "close": "POSITION_ABSENT"
+        },
+        "59026837388": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026837388,
+            "inverse_ticket": 59026837422,
+            "close": "POSITION_ABSENT"
+        },
+        "59026846714": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59026846714
+        },
+        "59026878650": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59026878650
+        },
+        "59026903731": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59026903731,
+            "inverse_ticket": 59026904170,
+            "close": "POSITION_ABSENT"
+        },
+        "59026977284": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59026977284
+        },
+        "59027010848": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027010848,
+            "inverse_ticket": 59027010872,
+            "close": "POSITION_ABSENT"
+        },
+        "59027066994": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59027066994
+        },
+        "59027165174": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027165174,
+            "inverse_ticket": 59027165246,
+            "close": "POSITION_ABSENT"
+        },
+        "59027330438": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027330438,
+            "inverse_ticket": 59027330505,
+            "close": "POSITION_ABSENT"
+        },
+        "59027378902": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59027378902
+        },
+        "59027412666": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59027412666
+        },
+        "59027480775": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027480775,
+            "inverse_ticket": 59027480812,
+            "close": "POSITION_ABSENT"
+        },
+        "59027592401": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59027592401
+        },
+        "59027698410": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027698410,
+            "inverse_ticket": 59027698454,
+            "close": "POSITION_ABSENT"
+        },
+        "59027733187": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027733187,
+            "inverse_ticket": 59027733274,
+            "close": "POSITION_ABSENT"
+        },
+        "59027894682": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59027894682,
+            "inverse_ticket": 59027894761,
+            "close": "POSITION_ABSENT"
+        },
+        "59027933921": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59027933921
+        },
+        "59028076147": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028076147,
+            "inverse_ticket": 59028076489,
+            "close": "POSITION_ABSENT"
+        },
+        "59028115676": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028115676,
+            "inverse_ticket": 59028115830,
+            "close": "POSITION_ABSENT"
+        },
+        "59028223943": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028223943,
+            "inverse_ticket": 59028224021,
+            "close": "POSITION_ABSENT"
+        },
+        "59028256983": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028256983,
+            "inverse_ticket": 59028257025,
+            "close": "POSITION_ABSENT"
+        },
+        "59028376741": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59028376741
+        },
+        "59028486225": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028486225,
+            "inverse_ticket": 59028486316,
+            "close": "POSITION_ABSENT"
+        },
+        "59028606791": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028606791,
+            "inverse_ticket": 59028606840,
+            "close": "POSITION_ABSENT"
+        },
+        "59028652486": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028652486,
+            "inverse_ticket": 59028652559,
+            "close": "POSITION_ABSENT"
+        },
+        "59028681562": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028681562,
+            "inverse_ticket": 59028681791,
+            "close": "POSITION_ABSENT"
+        },
+        "59028724567": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028724567,
+            "inverse_ticket": 59028724603,
+            "close": "POSITION_ABSENT"
+        },
+        "59028770517": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028770517,
+            "inverse_ticket": 59028770750,
+            "close": "POSITION_ABSENT"
+        },
+        "59028897423": {
+            "open": "SKIPPED",
+            "source_ticket": 59028897423,
+            "error": "Inverse planned stop risk exceeds budget or cannot be valued"
+        },
+        "59028966785": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59028966785,
+            "inverse_ticket": 59028966848,
+            "close": "POSITION_ABSENT"
+        },
+        "59029017766": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59029017766
+        },
+        "59029064327": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029064327,
+            "inverse_ticket": 59029064787,
+            "close": "POSITION_ABSENT"
+        },
+        "59029245127": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029245127,
+            "inverse_ticket": 59029245212,
+            "close": "POSITION_ABSENT"
+        },
+        "59029365732": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029365732,
+            "inverse_ticket": 59029365781,
+            "close": "POSITION_ABSENT"
+        },
+        "59029431610": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029431610,
+            "inverse_ticket": 59029431640,
+            "close": "POSITION_ABSENT"
+        },
+        "59029524294": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029524294,
+            "inverse_ticket": 59029524550,
+            "close": "POSITION_ABSENT"
+        },
+        "59029808263": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59029808263
+        },
+        "59029974746": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59029974746,
+            "inverse_ticket": 59029974844,
+            "close": "POSITION_ABSENT"
+        },
+        "59030052805": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59030052805,
+            "inverse_ticket": 59030052936,
+            "close": "POSITION_ABSENT"
+        },
+        "59030104499": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59030104499
+        },
+        "59030233215": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59030233215,
+            "inverse_ticket": 59030233332,
+            "close": "POSITION_ABSENT"
+        },
+        "59030386585": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59030386585,
+            "inverse_ticket": 59030386734,
+            "close": "POSITION_ABSENT"
+        },
+        "59030613044": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59030613044
+        },
+        "59030881154": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59030881154,
+            "inverse_ticket": 59030881275,
+            "close": "POSITION_ABSENT"
+        },
+        "59031589455": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59031589455
+        },
+        "59031714263": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59031714263
+        },
+        "59031827187": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59031827187
+        },
+        "59031980402": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59031980402,
+            "inverse_ticket": 59031980548,
+            "close": "POSITION_ABSENT"
+        },
+        "59032132402": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032132402,
+            "inverse_ticket": 59032132533,
+            "close": "POSITION_ABSENT"
+        },
+        "59032380093": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032380093,
+            "inverse_ticket": 59032380126,
+            "close": "POSITION_ABSENT"
+        },
+        "59032566955": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59032566955
+        },
+        "59032624131": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032624131,
+            "inverse_ticket": 59032624235,
+            "close": "POSITION_ABSENT"
+        },
+        "59032666811": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032666811,
+            "inverse_ticket": 59032667164,
+            "close": "POSITION_ABSENT"
+        },
+        "59032699136": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59032699136
+        },
+        "59032809900": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032809900,
+            "inverse_ticket": 59032809990,
+            "close": "POSITION_ABSENT"
+        },
+        "59032849350": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032849350,
+            "inverse_ticket": 59032849450,
+            "close": "POSITION_ABSENT"
+        },
+        "59032853148": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59032853148
+        },
+        "59032968924": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59032968924,
+            "inverse_ticket": 59032968967,
+            "close": "POSITION_ABSENT"
+        },
+        "59033013245": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033013245,
+            "inverse_ticket": 59033013402,
+            "close": "POSITION_ABSENT"
+        },
+        "59033089224": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033089224,
+            "inverse_ticket": 59033089461,
+            "close": "POSITION_ABSENT"
+        },
+        "59033105329": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59033105329
+        },
+        "59033174105": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59033174105
+        },
+        "59033193928": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033193928,
+            "inverse_ticket": 59033194130,
+            "close": "POSITION_ABSENT"
+        },
+        "59033208578": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033208578,
+            "inverse_ticket": 59033208611,
+            "close": "POSITION_ABSENT"
+        },
+        "59033302026": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033302026,
+            "inverse_ticket": 59033302114,
+            "close": "POSITION_ABSENT"
+        },
+        "59033389238": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033389238,
+            "inverse_ticket": 59033389328,
+            "close": "POSITION_ABSENT"
+        },
+        "59033476515": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033476515,
+            "inverse_ticket": 59033476546,
+            "close": "POSITION_ABSENT"
+        },
+        "59033649457": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033649457,
+            "inverse_ticket": 59033649496,
+            "close": "POSITION_ABSENT"
+        },
+        "59033766805": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59033766805
+        },
+        "59033826751": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033826751,
+            "inverse_ticket": 59033826791,
+            "close": "POSITION_ABSENT"
+        },
+        "59033864281": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59033864281,
+            "inverse_ticket": 59033864534,
+            "close": "POSITION_ABSENT"
+        },
+        "59034024092": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59034024092,
+            "inverse_ticket": 59034024378,
+            "close": "POSITION_ABSENT"
+        },
+        "59034119904": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59034119904,
+            "inverse_ticket": 59034120057,
+            "close": "POSITION_ABSENT"
+        },
+        "59034164758": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59034164758
+        },
+        "59034233533": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59034233533
+        },
+        "59034280922": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59034280922,
+            "inverse_ticket": 59034280940,
+            "close": "POSITION_ABSENT"
+        },
+        "59034426282": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59034426282,
+            "inverse_ticket": 59034426323,
+            "close": "POSITION_ABSENT"
+        },
+        "59034457389": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59034457389
+        },
+        "59034507362": {
+            "open": "SOURCE_TOO_OLD",
+            "source_ticket": 59034507362
+        },
+        "59041249548": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59041249548,
+            "source_direction": "BUY",
+            "inverse_direction": "SELL",
+            "signal_policy": "INHERIT_MAIN_ANALYSIS_REVERSE_CONFIRMED_FILL",
+            "inverse_ticket": 59041249613,
+            "close": "POSITION_ABSENT"
+        },
+        "59050462169": {
+            "open": "POSITION_CONFIRMED",
+            "source_ticket": 59050462169,
+            "source_direction": "BUY",
+            "inverse_direction": "SELL",
+            "signal_policy": "INHERIT_MAIN_ANALYSIS_REVERSE_CONFIRMED_FILL",
+            "inverse_ticket": 59050462285,
+            "close": "POSITION_ABSENT"
+        }
+    },
+    "bootstrapped": true
+}

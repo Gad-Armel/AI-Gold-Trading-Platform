@@ -1,0 +1,113 @@
+{
+  "started_at": "2026-10-08T12:38:25.098637+00:00",
+  "latest_at": "2026-10-08T13:08:29.821111+00:00",
+  "minutes": 30.08,
+  "observations": 120,
+  "equity_change": -14.97,
+  "balance_change": -14.97,
+  "maximum_equity_drawdown": 15.16,
+  "maximum_status_lag_seconds": 1.62,
+  "main_realized_change": -14.97,
+  "main_total_change": -14.97,
+  "wins": 0,
+  "losses": 3,
+  "gross_gains": 0,
+  "gross_losses": 14.97,
+  "profit_factor": 0.0,
+  "open_positions": [],
+  "latency_median_ms": 125.0,
+  "latency_p95_ms": 515.0,
+  "common_entry_blocks": [
+    [
+      "INTRADAY: The directional policy has not authorized an entry.",
+      86
+    ],
+    [
+      "INTRADAY: Signal persistence is 0.0s; 15.0s required.",
+      86
+    ],
+    [
+      "INTRADAY: No usable directional evidence at or above 15.0/100.",
+      86
+    ],
+    [
+      "SWING: The directional policy has not authorized an entry.",
+      86
+    ],
+    [
+      "SWING: Signal persistence is 0.0s; 30.0s required.",
+      86
+    ],
+    [
+      "SWING: No usable directional evidence at or above 15.0/100.",
+      86
+    ],
+    [
+      "SCALP: The directional policy has not authorized an entry.",
+      66
+    ],
+    [
+      "SCALP: Signal persistence is 0.0s; 5.0s required.",
+      66
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58821566589,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4116.61,
+      "exit_price": 4121.6,
+      "profit": -4.99,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T12:56:02.948000+00:00",
+      "closed_at": "2026-10-08T13:05:26.615000+00:00",
+      "hold_seconds": 563.7,
+      "close_comment": "[sl 4121.60]",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58821696953,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4115.99,
+      "exit_price": 4121.01,
+      "profit": -5.02,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T13:02:15.407000+00:00",
+      "closed_at": "2026-10-08T13:05:22.977000+00:00",
+      "hold_seconds": 187.6,
+      "close_comment": "[sl 4121.01]",
+      "horizon": "INTRADAY"
+    },
+    {
+      "position_id": 58821688867,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4117.28,
+      "exit_price": 4122.24,
+      "profit": -4.96,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T13:01:59.994000+00:00",
+      "closed_at": "2026-10-08T13:05:39.437000+00:00",
+      "hold_seconds": 219.4,
+      "close_comment": "[sl 4122.24]",
+      "horizon": "SWING"
+    }
+  ],
+  "observed_excursions": {
+    "58821566589": {
+      "peak_floating": 0.59,
+      "trough_floating": -4.22
+    },
+    "58821688867": {
+      "peak_floating": 1.26,
+      "trough_floating": -4.49
+    },
+    "58821696953": {
+      "peak_floating": -0.03,
+      "trough_floating": -4.58
+    }
+  }
+}

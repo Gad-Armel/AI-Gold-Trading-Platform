@@ -1,0 +1,449 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+THREE INDEPENDENT HORIZON BOT — DEMO EXECUTION ONLY
+Lanes active: SCALP + INTRADAY + SWING
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum THREE positions TOTAL across lanes, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive mode uses one position per lane and no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1 | 2026-10-08 13:57:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.67/46%    -0.23R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.19 | total $-63.57
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 31 | 2026-10-08 13:57:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.55/61%    -0.26R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.36 | total $-63.74
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 62 | 2026-10-08 13:57:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.53/81%    -0.28R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.39 | total $-63.77
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 92 | 2026-10-08 13:57:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.52/81%    -0.24R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.17 | total $-63.55
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 120 | 2026-10-08 13:58:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.62/81%    -0.17R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-0.94 | total $-63.32
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 145 | 2026-10-08 13:58:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.47/81%    -0.31R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.54 | total $-63.92
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 175 | 2026-10-08 13:58:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.56/81%    -0.30R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.59 | total $-63.97
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 205 | 2026-10-08 13:58:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.6      True     1     0.56/81%    -0.26R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.33 | total $-63.71
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 233 | 2026-10-08 13:59:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   70.4      True     1     0.53/81%    -0.29R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.43 | total $-63.81
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 262 | 2026-10-08 13:59:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   70.4      True     1     0.53/81%    -0.29R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-1.45 | total $-63.83
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 291 | 2026-10-08 13:59:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   70.4      True     1     0.50/66%    -0.41R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-2.07 | total $-64.45
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 321 | 2026-10-08 13:59:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   70.4      True     1     0.48/81%    -0.47R  POSITION OPEN
+INTRADAY  WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+SWING     WAIT   0.0       False    0     -           -       No usable directional evidence at or above 15.0/100.
+Session P/L: realized $-62.38 | floating $-2.35 | total $-64.73
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 349 | 2026-10-08 14:00:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.56/81%    -0.15R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Signal persistence is 5.0s; 15.0s required.
+SWING     SELL   72.5      True     0     -           -       Signal persistence is 5.0s; 30.0s required.
+Session P/L: realized $-62.38 | floating $-0.69 | total $-63.07
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 377 | 2026-10-08 14:00:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.51/81%    -0.17R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Signal persistence is 20.1s; 30.0s required.
+Session P/L: realized $-62.38 | floating $-0.82 | total $-63.20
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 408 | 2026-10-08 14:00:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.48/81%    -0.57R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-62.38 | floating $-2.61 | total $-64.99
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 438 | 2026-10-08 14:00:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.43/81%    -0.72R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-62.38 | floating $-3.58 | total $-65.96
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 465 | 2026-10-08 14:01:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.38/81%    -0.83R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-62.38 | floating $-4.16 | total $-66.54
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 491 | 2026-10-08 14:01:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.47/81%    -0.46R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-62.38 | floating $-2.55 | total $-64.93
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 519 | 2026-10-08 14:01:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.42/81%    -0.60R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-62.38 | floating $-3.00 | total $-65.38
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 548 | 2026-10-08 14:02:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.53/81%    -0.28R  POSITION OPEN
+INTRADAY  SELL   68.5      True     0     -           -       INTRADAY execution price 4117.650 is outside the analysed entry zone 4118.335-4119.855.
+SWING     SELL   72.5      True     1     0.65/70%    -0.15R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-2.25 | total $-64.63
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 575 | 2026-10-08 14:02:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.65/81%    +0.04R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.68/70%    -0.09R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.66/70%    +0.17R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $0.56 | total $-61.82
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 604 | 2026-10-08 14:02:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.53/81%    -0.04R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.55/70%    -0.17R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.53/70%    +0.09R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-0.61 | total $-62.99
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 633 | 2026-10-08 14:02:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.54/81%    -0.05R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.52/85%    -0.17R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.55/70%    +0.08R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-1.39 | total $-63.77
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 663 | 2026-10-08 14:03:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.48/81%    -0.33R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.47/85%    -0.46R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.54/70%    -0.20R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-4.72 | total $-67.10
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 693 | 2026-10-08 14:03:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.51/81%    -0.22R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.49/85%    -0.34R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.56/70%    -0.09R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-3.13 | total $-65.51
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 723 | 2026-10-08 14:03:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.48/81%    -0.30R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.47/85%    -0.42R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.52/85%    -0.17R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-4.42 | total $-66.80
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 753 | 2026-10-08 14:03:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   58.2      True     1     0.47/81%    -0.56R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.47/85%    -0.69R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.50/85%    -0.43R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-8.77 | total $-71.15
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 783 | 2026-10-08 14:04:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.0      True     1     0.47/81%    -0.61R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.46/85%    -0.73R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.48/85%    -0.47R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-8.41 | total $-70.79
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 808 | 2026-10-08 14:04:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.0      True     1     0.47/81%    -0.80R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.46/85%    -0.93R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.46/85%    -0.67R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-12.01 | total $-74.39
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 838 | 2026-10-08 14:04:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.0      True     1     0.57/81%    -0.56R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.56/85%    -0.69R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.59/85%    -0.43R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-8.38 | total $-70.76
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 868 | 2026-10-08 14:04:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.0      True     1     0.55/81%    -0.41R  POSITION OPEN
+INTRADAY  SELL   68.5      True     1     0.54/85%    -0.53R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.58/85%    -0.28R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-6.07 | total $-68.45
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 898 | 2026-10-08 14:05:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     1     0.49/81%    -0.48R  POSITION OPEN
+INTRADAY  SELL   67.4      True     1     0.54/85%    -0.60R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.57/85%    -0.34R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-7.03 | total $-69.41
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 925 | 2026-10-08 14:05:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     1     0.40/81%    -0.80R  POSITION OPEN
+INTRADAY  SELL   66.5      True     1     0.45/85%    -0.93R  POSITION OPEN
+SWING     SELL   72.5      True     1     0.46/85%    -0.67R  POSITION OPEN
+Session P/L: realized $-62.38 | floating $-12.46 | total $-74.84
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 956 | 2026-10-08 14:05:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Post-exit market analysis: 22s remaining.
+INTRADAY  SELL   66.5      True     0     -           -       Signal persistence is 12.4s; 15.0s required.
+SWING     SELL   72.5      True     1     0.47/85%    -0.90R  POSITION OPEN
+Session P/L: realized $-72.39 | floating $-4.47 | total $-76.86
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 986 | 2026-10-08 14:05:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Post-exit market analysis: 19s remaining.
+INTRADAY  SELL   66.5      True     0     -           -       Post-exit market analysis: 19s remaining.
+SWING     SELL   72.5      True     0     -           -       Signal persistence is 10.9s; 30.0s required.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1013 | 2026-10-08 14:06:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Post-exit market analysis: 4s remaining.
+INTRADAY  SELL   66.5      True     0     -           -       Post-exit market analysis: 4s remaining.
+SWING     SELL   72.5      True     0     -           -       Signal persistence is 25.9s; 30.0s required.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1041 | 2026-10-08 14:06:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1071 | 2026-10-08 14:06:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1100 | 2026-10-08 14:06:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1131 | 2026-10-08 14:07:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1160 | 2026-10-08 14:07:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1190 | 2026-10-08 14:07:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1221 | 2026-10-08 14:07:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1249 | 2026-10-08 14:08:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1278 | 2026-10-08 14:08:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1306 | 2026-10-08 14:08:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1336 | 2026-10-08 14:08:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1365 | 2026-10-08 14:09:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1392 | 2026-10-08 14:09:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   56.2      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  SELL   66.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+SWING     SELL   72.5      True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-77.35 | floating $0.00 | total $-77.35
+======================================================================================================================

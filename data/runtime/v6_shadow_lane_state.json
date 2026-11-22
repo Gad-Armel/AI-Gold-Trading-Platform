@@ -1,0 +1,93 @@
+{
+  "lanes": {
+    "STRICT": {
+      "open_trade": null,
+      "last_candidate": {
+        "key": "STRICT:BUY:London:21367",
+        "timestamp_epoch": 1786010374.5927563
+      },
+      "rearm": {
+        "required": false,
+        "reason": "TRIPLE_BARRIER_HARD_STOP",
+        "direction": "BUY",
+        "structure_direction": "BUY",
+        "closed_at": "2026-08-06T09:59:36.783875+00:00",
+        "rearmed_at": "2026-08-06T10:16:30.008013+00:00",
+        "blocked_cycles": 1588
+      },
+      "started_at": "2026-07-20T15:22:45.554755+00:00",
+      "updated_at": "2026-08-10T02:36:37.487430+00:00"
+    },
+    "BALANCED": {
+      "open_trade": null,
+      "last_candidate": {
+        "key": "BALANCED:BUY:New York:21236",
+        "timestamp_epoch": 1786044123.1049812
+      },
+      "rearm": {
+        "required": false,
+        "reason": "NO_PROGRESS_THESIS_EXIT",
+        "direction": "BUY",
+        "structure_direction": "SELL",
+        "closed_at": "2026-08-06T19:22:16.472162+00:00",
+        "rearmed_at": "2026-08-06T19:25:27.113840+00:00",
+        "blocked_cycles": 289
+      },
+      "started_at": "2026-07-20T15:22:45.554755+00:00",
+      "updated_at": "2026-08-10T02:36:37.487430+00:00"
+    },
+    "EXPLORATORY": {
+      "open_trade": null,
+      "last_candidate": {
+        "key": "EXPLORATORY:BUY:New York:21770",
+        "timestamp_epoch": 1786115778.8568604
+      },
+      "rearm": {
+        "required": false,
+        "reason": "TRIPLE_BARRIER_HARD_STOP",
+        "direction": "BUY",
+        "structure_direction": "NEUTRAL",
+        "closed_at": "2026-08-07T15:16:24.905627+00:00",
+        "rearmed_at": "2026-08-07T15:16:25.935284+00:00",
+        "blocked_cycles": 0
+      },
+      "started_at": "2026-07-20T15:22:45.554755+00:00",
+      "updated_at": "2026-08-10T02:36:37.487430+00:00"
+    },
+    "LEARNED": {
+      "open_trade": null,
+      "last_candidate": null,
+      "rearm": {
+        "required": false,
+        "reason": "",
+        "direction": "NEUTRAL",
+        "structure_direction": "NEUTRAL",
+        "closed_at": "",
+        "rearmed_at": "",
+        "blocked_cycles": 0
+      },
+      "started_at": "2026-07-20T18:01:53.165556+00:00",
+      "updated_at": "2026-08-10T02:36:37.487430+00:00"
+    },
+    "FAST": {
+      "open_trade": null,
+      "last_candidate": {
+        "key": "FAST:BUY:London:21586",
+        "timestamp_epoch": 1786104873.4442837
+      },
+      "rearm": {
+        "required": false,
+        "reason": "STRONG_OPPOSITE_TAPE_EXIT",
+        "direction": "BUY",
+        "structure_direction": "NEUTRAL",
+        "closed_at": "2026-08-07T12:14:38.562220+00:00",
+        "rearmed_at": "2026-08-07T12:15:13.859355+00:00",
+        "blocked_cycles": 50
+      },
+      "started_at": "2026-07-23T22:06:36.699261+00:00",
+      "updated_at": "2026-08-10T02:36:37.487430+00:00"
+    }
+  },
+  "started_at": "2026-07-20T15:22:45.554755+00:00",
+  "updated_at": "2026-08-10T02:36:37.487430+00:00"
+}

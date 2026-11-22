@@ -1,0 +1,192 @@
+{
+  "seconds": 180.0631903000176,
+  "unique_cycles": 347,
+  "read_errors": 2,
+  "phases": {
+    "account_history": {
+      "samples": 347,
+      "median": 2.274,
+      "p95": 11.336,
+      "maximum": 33.04
+    },
+    "consensus": {
+      "samples": 347,
+      "median": 1.397,
+      "p95": 6.349,
+      "maximum": 36.258
+    },
+    "cross_market": {
+      "samples": 347,
+      "median": 17.897,
+      "p95": 74.495,
+      "maximum": 308.947
+    },
+    "exit_context_and_decisions": {
+      "samples": 347,
+      "median": 18.042,
+      "p95": 79.769,
+      "maximum": 426.762
+    },
+    "lanes": {
+      "samples": 347,
+      "median": 18.449,
+      "p95": 74.447,
+      "maximum": 600.255
+    },
+    "news_macro": {
+      "samples": 347,
+      "median": 4.604,
+      "p95": 23.442,
+      "maximum": 155.688
+    },
+    "persistence": {
+      "samples": 347,
+      "median": 8.775,
+      "p95": 25.894,
+      "maximum": 449.536
+    },
+    "quote_protection": {
+      "samples": 347,
+      "median": 2.267,
+      "p95": 3.78,
+      "maximum": 8.215
+    },
+    "snapshot": {
+      "samples": 347,
+      "median": 4.772,
+      "p95": 14.538,
+      "maximum": 41.854
+    },
+    "source_poll_and_candles": {
+      "samples": 347,
+      "median": 34.35,
+      "p95": 189.608,
+      "maximum": 577.022
+    },
+    "tick_advisor": {
+      "samples": 347,
+      "median": 0.006,
+      "p95": 53.218,
+      "maximum": 295.834
+    }
+  },
+  "loop": {
+    "samples": 347,
+    "median": 125.0,
+    "p95": 516.0,
+    "maximum": 1078.0
+  },
+  "status_write": {
+    "samples": 347,
+    "median": 18.981,
+    "p95": 70.559,
+    "maximum": 512.809
+  },
+  "slowest": [
+    {
+      "updated_at": "2026-10-09T06:16:48.859116+00:00",
+      "cycle": 828,
+      "loop_elapsed_ms": 1078.0,
+      "previous_status_write_ms": 17.788,
+      "phase_timings_ms": {
+        "snapshot": 3.595,
+        "quote_protection": 2.157,
+        "cross_market": 20.711,
+        "source_poll_and_candles": 187.26,
+        "tick_advisor": 0.006,
+        "consensus": 2.183,
+        "news_macro": 64.334,
+        "exit_context_and_decisions": 135.191,
+        "account_history": 28.572,
+        "lanes": 600.255,
+        "persistence": 25.894
+      },
+      "advisor_errors": {}
+    },
+    {
+      "updated_at": "2026-10-09T06:16:01.122341+00:00",
+      "cycle": 735,
+      "loop_elapsed_ms": 953.0,
+      "previous_status_write_ms": 14.432,
+      "phase_timings_ms": {
+        "snapshot": 8.917,
+        "quote_protection": 2.485,
+        "cross_market": 99.048,
+        "source_poll_and_candles": 218.061,
+        "tick_advisor": 0.092,
+        "consensus": 11.923,
+        "news_macro": 87.634,
+        "exit_context_and_decisions": 426.762,
+        "account_history": 6.77,
+        "lanes": 60.354,
+        "persistence": 33.191
+      },
+      "advisor_errors": {}
+    },
+    {
+      "updated_at": "2026-10-09T06:15:50.031793+00:00",
+      "cycle": 714,
+      "loop_elapsed_ms": 906.0,
+      "previous_status_write_ms": 69.967,
+      "phase_timings_ms": {
+        "snapshot": 4.297,
+        "quote_protection": 1.97,
+        "cross_market": 143.888,
+        "source_poll_and_candles": 169.181,
+        "tick_advisor": 0.007,
+        "consensus": 6.349,
+        "news_macro": 9.796,
+        "exit_context_and_decisions": 53.944,
+        "account_history": 4.02,
+        "lanes": 66.359,
+        "persistence": 449.536
+      },
+      "advisor_errors": {}
+    },
+    {
+      "updated_at": "2026-10-09T06:16:54.304873+00:00",
+      "cycle": 837,
+      "loop_elapsed_ms": 860.0,
+      "previous_status_write_ms": 17.391,
+      "phase_timings_ms": {
+        "snapshot": 3.136,
+        "quote_protection": 3.186,
+        "cross_market": 308.947,
+        "source_poll_and_candles": 459.936,
+        "tick_advisor": 0.005,
+        "consensus": 14.449,
+        "news_macro": 27.89,
+        "exit_context_and_decisions": 14.631,
+        "account_history": 1.588,
+        "lanes": 15.189,
+        "persistence": 8.169
+      },
+      "advisor_errors": {}
+    },
+    {
+      "updated_at": "2026-10-09T06:15:17.197072+00:00",
+      "cycle": 651,
+      "loop_elapsed_ms": 828.0,
+      "previous_status_write_ms": 27.336,
+      "phase_timings_ms": {
+        "snapshot": 6.753,
+        "quote_protection": 2.786,
+        "cross_market": 40.123,
+        "source_poll_and_candles": 341.27,
+        "tick_advisor": 0.01,
+        "consensus": 14.046,
+        "news_macro": 32.301,
+        "exit_context_and_decisions": 194.883,
+        "account_history": 4.988,
+        "lanes": 123.49,
+        "persistence": 70.666
+      },
+      "advisor_errors": {}
+    }
+  ],
+  "limitations": [
+    "Published-cycle sampling may miss cycles; stage wall time includes CPU scheduling and contention.",
+    "Loop processing excludes the current status write and configured sleep.",
+    "Status-write measurement describes the preceding published cycle."
+  ]
+}

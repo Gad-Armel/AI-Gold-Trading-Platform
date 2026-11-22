@@ -1,0 +1,15 @@
+passed: True
+checked_at: 2026-07-24 05:17:58
+required_files: 72
+shadow_reachable_files: 48
+missing_files: []
+failures: []
+warnings: ['Controlled MT5 demo code is available but remains locked behind V6 walk-forward approval.', 'Runtime artifacts exist in the working tree and must be excluded from release: data\\microstructure\\state\\XAUUSD_cursor.json, data\\runtime\\scalping_loop.lock, data\\runtime\\.v6_shadow_lane_state.json.5stslb4j.tmp']
+checks: {'v6_strategy': True, 'shadow_default': True, 'approval_required': True, 'real_execution_disabled': True, 'core_live_disabled': True, 'one_position': True, 'pyramid_disabled': True, 'no_trade_count_limit': True, 'persistent_loss_stop_100': True, 'strict_spread': True, 'three_loss_breaker': True, 'five_minute_breaker': True, 'structure_consensus': True, 'structure_two_of_three': True, 'structure_location_room': True, 'multi_lane_shadow': True, 'feed_pause': True, 'episode_rearm': True, 'hard_stop_structure_reset': True, 'self_learning_enabled': True, 'learned_lane_enabled': True, 'target_win_rate_59': True, 'approved_model_required': True, 'dynamic_barrier_ratio': True, 'conservative_target_fill': True, 'adverse_stop_uses_observed_quote': True, 'drift_guard': True}
+strategy_id: XAUUSD_SCALP_V6_3_6_TICK_HORIZON_RESEARCH
+shadow_default: True
+demo_execution_enabled: True
+demo_approval_required: True
+real_execution_enabled: False
+max_positions: 1
+cumulative_demo_loss_limit: 100.0

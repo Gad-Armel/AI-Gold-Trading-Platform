@@ -1,0 +1,608 @@
+{
+  "generated_at": "2026-11-09T19:41:34.189884+00:00",
+  "symbol": "XAUUSD",
+  "bid": 4133.24,
+  "ask": 4133.37,
+  "spread": 0.13,
+  "session": "New York",
+  "overall": "WAIT",
+  "actionable_horizons": [],
+  "horizons": {
+    "SCALP": {
+      "action": "WAIT",
+      "bias": "BUY",
+      "directional_score": 78.33,
+      "calibrated_probability": null,
+      "probability_note": "Unavailable until this exact advisor has sufficient chronological out-of-sample outcomes.",
+      "supporting_timeframes": [
+        "M1",
+        "M5",
+        "M15"
+      ],
+      "votes": {
+        "BUY": 2,
+        "SELL": 0
+      },
+      "review_at": "2026-11-09T19:42:34.189884+00:00",
+      "valid_until": "2026-11-09T19:46:34.189884+00:00",
+      "valid_for_minutes": 5,
+      "reasons": [
+        "2/3 BUY and 0/3 SELL closed-bar votes"
+      ],
+      "blocks": [
+        "price is extended 7.72 ATR from VWAP"
+      ],
+      "levels": {
+        "entry_reference": 4133.37,
+        "entry_zone": [
+          4132.96,
+          4133.78
+        ],
+        "tp1": 4135.22,
+        "tp2": 4136.45,
+        "tp3": 4137.89,
+        "sl": 4130.7,
+        "level_basis": "ATR-derived scenario levels; not guaranteed fills or financial advice."
+      }
+    },
+    "INTRADAY": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "directional_score": 15.0,
+      "calibrated_probability": null,
+      "probability_note": "Unavailable until this exact advisor has sufficient chronological out-of-sample outcomes.",
+      "supporting_timeframes": [
+        "M5",
+        "M15",
+        "H1"
+      ],
+      "votes": {
+        "BUY": 1,
+        "SELL": 0
+      },
+      "review_at": "2026-11-09T19:51:34.189884+00:00",
+      "valid_until": "2026-11-09T20:11:34.189884+00:00",
+      "valid_for_minutes": 30,
+      "reasons": [
+        "1/3 BUY and 0/3 SELL closed-bar votes"
+      ],
+      "blocks": [
+        "price is extended 7.72 ATR from VWAP",
+        "directional evidence below 60/100"
+      ],
+      "levels": {}
+    },
+    "SWING": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "directional_score": 15.0,
+      "calibrated_probability": null,
+      "probability_note": "Unavailable until this exact advisor has sufficient chronological out-of-sample outcomes.",
+      "supporting_timeframes": [
+        "M15",
+        "H1",
+        "H4"
+      ],
+      "votes": {
+        "BUY": 1,
+        "SELL": 0
+      },
+      "review_at": "2026-11-09T20:21:34.189884+00:00",
+      "valid_until": "2026-11-09T21:41:34.189884+00:00",
+      "valid_for_minutes": 120,
+      "reasons": [
+        "1/3 BUY and 0/3 SELL closed-bar votes"
+      ],
+      "blocks": [
+        "price is extended 7.72 ATR from VWAP",
+        "directional evidence below 60/100"
+      ],
+      "levels": {}
+    }
+  },
+  "views": {
+    "M1": {
+      "direction": "BUY",
+      "strength": 1.0,
+      "atr": 3.144025,
+      "last_close": 4131.19
+    },
+    "M5": {
+      "direction": "BUY",
+      "strength": 1.0,
+      "atr": 4.109702,
+      "last_close": 4129.94
+    },
+    "M15": {
+      "direction": "NEUTRAL",
+      "strength": 0.0,
+      "atr": 6.613645,
+      "last_close": 4110.47
+    },
+    "H1": {
+      "direction": "NEUTRAL",
+      "strength": 0.0,
+      "atr": 16.496592,
+      "last_close": 4104.38
+    },
+    "H4": {
+      "direction": "BUY",
+      "strength": 0.7876,
+      "atr": 46.503195,
+      "last_close": 4102.15
+    }
+  },
+  "verified_context": {
+    "status": "OK",
+    "data_quality_score": 1.0,
+    "data_completeness_score": 1.0,
+    "quality_components": {
+      "bars": 1.0,
+      "tick_volume": 1.0,
+      "fresh_cache": 1.0,
+      "finite_metrics": 1.0,
+      "pivot_history": 1.0
+    },
+    "relative_tick_volume": 2.6683,
+    "current_tick_volume": 535.0,
+    "baseline_tick_volume_median": 200.5,
+    "signed_tick_volume_proxy": 0.6768,
+    "proxy_disclaimer": "Candle-direction weighted MT5 tick volume; not true exchange order-flow delta.",
+    "rolling_vwap": 4106.931489,
+    "vwap_distance_atr": 7.7158,
+    "adx_m5": 26.0623,
+    "plus_di_m5": 51.4985,
+    "minus_di_m5": 14.555,
+    "trend_direction": "BUY",
+    "trend_regime": "TRENDING",
+    "previous_day_pivots": {
+      "status": "OK",
+      "date": "2026-11-06",
+      "high": 4081.16,
+      "low": 4027.44,
+      "close": 4065.82,
+      "PP": 4058.14,
+      "R1": 4088.8399999999997,
+      "R2": 4111.86,
+      "S1": 4035.12,
+      "S2": 4004.42
+    },
+    "nearest_pivot": "R2",
+    "nearest_pivot_distance_atr": 6.1482,
+    "liquidity_regime": "HIGH",
+    "cache_hit": true,
+    "cache_age_seconds": 16.157,
+    "calculation_duration_ms": 0.787
+  },
+  "structure": {
+    "valid": true,
+    "consensus_direction": "BUY",
+    "consensus_votes": 2,
+    "required_votes": 2,
+    "buy_votes": 2,
+    "sell_votes": 1,
+    "confidence": 0.608394,
+    "location_safe": false,
+    "room_to_target_usd": 0.20575,
+    "required_room_usd": 0.98,
+    "families": {
+      "htf_trend": {
+        "name": "HTF_TREND",
+        "direction": "BUY",
+        "confidence": 0.636787,
+        "signed_score": 0.413911,
+        "timeframes": {
+          "H4": {
+            "timeframe": "H4",
+            "direction": "BUY",
+            "confidence": 0.641365,
+            "ema_gap_atr": 0.586761,
+            "ema20_slope_atr": 0.533504,
+            "swing_vote": 0,
+            "ema_vote": 1,
+            "last_swing_high": 4134.02,
+            "last_swing_low": 4027.44
+          },
+          "H1": {
+            "timeframe": "H1",
+            "direction": "BUY",
+            "confidence": 0.675656,
+            "ema_gap_atr": 0.991867,
+            "ema20_slope_atr": 0.268755,
+            "swing_vote": 0,
+            "ema_vote": 1,
+            "last_swing_high": 4130.94,
+            "last_swing_low": 4084.64
+          },
+          "M15": {
+            "timeframe": "M15",
+            "direction": "SELL",
+            "confidence": 0.555912,
+            "ema_gap_atr": 0.147053,
+            "ema20_slope_atr": -0.338542,
+            "swing_vote": -1,
+            "ema_vote": 0,
+            "last_swing_high": 4108.23,
+            "last_swing_low": 4100.53
+          }
+        },
+        "agreement_strength": 0.636276
+      },
+      "support_resistance": {
+        "name": "SUPPORT_RESISTANCE",
+        "direction": "BUY",
+        "confidence": 0.58,
+        "event": "STRUCTURE_BREAK_UP",
+        "nearest_support": {
+          "kind": "SUPPORT",
+          "center": 4118.08,
+          "lower": 4117.57075,
+          "upper": 4118.58925,
+          "touches": 1,
+          "strength": 0.98189,
+          "last_touch": "2026-11-09T15:45:00+00:00",
+          "timeframes": [
+            "M15"
+          ]
+        },
+        "nearest_resistance": {
+          "kind": "RESISTANCE",
+          "center": 4134.02,
+          "lower": 4133.51075,
+          "upper": 4134.52925,
+          "touches": 3,
+          "strength": 4.474251,
+          "last_touch": "2026-11-09T04:00:00+00:00",
+          "timeframes": [
+            "H1",
+            "H4",
+            "M15"
+          ]
+        },
+        "room_buy_usd": 0.20575,
+        "room_sell_usd": 14.71575,
+        "cluster_tolerance_usd": 1.455,
+        "supports": [
+          {
+            "kind": "SUPPORT",
+            "center": 3914.4,
+            "lower": 3913.89075,
+            "upper": 3914.90925,
+            "touches": 6,
+            "strength": 8.264481,
+            "last_touch": "2026-11-06T01:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 4027.638,
+            "lower": 4026.93075,
+            "upper": 4028.48925,
+            "touches": 3,
+            "strength": 4.514537,
+            "last_touch": "2026-11-06T15:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 4114.37,
+            "lower": 4112.95075,
+            "upper": 4115.72925,
+            "touches": 3,
+            "strength": 2.955833,
+            "last_touch": "2026-11-09T16:30:00+00:00",
+            "timeframes": [
+              "M15"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 4084.64,
+            "lower": 4084.13075,
+            "upper": 4085.14925,
+            "touches": 2,
+            "strength": 2.484881,
+            "last_touch": "2026-11-09T09:45:00+00:00",
+            "timeframes": [
+              "H1",
+              "M15"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 4054.3,
+            "lower": 4053.79075,
+            "upper": 4054.80925,
+            "touches": 2,
+            "strength": 2.400537,
+            "last_touch": "2026-11-09T01:45:00+00:00",
+            "timeframes": [
+              "H1",
+              "M15"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 4100.58,
+            "lower": 4100.02075,
+            "upper": 4101.13925,
+            "touches": 2,
+            "strength": 2.0,
+            "last_touch": "2026-11-09T20:15:00+00:00",
+            "timeframes": [
+              "M15"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 3895.3,
+            "lower": 3894.79075,
+            "upper": 3895.80925,
+            "touches": 1,
+            "strength": 1.405566,
+            "last_touch": "2026-11-03T08:00:00+00:00",
+            "timeframes": [
+              "H4"
+            ]
+          },
+          {
+            "kind": "SUPPORT",
+            "center": 3856.72,
+            "lower": 3856.21075,
+            "upper": 3857.22925,
+            "touches": 1,
+            "strength": 1.350129,
+            "last_touch": "2026-11-02T00:00:00+00:00",
+            "timeframes": [
+              "H4"
+            ]
+          }
+        ],
+        "resistances": [
+          {
+            "kind": "RESISTANCE",
+            "center": 3970.655,
+            "lower": 3969.61075,
+            "upper": 3971.69925,
+            "touches": 4,
+            "strength": 4.906695,
+            "last_touch": "2026-11-03T15:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4130.57261,
+            "lower": 4129.09075,
+            "upper": 4131.44925,
+            "touches": 4,
+            "strength": 4.563808,
+            "last_touch": "2026-11-09T18:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "M15"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4134.02,
+            "lower": 4133.51075,
+            "upper": 4134.52925,
+            "touches": 3,
+            "strength": 4.474251,
+            "last_touch": "2026-11-09T04:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4",
+              "M15"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4081.95895,
+            "lower": 4080.65075,
+            "upper": 4083.04925,
+            "touches": 2,
+            "strength": 2.827815,
+            "last_touch": "2026-11-06T11:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4146.88,
+            "lower": 4146.37075,
+            "upper": 4147.38925,
+            "touches": 2,
+            "strength": 2.629797,
+            "last_touch": "2026-11-05T05:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4070.54,
+            "lower": 4069.92075,
+            "upper": 4071.12925,
+            "touches": 2,
+            "strength": 2.581491,
+            "last_touch": "2026-11-04T20:00:00+00:00",
+            "timeframes": [
+              "H1",
+              "H4"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 4142.42,
+            "lower": 4141.25075,
+            "upper": 4143.58925,
+            "touches": 2,
+            "strength": 2.437916,
+            "last_touch": "2026-10-22T00:00:00+00:00",
+            "timeframes": [
+              "H4"
+            ]
+          },
+          {
+            "kind": "RESISTANCE",
+            "center": 3964.595,
+            "lower": 3963.88075,
+            "upper": 3965.30925,
+            "touches": 2,
+            "strength": 2.106717,
+            "last_touch": "2026-11-04T03:00:00+00:00",
+            "timeframes": [
+              "H1"
+            ]
+          }
+        ]
+      },
+      "order_block": {
+        "name": "ORDER_BLOCK",
+        "direction": "SELL",
+        "confidence": 0.851333,
+        "active_block": {
+          "direction": "SELL",
+          "timeframe": "M15",
+          "lower": 4120.73,
+          "upper": 4130.94,
+          "formed_at": "2026-11-09T18:00:00+00:00",
+          "touches": 0,
+          "displacement_atr": 3.34101,
+          "confidence": 0.851333,
+          "distance_atr": 0.357594,
+          "weighted_confidence": 0.851333
+        },
+        "nearest_bullish": {
+          "direction": "BUY",
+          "timeframe": "H1",
+          "lower": 4060.9,
+          "upper": 4077.55,
+          "formed_at": "2026-11-06T21:00:00+00:00",
+          "touches": 0,
+          "displacement_atr": 2.07074,
+          "confidence": 0.789156,
+          "distance_atr": 8.430298,
+          "weighted_confidence": 0.986445
+        },
+        "nearest_bearish": {
+          "direction": "SELL",
+          "timeframe": "M15",
+          "lower": 4120.73,
+          "upper": 4130.94,
+          "formed_at": "2026-11-09T18:00:00+00:00",
+          "touches": 0,
+          "displacement_atr": 3.34101,
+          "confidence": 0.851333,
+          "distance_atr": 0.357594,
+          "weighted_confidence": 0.851333
+        },
+        "blocks": [
+          {
+            "direction": "SELL",
+            "timeframe": "M15",
+            "lower": 4120.73,
+            "upper": 4130.94,
+            "formed_at": "2026-11-09T18:00:00+00:00",
+            "touches": 0,
+            "displacement_atr": 3.34101,
+            "confidence": 0.851333,
+            "distance_atr": 0.357594,
+            "weighted_confidence": 0.851333
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "H1",
+            "lower": 4060.9,
+            "upper": 4077.55,
+            "formed_at": "2026-11-06T21:00:00+00:00",
+            "touches": 0,
+            "displacement_atr": 2.07074,
+            "confidence": 0.789156,
+            "distance_atr": 8.430298,
+            "weighted_confidence": 0.986445
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "M15",
+            "lower": 4064.96,
+            "upper": 4074.4,
+            "formed_at": "2026-11-09T02:15:00+00:00",
+            "touches": 0,
+            "displacement_atr": 5.2284,
+            "confidence": 0.767333,
+            "distance_atr": 8.906586,
+            "weighted_confidence": 0.767333
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "M15",
+            "lower": 4061.34,
+            "upper": 4068.0,
+            "formed_at": "2026-11-09T01:30:00+00:00",
+            "touches": 0,
+            "displacement_atr": 2.03852,
+            "confidence": 0.707955,
+            "distance_atr": 9.874283,
+            "weighted_confidence": 0.707955
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "M15",
+            "lower": 4054.3,
+            "upper": 4065.9,
+            "formed_at": "2026-11-09T01:45:00+00:00",
+            "touches": 0,
+            "displacement_atr": 6.20088,
+            "confidence": 0.764667,
+            "distance_atr": 10.191808,
+            "weighted_confidence": 0.764667
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "H1",
+            "lower": 4054.3,
+            "upper": 4064.71,
+            "formed_at": "2026-11-09T01:00:00+00:00",
+            "touches": 0,
+            "displacement_atr": 3.82653,
+            "confidence": 0.843333,
+            "distance_atr": 10.371739,
+            "weighted_confidence": 1.054166
+          },
+          {
+            "direction": "BUY",
+            "timeframe": "H1",
+            "lower": 4014.65,
+            "upper": 4027.2,
+            "formed_at": "2026-11-04T09:00:00+00:00",
+            "touches": 2,
+            "displacement_atr": 1.63218,
+            "confidence": 0.521862,
+            "distance_atr": 16.043347,
+            "weighted_confidence": 0.652328
+          }
+        ]
+      }
+    },
+    "reason": "BUY structural consensus 2/3.",
+    "cache_hit": false,
+    "generated_at": "2026-11-09T19:41:36.990032+00:00"
+  },
+  "execution_enabled": false,
+  "orders_sent": false,
+  "disclaimer": "Decision support only. WAIT is a valid forecast. Validate prospectively before risking capital."
+}

@@ -1,0 +1,153 @@
+{
+    "started": "2026-10-30T00:03:06.600813+00:00",
+    "samples": 37,
+    "last": {
+        "observed_at": "2026-10-30T00:06:07.046272+00:00",
+        "updated_at": "2026-10-30T00:06:04.435538+00:00",
+        "status": "RUNNING",
+        "direction": "SELL",
+        "allowed": true,
+        "entry_ready": false,
+        "reasons": [
+            "Position-add spacing is 4.1s; 5.0s required."
+        ],
+        "positions": [
+            {
+                "ticket": 59107476709,
+                "opened_epoch": 1793318762.0,
+                "direction": "SELL",
+                "volume": 0.01,
+                "entry_price": 4003.84,
+                "current_price": 4004.08,
+                "profit": -0.24,
+                "sl": 4004.56,
+                "tp": 0.0,
+                "peak_profit_usd": -0.24,
+                "profit_lock_armed": false,
+                "profit_lock_arm_usd": 1.0,
+                "profit_lock_trigger_usd": null,
+                "horizon": "SCALP"
+            }
+        ],
+        "last_execution": {
+            "success": true,
+            "action": "ORDER_SENT",
+            "message": "Request executed",
+            "execution_metrics": {
+                "state": "REPORTED_DONE",
+                "order_send_elapsed_ms": 108.451,
+                "requested_price": 4003.84,
+                "reported_price": 4003.84,
+                "reported_volume": 0.01,
+                "reported_adverse_slippage_price": -0.0,
+                "reported_adverse_slippage_points": -0.0,
+                "reported_adverse_slippage_usd": -0.0,
+                "deal_history_confirmation_required": true,
+                "retry_performed": false
+            },
+            "deal": 58706873836,
+            "order": 59107476709
+        },
+        "selection": {
+            "policy": "FASTEST_FEASIBLE",
+            "selected": "S15",
+            "pinned": true,
+            "candidates": [
+                {
+                    "timeframe": "S15",
+                    "direction": "BUY",
+                    "eligible": false,
+                    "blocks": [
+                        "Recent S15 range does not clear 1 times estimated round-trip cost"
+                    ]
+                }
+            ],
+            "reason": "No candidate passed; fallback is for observation only, entry gates still apply"
+        },
+        "candidate": {
+            "execution_enabled": false,
+            "role": "SHADOW_ONLY",
+            "setup": "S15_TICK_CONTINUATION",
+            "direction": "BUY",
+            "calibrated_probability": null,
+            "expected_value": null,
+            "pattern_ready": true,
+            "cost_screen_passed": false,
+            "blocks": [
+                "Recent S15 range does not clear 1 times estimated round-trip cost"
+            ],
+            "warnings": [],
+            "setup_id": "S15:1793318745:BUY",
+            "micro_window_seconds": 3,
+            "activity_mode": true,
+            "movement_floor_price": 0.03599999999996726,
+            "efficiency_floor": 0.35,
+            "quote_efficiency": 0.8824,
+            "executable_confirmation": true,
+            "signed_bid_move_price": 0.03999999999996362,
+            "signed_ask_move_price": 0.10999999999967258,
+            "micro_confirmation_enforced": true,
+            "raw_tick_efficiency": 0.1351,
+            "efficiency_sampling_seconds": 1,
+            "signed_move_price": 0.0749999999998181,
+            "spread_price": 0.3599999999996726,
+            "recent_range_proxy_price": 0.39499999999952706,
+            "extension_price": -0.1799999999998363,
+            "round_trip_cost_price": 0.6599999999996726,
+            "range_cost_multiple": 1.0,
+            "range_cost_screen_enforced": true,
+            "research_candidate": false
+        },
+        "inverse_state": "STALE"
+    },
+    "top_blocks": [
+        [
+            "Strong-source position allowance reached.",
+            28
+        ],
+        [
+            "Position-add spacing is 4.3s; 5.0s required.",
+            2
+        ],
+        [
+            "SCALP waiting for reconciled execution history.",
+            2
+        ],
+        [
+            "Position-add spacing is 0.3s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 3.7s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 2.8s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 0.9s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 0.7s; 5.0s required.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 24s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 19s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 14s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 9s remaining.",
+            1
+        ]
+    ]
+}

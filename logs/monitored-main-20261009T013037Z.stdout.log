@@ -1,0 +1,44 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+THREE INDEPENDENT HORIZON BOT — DEMO EXECUTION ONLY
+Lanes active: SCALP + INTRADAY + SWING
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum THREE positions TOTAL across lanes, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive mode uses one position per lane and no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1 | 2026-10-09 02:30:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    100.0     True     0     -           -       Signal persistence is 0.0s; 5.0s required.
+INTRADAY  BUY    94.1      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    72.4      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $8.88 | floating $0.00 | total $8.88
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 30 | 2026-10-09 02:30:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    100.0     True     0     -           -       Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.
+INTRADAY  BUY    94.5      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    72.8      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $8.88 | floating $0.00 | total $8.88
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 59 | 2026-10-09 02:31:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    100.0     True     0     -           -       SCALP spread $0.56 exceeds the scalping ceiling $0.50.
+INTRADAY  BUY    94.5      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    72.8      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $8.88 | floating $0.00 | total $8.88
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 89 | 2026-10-09 02:31:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    100.0     True     0     -           -       SCALP spread $0.65 exceeds the scalping ceiling $0.50.
+INTRADAY  BUY    94.5      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    72.8      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $8.88 | floating $0.00 | total $8.88
+======================================================================================================================

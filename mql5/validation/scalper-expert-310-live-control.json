@@ -1,0 +1,9 @@
+{
+  "version": "3.10",
+  "http_locked_resume": 409,
+  "native_control_result": "rejected: safety lock, liquidation or execution disabled",
+  "safety_lock_preserved": true,
+  "locked_until_server": "2026.09.30 22:17:04",
+  "account_flat": true,
+  "main_state": "live"
+}

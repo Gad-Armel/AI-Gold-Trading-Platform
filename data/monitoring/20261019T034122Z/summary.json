@@ -1,0 +1,79 @@
+{
+  "started_at": "2026-10-19T03:41:22.735500+00:00",
+  "latest_at": "2026-10-19T03:43:23.659779+00:00",
+  "minutes": 2.02,
+  "observations": 25,
+  "raw_observations": 25,
+  "excluded_stale_or_incomplete_observations": 0,
+  "equity_change": -1.5,
+  "balance_change": -1.08,
+  "maximum_equity_drawdown": 1.55,
+  "maximum_status_lag_seconds": 1.11,
+  "main_realized_change": -1.08,
+  "main_total_change": -1.5,
+  "wins": 0,
+  "losses": 1,
+  "gross_gains": 0,
+  "gross_losses": 1.08,
+  "profit_factor": 0.0,
+  "open_positions": [],
+  "latency_median_ms": 98.58,
+  "latency_p95_ms": 231.49,
+  "common_entry_blocks": [
+    [
+      "INTRADAY: Analysis only",
+      25
+    ],
+    [
+      "SWING: Analysis only",
+      25
+    ],
+    [
+      "SCALP: SCALP additions wait until every open position is profitable beyond dealing noise.",
+      23
+    ],
+    [
+      "INTRADAY: Same-direction exposure has not covered dealing noise; wait before adding another lane.",
+      22
+    ],
+    [
+      "INTRADAY: Same-direction addition waits for a fresh completed M5 candle after the previous entry.",
+      22
+    ],
+    [
+      "SWING: Same-direction exposure has not covered dealing noise; wait before adding another lane.",
+      22
+    ],
+    [
+      "SWING: Same-direction addition waits for a fresh completed M5 candle after the previous entry.",
+      22
+    ],
+    [
+      "SCALP: Adding a position requires evidence >= 71.3/100.",
+      9
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58944661599,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4179.93,
+      "exit_price": 4178.85,
+      "profit": -1.08,
+      "result": "LOSS",
+      "opened_at": "2026-10-19T03:40:01.111000+00:00",
+      "closed_at": "2026-10-19T03:43:17.100000+00:00",
+      "hold_seconds": 196.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    }
+  ],
+  "observed_excursions": {
+    "58944661599": {
+      "peak_floating": 0.47,
+      "trough_floating": -0.82
+    }
+  }
+}

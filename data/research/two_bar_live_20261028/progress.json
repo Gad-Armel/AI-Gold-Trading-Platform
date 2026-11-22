@@ -1,0 +1,110 @@
+{
+    "started": "2026-10-28T22:57:57.836269+00:00",
+    "samples": 37,
+    "last": {
+        "observed_at": "2026-10-28T23:01:05.578574+00:00",
+        "updated_at": "2026-10-28T23:01:05.168897+00:00",
+        "status": "RUNNING",
+        "direction": "WAIT",
+        "allowed": false,
+        "entry_ready": false,
+        "reasons": [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            "S30 tick signal is unavailable or stale.",
+            "S30 has no usable direction above the evidence threshold.",
+            "The directional policy has not authorized an entry.",
+            "Signal persistence is 0.0s; 1.0s required.",
+            "Incomplete S30 tick coverage; no synthetic fill"
+        ],
+        "positions": [],
+        "last_execution": {
+            "message": "No execution attempted."
+        },
+        "selection": {
+            "policy": "FASTEST_FEASIBLE",
+            "selected": "S30",
+            "pinned": false,
+            "candidates": [
+                {
+                    "timeframe": "S5",
+                    "direction": "BUY",
+                    "eligible": false,
+                    "blocks": [
+                        "Recent S5 range does not clear 1.5 times estimated round-trip cost"
+                    ]
+                },
+                {
+                    "timeframe": "S15",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Incomplete S15 tick coverage; no synthetic fill",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S30",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Incomplete S30 tick coverage; no synthetic fill",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                }
+            ],
+            "reason": "No candidate passed; fallback is for observation only, entry gates still apply"
+        },
+        "candidate": null,
+        "inverse_state": "UNAVAILABLE"
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            34
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            29
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            27
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            27
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            26
+        ],
+        [
+            "Completed S30 candles do not agree",
+            23
+        ],
+        [
+            "Recent S30 range does not clear 1.5 times estimated round-trip cost",
+            23
+        ],
+        [
+            "Insufficient continuous six-second quote coverage",
+            9
+        ],
+        [
+            "Spread expansion",
+            9
+        ],
+        [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            8
+        ],
+        [
+            "S30 tick signal is unavailable or stale.",
+            3
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            2
+        ]
+    ]
+}

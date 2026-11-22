@@ -1,0 +1,106 @@
+{
+    "version": 1,
+    "identity": "197ec46248379da419da680f6cc9aa98f328483fa9843f04ce7d8df430021b53",
+    "saved_at": 1793356643.76413,
+    "lanes": {
+        "SCALP": {
+            "exit_state": {
+                "position_signature": [
+                    [
+                        59114746860,
+                        "SELL",
+                        3981.21,
+                        0.01
+                    ],
+                    [
+                        59114755572,
+                        "SELL",
+                        3981.6,
+                        0.01
+                    ]
+                ],
+                "started": 1793356625.5935657,
+                "adverse_since": null,
+                "peak_move": -0.05499999999983629,
+                "trough_move": -0.5649999999995998,
+                "ticket_profit_peaks": {
+                    "59114746860": 0.3200000000001637,
+                    "59114755572": 0.13999999999987267
+                },
+                "initial_risk_price": 0.7700000000002092,
+                "conscience_state": {
+                    "signature": [
+                        [
+                            59114746860,
+                            "SELL",
+                            3981.21,
+                            0.01
+                        ],
+                        [
+                            59114755572,
+                            "SELL",
+                            3981.6,
+                            0.01
+                        ]
+                    ],
+                    "collapsed_since": null
+                }
+            },
+            "previous_tickets": [
+                59114746860,
+                59114755572
+            ],
+            "last_closed_bar": "2026-10-30T10:35:00+00:00",
+            "last_exit_at": 1793356624.796,
+            "last_exit_direction": "SELL",
+            "candle_confirmation_state": {
+                "confirmation": {
+                    "frame": "S30",
+                    "required_bars": 1,
+                    "waiting": true
+                }
+            },
+            "entry_period_seconds": 30
+        },
+        "INTRADAY": {
+            "exit_state": {},
+            "previous_tickets": [],
+            "last_closed_bar": null,
+            "last_exit_at": null,
+            "last_exit_direction": null,
+            "candle_confirmation_state": {
+                "direction": "SELL",
+                "peak": 97.58,
+                "waiting_since": null,
+                "confirmation": {
+                    "waiting": false,
+                    "completed_bars": 2,
+                    "direction": "SELL",
+                    "frame": "M5",
+                    "required_bars": 2
+                }
+            },
+            "entry_period_seconds": null
+        },
+        "SWING": {
+            "exit_state": {},
+            "previous_tickets": [],
+            "last_closed_bar": null,
+            "last_exit_at": null,
+            "last_exit_direction": null,
+            "candle_confirmation_state": {
+                "direction": "SELL",
+                "peak": 97.01,
+                "waiting_since": null,
+                "confirmation": {
+                    "waiting": false,
+                    "completed_bars": 2,
+                    "direction": "SELL",
+                    "frame": "M5",
+                    "required_bars": 2
+                }
+            },
+            "entry_period_seconds": null
+        }
+    }
+}

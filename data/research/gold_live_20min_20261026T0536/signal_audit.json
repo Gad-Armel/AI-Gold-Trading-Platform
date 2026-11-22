@@ -1,0 +1,68 @@
+{
+    "role": "OBSERVATIONAL_MARKOUTS_NOT_PRODUCTION_STRATEGY_ACCURACY",
+    "broker_ticks": 6893,
+    "usable_ticks": 6893,
+    "sampled_status_rows": 240,
+    "assumptions": {
+        "per_leg_latency_seconds": 0.25,
+        "commission_price": 0.1,
+        "slippage_price": 0.2,
+        "costs": "Provisional round-trip price equivalents; not measured fill guarantees"
+    },
+    "results": [
+        {
+            "horizon_seconds": 5,
+            "cohort": "directional",
+            "observations": 33,
+            "midpoint_direction_hit_fraction": 0.3939393939393939,
+            "net_positive_fraction": 0.06060606060606061,
+            "mean_net_price": -0.6803030303030083
+        },
+        {
+            "horizon_seconds": 5,
+            "cohort": "all_entry_checks_ready",
+            "observations": 0,
+            "midpoint_direction_hit_fraction": null,
+            "net_positive_fraction": null,
+            "mean_net_price": null
+        },
+        {
+            "horizon_seconds": 15,
+            "cohort": "directional",
+            "observations": 33,
+            "midpoint_direction_hit_fraction": 0.6363636363636364,
+            "net_positive_fraction": 0.12121212121212122,
+            "mean_net_price": -0.5293939393939169
+        },
+        {
+            "horizon_seconds": 15,
+            "cohort": "all_entry_checks_ready",
+            "observations": 0,
+            "midpoint_direction_hit_fraction": null,
+            "net_positive_fraction": null,
+            "mean_net_price": null
+        },
+        {
+            "horizon_seconds": 30,
+            "cohort": "directional",
+            "observations": 33,
+            "midpoint_direction_hit_fraction": 0.5757575757575758,
+            "net_positive_fraction": 0.30303030303030304,
+            "mean_net_price": -0.45151515151511024
+        },
+        {
+            "horizon_seconds": 30,
+            "cohort": "all_entry_checks_ready",
+            "observations": 0,
+            "midpoint_direction_hit_fraction": null,
+            "net_positive_fraction": null,
+            "mean_net_price": null
+        }
+    ],
+    "notes": [
+        "Overlapping observations are not independent trades.",
+        "Directional movement and executable net profits are different metrics.",
+        "Rejected signals are not trades; adaptive exits/SLs are not simulated.",
+        "Twenty minutes cannot validate a calibrated model or long-term profitability."
+    ]
+}

@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-10-21T19:17:36.733480+00:00",
+  "sources": [
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\multi.py",
+      "sha256": "7d47c81b0ac16b309cb4455fd4501a9f713380e1c9c91d05416204317321391d",
+      "bytes": 699,
+      "syntax": "Python AST OK"
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\sweep.py",
+      "sha256": "132d61b2d0a632bb0576facb1c2ce0a664223be1ce3c994fa0283c2a49316fd9",
+      "bytes": 1116,
+      "syntax": "Python AST OK"
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\xau_sim.py",
+      "sha256": "b5e245782d299c745adcf25b1c7e538e1166789c98c20602c3da33b0a4161076",
+      "bytes": 15773,
+      "syntax": "Python AST OK"
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\XAU_RegimeScalper_AI.mq5",
+      "sha256": "f1fc4416911fb46ec77a87209bb612d31270c70259b4c29cde23f46ad3fe8dfb",
+      "bytes": 51369,
+      "syntax": "MQL5 STATIC REVIEW ONLY"
+    }
+  ],
+  "external_files_modified": false,
+  "mql5_installed": false,
+  "mql5_compiled": false
+}

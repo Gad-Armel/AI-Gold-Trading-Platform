@@ -1,0 +1,18 @@
+{
+  "frozen_before_collection": "2026-10-08T13:57:27.524263+00:00",
+  "family": "COMPLETED_CURRENCY_RETURNS_V1",
+  "symbols": [
+    "EURUSD",
+    "USDJPY"
+  ],
+  "source_sha256": "a699b69bbca52215077ccc6acc313584510a23b19d61061490a5df4039aeace5",
+  "model_sha256": "61897b865886a25ab44343587dddd5788253f243745966f32f0e137035333922",
+  "design": [
+    "Completed M1 currency returns 1/5/15 bars and 30-bar volatility-scaled 5-bar return.",
+    "Missing/stale features become zero with explicit availability flags; original rows/days retained.",
+    "Same model hyperparameters, threshold grid, chronological splits, labels and acceptance gates.",
+    "Middle dates already inspected: exploratory validation, not independent evidence.",
+    "Final dates evaluated only if validation qualifies; no model export or execution changes."
+  ],
+  "live_approved": false
+}

@@ -1,0 +1,7 @@
+Stopped previous dashboard 23124.
+Starting both browser dashboards. Keep this PowerShell window open.
+GoldScalpAI dashboard: http://127.0.0.1:8766/
+Advisor 1 dashboard: http://127.0.0.1:8766/advisor
+EA snapshots: C:\Users\Gad Asopjio\AppData\Roaming\MetaQuotes\Terminal\Common\Files\GoldScalp
+Keep this window open. CTRL+C stops the dashboard; the MT5 EA keeps running.
+Advisor 1 report transmission is included; a separate publisher console is no longer needed.

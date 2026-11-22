@@ -1,0 +1,225 @@
+{
+  "advisor_name": "GOLD MARKET ADVISOR V3 - MT5 TICK FLOW & LIQUIDITY",
+  "version": "3.0",
+  "generated_at": "2026-08-10T03:05:10.185682+00:00",
+  "symbol": "XAUUSD",
+  "bid": 4318.95,
+  "ask": 4319.53,
+  "mid": 4319.24,
+  "spread": 0.58,
+  "overall": "WAIT",
+  "horizons": {
+    "SCALP": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "directional_score": 0.0,
+      "calibrated_probability": null,
+      "valid_for_minutes": 2,
+      "review_at": "2026-08-10T03:05:50.185682+00:00",
+      "valid_until": "2026-08-10T03:07:10.185682+00:00",
+      "votes": {
+        "BUY": 0,
+        "SELL": 0,
+        "NEUTRAL": 3
+      },
+      "supporting_timeframes": [
+        "1s ticks",
+        "5s ticks",
+        "15s ticks"
+      ],
+      "reasons": [
+        "0/3 BUY, 0/3 SELL tick-window votes",
+        "MT5 market depth contains no usable volume."
+      ],
+      "blocks": [
+        "spread $0.58 exceeds V3 ceiling",
+        "tick windows have no 2-of-3 directional majority",
+        "tick-flow evidence below 60/100"
+      ],
+      "levels": {},
+      "window_metrics": {
+        "1": {
+          "seconds": 1,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82391,
+          "tick_imbalance": -0.0002,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -21.245,
+          "move_spread_ratio": -37.9375,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": -0.07
+        },
+        "5": {
+          "seconds": 5,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82433,
+          "tick_imbalance": -0.0002,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -21.0,
+          "move_spread_ratio": -37.5,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": -0.1
+        },
+        "15": {
+          "seconds": 15,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82510,
+          "tick_imbalance": -0.0003,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -21.41,
+          "move_spread_ratio": -38.2321,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": 0.0
+        }
+      }
+    },
+    "INTRADAY": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "directional_score": 0.0,
+      "calibrated_probability": null,
+      "valid_for_minutes": 10,
+      "review_at": "2026-08-10T03:08:30.185682+00:00",
+      "valid_until": "2026-08-10T03:15:10.185682+00:00",
+      "votes": {
+        "BUY": 0,
+        "SELL": 0,
+        "NEUTRAL": 3
+      },
+      "supporting_timeframes": [
+        "15s ticks",
+        "60s ticks",
+        "300s ticks"
+      ],
+      "reasons": [
+        "0/3 BUY, 0/3 SELL tick-window votes",
+        "MT5 market depth contains no usable volume."
+      ],
+      "blocks": [
+        "spread $0.58 exceeds V3 ceiling",
+        "tick windows have no 2-of-3 directional majority",
+        "tick-flow evidence below 60/100"
+      ],
+      "levels": {},
+      "window_metrics": {
+        "15": {
+          "seconds": 15,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82510,
+          "tick_imbalance": -0.0003,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -21.41,
+          "move_spread_ratio": -38.2321,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": 0.0
+        },
+        "60": {
+          "seconds": 60,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82865,
+          "tick_imbalance": -0.0,
+          "quote_pressure": -0.0015,
+          "net_move_usd": -20.005,
+          "move_spread_ratio": -35.7232,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": -0.07
+        },
+        "300": {
+          "seconds": 300,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 85771,
+          "tick_imbalance": -0.0006,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -14.59,
+          "move_spread_ratio": -26.5273,
+          "median_spread_usd": 0.55,
+          "spread_change_usd": 0.02
+        }
+      }
+    },
+    "SWING": {
+      "action": "WAIT",
+      "bias": "WAIT",
+      "directional_score": 0.0,
+      "calibrated_probability": null,
+      "valid_for_minutes": 30,
+      "review_at": "2026-08-10T03:15:10.185682+00:00",
+      "valid_until": "2026-08-10T03:35:10.185682+00:00",
+      "votes": {
+        "BUY": 0,
+        "SELL": 0,
+        "NEUTRAL": 3
+      },
+      "supporting_timeframes": [
+        "60s ticks",
+        "300s ticks",
+        "900s ticks"
+      ],
+      "reasons": [
+        "0/3 BUY, 0/3 SELL tick-window votes",
+        "MT5 market depth contains no usable volume."
+      ],
+      "blocks": [
+        "spread $0.58 exceeds V3 ceiling",
+        "tick windows have no 2-of-3 directional majority",
+        "tick-flow evidence below 60/100"
+      ],
+      "levels": {},
+      "window_metrics": {
+        "60": {
+          "seconds": 60,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 82865,
+          "tick_imbalance": -0.0,
+          "quote_pressure": -0.0015,
+          "net_move_usd": -20.005,
+          "move_spread_ratio": -35.7232,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": -0.07
+        },
+        "300": {
+          "seconds": 300,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 85771,
+          "tick_imbalance": -0.0006,
+          "quote_pressure": -0.0017,
+          "net_move_usd": -14.59,
+          "move_spread_ratio": -26.5273,
+          "median_spread_usd": 0.55,
+          "spread_change_usd": 0.02
+        },
+        "900": {
+          "seconds": 900,
+          "direction": "NEUTRAL",
+          "evidence": 0.0,
+          "ticks": 90960,
+          "tick_imbalance": -0.0049,
+          "quote_pressure": -0.0048,
+          "net_move_usd": -23.19,
+          "move_spread_ratio": -41.4107,
+          "median_spread_usd": 0.56,
+          "spread_change_usd": -0.14
+        }
+      }
+    }
+  },
+  "tick_count": 91084,
+  "latest_tick_age_seconds": 0.0,
+  "market_depth": {
+    "available": false,
+    "imbalance": 0.0,
+    "reason": "MT5 market depth contains no usable volume."
+  },
+  "execution_enabled": false,
+  "orders_sent": false,
+  "data_source": "MT5 raw bid/ask ticks and optional broker Depth of Market",
+  "disclaimer": "Broker-specific tick flow is not centralized exchange order flow."
+}

@@ -1,0 +1,179 @@
+[
+  {
+    "health": {
+      "available": false,
+      "terminal_connected": true,
+      "quote_age_seconds": 2902.02,
+      "entry_blocks": [
+        "No fresh XAUUSD quote: last broker tick is 2902.0s old. Check feed connection and symbol session."
+      ],
+      "reason": "No fresh XAUUSD quote: last broker tick is 2902.0s old. Check feed connection and symbol session.",
+      "observed_at": "2026-09-15T20:48:22.002052+00:00"
+    },
+    "history": {
+      "available": false,
+      "error": "MT5 returned no usable ticks",
+      "request_seconds": 920.0,
+      "fetch_ms": 6.33,
+      "cached_ticks": 0,
+      "latest_tick_age_seconds": null
+    },
+    "tick_count": 0,
+    "horizons": {
+      "SCALP": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "SWING": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      }
+    }
+  },
+  {
+    "health": {
+      "available": false,
+      "terminal_connected": true,
+      "quote_age_seconds": 2904.03,
+      "entry_blocks": [
+        "No fresh XAUUSD quote: last broker tick is 2904.0s old. Check feed connection and symbol session."
+      ],
+      "reason": "No fresh XAUUSD quote: last broker tick is 2904.0s old. Check feed connection and symbol session.",
+      "observed_at": "2026-09-15T20:48:24.012032+00:00"
+    },
+    "history": {
+      "available": false,
+      "error": "MT5 returned no usable ticks",
+      "request_seconds": 920.0,
+      "fetch_ms": 1.71,
+      "cached_ticks": 0,
+      "latest_tick_age_seconds": null
+    },
+    "tick_count": 0,
+    "horizons": {
+      "SCALP": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "SWING": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      }
+    }
+  },
+  {
+    "health": {
+      "available": false,
+      "terminal_connected": true,
+      "quote_age_seconds": 2906.036,
+      "entry_blocks": [
+        "No fresh XAUUSD quote: last broker tick is 2906.0s old. Check feed connection and symbol session."
+      ],
+      "reason": "No fresh XAUUSD quote: last broker tick is 2906.0s old. Check feed connection and symbol session.",
+      "observed_at": "2026-09-15T20:48:26.018149+00:00"
+    },
+    "history": {
+      "available": false,
+      "error": "MT5 returned no usable ticks",
+      "request_seconds": 920.0,
+      "fetch_ms": 2.17,
+      "cached_ticks": 0,
+      "latest_tick_age_seconds": null
+    },
+    "tick_count": 0,
+    "horizons": {
+      "SCALP": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "INTRADAY": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      },
+      "SWING": {
+        "bias": "WAIT",
+        "directional_score": 0.0,
+        "source_usable": false,
+        "blocks": [
+          "MT5 tick history unavailable",
+          "latest MT5 tick stale (infs)",
+          "tick windows have no 2-of-3 directional majority",
+          "microstructure evidence below 60/100",
+          "microstructure data quality is low"
+        ]
+      }
+    }
+  }
+]

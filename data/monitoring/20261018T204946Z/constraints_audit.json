@@ -1,0 +1,20 @@
+{
+  "observations": 717,
+  "first_sample": "2026-10-18T20:49:46.869952+00:00",
+  "last_sample": "2026-10-18T22:49:53.518601+00:00",
+  "maximum_owned_positions": 2,
+  "samples_at_capacity": 0,
+  "capacity_violation_samples": 0,
+  "unprotected_samples": [],
+  "unexpected_volume_samples": [],
+  "mixed_direction_samples": 0,
+  "secondary_position_samples": [],
+  "non_demo_samples": 0,
+  "non_running_samples": 0,
+  "limitations": [
+    "Ten-second observations cannot certify every intervening tick/order.",
+    "Observed stop presence does not guarantee a fill at that stop price.",
+    "Maximum observed capacity is usage, not proof that every permitted addition qualified.",
+    "Owned positions are identified by main SCALP magic 631011."
+  ]
+}

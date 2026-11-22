@@ -1,0 +1,8 @@
+{
+  "source": "bls_cpi",
+  "url": "https://www.bls.gov/feed/cpi.rss",
+  "retrieved_at": "2026-09-14T14:47:19.246470+00:00",
+  "payload_sha256": "753b88f0f5400418fe71949af0e98473a8c695dc828c135b5cf1d9d07a19a436",
+  "events": [],
+  "role": "PUBLICATION_DETECTION_ONLY"
+}

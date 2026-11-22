@@ -1,0 +1,119 @@
+{
+  "synthetic_only": true,
+  "validates_live_profitability": false,
+  "source_sha256": "b5e245782d299c745adcf25b1c7e538e1166789c98c20602c3da33b0a4161076",
+  "baseline": {
+    "risk": 0.005,
+    "comm_rt": 7.0,
+    "contract": 100,
+    "max_spread": 0.4,
+    "min_rr_cost": 4.0,
+    "adx_trend": 20,
+    "er_trend": 0.3,
+    "adx_range": 18,
+    "er_range": 0.22,
+    "atrp_min": 15,
+    "atrp_max": 95,
+    "tp_r_A": 1.5,
+    "tp_r_B": 1.8,
+    "sl_min": 0.8,
+    "sl_max": 2.0,
+    "be_r": 1.0,
+    "trail_r": 1.5,
+    "trail_atr": 1.0,
+    "max_bars": 12,
+    "time_stop_r": 0.3,
+    "or_starts": [
+      [
+        7,
+        0
+      ],
+      [
+        13,
+        30
+      ]
+    ],
+    "or_min": 30,
+    "or_window": 120,
+    "sessions": [
+      [
+        420,
+        660
+      ],
+      [
+        750,
+        1020
+      ]
+    ],
+    "daily_loss": 0.03,
+    "max_trades": 20,
+    "max_consec": 4,
+    "cool_min": 60,
+    "trend_mode": "adx",
+    "t_n": 24,
+    "t_thr": 2.5,
+    "htf_fast": 50,
+    "htf_slow": 200,
+    "a_confirm": false,
+    "ring": 20,
+    "prior_n": 5,
+    "min_n": 8,
+    "off": -0.05,
+    "on": 0.05,
+    "engines": "ABC"
+  },
+  "overrides": {},
+  "days": 5,
+  "results": [
+    {
+      "mode": "regime",
+      "seed": 1,
+      "trades": 6,
+      "mean_r": 0.8539467278093508,
+      "ending_equity": 10258.433178925123,
+      "realized_only_drawdown": 0.0,
+      "engines": {
+        "A": {
+          "active": true,
+          "score": 0.21426322676170972
+        },
+        "B": {
+          "active": true,
+          "score": 0.4026486421693485
+        },
+        "C": {
+          "active": true,
+          "score": 0.0
+        }
+      }
+    },
+    {
+      "mode": "rw",
+      "seed": 1,
+      "trades": 11,
+      "mean_r": -0.009728810836727015,
+      "ending_equity": 9993.10493958005,
+      "realized_only_drawdown": 0.01620175667204252,
+      "engines": {
+        "A": {
+          "active": false,
+          "score": -0.3150426993375314
+        },
+        "B": {
+          "active": true,
+          "score": 0.23728659249810835
+        },
+        "C": {
+          "active": true,
+          "score": 0.0
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "The supplied simulator is an OHLC synthetic diagnostic, not real tick execution.",
+    "Its stop-gap fills, floating drawdown, virtual/real policy parity and broker constraints remain unvalidated.",
+    "Random-walk losses do not prove absence of look-ahead, nor does a positive seed prove alpha.",
+    "No pooled IID trade t-statistic is presented as statistical validation."
+  ]
+}

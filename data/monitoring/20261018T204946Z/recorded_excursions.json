@@ -1,0 +1,313 @@
+{
+  "rows": [
+    {
+      "ticket": 58918568831,
+      "actual": 2.14,
+      "evidence": 57.66,
+      "maximum_gap_seconds": 1.287,
+      "peak": 3.82,
+      "trough": -0.46,
+      "samples": 335,
+      "usable": true
+    },
+    {
+      "ticket": 58918589997,
+      "actual": -0.35,
+      "evidence": 73.19,
+      "maximum_gap_seconds": 1.287,
+      "peak": 1.29,
+      "trough": -0.38,
+      "samples": 249,
+      "usable": true
+    },
+    {
+      "ticket": 58918613258,
+      "actual": -1.38,
+      "evidence": 73.19,
+      "maximum_gap_seconds": 1.287,
+      "peak": 0.26,
+      "trough": -1.2,
+      "samples": 161,
+      "usable": true
+    },
+    {
+      "ticket": 58918678760,
+      "actual": -4.19,
+      "evidence": 71.91,
+      "maximum_gap_seconds": 1.529,
+      "peak": 1.51,
+      "trough": -3.67,
+      "samples": 836,
+      "usable": true
+    },
+    {
+      "ticket": 58918687623,
+      "actual": -4.21,
+      "evidence": 72.42,
+      "maximum_gap_seconds": 1.529,
+      "peak": 0.3,
+      "trough": -4.09,
+      "samples": 681,
+      "usable": true
+    },
+    {
+      "ticket": 58918862286,
+      "actual": -4.03,
+      "evidence": 58.63,
+      "maximum_gap_seconds": 1.226,
+      "peak": 0.38,
+      "trough": -3.9,
+      "samples": 138,
+      "usable": true
+    },
+    {
+      "ticket": 58918932985,
+      "actual": 1.51,
+      "evidence": 58.63,
+      "maximum_gap_seconds": 1.548,
+      "peak": 2.6,
+      "trough": -1.3,
+      "samples": 140,
+      "usable": true
+    },
+    {
+      "ticket": 58918970431,
+      "actual": 0.98,
+      "evidence": 58.63,
+      "maximum_gap_seconds": 0.94,
+      "peak": 2.26,
+      "trough": -0.51,
+      "samples": 96,
+      "usable": true
+    },
+    {
+      "ticket": 58919373766,
+      "actual": -2.38,
+      "evidence": 53.74,
+      "maximum_gap_seconds": 1.53,
+      "peak": 0.25,
+      "trough": -2.38,
+      "samples": 130,
+      "usable": true
+    },
+    {
+      "ticket": 58919415217,
+      "actual": 0.74,
+      "evidence": 53.74,
+      "maximum_gap_seconds": 1.955,
+      "peak": 1.72,
+      "trough": -1.14,
+      "samples": 263,
+      "usable": true
+    },
+    {
+      "ticket": 58919472602,
+      "actual": -3.69,
+      "evidence": 53.74,
+      "maximum_gap_seconds": 1.685,
+      "peak": 0.28,
+      "trough": -3.59,
+      "samples": 197,
+      "usable": true
+    },
+    {
+      "ticket": 58919564417,
+      "actual": 1.7,
+      "evidence": 54.96,
+      "maximum_gap_seconds": 1.805,
+      "peak": 2.83,
+      "trough": -0.93,
+      "samples": 203,
+      "usable": true
+    },
+    {
+      "ticket": 58919821414,
+      "actual": 0.32,
+      "evidence": 69.01,
+      "maximum_gap_seconds": 2.493,
+      "peak": 1.7,
+      "trough": -1.21,
+      "samples": 818,
+      "usable": true
+    },
+    {
+      "ticket": 58919964474,
+      "actual": 2.88,
+      "evidence": 68.97,
+      "maximum_gap_seconds": 2.486,
+      "peak": 4.48,
+      "trough": -1.17,
+      "samples": 1196,
+      "usable": true
+    },
+    {
+      "ticket": 58920122034,
+      "actual": -0.43,
+      "evidence": 76.72,
+      "maximum_gap_seconds": 2.486,
+      "peak": 1.17,
+      "trough": -0.46,
+      "samples": 202,
+      "usable": true
+    },
+    {
+      "ticket": 58920141872,
+      "actual": -1.52,
+      "evidence": 76.72,
+      "maximum_gap_seconds": 2.486,
+      "peak": 0.08,
+      "trough": -1.52,
+      "samples": 114,
+      "usable": true
+    },
+    {
+      "ticket": 58920185443,
+      "actual": -3.12,
+      "evidence": 76.72,
+      "maximum_gap_seconds": 4.093,
+      "peak": 1.21,
+      "trough": -2.67,
+      "samples": 777,
+      "usable": true
+    },
+    {
+      "ticket": 58920196385,
+      "actual": -3.09,
+      "evidence": 76.72,
+      "maximum_gap_seconds": 2.512,
+      "peak": -0.52,
+      "trough": -2.96,
+      "samples": 179,
+      "usable": true
+    },
+    {
+      "ticket": 58922248356,
+      "actual": 1.29,
+      "evidence": 92.97,
+      "maximum_gap_seconds": 9.022,
+      "peak": 2.39,
+      "trough": -1.84,
+      "samples": 2491,
+      "usable": true
+    },
+    {
+      "ticket": 58922413383,
+      "actual": -1.88,
+      "evidence": 93.04,
+      "maximum_gap_seconds": 6.429,
+      "peak": -0.02,
+      "trough": -1.76,
+      "samples": 541,
+      "usable": true
+    },
+    {
+      "ticket": 58922504447,
+      "actual": 0.49,
+      "evidence": 74.21,
+      "maximum_gap_seconds": 3.56,
+      "peak": 1.59,
+      "trough": -0.54,
+      "samples": 443,
+      "usable": true
+    },
+    {
+      "ticket": 58922551121,
+      "actual": -1.19,
+      "evidence": 94.8,
+      "maximum_gap_seconds": 3.56,
+      "peak": -0.09,
+      "trough": -1.25,
+      "samples": 103,
+      "usable": true
+    },
+    {
+      "ticket": 58922581959,
+      "actual": -1.68,
+      "evidence": 95.88,
+      "maximum_gap_seconds": 2.028,
+      "peak": -0.29,
+      "trough": -1.58,
+      "samples": 59,
+      "usable": true
+    },
+    {
+      "ticket": 58922602972,
+      "actual": -1.88,
+      "evidence": 94.44,
+      "maximum_gap_seconds": 9588.759,
+      "peak": 15.72,
+      "trough": -33.37,
+      "samples": 625,
+      "usable": false
+    },
+    {
+      "ticket": 58922624277,
+      "actual": -1.69,
+      "evidence": 94.82,
+      "maximum_gap_seconds": 243.153,
+      "peak": 1.57,
+      "trough": -0.99,
+      "samples": 429,
+      "usable": false
+    },
+    {
+      "ticket": 58922662764,
+      "actual": -1.65,
+      "evidence": 98.02,
+      "maximum_gap_seconds": 86.372,
+      "peak": 0.85,
+      "trough": -0.5,
+      "samples": 134,
+      "usable": false
+    },
+    {
+      "ticket": 58922673363,
+      "actual": -1.63,
+      "evidence": 98.02,
+      "maximum_gap_seconds": 47.212,
+      "peak": -0.05,
+      "trough": -1.06,
+      "samples": 83,
+      "usable": false
+    },
+    {
+      "ticket": 58923500451,
+      "actual": -2.7,
+      "evidence": 78.33,
+      "maximum_gap_seconds": 12.037,
+      "peak": 1.01,
+      "trough": -3.02,
+      "samples": 436,
+      "usable": false
+    },
+    {
+      "ticket": 58923515572,
+      "actual": -4.15,
+      "evidence": 92.77,
+      "maximum_gap_seconds": 11.439,
+      "peak": -0.26,
+      "trough": -4.29,
+      "samples": 319,
+      "usable": false
+    },
+    {
+      "ticket": 58923582936,
+      "actual": -3.56,
+      "evidence": 75.3,
+      "maximum_gap_seconds": 14.8,
+      "peak": -0.32,
+      "trough": -3.7,
+      "samples": 50,
+      "usable": false
+    }
+  ],
+  "usable_trades": 23,
+  "losing_trades": 14,
+  "losses_never_positive": 4,
+  "losses_after_half_dollar_peak": 4,
+  "limitations": [
+    "Recorded quotes are sampled, not full tick history; maxima are not achievable fills.",
+    "A 100-ounce contract is assumed for this historical broker/symbol profile.",
+    "This is an entry-versus-giveback diagnosis, not an optimized exit replay or a new trading signal."
+  ]
+}

@@ -1,0 +1,1 @@
+{"observed_at": 1792610206.4671946, "signal": {"available": false, "execution_enabled": false, "strategy": "ABC_REGIME_RESEARCH_V1", "calibrated_probability": null, "candidates": [], "blocks": ["Invalid/stale setup, quote or explicit cost inputs"]}}

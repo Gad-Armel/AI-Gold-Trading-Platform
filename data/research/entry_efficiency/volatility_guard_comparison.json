@@ -1,0 +1,83 @@
+{
+  "identical_windows": true,
+  "rows": [
+    {
+      "period": "20261008T040208Z",
+      "staged": false,
+      "quotes": 7843,
+      "control_net": 7.41,
+      "allow_expansion_net": 3.21,
+      "net_change": -4.2,
+      "control_drawdown": 8.54,
+      "allow_expansion_drawdown": 11.48,
+      "control_scalp_entries": 7,
+      "allow_expansion_scalp_entries": 8
+    },
+    {
+      "period": "20261008T040208Z",
+      "staged": true,
+      "quotes": 7843,
+      "control_net": 0.13,
+      "allow_expansion_net": -4.07,
+      "net_change": -4.2,
+      "control_drawdown": 12.79,
+      "allow_expansion_drawdown": 16.46,
+      "control_scalp_entries": 7,
+      "allow_expansion_scalp_entries": 8
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": false,
+      "quotes": 28917,
+      "control_net": -24.099999999999998,
+      "allow_expansion_net": -22.32,
+      "net_change": 1.78,
+      "control_drawdown": 34.09,
+      "allow_expansion_drawdown": 32.31,
+      "control_scalp_entries": 16,
+      "allow_expansion_scalp_entries": 16
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": true,
+      "quotes": 28917,
+      "control_net": -3.83,
+      "allow_expansion_net": -2.6300000000000003,
+      "net_change": 1.2,
+      "control_drawdown": 17.98,
+      "allow_expansion_drawdown": 16.2,
+      "control_scalp_entries": 16,
+      "allow_expansion_scalp_entries": 16
+    },
+    {
+      "period": "20261008T130901Z",
+      "staged": false,
+      "quotes": 6588,
+      "control_net": -5.3,
+      "allow_expansion_net": -10.38,
+      "net_change": -5.08,
+      "control_drawdown": 11.68,
+      "allow_expansion_drawdown": 15.74,
+      "control_scalp_entries": 4,
+      "allow_expansion_scalp_entries": 5
+    },
+    {
+      "period": "20261008T130901Z",
+      "staged": true,
+      "quotes": 6588,
+      "control_net": -5.96,
+      "allow_expansion_net": -11.04,
+      "net_change": -5.08,
+      "control_drawdown": 11.68,
+      "allow_expansion_drawdown": 15.74,
+      "control_scalp_entries": 4,
+      "allow_expansion_scalp_entries": 5
+    }
+  ],
+  "production_change": false,
+  "positive_edge_proven": false,
+  "limitations": [
+    "Exploratory comparison on inspected data, not blind validation.",
+    "Paper replay fidelity and sampled-quote limitations remain; allocation and exit paths interact."
+  ]
+}

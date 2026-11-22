@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_advisor.py", line 53, in <module>
+    if __name__=="__main__": raise SystemExit(main())
+                                              ~~~~^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_advisor.py", line 36, in main
+    report=build_gold_advisory(get_scalping_snapshot(scalping_settings.SCALPING_SYMBOL))
+                               ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\services\market_data\scalping_snapshot.py", line 304, in get_scalping_snapshot
+    raise RuntimeError(f"No live price returned for {symbol}.")
+RuntimeError: No live price returned for XAUUSD.

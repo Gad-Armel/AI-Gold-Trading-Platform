@@ -1,0 +1,2227 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum 5 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-19 04:41:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      False    1     0.58/46%    +0.09R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.31 | total $-26.09
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 30 | 2026-10-19 04:41:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.53/66%    +0.05R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.13 | total $-26.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 60 | 2026-10-19 04:41:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.56/61%    +0.03R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.08 | total $-26.32
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 89 | 2026-10-19 04:42:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.2      True     1     0.64/61%    +0.02R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.02 | total $-26.38
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 120 | 2026-10-19 04:42:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.2      True     1     0.63/81%    +0.08R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.19 | total $-26.21
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 150 | 2026-10-19 04:42:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.2      True     1     0.68/61%    +0.14R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.33 | total $-26.07
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 180 | 2026-10-19 04:42:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.2      True     1     0.61/66%    +0.06R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.00 | total $-26.40
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 210 | 2026-10-19 04:43:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.2      True     1     0.66/46%    +0.01R  POSITION OPEN
+Session P/L: realized $-26.40 | floating $0.03 | total $-26.37
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 240 | 2026-10-19 04:43:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.2      True     0     -           -       Post-exit market analysis: 28s remaining.
+Session P/L: realized $-27.48 | floating $0.00 | total $-27.48
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 271 | 2026-10-19 04:43:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.2      True     0     -           -       Post-exit market analysis: 12s remaining.
+Session P/L: realized $-27.48 | floating $0.00 | total $-27.48
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 301 | 2026-10-19 04:43:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.2      True     1     0.69/46%    -0.16R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.41 | total $-27.89
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 330 | 2026-10-19 04:44:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.53/46%    -0.23R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.58 | total $-28.06
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 357 | 2026-10-19 04:44:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.52/61%    -0.08R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.27 | total $-27.75
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 363 | 2026-10-19 04:44:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.56/46%    -0.09R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.22 | total $-27.70
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 377 | 2026-10-19 04:44:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.1      True     1     0.48/81%    -0.19R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.46 | total $-27.94
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 384 | 2026-10-19 04:45:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.50/61%    -0.21R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.68 | total $-28.16
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 405 | 2026-10-19 04:45:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.53/81%    -0.11R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.25 | total $-27.73
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 435 | 2026-10-19 04:45:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.52/81%    -0.13R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.31 | total $-27.79
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 465 | 2026-10-19 04:45:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.55/46%    -0.08R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.19 | total $-27.67
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 492 | 2026-10-19 04:46:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.51/81%    -0.06R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.16 | total $-27.64
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 522 | 2026-10-19 04:46:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.53/66%    -0.08R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.20 | total $-27.68
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 552 | 2026-10-19 04:46:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.54/46%    -0.10R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.24 | total $-27.72
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 582 | 2026-10-19 04:46:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.59/66%    +0.10R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.18 | total $-27.30
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 612 | 2026-10-19 04:47:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.51/81%    -0.16R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.25 | total $-27.73
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 642 | 2026-10-19 04:47:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.59/46%    -0.31R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.77 | total $-28.25
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 672 | 2026-10-19 04:47:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.58/81%    -0.19R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.47 | total $-27.95
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 702 | 2026-10-19 04:47:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.62/46%    -0.10R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $-0.27 | total $-27.75
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 728 | 2026-10-19 04:48:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.61/61%    +0.20R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.46 | total $-27.02
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 758 | 2026-10-19 04:48:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.63/61%    +0.25R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.62 | total $-26.86
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 788 | 2026-10-19 04:48:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.57/66%    +0.08R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.20 | total $-27.28
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 818 | 2026-10-19 04:48:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      False    1     0.62/46%    +0.02R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.05 | total $-27.43
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 846 | 2026-10-19 04:49:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.63/61%    +0.21R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.46 | total $-27.02
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 872 | 2026-10-19 04:49:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.65/81%    +0.37R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.93 | total $-26.55
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 902 | 2026-10-19 04:49:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.58/81%    +0.28R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.70 | total $-26.78
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 932 | 2026-10-19 04:49:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.0      True     1     0.60/61%    +0.21R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.52 | total $-26.96
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 962 | 2026-10-19 04:50:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    76.1      True     1     0.68/61%    +0.43R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $1.03 | total $-26.45
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 992 | 2026-10-19 04:50:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    76.1      True     1     0.65/61%    +0.27R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.68 | total $-26.80
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1022 | 2026-10-19 04:50:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    76.1      False    1     0.59/46%    +0.17R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.43 | total $-27.05
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1053 | 2026-10-19 04:50:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    76.1      True     1     0.59/81%    +0.14R  POSITION OPEN
+Session P/L: realized $-27.48 | floating $0.39 | total $-27.09
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1083 | 2026-10-19 04:51:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.8      True     0     -           -       Post-exit market analysis: 16s remaining.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1112 | 2026-10-19 04:51:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.8      True     0     -           -       Post-exit market analysis: 1s remaining.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1143 | 2026-10-19 04:51:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.8      True     0     -           -       Signal persistence is 1.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1173 | 2026-10-19 04:52:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.8      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1203 | 2026-10-19 04:52:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.1s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1227 | 2026-10-19 04:52:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.4      True     0     -           -       Signal persistence is 1.9s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1258 | 2026-10-19 04:52:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.4      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1288 | 2026-10-19 04:53:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.4      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1317 | 2026-10-19 04:53:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1347 | 2026-10-19 04:53:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1378 | 2026-10-19 04:53:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1408 | 2026-10-19 04:54:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    74.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1436 | 2026-10-19 04:54:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1464 | 2026-10-19 04:54:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1493 | 2026-10-19 04:54:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1522 | 2026-10-19 04:55:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1553 | 2026-10-19 04:55:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1576 | 2026-10-19 04:55:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1605 | 2026-10-19 04:55:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1631 | 2026-10-19 04:56:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1657 | 2026-10-19 04:56:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.9      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1687 | 2026-10-19 04:56:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1717 | 2026-10-19 04:56:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1743 | 2026-10-19 04:57:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.1      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1772 | 2026-10-19 04:57:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.1      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.0s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1797 | 2026-10-19 04:57:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.1      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.1s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1817 | 2026-10-19 04:57:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.1      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1842 | 2026-10-19 04:58:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1865 | 2026-10-19 04:58:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1894 | 2026-10-19 04:58:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1923 | 2026-10-19 04:58:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1953 | 2026-10-19 04:59:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.5      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.1s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1979 | 2026-10-19 04:59:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.5      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2010 | 2026-10-19 04:59:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.5      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2040 | 2026-10-19 04:59:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.5      True     0     -           -       Signal persistence is 2.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2067 | 2026-10-19 05:00:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    87.7      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2091 | 2026-10-19 05:00:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    87.7      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2117 | 2026-10-19 05:00:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    87.7      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2145 | 2026-10-19 05:00:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    87.7      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2175 | 2026-10-19 05:01:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2203 | 2026-10-19 05:01:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2232 | 2026-10-19 05:01:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.6      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.1s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2262 | 2026-10-19 05:02:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.6      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.1s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2292 | 2026-10-19 05:02:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2320 | 2026-10-19 05:02:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2350 | 2026-10-19 05:02:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2373 | 2026-10-19 05:03:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2401 | 2026-10-19 05:03:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2430 | 2026-10-19 05:03:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2459 | 2026-10-19 05:03:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2489 | 2026-10-19 05:04:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2512 | 2026-10-19 05:04:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2531 | 2026-10-19 05:04:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2560 | 2026-10-19 05:04:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.8      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2583 | 2026-10-19 05:05:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2614 | 2026-10-19 05:05:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2635 | 2026-10-19 05:05:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2660 | 2026-10-19 05:05:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2688 | 2026-10-19 05:06:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.1      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2716 | 2026-10-19 05:06:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.1      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2735 | 2026-10-19 05:06:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.1      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2746 | 2026-10-19 05:06:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    80.1      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2762 | 2026-10-19 05:07:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2790 | 2026-10-19 05:07:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2810 | 2026-10-19 05:07:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2831 | 2026-10-19 05:07:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    79.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2847 | 2026-10-19 05:08:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2875 | 2026-10-19 05:08:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2894 | 2026-10-19 05:08:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.4      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2922 | 2026-10-19 05:08:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    81.4      True     0     -           -       Signal persistence is 1.3s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2946 | 2026-10-19 05:09:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.9      True     0     -           -       Signal persistence is 0.9s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2972 | 2026-10-19 05:09:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.9      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 2994 | 2026-10-19 05:09:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.9      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3021 | 2026-10-19 05:09:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    67.9      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3042 | 2026-10-19 05:10:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3061 | 2026-10-19 05:10:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3079 | 2026-10-19 05:10:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3105 | 2026-10-19 05:10:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3126 | 2026-10-19 05:11:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3152 | 2026-10-19 05:11:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3181 | 2026-10-19 05:11:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3207 | 2026-10-19 05:12:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3232 | 2026-10-19 05:12:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3256 | 2026-10-19 05:12:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3284 | 2026-10-19 05:12:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal persistence is 1.2s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3308 | 2026-10-19 05:13:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3336 | 2026-10-19 05:13:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal persistence is 0.6s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3358 | 2026-10-19 05:13:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3382 | 2026-10-19 05:13:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3407 | 2026-10-19 05:14:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3426 | 2026-10-19 05:14:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal persistence is 1.9s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3435 | 2026-10-19 05:14:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3460 | 2026-10-19 05:14:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    64.7      True     0     -           -       Signal persistence is 1.2s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3477 | 2026-10-19 05:15:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3501 | 2026-10-19 05:15:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.4s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3523 | 2026-10-19 05:15:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3545 | 2026-10-19 05:15:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3573 | 2026-10-19 05:16:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3602 | 2026-10-19 05:16:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3625 | 2026-10-19 05:16:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3655 | 2026-10-19 05:16:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3678 | 2026-10-19 05:17:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3702 | 2026-10-19 05:17:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3727 | 2026-10-19 05:17:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3757 | 2026-10-19 05:17:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3782 | 2026-10-19 05:18:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3810 | 2026-10-19 05:18:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3826 | 2026-10-19 05:18:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3846 | 2026-10-19 05:18:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3874 | 2026-10-19 05:19:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3900 | 2026-10-19 05:19:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3926 | 2026-10-19 05:19:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3954 | 2026-10-19 05:20:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    58.0      True     0     -           -       Signal weakened: waiting for 3 completed M1 candle(s) agreeing with the next direction.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 3978 | 2026-10-19 05:20:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4006 | 2026-10-19 05:20:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4032 | 2026-10-19 05:20:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4060 | 2026-10-19 05:21:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4084 | 2026-10-19 05:21:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4112 | 2026-10-19 05:21:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4142 | 2026-10-19 05:21:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4166 | 2026-10-19 05:22:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4193 | 2026-10-19 05:22:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4212 | 2026-10-19 05:22:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4236 | 2026-10-19 05:22:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4261 | 2026-10-19 05:23:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4288 | 2026-10-19 05:23:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4315 | 2026-10-19 05:23:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4344 | 2026-10-19 05:23:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4369 | 2026-10-19 05:24:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4397 | 2026-10-19 05:24:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4418 | 2026-10-19 05:24:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.7s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4444 | 2026-10-19 05:24:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4467 | 2026-10-19 05:25:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4494 | 2026-10-19 05:25:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4517 | 2026-10-19 05:25:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4539 | 2026-10-19 05:25:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4561 | 2026-10-19 05:26:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4586 | 2026-10-19 05:26:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4608 | 2026-10-19 05:26:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4633 | 2026-10-19 05:26:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4650 | 2026-10-19 05:27:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4677 | 2026-10-19 05:27:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4700 | 2026-10-19 05:27:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4729 | 2026-10-19 05:27:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4758 | 2026-10-19 05:28:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4788 | 2026-10-19 05:28:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4817 | 2026-10-19 05:28:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4848 | 2026-10-19 05:28:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4878 | 2026-10-19 05:29:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4909 | 2026-10-19 05:29:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4938 | 2026-10-19 05:29:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4968 | 2026-10-19 05:30:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 4998 | 2026-10-19 05:30:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5028 | 2026-10-19 05:30:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5054 | 2026-10-19 05:30:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5085 | 2026-10-19 05:31:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5115 | 2026-10-19 05:31:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5145 | 2026-10-19 05:31:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5174 | 2026-10-19 05:31:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5197 | 2026-10-19 05:32:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5219 | 2026-10-19 05:32:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5250 | 2026-10-19 05:32:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5280 | 2026-10-19 05:32:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5306 | 2026-10-19 05:33:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5331 | 2026-10-19 05:33:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5357 | 2026-10-19 05:33:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5384 | 2026-10-19 05:33:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5409 | 2026-10-19 05:34:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5439 | 2026-10-19 05:34:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5465 | 2026-10-19 05:34:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5496 | 2026-10-19 05:34:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5519 | 2026-10-19 05:35:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       SCALP paused during volatility expansion.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5548 | 2026-10-19 05:35:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       SCALP paused during volatility expansion.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5574 | 2026-10-19 05:35:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       SCALP paused during volatility expansion.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5602 | 2026-10-19 05:35:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       SCALP paused during volatility expansion.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5630 | 2026-10-19 05:36:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5659 | 2026-10-19 05:36:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5685 | 2026-10-19 05:36:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5714 | 2026-10-19 05:36:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5737 | 2026-10-19 05:37:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5764 | 2026-10-19 05:37:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5789 | 2026-10-19 05:37:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5818 | 2026-10-19 05:37:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5842 | 2026-10-19 05:38:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5870 | 2026-10-19 05:38:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5892 | 2026-10-19 05:38:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.3s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5915 | 2026-10-19 05:39:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5941 | 2026-10-19 05:39:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5970 | 2026-10-19 05:39:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 5995 | 2026-10-19 05:39:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6025 | 2026-10-19 05:40:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    63.9      True     0     -           -       Signal persistence is 0.6s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6047 | 2026-10-19 05:40:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    77.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6070 | 2026-10-19 05:40:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    77.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6084 | 2026-10-19 05:40:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    77.9      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6113 | 2026-10-19 05:41:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    70.8      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6133 | 2026-10-19 05:41:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    70.8      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6160 | 2026-10-19 05:41:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    70.8      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6188 | 2026-10-19 05:41:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    70.8      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6217 | 2026-10-19 05:42:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Signal persistence is 1.5s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6246 | 2026-10-19 05:42:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6275 | 2026-10-19 05:42:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6303 | 2026-10-19 05:42:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Signal persistence is 1.4s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6333 | 2026-10-19 05:43:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6363 | 2026-10-19 05:43:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Signal persistence is 1.4s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6393 | 2026-10-19 05:43:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6423 | 2026-10-19 05:43:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Signal persistence is 0.5s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6453 | 2026-10-19 05:44:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6483 | 2026-10-19 05:44:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.4s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6513 | 2026-10-19 05:44:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6544 | 2026-10-19 05:44:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    57.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6573 | 2026-10-19 05:45:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6603 | 2026-10-19 05:45:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6633 | 2026-10-19 05:45:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6662 | 2026-10-19 05:45:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6691 | 2026-10-19 05:46:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Signal persistence is 0.5s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6722 | 2026-10-19 05:46:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.7s old. Check feed connection and symbol session.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6752 | 2026-10-19 05:46:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Signal persistence is 1.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6782 | 2026-10-19 05:46:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6811 | 2026-10-19 05:47:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6841 | 2026-10-19 05:47:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6869 | 2026-10-19 05:47:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6898 | 2026-10-19 05:48:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6926 | 2026-10-19 05:48:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6956 | 2026-10-19 05:48:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 6985 | 2026-10-19 05:48:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7014 | 2026-10-19 05:49:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7043 | 2026-10-19 05:49:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7073 | 2026-10-19 05:49:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7103 | 2026-10-19 05:49:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    60.2      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7134 | 2026-10-19 05:50:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7162 | 2026-10-19 05:50:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7190 | 2026-10-19 05:50:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7219 | 2026-10-19 05:50:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    75.3      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7246 | 2026-10-19 05:51:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.6      True     0     -           -       SCALP analysed reward/risk is 0.70; minimum is 0.70.
+Session P/L: realized $-27.42 | floating $0.00 | total $-27.42
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7276 | 2026-10-19 05:51:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.6      True     1     0.65/81%    +0.09R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $0.18 | total $-27.24
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7304 | 2026-10-19 05:51:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.6      True     1     0.55/81%    -0.16R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $-0.29 | total $-27.71
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7332 | 2026-10-19 05:51:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.6      True     1     0.69/46%    +0.10R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $0.20 | total $-27.22
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7358 | 2026-10-19 05:52:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.9      True     2     0.70/66%    +0.20R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $0.84 | total $-26.58
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7386 | 2026-10-19 05:52:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.9      True     2     0.72/81%    +0.29R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $1.22 | total $-26.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7416 | 2026-10-19 05:52:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.9      True     2     0.71/66%    +0.34R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $1.46 | total $-25.96
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7445 | 2026-10-19 05:52:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    82.9      True     2     0.84/81%    +0.62R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $2.66 | total $-24.76
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7475 | 2026-10-19 05:53:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     3     0.69/66%    +0.49R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $2.59 | total $-24.83
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7506 | 2026-10-19 05:53:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     3     0.69/81%    +0.66R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $4.27 | total $-23.15
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7536 | 2026-10-19 05:53:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     3     0.61/61%    +0.19R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $1.39 | total $-26.03
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7565 | 2026-10-19 05:53:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     3     0.60/61%    +0.13R  POSITION OPEN
+Session P/L: realized $-27.42 | floating $0.82 | total $-26.60
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7591 | 2026-10-19 05:54:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     0     -           -       Post-exit market analysis: 21s remaining.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7622 | 2026-10-19 05:54:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.6s old. Check feed connection and symbol session.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7652 | 2026-10-19 05:54:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7680 | 2026-10-19 05:54:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    83.0      True     0     -           -       Signal persistence is 1.7s; 2.0s required.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7710 | 2026-10-19 05:55:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7740 | 2026-10-19 05:55:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7770 | 2026-10-19 05:55:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7796 | 2026-10-19 05:55:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7825 | 2026-10-19 05:56:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7854 | 2026-10-19 05:56:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7884 | 2026-10-19 05:56:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7914 | 2026-10-19 05:56:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Signal persistence is 0.4s; 2.0s required.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7942 | 2026-10-19 05:57:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 7972 | 2026-10-19 05:57:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Signal persistence is 2.0s; 2.0s required.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8001 | 2026-10-19 05:57:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8030 | 2026-10-19 05:57:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-27.20 | floating $0.00 | total $-27.20
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8060 | 2026-10-19 05:58:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.66/66%    -0.20R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-0.40 | total $-27.60
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8089 | 2026-10-19 05:58:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.64/81%    -0.21R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-0.46 | total $-27.66
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8118 | 2026-10-19 05:58:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.56/81%    -0.53R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.15 | total $-28.35
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8148 | 2026-10-19 05:59:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.51/81%    -0.77R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.67 | total $-28.87
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8178 | 2026-10-19 05:59:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.69/46%    -0.73R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.57 | total $-28.77
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8208 | 2026-10-19 05:59:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.57/61%    -0.66R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.42 | total $-28.62
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8238 | 2026-10-19 05:59:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.54/81%    -0.78R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.68 | total $-28.88
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8266 | 2026-10-19 06:00:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    86.6      True     1     0.61/81%    -0.34R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-0.57 | total $-27.77
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8295 | 2026-10-19 06:00:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.57/81%    -0.37R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-0.81 | total $-28.01
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8325 | 2026-10-19 06:00:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.48/81%    -0.65R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.48 | total $-28.68
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8356 | 2026-10-19 06:00:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.56/81%    -0.62R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.35 | total $-28.55
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8385 | 2026-10-19 06:01:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.48/81%    -0.78R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.78 | total $-28.98
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8416 | 2026-10-19 06:01:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.52/81%    -0.68R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.53 | total $-28.73
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8446 | 2026-10-19 06:01:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     1     0.51/81%    -0.82R  POSITION OPEN
+Session P/L: realized $-27.20 | floating $-1.77 | total $-28.97
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8475 | 2026-10-19 06:01:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    93.0      True     0     -           -       Post-exit market analysis: 24s remaining.
+Session P/L: realized $-29.36 | floating $0.00 | total $-29.36
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8504 | 2026-10-19 06:02:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.2      True     0     -           -       Post-exit market analysis: 8s remaining.
+Session P/L: realized $-29.36 | floating $0.00 | total $-29.36
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 8535 | 2026-10-19 06:02:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    84.2      True     0     -           -       Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through.
+Session P/L: realized $-29.36 | floating $0.00 | total $-29.36
+======================================================================================================================

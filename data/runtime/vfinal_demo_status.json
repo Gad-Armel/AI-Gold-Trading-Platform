@@ -1,0 +1,37 @@
+{
+  "status": "STOPPED",
+  "mode": "DEMO",
+  "updated_at": "2026-08-20T20:50:19.025095+00:00",
+  "cycle": 107,
+  "account": {
+    "login": 5052797669,
+    "server": "MetaQuotes-Demo",
+    "balance": 24073.28,
+    "equity": 24073.28,
+    "trade_mode": 0,
+    "is_demo": true
+  },
+  "market": {
+    "symbol": "XAUUSD",
+    "bid": 4528.48,
+    "ask": 4528.91,
+    "spread": 0.43000000000029104
+  },
+  "signal": {
+    "direction": "WAIT",
+    "score": 0.0,
+    "confidence": 0.0,
+    "reason": "spread_or_atr_block"
+  },
+  "positions": [],
+  "actions": [],
+  "safety": {
+    "max_lot": 0.01,
+    "max_spread": 0.38,
+    "max_hold_seconds": 300,
+    "consecutive_losses": 0,
+    "max_consecutive_losses": 3,
+    "bootstrap_mode": true,
+    "ml_model_approved": false
+  }
+}

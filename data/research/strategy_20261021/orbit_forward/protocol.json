@@ -1,0 +1,11 @@
+{
+  "started_at": "2026-10-21T17:33:15.611572+00:00",
+  "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+  "execution_enabled": false,
+  "strategy": "ORBIT_M1_M15_RESEARCH_V1",
+  "latency_seconds": 0.35,
+  "round_trip_cost_price": 0.3,
+  "source_sha256": "56f5792fcac4461c4909a7b6fa56f5a1018fdd7be5bc7119c14b118b75907db8",
+  "changes_during_trial_allowed": false,
+  "automatic_promotion_allowed": false
+}

@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "folder": "20261008T040208Z",
+      "first": "2026-10-08T04:02:08.737416+00:00",
+      "last": "2026-10-08T06:07:18.212406+00:00",
+      "observations": 501,
+      "minutes": 125.158
+    },
+    {
+      "folder": "20261008T060830Z",
+      "first": "2026-10-08T06:08:30.263021+00:00",
+      "last": "2026-10-08T11:13:39.527931+00:00",
+      "observations": 1220,
+      "minutes": 305.154
+    },
+    {
+      "folder": "20261008T113050Z",
+      "first": "2026-10-08T11:30:50.992228+00:00",
+      "last": "2026-10-08T11:40:52.263286+00:00",
+      "observations": 41,
+      "minutes": 10.021
+    },
+    {
+      "folder": "20261008T115826Z",
+      "first": "2026-10-08T11:58:26.519597+00:00",
+      "last": "2026-10-08T12:18:29.896657+00:00",
+      "observations": 81,
+      "minutes": 20.056
+    },
+    {
+      "folder": "20261008T123825Z",
+      "first": "2026-10-08T12:38:25.098637+00:00",
+      "last": "2026-10-08T13:08:29.821111+00:00",
+      "observations": 121,
+      "minutes": 30.079
+    },
+    {
+      "folder": "20261008T130901Z",
+      "first": "2026-10-08T13:09:01.566294+00:00",
+      "last": "2026-10-08T14:09:13.403201+00:00",
+      "observations": 241,
+      "minutes": 60.197
+    }
+  ],
+  "span_hours": 10.117962718055555,
+  "captured_interval_hours": 9.17776316638889,
+  "limitations": [
+    "Captured intervals contain sampling gaps and do not prove uninterrupted human review or complete quote coverage.",
+    "Span includes periods between captures; interval hours merge overlaps and exclude between-capture gaps."
+  ]
+}

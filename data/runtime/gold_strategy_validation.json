@@ -1,0 +1,12 @@
+{
+  "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+  "state": "USER_AUTHORIZED_DEMO_EXPERIMENT",
+  "new_entries_enabled": true,
+  "reason": "User-authorized demo activity is enabled. Existing source votes drive entries; the failed challenger stays shadow-only. Prior after-cost tests were negative; higher turnover can increase losses. Broker, quote, SL and risk checks still apply.",
+  "entry_report": "data/research/rethink_entry_comparison_20261029.json",
+  "exit_report": "data/research/rethink_noise_comparison_20261029.json",
+  "model_role": "SHADOW_ONLY",
+  "new_entry_net_price": -60.75,
+  "noise_exit_delta_usd": -0.61,
+  "historical_capture": "2026-10-29T04:05:36Z to 2026-10-29T08:05:36Z"
+}

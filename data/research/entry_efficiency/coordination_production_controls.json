@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "period": "20261008T040208Z",
+      "staged": false,
+      "production_controls": true,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "trades": 7,
+      "realized": 6.6,
+      "floating": 0.81,
+      "profit_factor": 1.762,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T115558-5acf2c47"
+    },
+    {
+      "period": "20261008T040208Z",
+      "staged": true,
+      "production_controls": true,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "trades": 7,
+      "realized": -0.68,
+      "floating": 0.81,
+      "profit_factor": 0.95,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T115612-631e8f72"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": false,
+      "production_controls": true,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "trades": 30,
+      "realized": -16.06,
+      "floating": -8.04,
+      "profit_factor": 0.675,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T115627-cb0ffd0e"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": true,
+      "production_controls": true,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "trades": 18,
+      "realized": -8.26,
+      "floating": -2.64,
+      "profit_factor": 0.684,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T115733-0d9ec9ad"
+    }
+  ],
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Includes production conscience, quote-only fast exits, own micro-flow and SCALP churn controls.",
+    "Current neutral-thesis exits included; recorded source-policy changes remain and warm-start positions/history are not copied.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

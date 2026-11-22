@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_consensus_bot.py", line 1018, in <module>
+    raise SystemExit(main())
+                     ~~~~^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\run_gold_consensus_bot.py", line 517, in main
+    existing = horizon_position_details(mt5, 'SCALP')
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\services\execution\gold_consensus_demo_broker.py", line 626, in horizon_position_details
+    for position in horizon_positions(mt5, horizon):
+                    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\services\execution\gold_consensus_demo_broker.py", line 88, in horizon_positions
+    raise RuntimeError(f"Unable to read MT5 positions: {mt5.last_error()}")
+RuntimeError: Unable to read MT5 positions: (-10001, 'IPC send failed')

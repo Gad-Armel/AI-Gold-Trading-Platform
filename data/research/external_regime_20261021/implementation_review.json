@@ -1,0 +1,13 @@
+{
+  "main_status": "RUNNING",
+  "updated_at": "2026-10-21T19:20:42.280628+00:00",
+  "new_entries_paused": true,
+  "lot": 0.01,
+  "max_positions": 4,
+  "abc_evaluation": "FINISHED_OR_STALE",
+  "advisor_errors": {},
+  "targeted_tests_passed": 107,
+  "advisor1_protected_files_unchanged": 18,
+  "new_ea_installed": false,
+  "profitability_validated": false
+}

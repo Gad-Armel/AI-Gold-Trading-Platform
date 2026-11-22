@@ -1,0 +1,73 @@
+{
+  "observed_at": "2026-10-20T06:57:50.168357+00:00",
+  "read_only": true,
+  "symbol": "XAUUSD",
+  "tick_health": {
+    "available": true,
+    "error": "",
+    "request_seconds": 920.0,
+    "fetch_ms": 49.9,
+    "cached_ticks": 5164,
+    "latest_tick_age_seconds": 0.6733570098876953
+  },
+  "observation": {
+    "available": true,
+    "execution_enabled": false,
+    "role": "SHADOW_ONLY",
+    "timeframe": "S30",
+    "direction": "WAIT",
+    "bars": [
+      {
+        "time": 1792479360,
+        "open": 4135.355,
+        "high": 4135.355,
+        "low": 4134.2,
+        "close": 4134.34,
+        "ticks": 148,
+        "maximum_spread": 0.5799999999999272
+      },
+      {
+        "time": 1792479390,
+        "open": 4134.38,
+        "high": 4134.38,
+        "low": 4133.165,
+        "close": 4133.535,
+        "ticks": 149,
+        "maximum_spread": 0.5900000000001455
+      },
+      {
+        "time": 1792479420,
+        "open": 4133.57,
+        "high": 4134.525,
+        "low": 4132.475,
+        "close": 4134.42,
+        "ticks": 210,
+        "maximum_spread": 0.6000000000003638
+      }
+    ],
+    "observed_epoch": 1792479470.168357,
+    "fast_candidate": {
+      "execution_enabled": false,
+      "role": "SHADOW_ONLY",
+      "setup": "S30_TICK_CONTINUATION",
+      "direction": "WAIT",
+      "calibrated_probability": null,
+      "expected_value": null,
+      "pattern_ready": false,
+      "cost_screen_passed": null,
+      "blocks": [
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy",
+        "Explicit round-trip commission and slippage price equivalents required"
+      ],
+      "setup_id": "S30:1792479420:WAIT",
+      "quote_efficiency": 0.1024,
+      "signed_move_price": -0.0,
+      "spread_price": 0.4600000000000364,
+      "recent_range_proxy_price": 1.2150000000001455,
+      "extension_price": 0.0,
+      "research_candidate": false
+    },
+    "reason": "Three completed midpoint S30 candles; spread and execution costs are not a profit forecast"
+  }
+}

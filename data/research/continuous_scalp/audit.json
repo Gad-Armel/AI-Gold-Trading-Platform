@@ -1,0 +1,85 @@
+{
+  "quote_files": [
+    {
+      "path": "data\\research\\gold_forward\\quotes_20260910.jsonl",
+      "sha256": "d07b6ccf17428435e51081dae2ad1df58a8adeb83ce129e1d9f95af408ac60ab",
+      "bytes": 37347
+    },
+    {
+      "path": "data\\research\\gold_forward\\quotes_20260911.jsonl",
+      "sha256": "0b39fe9b98b83fd3c0f0b3f6206f56c411b4accf96ccc8575c0cc999cf89fa5f",
+      "bytes": 2286586
+    },
+    {
+      "path": "data\\research\\gold_forward\\quotes_20260914.jsonl",
+      "sha256": "a0841e5f698a358f4486b7b73936037cf6081f53b613b5c7e3fc3a46499a19f4",
+      "bytes": 1164203
+    },
+    {
+      "path": "data\\research\\gold_forward\\quotes_20260915.jsonl",
+      "sha256": "3fe506596c6b45ddc622c9476ac9f241a7450a819c701523ada0e3ce1e8f2d6a",
+      "bytes": 1178807
+    }
+  ],
+  "quotes": 32231,
+  "invalid_rows": 0,
+  "stale_quotes": 1834,
+  "flow_available": 22985,
+  "directional_flow": 12378,
+  "replay_seconds": 2.4978867000318132,
+  "microseconds_per_observation": 77.49950978969976,
+  "labelled_examples": 15165,
+  "forecast": {
+    "available": true,
+    "algorithm": "StandardScaler + Ridge(alpha=100), fixed before evaluation",
+    "target": "Executable bid change 30 seconds ahead; USD per ounce, not a trade outcome",
+    "training_examples": 9086,
+    "test_examples": 6066,
+    "purged_examples": 13,
+    "training_label_end": 1789403448.629337,
+    "test_start": 1789403450.888709,
+    "ridge_mae": 0.6506948818152538,
+    "zero_change_mae": 0.6479096604022425,
+    "blocks": [
+      {
+        "examples": 1517,
+        "ridge_mae": 0.7354386369115997,
+        "zero_change_mae": 0.7366644693474007
+      },
+      {
+        "examples": 1517,
+        "ridge_mae": 0.6248496770628867,
+        "zero_change_mae": 0.6192221489782374
+      },
+      {
+        "examples": 1516,
+        "ridge_mae": 0.6121403355882759,
+        "zero_change_mae": 0.606616094986814
+      },
+      {
+        "examples": 1516,
+        "ridge_mae": 0.6303120264117467,
+        "zero_change_mae": 0.6290963060686016
+      }
+    ],
+    "nonoverlapping_flow_hold_diagnostic": {
+      "samples": 476,
+      "net_usd_for_one_ounce": -149.11000000000038,
+      "mean_usd": -0.31325630252101266
+    },
+    "promoted": false,
+    "reason": "Single retrospective experiment on sparse recordings; no executable strategy validation"
+  },
+  "policy_authority_only": {
+    "recorded_scalp_decisions": 2668,
+    "old_consensus_allowed": 1,
+    "flow_authority_allowed": 224
+  },
+  "limitations": [
+    "Recorded decisions are sampled, not all loop cycles. Gate counts are not fill counts.",
+    "Overlapping 30-second labels are correlated; no independent-trade significance claim.",
+    "Flow-hold diagnostic omits stops, margin, full fees, news and production entry gates.",
+    "Existing data helped design thresholds; this is development evidence, not pristine validation.",
+    "No model or strategy is promoted by this script."
+  ]
+}

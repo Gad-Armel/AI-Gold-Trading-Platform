@@ -1,0 +1,483 @@
+{
+  "as_of": "2026-10-09T17:58:18.362974+00:00",
+  "overall": {
+    "trades": 132,
+    "net": -51.4,
+    "wins": 61,
+    "losses": 71,
+    "average_win": 1.7822950819672132,
+    "average_loss": 2.2552112676056337
+  },
+  "directions": {
+    "BUY": {
+      "trades": 103,
+      "net": -32.55,
+      "wins": 49,
+      "losses": 54,
+      "average_win": 1.7967346938775508,
+      "average_loss": 2.2331481481481483
+    },
+    "SELL": {
+      "trades": 29,
+      "net": -18.85,
+      "wins": 12,
+      "losses": 17,
+      "average_win": 1.7233333333333334,
+      "average_loss": 2.3252941176470587
+    }
+  },
+  "exits": {
+    "Confirmed market thesis invalidation": {
+      "trades": 15,
+      "net": -41.26,
+      "wins": 0,
+      "losses": 15,
+      "average_win": null,
+      "average_loss": 2.7506666666666666
+    },
+    "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss": {
+      "trades": 7,
+      "net": -12.67,
+      "wins": 0,
+      "losses": 7,
+      "average_win": null,
+      "average_loss": 1.81
+    },
+    "Sustained executable quote reversal with loss or profit giveback": {
+      "trades": 4,
+      "net": -6.32,
+      "wins": 0,
+      "losses": 4,
+      "average_win": null,
+      "average_loss": 1.58
+    },
+    "[sl 4179.29]": {
+      "trades": 1,
+      "net": -5.12,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.12
+    },
+    "[sl 4186.41]": {
+      "trades": 1,
+      "net": -5.11,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.11
+    },
+    "[sl 4186.14]": {
+      "trades": 1,
+      "net": -5.04,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.04
+    },
+    "[sl 4195.52]": {
+      "trades": 1,
+      "net": -5.04,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.04
+    },
+    "[sl 4186.38]": {
+      "trades": 1,
+      "net": -5.02,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.02
+    },
+    "[sl 4180.47]": {
+      "trades": 1,
+      "net": -5.01,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.01
+    },
+    "[sl 4188.66]": {
+      "trades": 1,
+      "net": -5.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.0
+    },
+    "[sl 4196.12]": {
+      "trades": 1,
+      "net": -5.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 5.0
+    },
+    "[sl 4193.87]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.99
+    },
+    "[sl 4197.04]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.99
+    },
+    "[sl 4174.65]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.99
+    },
+    "[sl 4180.85]": {
+      "trades": 1,
+      "net": -4.97,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.97
+    },
+    "[sl 4179.44]": {
+      "trades": 1,
+      "net": -4.96,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.96
+    },
+    "[sl 4181.43]": {
+      "trades": 1,
+      "net": -4.95,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.95
+    },
+    "[sl 4180.66]": {
+      "trades": 1,
+      "net": -4.92,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": 4.92
+    },
+    "Profit giveback of 0.85 from peak with support fading": {
+      "trades": 6,
+      "net": -3.61,
+      "wins": 2,
+      "losses": 4,
+      "average_win": 0.46499999999999997,
+      "average_loss": 1.135
+    },
+    "Profit giveback of 0.95 from peak with support fading": {
+      "trades": 7,
+      "net": -1.92,
+      "wins": 3,
+      "losses": 4,
+      "average_win": 0.6266666666666666,
+      "average_loss": 0.95
+    },
+    "Profit giveback of 0.90 from peak with support fading": {
+      "trades": 2,
+      "net": -0.48,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.31,
+      "average_loss": 0.79
+    },
+    "Profit giveback of 0.97 from peak with support fading": {
+      "trades": 2,
+      "net": 0.2,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.74,
+      "average_loss": 0.54
+    },
+    "Flow reversal risk 0.77 while 0.31 in profit (floor 0.30); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.28,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.28,
+      "average_loss": null
+    },
+    "Profit giveback of 0.87 from peak with support fading": {
+      "trades": 2,
+      "net": 0.38,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.66,
+      "average_loss": 0.28
+    },
+    "Flow reversal risk 0.81 while 0.54 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.51,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.51,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.79 while 0.58 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.58,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.58,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.76 while 0.52 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 0.77,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 1.15,
+      "average_loss": 0.38
+    },
+    "Profit giveback of 0.72 from peak with support fading": {
+      "trades": 3,
+      "net": 0.81,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 0.845,
+      "average_loss": 0.88
+    },
+    "Flow reversal risk 0.72 while 1.08 in profit (floor 0.48); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.04,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.04,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.75 while 0.59 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.17,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.585,
+      "average_loss": null
+    },
+    "Profit giveback of 1.67 from peak with support fading": {
+      "trades": 1,
+      "net": 1.23,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.23,
+      "average_loss": null
+    },
+    "Profit giveback of 0.88 from peak with support fading": {
+      "trades": 4,
+      "net": 1.35,
+      "wins": 2,
+      "losses": 2,
+      "average_win": 1.3199999999999998,
+      "average_loss": 0.645
+    },
+    "Flow reversal risk 0.76 while 0.66 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.38,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.69,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.73 while 1.40 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.4,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.4,
+      "average_loss": null
+    },
+    "Protected winner returned to breakeven; banking it rather than risking the stop": {
+      "trades": 10,
+      "net": 1.48,
+      "wins": 6,
+      "losses": 4,
+      "average_win": 0.6916666666666668,
+      "average_loss": 0.6675
+    },
+    "Flow reversal risk 0.90 while 0.78 in profit (floor 0.78); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 1.86,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.5499999999999998,
+      "average_loss": 1.24
+    },
+    "Flow reversal risk 0.92 while 0.64 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 1.91,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.09,
+      "average_loss": 0.27
+    },
+    "Flow reversal risk 0.74 while 2.14 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.17,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.17,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.72 while 0.76 in profit (floor 0.68); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 2.26,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.4849999999999999,
+      "average_loss": 0.71
+    },
+    "Flow reversal risk 0.73 while 2.33 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.27,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.27,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.77 while 2.72 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.72,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.72,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.81 while 1.07 in profit (floor 1.06); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 2.81,
+      "wins": 1,
+      "losses": 2,
+      "average_win": 7.01,
+      "average_loss": 2.0999999999999996
+    },
+    "Flow reversal risk 0.77 while 1.00 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.01,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.69,
+      "average_loss": 0.37
+    },
+    "Flow reversal risk 0.76 while 1.07 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.07,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.6,
+      "average_loss": 0.13
+    },
+    "Flow reversal risk 0.75 while 3.16 in profit (floor 0.84); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.16,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.16,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.76 while 1.26 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.8,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.93,
+      "average_loss": 0.06
+    },
+    "Profit giveback of 1.00 from peak with support fading": {
+      "trades": 5,
+      "net": 3.86,
+      "wins": 3,
+      "losses": 2,
+      "average_win": 1.8266666666666664,
+      "average_loss": 0.81
+    },
+    "Flow reversal risk 0.75 while 4.19 in profit (floor 0.46); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 4.19,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 4.19,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.74 while 1.64 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 4.95,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 1.6500000000000001,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.73 while 3.37 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 7.01,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 8.0,
+      "average_loss": 0.99
+    },
+    "Flow reversal risk 0.86 while 2.55 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 7.76,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 2.5866666666666664,
+      "average_loss": null
+    },
+    "Flow reversal risk 0.71 while 4.97 in profit (floor 1.10); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 9.93,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 4.965,
+      "average_loss": null
+    },
+    "Profit lock: retained 80% of position peak after $6.00 arm": {
+      "trades": 2,
+      "net": 10.65,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 5.325,
+      "average_loss": null
+    }
+  },
+  "primary_evidence_at_least_85": {
+    "trades": 42,
+    "net": 3.29,
+    "wins": 24,
+    "losses": 18,
+    "average_win": 1.8433333333333335,
+    "average_loss": 2.2750000000000004
+  },
+  "current": {
+    "SCALP": {
+      "direction": "BUY",
+      "evidence": 97.93
+    },
+    "INTRADAY": {
+      "direction": "BUY",
+      "evidence": 97.91
+    },
+    "SWING": {
+      "direction": "BUY",
+      "evidence": 92.55
+    }
+  },
+  "limitations": [
+    "Broker-confirmed position outcomes; journal reasons can describe basket-wide triggers.",
+    "Broker SL comments are recorded, not classified solely by dollar loss.",
+    "Entry order/position IDs coincide here; absent matches are excluded from score subgroup.",
+    "Short descriptive cohort, not a counterfactual test of removing stops."
+  ]
+}

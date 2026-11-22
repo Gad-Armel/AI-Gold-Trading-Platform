@@ -1,0 +1,1559 @@
+{
+  "source_capture": "data\\research\\entry_efficiency\\actual_entry_horizons\\20261008T130028Z",
+  "rows": [
+    {
+      "ticket": "58812654939",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.955,
+          "executable_move": -1.41,
+          "starting_spread": 0.26
+        },
+        "60": {
+          "signed_mid_move": -1.26,
+          "executable_move": -1.66,
+          "starting_spread": 0.26
+        },
+        "180": {
+          "signed_mid_move": -2.795,
+          "executable_move": -3.28,
+          "starting_spread": 0.26
+        }
+      }
+    },
+    {
+      "ticket": "58812714923",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.74,
+          "executable_move": -1.26,
+          "starting_spread": 0.52
+        },
+        "60": {
+          "signed_mid_move": -1.35,
+          "executable_move": -1.86,
+          "starting_spread": 0.52
+        },
+        "180": {
+          "signed_mid_move": -0.095,
+          "executable_move": -0.58,
+          "starting_spread": 0.52
+        }
+      }
+    },
+    {
+      "ticket": "58813249890",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": 0.71,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.575,
+          "executable_move": 0.03,
+          "starting_spread": 0.63
+        },
+        "60": {
+          "signed_mid_move": 0.99,
+          "executable_move": 0.46,
+          "starting_spread": 0.63
+        },
+        "180": {
+          "signed_mid_move": 2.765,
+          "executable_move": 2.24,
+          "starting_spread": 0.63
+        }
+      }
+    },
+    {
+      "ticket": "58813342001",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": 3.09,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.14,
+          "executable_move": -0.45,
+          "starting_spread": 0.58
+        },
+        "60": {
+          "signed_mid_move": 0.555,
+          "executable_move": -0.03,
+          "starting_spread": 0.58
+        },
+        "180": {
+          "signed_mid_move": 1.37,
+          "executable_move": 0.83,
+          "starting_spread": 0.58
+        }
+      }
+    },
+    {
+      "ticket": "58813636984",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": -5.05,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.135,
+          "executable_move": -0.43,
+          "starting_spread": 0.56
+        },
+        "60": {
+          "signed_mid_move": -0.315,
+          "executable_move": -0.86,
+          "starting_spread": 0.56
+        },
+        "180": {
+          "signed_mid_move": -2.815,
+          "executable_move": -3.28,
+          "starting_spread": 0.56
+        }
+      }
+    },
+    {
+      "ticket": "58813640577",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": -5.06,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.645,
+          "executable_move": -1.2,
+          "starting_spread": 0.6
+        },
+        "60": {
+          "signed_mid_move": -0.7,
+          "executable_move": -1.3,
+          "starting_spread": 0.6
+        },
+        "180": {
+          "signed_mid_move": -2.735,
+          "executable_move": -3.29,
+          "starting_spread": 0.6
+        }
+      }
+    },
+    {
+      "ticket": "58813744249",
+      "lane": "INTRADAY",
+      "period": "EARLY",
+      "actual_profit": -4.64,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.035,
+          "executable_move": -0.51,
+          "starting_spread": 0.49
+        },
+        "60": null,
+        "180": null
+      }
+    },
+    {
+      "ticket": "58814349549",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": 3.28,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.855,
+          "executable_move": 0.52,
+          "starting_spread": 0.31
+        },
+        "60": {
+          "signed_mid_move": 0.72,
+          "executable_move": 0.32,
+          "starting_spread": 0.31
+        },
+        "180": {
+          "signed_mid_move": 0.695,
+          "executable_move": 0.31,
+          "starting_spread": 0.31
+        }
+      }
+    },
+    {
+      "ticket": "58814540299",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": 3.4,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.675,
+          "executable_move": -1.15,
+          "starting_spread": 0.35
+        },
+        "60": {
+          "signed_mid_move": -0.81,
+          "executable_move": -1.38,
+          "starting_spread": 0.35
+        },
+        "180": {
+          "signed_mid_move": -1.085,
+          "executable_move": -1.61,
+          "starting_spread": 0.35
+        }
+      }
+    },
+    {
+      "ticket": "58814702449",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": 3.48,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 2.33,
+          "executable_move": 1.77,
+          "starting_spread": 0.61
+        },
+        "60": {
+          "signed_mid_move": 2.655,
+          "executable_move": 2.09,
+          "starting_spread": 0.61
+        },
+        "180": {
+          "signed_mid_move": 5.0,
+          "executable_move": 4.48,
+          "starting_spread": 0.61
+        }
+      }
+    },
+    {
+      "ticket": "58814803141",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -1.39,
+          "executable_move": -1.81,
+          "starting_spread": 0.38
+        },
+        "60": {
+          "signed_mid_move": -1.45,
+          "executable_move": -1.8,
+          "starting_spread": 0.38
+        },
+        "180": {
+          "signed_mid_move": -2.7,
+          "executable_move": -3.11,
+          "starting_spread": 0.38
+        }
+      }
+    },
+    {
+      "ticket": "58814871315",
+      "lane": "SCALP",
+      "period": "EARLY",
+      "actual_profit": -0.9,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.145,
+          "executable_move": -0.62,
+          "starting_spread": 0.37
+        },
+        "60": {
+          "signed_mid_move": 1.035,
+          "executable_move": 0.59,
+          "starting_spread": 0.37
+        },
+        "180": {
+          "signed_mid_move": 0.315,
+          "executable_move": -0.05,
+          "starting_spread": 0.37
+        }
+      }
+    },
+    {
+      "ticket": "58815077075",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 2.19,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 1.66,
+          "executable_move": 1.29,
+          "starting_spread": 0.33
+        },
+        "60": {
+          "signed_mid_move": 1.65,
+          "executable_move": 1.3,
+          "starting_spread": 0.33
+        },
+        "180": {
+          "signed_mid_move": 2.295,
+          "executable_move": 1.91,
+          "starting_spread": 0.33
+        }
+      }
+    },
+    {
+      "ticket": "58815117038",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 0.56,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.625,
+          "executable_move": -1.07,
+          "starting_spread": 0.41
+        },
+        "60": {
+          "signed_mid_move": -0.705,
+          "executable_move": -1.12,
+          "starting_spread": 0.41
+        },
+        "180": {
+          "signed_mid_move": 0.015,
+          "executable_move": -0.38,
+          "starting_spread": 0.41
+        }
+      }
+    },
+    {
+      "ticket": "58815211445",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -3.78,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.71,
+          "executable_move": -0.98,
+          "starting_spread": 0.24
+        },
+        "60": {
+          "signed_mid_move": -1.29,
+          "executable_move": -1.57,
+          "starting_spread": 0.24
+        },
+        "180": {
+          "signed_mid_move": -1.22,
+          "executable_move": -1.45,
+          "starting_spread": 0.24
+        }
+      }
+    },
+    {
+      "ticket": "58816200127",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.67,
+          "executable_move": -1.15,
+          "starting_spread": 0.36
+        },
+        "60": {
+          "signed_mid_move": -0.945,
+          "executable_move": -1.43,
+          "starting_spread": 0.36
+        },
+        "180": {
+          "signed_mid_move": -0.33,
+          "executable_move": -0.81,
+          "starting_spread": 0.36
+        }
+      }
+    },
+    {
+      "ticket": "58816257294",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.835,
+          "executable_move": -1.25,
+          "starting_spread": 0.38
+        },
+        "60": {
+          "signed_mid_move": -0.045,
+          "executable_move": -0.43,
+          "starting_spread": 0.38
+        },
+        "180": {
+          "signed_mid_move": 0.14,
+          "executable_move": -0.26,
+          "starting_spread": 0.38
+        }
+      }
+    },
+    {
+      "ticket": "58816260761",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.71,
+          "executable_move": 0.35,
+          "starting_spread": 0.43
+        },
+        "60": {
+          "signed_mid_move": 0.415,
+          "executable_move": 0.06,
+          "starting_spread": 0.43
+        },
+        "180": {
+          "signed_mid_move": 0.455,
+          "executable_move": 0.06,
+          "starting_spread": 0.43
+        }
+      }
+    },
+    {
+      "ticket": "58816498560",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -4.98,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -2.435,
+          "executable_move": -2.78,
+          "starting_spread": 0.37
+        },
+        "60": {
+          "signed_mid_move": -2.01,
+          "executable_move": -2.37,
+          "starting_spread": 0.37
+        },
+        "180": {
+          "signed_mid_move": -1.305,
+          "executable_move": -1.67,
+          "starting_spread": 0.37
+        }
+      }
+    },
+    {
+      "ticket": "58816553703",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": -2.83,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.95,
+          "executable_move": -1.49,
+          "starting_spread": 0.41
+        },
+        "60": {
+          "signed_mid_move": -0.385,
+          "executable_move": -0.95,
+          "starting_spread": 0.41
+        },
+        "180": {
+          "signed_mid_move": -0.535,
+          "executable_move": -1.09,
+          "starting_spread": 0.41
+        }
+      }
+    },
+    {
+      "ticket": "58816734208",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 2.36,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.4,
+          "executable_move": 0.06,
+          "starting_spread": 0.34
+        },
+        "60": {
+          "signed_mid_move": -0.645,
+          "executable_move": -1.03,
+          "starting_spread": 0.34
+        },
+        "180": {
+          "signed_mid_move": -1.205,
+          "executable_move": -1.56,
+          "starting_spread": 0.34
+        }
+      }
+    },
+    {
+      "ticket": "58816815953",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": 0.78,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 2.025,
+          "executable_move": 1.71,
+          "starting_spread": 0.45
+        },
+        "60": {
+          "signed_mid_move": 2.45,
+          "executable_move": 2.17,
+          "starting_spread": 0.45
+        },
+        "180": {
+          "signed_mid_move": 3.465,
+          "executable_move": 3.19,
+          "starting_spread": 0.45
+        }
+      }
+    },
+    {
+      "ticket": "58816847530",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -1.88,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -1.195,
+          "executable_move": -1.65,
+          "starting_spread": 0.35
+        },
+        "60": {
+          "signed_mid_move": -1.31,
+          "executable_move": -1.76,
+          "starting_spread": 0.35
+        },
+        "180": {
+          "signed_mid_move": -2.9,
+          "executable_move": -3.36,
+          "starting_spread": 0.35
+        }
+      }
+    },
+    {
+      "ticket": "58816895359",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": 1.89,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -2.3,
+          "executable_move": -2.6,
+          "starting_spread": 0.41
+        },
+        "60": {
+          "signed_mid_move": -1.035,
+          "executable_move": -1.33,
+          "starting_spread": 0.41
+        },
+        "180": {
+          "signed_mid_move": 0.715,
+          "executable_move": 0.37,
+          "starting_spread": 0.41
+        }
+      }
+    },
+    {
+      "ticket": "58817158563",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -3.48,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 1.95,
+          "executable_move": 1.48,
+          "starting_spread": 0.45
+        },
+        "60": {
+          "signed_mid_move": 1.93,
+          "executable_move": 1.46,
+          "starting_spread": 0.45
+        },
+        "180": {
+          "signed_mid_move": -0.445,
+          "executable_move": -0.88,
+          "starting_spread": 0.45
+        }
+      }
+    },
+    {
+      "ticket": "58817264732",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 1.66,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.21,
+          "executable_move": -0.65,
+          "starting_spread": 0.37
+        },
+        "60": {
+          "signed_mid_move": -0.14,
+          "executable_move": -0.54,
+          "starting_spread": 0.37
+        },
+        "180": {
+          "signed_mid_move": -1.445,
+          "executable_move": -1.83,
+          "starting_spread": 0.37
+        }
+      }
+    },
+    {
+      "ticket": "58817398845",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -1.39,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -1.8,
+          "executable_move": -2.13,
+          "starting_spread": 0.44
+        },
+        "60": {
+          "signed_mid_move": -2.225,
+          "executable_move": -2.52,
+          "starting_spread": 0.44
+        },
+        "180": {
+          "signed_mid_move": -1.355,
+          "executable_move": -1.65,
+          "starting_spread": 0.44
+        }
+      }
+    },
+    {
+      "ticket": "58817453721",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -1.11,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.94,
+          "executable_move": -1.28,
+          "starting_spread": 0.38
+        },
+        "60": {
+          "signed_mid_move": -0.95,
+          "executable_move": -1.31,
+          "starting_spread": 0.38
+        },
+        "180": {
+          "signed_mid_move": -2.08,
+          "executable_move": -2.42,
+          "starting_spread": 0.38
+        }
+      }
+    },
+    {
+      "ticket": "58817836016",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 0.34,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.68,
+          "executable_move": 0.3,
+          "starting_spread": 0.35
+        },
+        "60": {
+          "signed_mid_move": 0.29,
+          "executable_move": -0.1,
+          "starting_spread": 0.35
+        },
+        "180": {
+          "signed_mid_move": 1.595,
+          "executable_move": 1.19,
+          "starting_spread": 0.35
+        }
+      }
+    },
+    {
+      "ticket": "58817977603",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.045,
+          "executable_move": -0.21,
+          "starting_spread": 0.36
+        },
+        "60": {
+          "signed_mid_move": -1.59,
+          "executable_move": -1.86,
+          "starting_spread": 0.36
+        },
+        "180": {
+          "signed_mid_move": -1.56,
+          "executable_move": -1.82,
+          "starting_spread": 0.36
+        }
+      }
+    },
+    {
+      "ticket": "58817978259",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -2.75,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.075,
+          "executable_move": -0.44,
+          "starting_spread": 0.35
+        },
+        "60": {
+          "signed_mid_move": -1.305,
+          "executable_move": -1.75,
+          "starting_spread": 0.35
+        },
+        "180": {
+          "signed_mid_move": -1.37,
+          "executable_move": -1.78,
+          "starting_spread": 0.35
+        }
+      }
+    },
+    {
+      "ticket": "58817979767",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -3.16,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.505,
+          "executable_move": -0.87,
+          "starting_spread": 0.35
+        },
+        "60": {
+          "signed_mid_move": -0.705,
+          "executable_move": -1.08,
+          "starting_spread": 0.35
+        },
+        "180": {
+          "signed_mid_move": -1.47,
+          "executable_move": -1.86,
+          "starting_spread": 0.35
+        }
+      }
+    },
+    {
+      "ticket": "58818280230",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 1.27,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.505,
+          "executable_move": -0.86,
+          "starting_spread": 0.34
+        },
+        "60": {
+          "signed_mid_move": -0.905,
+          "executable_move": -1.24,
+          "starting_spread": 0.34
+        },
+        "180": {
+          "signed_mid_move": 0.755,
+          "executable_move": 0.44,
+          "starting_spread": 0.34
+        }
+      }
+    },
+    {
+      "ticket": "58818281831",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": 1.65,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.125,
+          "executable_move": -0.32,
+          "starting_spread": 0.4
+        },
+        "60": {
+          "signed_mid_move": -0.515,
+          "executable_move": -0.96,
+          "starting_spread": 0.4
+        },
+        "180": {
+          "signed_mid_move": 0.91,
+          "executable_move": 0.45,
+          "starting_spread": 0.4
+        }
+      }
+    },
+    {
+      "ticket": "58818284557",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": 0.63,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.165,
+          "executable_move": -0.54,
+          "starting_spread": 0.32
+        },
+        "60": {
+          "signed_mid_move": -0.325,
+          "executable_move": -0.7,
+          "starting_spread": 0.32
+        },
+        "180": {
+          "signed_mid_move": 1.195,
+          "executable_move": 0.86,
+          "starting_spread": 0.32
+        }
+      }
+    },
+    {
+      "ticket": "58818365021",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 4.07,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.225,
+          "executable_move": -0.56,
+          "starting_spread": 0.33
+        },
+        "60": {
+          "signed_mid_move": 0.315,
+          "executable_move": -0.0,
+          "starting_spread": 0.33
+        },
+        "180": {
+          "signed_mid_move": 1.48,
+          "executable_move": 1.14,
+          "starting_spread": 0.33
+        }
+      }
+    },
+    {
+      "ticket": "58818365033",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": 4.03,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.225,
+          "executable_move": -0.56,
+          "starting_spread": 0.33
+        },
+        "60": {
+          "signed_mid_move": 0.45,
+          "executable_move": 0.08,
+          "starting_spread": 0.33
+        },
+        "180": {
+          "signed_mid_move": 1.485,
+          "executable_move": 1.14,
+          "starting_spread": 0.33
+        }
+      }
+    },
+    {
+      "ticket": "58818365050",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": 2.54,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.225,
+          "executable_move": -0.56,
+          "starting_spread": 0.33
+        },
+        "60": {
+          "signed_mid_move": 0.435,
+          "executable_move": 0.06,
+          "starting_spread": 0.33
+        },
+        "180": {
+          "signed_mid_move": 1.485,
+          "executable_move": 1.14,
+          "starting_spread": 0.33
+        }
+      }
+    },
+    {
+      "ticket": "58818447638",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": 0.65,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.945,
+          "executable_move": -1.32,
+          "starting_spread": 0.34
+        },
+        "60": {
+          "signed_mid_move": -1.62,
+          "executable_move": -1.99,
+          "starting_spread": 0.34
+        },
+        "180": {
+          "signed_mid_move": -0.53,
+          "executable_move": -0.88,
+          "starting_spread": 0.34
+        }
+      }
+    },
+    {
+      "ticket": "58818447862",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 2.82,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.99,
+          "executable_move": -1.43,
+          "starting_spread": 0.45
+        },
+        "60": {
+          "signed_mid_move": -1.595,
+          "executable_move": -2.09,
+          "starting_spread": 0.45
+        },
+        "180": {
+          "signed_mid_move": -0.515,
+          "executable_move": -0.94,
+          "starting_spread": 0.45
+        }
+      }
+    },
+    {
+      "ticket": "58818482453",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": 4.28,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.005,
+          "executable_move": -0.43,
+          "starting_spread": 0.4
+        },
+        "60": {
+          "signed_mid_move": -0.65,
+          "executable_move": -1.09,
+          "starting_spread": 0.4
+        },
+        "180": {
+          "signed_mid_move": 2.04,
+          "executable_move": 1.59,
+          "starting_spread": 0.4
+        }
+      }
+    },
+    {
+      "ticket": "58819281991",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -4.99,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.04,
+          "executable_move": -0.36,
+          "starting_spread": 0.34
+        },
+        "60": {
+          "signed_mid_move": -0.665,
+          "executable_move": -1.01,
+          "starting_spread": 0.34
+        },
+        "180": {
+          "signed_mid_move": -2.02,
+          "executable_move": -2.4,
+          "starting_spread": 0.34
+        }
+      }
+    },
+    {
+      "ticket": "58819282931",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -5.02,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.025,
+          "executable_move": -0.38,
+          "starting_spread": 0.42
+        },
+        "60": {
+          "signed_mid_move": -0.87,
+          "executable_move": -1.27,
+          "starting_spread": 0.42
+        },
+        "180": {
+          "signed_mid_move": -1.9,
+          "executable_move": -2.34,
+          "starting_spread": 0.42
+        }
+      }
+    },
+    {
+      "ticket": "58819288175",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": -5.08,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.215,
+          "executable_move": -0.65,
+          "starting_spread": 0.41
+        },
+        "60": {
+          "signed_mid_move": -0.67,
+          "executable_move": -1.11,
+          "starting_spread": 0.41
+        },
+        "180": {
+          "signed_mid_move": -1.57,
+          "executable_move": -2.05,
+          "starting_spread": 0.41
+        }
+      }
+    },
+    {
+      "ticket": "58819434875",
+      "lane": "INTRADAY",
+      "period": "LATER",
+      "actual_profit": -2.89,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.52,
+          "executable_move": 0.04,
+          "starting_spread": 0.41
+        },
+        "60": {
+          "signed_mid_move": -0.1,
+          "executable_move": -0.59,
+          "starting_spread": 0.41
+        },
+        "180": {
+          "signed_mid_move": 0.655,
+          "executable_move": 0.18,
+          "starting_spread": 0.41
+        }
+      }
+    },
+    {
+      "ticket": "58819434937",
+      "lane": "SWING",
+      "period": "LATER",
+      "actual_profit": -1.83,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.655,
+          "executable_move": 0.25,
+          "starting_spread": 0.45
+        },
+        "60": {
+          "signed_mid_move": -0.01,
+          "executable_move": -0.41,
+          "starting_spread": 0.45
+        },
+        "180": {
+          "signed_mid_move": 0.66,
+          "executable_move": 0.28,
+          "starting_spread": 0.45
+        }
+      }
+    },
+    {
+      "ticket": "58819435861",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -0.8,
+      "reaction": {
+        "30": null,
+        "60": {
+          "signed_mid_move": 0.095,
+          "executable_move": -0.31,
+          "starting_spread": 0.36
+        },
+        "180": {
+          "signed_mid_move": 0.85,
+          "executable_move": 0.45,
+          "starting_spread": 0.36
+        }
+      }
+    },
+    {
+      "ticket": "58819548525",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -2.11,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -1.365,
+          "executable_move": -1.88,
+          "starting_spread": 0.26
+        },
+        "60": {
+          "signed_mid_move": -1.85,
+          "executable_move": -2.33,
+          "starting_spread": 0.26
+        },
+        "180": {
+          "signed_mid_move": -0.825,
+          "executable_move": -1.33,
+          "starting_spread": 0.26
+        }
+      }
+    },
+    {
+      "ticket": "58820147397",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 0.97,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.535,
+          "executable_move": 0.17,
+          "starting_spread": 0.34
+        },
+        "60": {
+          "signed_mid_move": 2.05,
+          "executable_move": 1.68,
+          "starting_spread": 0.34
+        },
+        "180": {
+          "signed_mid_move": 1.205,
+          "executable_move": 0.8,
+          "starting_spread": 0.34
+        }
+      }
+    },
+    {
+      "ticket": "58820196801",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -3.63,
+      "reaction": {
+        "30": {
+          "signed_mid_move": -0.315,
+          "executable_move": -0.73,
+          "starting_spread": 0.42
+        },
+        "60": {
+          "signed_mid_move": 0.57,
+          "executable_move": 0.21,
+          "starting_spread": 0.42
+        },
+        "180": {
+          "signed_mid_move": -1.2,
+          "executable_move": -1.58,
+          "starting_spread": 0.42
+        }
+      }
+    },
+    {
+      "ticket": "58820412338",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": -2.88,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 1.075,
+          "executable_move": 0.61,
+          "starting_spread": 0.32
+        },
+        "60": {
+          "signed_mid_move": 1.105,
+          "executable_move": 0.65,
+          "starting_spread": 0.32
+        },
+        "180": {
+          "signed_mid_move": 0.42,
+          "executable_move": -0.05,
+          "starting_spread": 0.32
+        }
+      }
+    },
+    {
+      "ticket": "58820839154",
+      "lane": "SCALP",
+      "period": "LATER",
+      "actual_profit": 1.13,
+      "reaction": {
+        "30": {
+          "signed_mid_move": 0.055,
+          "executable_move": -0.44,
+          "starting_spread": 0.31
+        },
+        "60": {
+          "signed_mid_move": -0.585,
+          "executable_move": -1.07,
+          "starting_spread": 0.31
+        },
+        "180": {
+          "signed_mid_move": 2.11,
+          "executable_move": 1.55,
+          "starting_spread": 0.31
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "lane": "SCALP",
+      "actual_result": "LOSS",
+      "seconds": 30,
+      "entries": 13,
+      "favorable_mid": 3,
+      "favorable_executable": 1,
+      "median_signed_mid_move": -0.67,
+      "median_executable_move": -0.98
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "LOSS",
+      "seconds": 60,
+      "entries": 14,
+      "favorable_mid": 4,
+      "favorable_executable": 3,
+      "median_signed_mid_move": -0.9475,
+      "median_executable_move": -1.37
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "LOSS",
+      "seconds": 180,
+      "entries": 14,
+      "favorable_mid": 3,
+      "favorable_executable": 1,
+      "median_signed_mid_move": -1.2875,
+      "median_executable_move": -1.615
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "WIN",
+      "seconds": 30,
+      "entries": 13,
+      "favorable_mid": 7,
+      "favorable_executable": 6,
+      "median_signed_mid_move": 0.055,
+      "median_executable_move": -0.44
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "WIN",
+      "seconds": 60,
+      "entries": 13,
+      "favorable_mid": 6,
+      "favorable_executable": 4,
+      "median_signed_mid_move": -0.14,
+      "median_executable_move": -0.54
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "WIN",
+      "seconds": 180,
+      "entries": 13,
+      "favorable_mid": 9,
+      "favorable_executable": 8,
+      "median_signed_mid_move": 0.755,
+      "median_executable_move": 0.44
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "ALL",
+      "seconds": 30,
+      "entries": 26,
+      "favorable_mid": 10,
+      "favorable_executable": 7,
+      "median_signed_mid_move": -0.2175,
+      "median_executable_move": -0.635
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "ALL",
+      "seconds": 60,
+      "entries": 27,
+      "favorable_mid": 10,
+      "favorable_executable": 7,
+      "median_signed_mid_move": -0.645,
+      "median_executable_move": -1.07
+    },
+    {
+      "lane": "SCALP",
+      "actual_result": "ALL",
+      "seconds": 180,
+      "entries": 27,
+      "favorable_mid": 12,
+      "favorable_executable": 9,
+      "median_signed_mid_move": -0.515,
+      "median_executable_move": -0.94
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "LOSS",
+      "seconds": 30,
+      "entries": 9,
+      "favorable_mid": 3,
+      "favorable_executable": 1,
+      "median_signed_mid_move": -0.645,
+      "median_executable_move": -1.2
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "LOSS",
+      "seconds": 60,
+      "entries": 8,
+      "favorable_mid": 0,
+      "favorable_executable": 0,
+      "median_signed_mid_move": -0.685,
+      "median_executable_move": -1.205
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "LOSS",
+      "seconds": 180,
+      "entries": 8,
+      "favorable_mid": 2,
+      "favorable_executable": 1,
+      "median_signed_mid_move": -1.0475,
+      "median_executable_move": -1.455
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "WIN",
+      "seconds": 30,
+      "entries": 5,
+      "favorable_mid": 3,
+      "favorable_executable": 1,
+      "median_signed_mid_move": 0.125,
+      "median_executable_move": -0.45
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "WIN",
+      "seconds": 60,
+      "entries": 5,
+      "favorable_mid": 3,
+      "favorable_executable": 2,
+      "median_signed_mid_move": 0.45,
+      "median_executable_move": -0.03
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "WIN",
+      "seconds": 180,
+      "entries": 5,
+      "favorable_mid": 4,
+      "favorable_executable": 4,
+      "median_signed_mid_move": 1.37,
+      "median_executable_move": 0.83
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "ALL",
+      "seconds": 30,
+      "entries": 14,
+      "favorable_mid": 6,
+      "favorable_executable": 2,
+      "median_signed_mid_move": -0.22,
+      "median_executable_move": -0.605
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "ALL",
+      "seconds": 60,
+      "entries": 13,
+      "favorable_mid": 3,
+      "favorable_executable": 2,
+      "median_signed_mid_move": -0.515,
+      "median_executable_move": -0.96
+    },
+    {
+      "lane": "INTRADAY",
+      "actual_result": "ALL",
+      "seconds": 180,
+      "entries": 13,
+      "favorable_mid": 6,
+      "favorable_executable": 5,
+      "median_signed_mid_move": -0.095,
+      "median_executable_move": -0.58
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "LOSS",
+      "seconds": 30,
+      "entries": 6,
+      "favorable_mid": 3,
+      "favorable_executable": 3,
+      "median_signed_mid_move": 0.3075,
+      "median_executable_move": -0.05499999999999999
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "LOSS",
+      "seconds": 60,
+      "entries": 6,
+      "favorable_mid": 2,
+      "favorable_executable": 2,
+      "median_signed_mid_move": -0.3375,
+      "median_executable_move": -0.71
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "LOSS",
+      "seconds": 180,
+      "entries": 6,
+      "favorable_mid": 2,
+      "favorable_executable": 2,
+      "median_signed_mid_move": -0.875,
+      "median_executable_move": -1.275
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "WIN",
+      "seconds": 30,
+      "entries": 5,
+      "favorable_mid": 2,
+      "favorable_executable": 1,
+      "median_signed_mid_move": -0.165,
+      "median_executable_move": -0.54
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "WIN",
+      "seconds": 60,
+      "entries": 5,
+      "favorable_mid": 2,
+      "favorable_executable": 2,
+      "median_signed_mid_move": -0.325,
+      "median_executable_move": -0.7
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "WIN",
+      "seconds": 180,
+      "entries": 5,
+      "favorable_mid": 5,
+      "favorable_executable": 5,
+      "median_signed_mid_move": 1.485,
+      "median_executable_move": 1.14
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "ALL",
+      "seconds": 30,
+      "entries": 11,
+      "favorable_mid": 5,
+      "favorable_executable": 4,
+      "median_signed_mid_move": -0.04,
+      "median_executable_move": -0.43
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "ALL",
+      "seconds": 60,
+      "entries": 11,
+      "favorable_mid": 4,
+      "favorable_executable": 4,
+      "median_signed_mid_move": -0.325,
+      "median_executable_move": -0.7
+    },
+    {
+      "lane": "SWING",
+      "actual_result": "ALL",
+      "seconds": 180,
+      "entries": 11,
+      "favorable_mid": 7,
+      "favorable_executable": 7,
+      "median_signed_mid_move": 0.66,
+      "median_executable_move": 0.28
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "LOSS",
+      "seconds": 30,
+      "entries": 28,
+      "favorable_mid": 9,
+      "favorable_executable": 5,
+      "median_signed_mid_move": -0.41000000000000003,
+      "median_executable_move": -0.8
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "LOSS",
+      "seconds": 60,
+      "entries": 28,
+      "favorable_mid": 6,
+      "favorable_executable": 5,
+      "median_signed_mid_move": -0.7024999999999999,
+      "median_executable_move": -1.19
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "LOSS",
+      "seconds": 180,
+      "entries": 28,
+      "favorable_mid": 7,
+      "favorable_executable": 4,
+      "median_signed_mid_move": -1.2625,
+      "median_executable_move": -1.615
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "WIN",
+      "seconds": 30,
+      "entries": 23,
+      "favorable_mid": 12,
+      "favorable_executable": 8,
+      "median_signed_mid_move": 0.005,
+      "median_executable_move": -0.45
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "WIN",
+      "seconds": 60,
+      "entries": 23,
+      "favorable_mid": 11,
+      "favorable_executable": 8,
+      "median_signed_mid_move": -0.14,
+      "median_executable_move": -0.54
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "WIN",
+      "seconds": 180,
+      "entries": 23,
+      "favorable_mid": 18,
+      "favorable_executable": 17,
+      "median_signed_mid_move": 1.205,
+      "median_executable_move": 0.83
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "ALL",
+      "seconds": 30,
+      "entries": 51,
+      "favorable_mid": 21,
+      "favorable_executable": 13,
+      "median_signed_mid_move": -0.21,
+      "median_executable_move": -0.56
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "ALL",
+      "seconds": 60,
+      "entries": 51,
+      "favorable_mid": 17,
+      "favorable_executable": 13,
+      "median_signed_mid_move": -0.585,
+      "median_executable_move": -1.01
+    },
+    {
+      "lane": "ALL",
+      "actual_result": "ALL",
+      "seconds": 180,
+      "entries": 51,
+      "favorable_mid": 25,
+      "favorable_executable": 21,
+      "median_signed_mid_move": -0.095,
+      "median_executable_move": -0.58
+    }
+  ],
+  "limitations": [
+    "Descriptive actual-entry selection, not blind prediction validation or a strategy backtest.",
+    "Mid-price movement isolates direction; executable marks include spread and original fill displacement.",
+    "Endpoint marks can occur after actual exits; no changed entry, exit, capacity or portfolio is simulated.",
+    "Positive movement does not imply stop survival, attainable profit, or independent observations.",
+    "No additional fees, financing or assumed exit slippage; timestamps normalized by original tick capture.",
+    "Missing endpoint coverage or internal quote gaps over ten seconds are excluded per horizon."
+  ]
+}

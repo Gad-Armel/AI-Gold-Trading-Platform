@@ -1,0 +1,316 @@
+{
+  "examples": 293885,
+  "training_examples": 176135,
+  "features": [
+    "spread",
+    "tick_age",
+    "spread_ratio",
+    "quote_rate",
+    "uptick_fraction",
+    "realized_30",
+    "range_30",
+    "pressure_6",
+    "efficiency_6",
+    "pressure_12",
+    "efficiency_12",
+    "pressure_30",
+    "efficiency_30",
+    "pressure_60",
+    "efficiency_60",
+    "acceleration",
+    "c_m1_bias",
+    "c_m5_bias",
+    "c_m15_bias",
+    "c_m1_extension",
+    "c_m5_extension",
+    "c_m15_extension",
+    "c_body_atr",
+    "c_prior_body_atr",
+    "c_range_atr",
+    "c_atr",
+    "c_cost_atr",
+    "c_m5_vol_ratio",
+    "c_hour_sin",
+    "c_hour_cos",
+    "structure_m1_support_distance_atr",
+    "structure_m1_resistance_distance_atr",
+    "structure_m1_support_distance_stop_budget",
+    "structure_m1_resistance_distance_stop_budget",
+    "structure_m1_upper_wick_fraction",
+    "structure_m1_lower_wick_fraction",
+    "structure_m1_two_candle_direction",
+    "structure_m1_upside_sweep",
+    "structure_m1_downside_sweep",
+    "structure_m1_bullish_three_bar_gap",
+    "structure_m1_bearish_three_bar_gap",
+    "structure_m1_local_vwap_distance_atr",
+    "structure_m1_range_relative_atr",
+    "structure_m5_support_distance_atr",
+    "structure_m5_resistance_distance_atr",
+    "structure_m5_support_distance_stop_budget",
+    "structure_m5_resistance_distance_stop_budget",
+    "structure_m5_upper_wick_fraction",
+    "structure_m5_lower_wick_fraction",
+    "structure_m5_two_candle_direction",
+    "structure_m5_upside_sweep",
+    "structure_m5_downside_sweep",
+    "structure_m5_bullish_three_bar_gap",
+    "structure_m5_bearish_three_bar_gap",
+    "structure_m5_local_vwap_distance_atr",
+    "structure_m5_range_relative_atr",
+    "structure_m15_support_distance_atr",
+    "structure_m15_resistance_distance_atr",
+    "structure_m15_support_distance_stop_budget",
+    "structure_m15_resistance_distance_stop_budget",
+    "structure_m15_upper_wick_fraction",
+    "structure_m15_lower_wick_fraction",
+    "structure_m15_two_candle_direction",
+    "structure_m15_upside_sweep",
+    "structure_m15_downside_sweep",
+    "structure_m15_bullish_three_bar_gap",
+    "structure_m15_bearish_three_bar_gap",
+    "structure_m15_local_vwap_distance_atr",
+    "structure_m15_range_relative_atr"
+  ],
+  "train_days": [
+    "20260908",
+    "20260909",
+    "20260910",
+    "20260911",
+    "20260913",
+    "20260914",
+    "20260915",
+    "20260916",
+    "20260917",
+    "20260918",
+    "20260920",
+    "20260921",
+    "20260922",
+    "20260923",
+    "20260924"
+  ],
+  "validation_days": [
+    "20260925",
+    "20260927",
+    "20260928",
+    "20260929",
+    "20260930"
+  ],
+  "latest_days": [
+    "20261001",
+    "20261002",
+    "20261004",
+    "20261005",
+    "20261006",
+    "20261007"
+  ],
+  "validation": [
+    {
+      "threshold": 0.0,
+      "base": {
+        "trades": 515,
+        "net": -295.84,
+        "mean": -0.5744,
+        "profit_factor": 0.5722,
+        "drawdown": 302.41
+      },
+      "stress": {
+        "trades": 520,
+        "net": -426.05,
+        "mean": -0.8193,
+        "profit_factor": 0.4564,
+        "drawdown": 430.54
+      }
+    },
+    {
+      "threshold": 0.25,
+      "base": {
+        "trades": 299,
+        "net": -175.8,
+        "mean": -0.588,
+        "profit_factor": 0.5972,
+        "drawdown": 180.35
+      },
+      "stress": {
+        "trades": 304,
+        "net": -237.48,
+        "mean": -0.7812,
+        "profit_factor": 0.5038,
+        "drawdown": 240.35
+      }
+    },
+    {
+      "threshold": 0.5,
+      "base": {
+        "trades": 195,
+        "net": -103.01,
+        "mean": -0.5283,
+        "profit_factor": 0.6314,
+        "drawdown": 109.03
+      },
+      "stress": {
+        "trades": 197,
+        "net": -142.2,
+        "mean": -0.7219,
+        "profit_factor": 0.5526,
+        "drawdown": 145.88
+      }
+    },
+    {
+      "threshold": 1.0,
+      "base": {
+        "trades": 84,
+        "net": -55.95,
+        "mean": -0.6661,
+        "profit_factor": 0.6095,
+        "drawdown": 66.0
+      },
+      "stress": {
+        "trades": 85,
+        "net": -73.39,
+        "mean": -0.8634,
+        "profit_factor": 0.5236,
+        "drawdown": 83.76
+      }
+    }
+  ],
+  "calibration": {
+    "training": [
+      {
+        "expected_range": [
+          null,
+          0.0
+        ],
+        "overlapping_examples": 72242,
+        "predicted_mean": -0.21057568128578,
+        "realized_mean": 0.5382535090388808,
+        "positive_fraction": 0.6003571329697406
+      },
+      {
+        "expected_range": [
+          0.0,
+          0.25
+        ],
+        "overlapping_examples": 16466,
+        "predicted_mean": 0.10769915685867079,
+        "realized_mean": 1.6522883517549516,
+        "positive_fraction": 0.7735940726345196
+      },
+      {
+        "expected_range": [
+          0.25,
+          0.5
+        ],
+        "overlapping_examples": 7450,
+        "predicted_mean": 0.3532429072025902,
+        "realized_mean": 2.3227892617447856,
+        "positive_fraction": 0.856241610738255
+      },
+      {
+        "expected_range": [
+          0.5,
+          1.0
+        ],
+        "overlapping_examples": 6251,
+        "predicted_mean": 0.7125454265415112,
+        "realized_mean": 2.758390657494612,
+        "positive_fraction": 0.8745800671892497
+      },
+      {
+        "expected_range": [
+          1.0,
+          2.0
+        ],
+        "overlapping_examples": 3439,
+        "predicted_mean": 1.3831011006228418,
+        "realized_mean": 4.302253562081824,
+        "positive_fraction": 0.910729863332364
+      },
+      {
+        "expected_range": [
+          2.0,
+          null
+        ],
+        "overlapping_examples": 1671,
+        "predicted_mean": 3.198859142599614,
+        "realized_mean": 7.434039497306819,
+        "positive_fraction": 0.9515260323159784
+      }
+    ],
+    "validation": [
+      {
+        "expected_range": [
+          null,
+          0.0
+        ],
+        "overlapping_examples": 19957,
+        "predicted_mean": -0.2170573380415303,
+        "realized_mean": -0.5222794007117074,
+        "positive_fraction": 0.39705366538056824
+      },
+      {
+        "expected_range": [
+          0.0,
+          0.25
+        ],
+        "overlapping_examples": 5163,
+        "predicted_mean": 0.10980642219651071,
+        "realized_mean": -0.5393066046873712,
+        "positive_fraction": 0.39105171411969786
+      },
+      {
+        "expected_range": [
+          0.25,
+          0.5
+        ],
+        "overlapping_examples": 2803,
+        "predicted_mean": 0.3568202517082489,
+        "realized_mean": -0.5636032821978292,
+        "positive_fraction": 0.41455583303603283
+      },
+      {
+        "expected_range": [
+          0.5,
+          1.0
+        ],
+        "overlapping_examples": 2443,
+        "predicted_mean": 0.7176565244713549,
+        "realized_mean": -0.7004257060992358,
+        "positive_fraction": 0.40114613180515757
+      },
+      {
+        "expected_range": [
+          1.0,
+          2.0
+        ],
+        "overlapping_examples": 1300,
+        "predicted_mean": 1.3350883962231295,
+        "realized_mean": -0.40859230769248683,
+        "positive_fraction": 0.46076923076923076
+      },
+      {
+        "expected_range": [
+          2.0,
+          null
+        ],
+        "overlapping_examples": 224,
+        "predicted_mean": 2.395131991697841,
+        "realized_mean": 0.2569196428569437,
+        "positive_fraction": 0.48660714285714285
+      }
+    ]
+  },
+  "selected_threshold": null,
+  "latest": [],
+  "quality": [],
+  "live_approved": false,
+  "limitations": [
+    "Chronological day splits; outcome paths stay within each source UTC day, before later splits.",
+    "Tick features known at second close; assumed 100ms order latency and $.05 per-side slippage.",
+    "Observed bid/ask, first adverse tick stop fills, $5 planned risk, one ounce exposure, 180s time exits.",
+    "No fees, financing, news or liquidity/depth; recorded ticks may miss server gaps.",
+    "Four thresholds chosen only on middle days; final days used only if validation qualifies.",
+    "Historical candles may contain later broker corrections; this is not blind prospective validation.",
+    "No model exported, promoted or connected to main-bot execution."
+  ]
+}

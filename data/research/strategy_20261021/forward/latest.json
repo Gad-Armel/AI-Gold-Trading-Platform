@@ -1,0 +1,136 @@
+{
+  "started_at": "2026-10-21T10:09:23.063015+00:00",
+  "observed_at": "2026-10-21T10:39:13.941879+00:00",
+  "read_only": true,
+  "execution_enabled": false,
+  "strategy": "REGIME_PULLBACK_V1",
+  "duration_seconds": 1790.6628830432892,
+  "ticks": 9774,
+  "decisions": 359,
+  "last_signal": {
+    "bias": "WAIT",
+    "evidence": 63.49206349190308,
+    "source_usable": true,
+    "levels": {},
+    "timeframe": "S5",
+    "strategy": "REGIME_PULLBACK_V1",
+    "blocks": [
+      "No confirmed trend pullback or breakout retest on the last S5 close"
+    ],
+    "thesis_bias": "BUY",
+    "setup_id": "TREND_PULLBACK:1792579150:WAIT"
+  },
+  "paper_result": {
+    "summary": {
+      "trades": 4,
+      "net_price": -3.11,
+      "wins": 1,
+      "losses": 3,
+      "win_rate": 0.25,
+      "profit_factor": 0.03715170278640108,
+      "average_price": -0.7774999999999637
+    },
+    "trades": [
+      {
+        "entered_at": 1792577400.731,
+        "exited_at": 1792577581.142,
+        "direction": "SELL",
+        "entry": 4116.19,
+        "exit": 4116.23,
+        "setup": "TREND_PULLBACK",
+        "gross_price": -0.03999999999996362,
+        "net_price": -0.3399999999999636,
+        "reason": "TIME_EXIT",
+        "hold_seconds": 180.41100001335144
+      },
+      {
+        "entered_at": 1792577655.403,
+        "exited_at": 1792577738.18,
+        "direction": "SELL",
+        "entry": 4114.79,
+        "exit": 4114.37,
+        "setup": "TREND_PULLBACK",
+        "gross_price": 0.42000000000007276,
+        "net_price": 0.12000000000007277,
+        "reason": "DYNAMIC_TRAIL",
+        "hold_seconds": 82.77699995040894
+      },
+      {
+        "entered_at": 1792577865.619,
+        "exited_at": 1792577917.268,
+        "direction": "SELL",
+        "entry": 4113.95,
+        "exit": 4115.0,
+        "setup": "TREND_PULLBACK",
+        "gross_price": -1.050000000000182,
+        "net_price": -1.350000000000182,
+        "reason": "BROKER_SL",
+        "hold_seconds": 51.6489999294281
+      },
+      {
+        "entered_at": 1792578606.966,
+        "exited_at": 1792578649.339,
+        "direction": "BUY",
+        "entry": 4120.99,
+        "exit": 4119.75,
+        "setup": "TREND_PULLBACK",
+        "gross_price": -1.2399999999997817,
+        "net_price": -1.5399999999997818,
+        "reason": "BROKER_SL",
+        "hold_seconds": 42.37299990653992
+      }
+    ],
+    "rejected": {
+      "expired": 0,
+      "invalid_risk": 0,
+      "gap_entry": 0
+    },
+    "censored_positions": 0,
+    "unfilled_requests": 0,
+    "modeled_quantity_ounces": 1.0,
+    "read_only": true
+  },
+  "errors": [
+    {
+      "at": 1792577938.9080882,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792577990.9792957,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578167.223425,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578167.825189,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578885.8100283,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578886.4756126,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578887.0476189,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578887.604488,
+      "message": "MT5 tick history is stale"
+    },
+    {
+      "at": 1792578944.216074,
+      "message": "MT5 tick history is stale"
+    }
+  ],
+  "limitations": [
+    "Paper reconstruction with assumed 350 ms latency and .30 round-trip costs.",
+    "Not broker execution; no order rejection or queue model.",
+    "No automatic strategy promotion or parameter changes."
+  ]
+}

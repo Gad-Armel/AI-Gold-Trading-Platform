@@ -1,0 +1,130 @@
+{
+  "source_sha256": "436d96d19f2d5f0697940c301d9b56162f4ba5b9ae3cf20c287b595f14b270b8",
+  "synthetic_only": true,
+  "execution_enabled": false,
+  "parameters": {
+    "risk": 0.005,
+    "comm_rt": 7.0,
+    "contract": 100,
+    "max_spread": 0.4,
+    "min_rr_cost": 4.0,
+    "adx_trend": 20,
+    "er_trend": 0.3,
+    "adx_range": 18,
+    "er_range": 0.22,
+    "atrp_min": 15,
+    "atrp_max": 95,
+    "tp_r_A": 3.0,
+    "tp_r_B": 1.8,
+    "sl_min": 0.8,
+    "sl_max": 2.0,
+    "be_r": 0.8,
+    "trail_r": 1.2,
+    "trail_atr": 1.5,
+    "max_bars": 24,
+    "time_stop_r": 0.3,
+    "or_starts": [
+      [
+        7,
+        0
+      ],
+      [
+        13,
+        30
+      ]
+    ],
+    "or_min": 30,
+    "or_window": 120,
+    "sessions": [
+      [
+        420,
+        660
+      ],
+      [
+        750,
+        1020
+      ]
+    ],
+    "daily_loss": 0.03,
+    "max_trades": 20,
+    "max_consec": 4,
+    "cool_min": 60,
+    "trend_mode": "adx",
+    "t_n": 24,
+    "t_thr": 2.5,
+    "htf_fast": 21,
+    "htf_slow": 55,
+    "a_confirm": false,
+    "ring": 20,
+    "prior_n": 5,
+    "min_n": 8,
+    "off": -0.05,
+    "on": 0.05,
+    "engines": "ABC",
+    "pipeline": "v2",
+    "q_rej": 0.08,
+    "ev_floor": -0.5,
+    "warm": 40,
+    "soft_q": 0.4,
+    "soft_mult": 0.6,
+    "max_pos": 2,
+    "defer_bars": 3,
+    "defer_drift": 0.3,
+    "sl_stretch": 1.25,
+    "vol_hard": [
+      5,
+      98
+    ],
+    "lr": 0.05,
+    "l2": 0.0001,
+    "dedup": true,
+    "vol_mode": "tod",
+    "tod_band": [
+      0.33,
+      3.0
+    ],
+    "queue_bars": 15,
+    "target_rej": 0.175
+  },
+  "results": [
+    {
+      "mode": "regime",
+      "seed": 1,
+      "days": 5,
+      "raw": 24,
+      "logged_decisions": 22,
+      "queued_or_accepted": 21,
+      "completed_simulated_trades": 21,
+      "unresolved_labels": 0,
+      "funnel": {
+        "capacity": 1
+      },
+      "ending_equity": 10196.923334384617,
+      "realized_only_drawdown": 0.01492512500000028,
+      "net_simulated_pnl": 196.9233343846175,
+      "mean_realized_r": 0.18940581900452658
+    },
+    {
+      "mode": "rw",
+      "seed": 1,
+      "days": 5,
+      "raw": 27,
+      "logged_decisions": 26,
+      "queued_or_accepted": 26,
+      "completed_simulated_trades": 26,
+      "unresolved_labels": 0,
+      "funnel": {},
+      "ending_equity": 9866.328100466844,
+      "realized_only_drawdown": 0.031558303466572596,
+      "net_simulated_pnl": -133.67189953315412,
+      "mean_realized_r": -0.10067679020558014
+    }
+  ],
+  "limitations": [
+    "Supplied OHLC engine: not production policy or real tick fills.",
+    "Accepted/queued labels are not fills; unresolved labels are censored, not wins.",
+    "Raw denominator is affected by prequalification, merging and deduplication.",
+    "Stops can be stretched and fixed TP moved; not permitted in the live main adaptation.",
+    "No calibration, IID t-statistic or profitability claim."
+  ]
+}

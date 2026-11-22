@@ -1,0 +1,23 @@
+{
+  "M5": {
+    "sha256": "65d7bc2d91e30c9afafc4b1bb07ca4c70eede61aee275ecab5f3a72d4abde836",
+    "rows": 50000,
+    "first_broker_timestamp": "2025-12-18T05:35:00+00:00",
+    "last_broker_timestamp": "2026-09-10T18:10:00+00:00",
+    "timestamp_note": "Raw broker-encoded epochs; UTC labels require historical server offset, including any DST changes."
+  },
+  "M15": {
+    "sha256": "eb6c09d0ba83e506f96e446e47ea3f16f22eba84ef40b539f4e534945bd9b45e",
+    "rows": 50000,
+    "first_broker_timestamp": "2024-07-22T19:30:00+00:00",
+    "last_broker_timestamp": "2026-09-10T18:00:00+00:00",
+    "timestamp_note": "Raw broker-encoded epochs; UTC labels require historical server offset, including any DST changes."
+  },
+  "H1": {
+    "sha256": "de0343f155e17544d69d49197c4a581cf9223837b09a584b2bda0d2d255976cb",
+    "rows": 50000,
+    "first_broker_timestamp": "2018-03-14T21:00:00+00:00",
+    "last_broker_timestamp": "2026-09-10T17:00:00+00:00",
+    "timestamp_note": "Raw broker-encoded epochs; UTC labels require historical server offset, including any DST changes."
+  }
+}

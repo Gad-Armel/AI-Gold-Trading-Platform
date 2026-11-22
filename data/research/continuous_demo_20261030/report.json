@@ -1,0 +1,272 @@
+{
+    "started": "2026-10-30T00:03:06.600813+00:00",
+    "ended": "2026-10-30T00:06:07.154479+00:00",
+    "requested_minutes": 3.0,
+    "samples": 37,
+    "directions": {
+        "SELL": 37
+    },
+    "top_blocks": [
+        [
+            "Strong-source position allowance reached.",
+            28
+        ],
+        [
+            "Position-add spacing is 4.3s; 5.0s required.",
+            2
+        ],
+        [
+            "SCALP waiting for reconciled execution history.",
+            2
+        ],
+        [
+            "Position-add spacing is 0.3s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 3.7s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 2.8s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 0.9s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 0.7s; 5.0s required.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 24s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 19s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 14s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 9s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 3s remaining.",
+            1
+        ],
+        [
+            "SCALP loss cooldown: 0s remaining.",
+            1
+        ],
+        [
+            "Signal persistence is 0.9s; 1.0s required.",
+            1
+        ],
+        [
+            "Post-exit market analysis: 0s remaining.",
+            1
+        ],
+        [
+            "Position-add spacing is 4.8s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 4.5s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 2.0s; 5.0s required.",
+            1
+        ],
+        [
+            "Position-add spacing is 4.1s; 5.0s required.",
+            1
+        ]
+    ],
+    "observed_position_tickets": [
+        "59107442612",
+        "59107443024",
+        "59107443530",
+        "59107444846",
+        "59107445526",
+        "59107445909",
+        "59107457401",
+        "59107458307",
+        "59107476709"
+    ],
+    "initial_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [
+            {
+                "ticket": 59107442612,
+                "magic": 631011,
+                "volume": 0.01,
+                "floating": -0.38,
+                "sl": 4007.5
+            }
+        ],
+        "quote_age": 0.0
+    },
+    "final_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [
+            {
+                "ticket": 59107476709,
+                "magic": 631011,
+                "volume": 0.01,
+                "floating": -0.35,
+                "sl": 4004.56
+            }
+        ],
+        "quote_age": 0.0,
+        "history_available": true,
+        "deals": [
+            {
+                "ticket": 58706840362,
+                "position_id": 59107442612,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706840751,
+                "position_id": 59107443024,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706841105,
+                "position_id": 59107442612,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": -0.72
+            },
+            {
+                "ticket": 58706841134,
+                "position_id": 59107443530,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706842300,
+                "position_id": 59107443024,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": -0.66
+            },
+            {
+                "ticket": 58706842322,
+                "position_id": 59107444846,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706842386,
+                "position_id": 59107443530,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": -0.64
+            },
+            {
+                "ticket": 58706842974,
+                "position_id": 59107445526,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706843198,
+                "position_id": 59107444846,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": -0.63
+            },
+            {
+                "ticket": 58706843341,
+                "position_id": 59107445909,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706852228,
+                "position_id": 59107445526,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": 1.33
+            },
+            {
+                "ticket": 58706852262,
+                "position_id": 59107445909,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": 1.65
+            },
+            {
+                "ticket": 58706854280,
+                "position_id": 59107457401,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706855138,
+                "position_id": 59107458307,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            },
+            {
+                "ticket": 58706873303,
+                "position_id": 59107457401,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": 0.85
+            },
+            {
+                "ticket": 58706873309,
+                "position_id": 59107458307,
+                "magic": 631011,
+                "entry": 1,
+                "volume": 0.01,
+                "net": 0.93
+            },
+            {
+                "ticket": 58706873836,
+                "position_id": 59107476709,
+                "magic": 631011,
+                "entry": 0,
+                "volume": 0.01,
+                "net": 0.0
+            }
+        ]
+    },
+    "errors": [],
+    "account_continuity": true,
+    "note": "Read-only observation, not calibrated signal accuracy or proof of future profitability."
+}

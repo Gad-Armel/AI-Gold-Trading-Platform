@@ -1,0 +1,187 @@
+{
+  "input_closed_trades": {
+    "trades": 13,
+    "net": -4.7,
+    "wins": 6,
+    "losses": 7,
+    "average_win": 1.31,
+    "average_loss": -1.7943,
+    "expectancy": -0.3615,
+    "profit_factor": 0.6258
+  },
+  "settled_campaigns": {
+    "trades": 12,
+    "net": -4.7,
+    "wins": 5,
+    "losses": 7,
+    "average_win": 1.572,
+    "average_loss": -1.7943,
+    "expectancy": -0.3917,
+    "profit_factor": 0.6258
+  },
+  "campaigns": [
+    {
+      "opened_at": "2026-10-19T05:58:01.609000+00:00",
+      "closed_at": "2026-10-19T06:00:18.871000+00:00",
+      "tickets": [
+        58946331078
+      ],
+      "closed_tickets": 1,
+      "profit": -2.57
+    },
+    {
+      "opened_at": "2026-10-19T06:30:06.459000+00:00",
+      "closed_at": "2026-10-19T06:32:49.224000+00:00",
+      "tickets": [
+        58946861020
+      ],
+      "closed_tickets": 1,
+      "profit": 3.25
+    },
+    {
+      "opened_at": "2026-10-19T06:46:09.288000+00:00",
+      "closed_at": "2026-10-19T06:49:25.587000+00:00",
+      "tickets": [
+        58947126239
+      ],
+      "closed_tickets": 1,
+      "profit": -1.53
+    },
+    {
+      "opened_at": "2026-10-19T07:06:02.085000+00:00",
+      "closed_at": "2026-10-19T07:09:39.933000+00:00",
+      "tickets": [
+        58947536387,
+        58947571312
+      ],
+      "closed_tickets": 2,
+      "profit": 1.53
+    },
+    {
+      "opened_at": "2026-10-19T07:18:11.053000+00:00",
+      "closed_at": "2026-10-19T07:20:41.824000+00:00",
+      "tickets": [
+        58947750254
+      ],
+      "closed_tickets": 1,
+      "profit": -2.73
+    },
+    {
+      "opened_at": "2026-10-19T07:24:01.067000+00:00",
+      "closed_at": "2026-10-19T07:27:18.389000+00:00",
+      "tickets": [
+        58947855311
+      ],
+      "closed_tickets": 1,
+      "profit": -2.76
+    },
+    {
+      "opened_at": "2026-10-19T07:33:01.378000+00:00",
+      "closed_at": "2026-10-19T07:34:25.782000+00:00",
+      "tickets": [
+        58947989464
+      ],
+      "closed_tickets": 1,
+      "profit": 0.06
+    },
+    {
+      "opened_at": "2026-10-19T08:10:08.666000+00:00",
+      "closed_at": "2026-10-19T08:11:33.692000+00:00",
+      "tickets": [
+        58948719055
+      ],
+      "closed_tickets": 1,
+      "profit": -2.18
+    },
+    {
+      "opened_at": "2026-10-19T08:21:06.723000+00:00",
+      "closed_at": "2026-10-19T08:24:41.993000+00:00",
+      "tickets": [
+        58948902545
+      ],
+      "closed_tickets": 1,
+      "profit": 0.67
+    },
+    {
+      "opened_at": "2026-10-19T08:32:11.192000+00:00",
+      "closed_at": "2026-10-19T08:35:26.374000+00:00",
+      "tickets": [
+        58949059775
+      ],
+      "closed_tickets": 1,
+      "profit": 2.35
+    },
+    {
+      "opened_at": "2026-10-19T08:35:57.263000+00:00",
+      "closed_at": "2026-10-19T08:39:18.238000+00:00",
+      "tickets": [
+        58949130604
+      ],
+      "closed_tickets": 1,
+      "profit": -0.59
+    },
+    {
+      "opened_at": "2026-10-19T08:45:06.263000+00:00",
+      "closed_at": "2026-10-19T08:52:07.482000+00:00",
+      "tickets": [
+        58949299306
+      ],
+      "closed_tickets": 1,
+      "profit": -0.2
+    }
+  ],
+  "incomplete_campaigns": [],
+  "additional_cost_stress": {
+    "0.0": {
+      "trades": 12,
+      "net": -4.7,
+      "wins": 5,
+      "losses": 7,
+      "average_win": 1.572,
+      "average_loss": -1.7943,
+      "expectancy": -0.3917,
+      "profit_factor": 0.6258
+    },
+    "0.1": {
+      "trades": 12,
+      "net": -6.0,
+      "wins": 4,
+      "losses": 8,
+      "average_win": 1.825,
+      "average_loss": -1.6625,
+      "expectancy": -0.5,
+      "profit_factor": 0.5489
+    },
+    "0.25": {
+      "trades": 12,
+      "net": -7.95,
+      "wins": 4,
+      "losses": 8,
+      "average_win": 1.6375,
+      "average_loss": -1.8125,
+      "expectancy": -0.6625,
+      "profit_factor": 0.4517
+    },
+    "0.5": {
+      "trades": 12,
+      "net": -11.2,
+      "wins": 4,
+      "losses": 8,
+      "average_win": 1.325,
+      "average_loss": -2.0625,
+      "expectancy": -0.9333,
+      "profit_factor": 0.3212
+    }
+  },
+  "limitations": [
+    "Temporal overlap defines a campaign, not a proven independent market signal.",
+    "Open-position campaigns are right-censored and excluded from settled metrics.",
+    "Existing broker P/L already includes recovered costs; stress adds hypothetical USD per closed ticket.",
+    "Not a simulation of changed entries, exits, fills or slippage.",
+    "The requested cohort must start flat, or left-censored campaigns require separate reconciliation."
+  ],
+  "history_as_of": "2026-10-19T08:55:43.063929+00:00",
+  "positions_as_of": "2026-10-19T08:55:43.770650+00:00",
+  "cohort_started_at": "2026-10-19T05:18:47Z",
+  "execution_enabled": false
+}

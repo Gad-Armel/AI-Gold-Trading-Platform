@@ -1,0 +1,293 @@
+{
+  "started_at": "2026-10-09T05:44:48.219458+00:00",
+  "latest_at": "2026-10-09T06:44:57.533941+00:00",
+  "minutes": 60.16,
+  "observations": 360,
+  "equity_change": -19.82,
+  "balance_change": -20.49,
+  "maximum_equity_drawdown": 20.68,
+  "maximum_status_lag_seconds": 3.62,
+  "main_realized_change": -20.49,
+  "main_total_change": -19.82,
+  "wins": 4,
+  "losses": 9,
+  "gross_gains": 2.89,
+  "gross_losses": 23.38,
+  "profit_factor": 0.124,
+  "open_positions": [],
+  "latency_median_ms": 110.0,
+  "latency_p95_ms": 328.0,
+  "common_entry_blocks": [
+    [
+      "INTRADAY: Analysis only",
+      360
+    ],
+    [
+      "SWING: Analysis only",
+      360
+    ],
+    [
+      "INTRADAY: Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.",
+      215
+    ],
+    [
+      "SWING: Latest completed M1 candle does not confirm entry direction; waiting for fresh follow-through.",
+      215
+    ],
+    [
+      "SCALP: Signal persistence is 0.0s; 2.0s required.",
+      154
+    ],
+    [
+      "SCALP: The directional policy has not authorized an entry.",
+      153
+    ],
+    [
+      "SCALP: Advisor 1 SCALP has no usable direction at or above 15/100.",
+      150
+    ],
+    [
+      "INTRADAY: Same-direction addition waits for a fresh completed M5 candle after the previous entry.",
+      147
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58833676895,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4202.03,
+      "exit_price": 4197.04,
+      "profit": -4.99,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T05:42:02.048000+00:00",
+      "closed_at": "2026-10-09T05:47:26.782000+00:00",
+      "hold_seconds": 324.7,
+      "close_comment": "[sl 4197.04]",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833782367,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4200.56,
+      "exit_price": 4195.52,
+      "profit": -5.04,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T05:49:30.263000+00:00",
+      "closed_at": "2026-10-09T05:53:02.556000+00:00",
+      "hold_seconds": 212.3,
+      "close_comment": "[sl 4195.52]",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833774819,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4198.86,
+      "exit_price": 4193.87,
+      "profit": -4.99,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T05:49:03.355000+00:00",
+      "closed_at": "2026-10-09T05:53:45.428000+00:00",
+      "hold_seconds": 282.1,
+      "close_comment": "[sl 4193.87]",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833899633,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4195.45,
+      "exit_price": 4194.66,
+      "profit": -0.79,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T05:56:48.741000+00:00",
+      "closed_at": "2026-10-09T06:01:31.909000+00:00",
+      "hold_seconds": 283.2,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833891294,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4194.35,
+      "exit_price": 4194.66,
+      "profit": 0.31,
+      "result": "WIN",
+      "opened_at": "2026-10-09T05:56:13.642000+00:00",
+      "closed_at": "2026-10-09T06:01:31.797000+00:00",
+      "hold_seconds": 318.2,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834004081,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4197.69,
+      "exit_price": 4196.73,
+      "profit": -0.96,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T06:04:41.780000+00:00",
+      "closed_at": "2026-10-09T06:05:52.625000+00:00",
+      "hold_seconds": 70.8,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833993413,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4196.56,
+      "exit_price": 4196.64,
+      "profit": 0.08,
+      "result": "WIN",
+      "opened_at": "2026-10-09T06:04:09.498000+00:00",
+      "closed_at": "2026-10-09T06:05:52.515000+00:00",
+      "hold_seconds": 103.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58833969435,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4195.28,
+      "exit_price": 4196.77,
+      "profit": 1.49,
+      "result": "WIN",
+      "opened_at": "2026-10-09T06:02:12.113000+00:00",
+      "closed_at": "2026-10-09T06:05:52.383000+00:00",
+      "hold_seconds": 220.3,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834053424,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4196.44,
+      "exit_price": 4191.68,
+      "profit": -4.76,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T06:08:03.315000+00:00",
+      "closed_at": "2026-10-09T06:11:12.865000+00:00",
+      "hold_seconds": 189.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834152919,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4193.78,
+      "exit_price": 4193.16,
+      "profit": -0.62,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T06:15:36.895000+00:00",
+      "closed_at": "2026-10-09T06:16:13.026000+00:00",
+      "hold_seconds": 36.1,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834135671,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4192.14,
+      "exit_price": 4193.15,
+      "profit": 1.01,
+      "result": "WIN",
+      "opened_at": "2026-10-09T06:14:09.314000+00:00",
+      "closed_at": "2026-10-09T06:16:12.903000+00:00",
+      "hold_seconds": 123.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834188421,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4194.11,
+      "exit_price": 4192.9,
+      "profit": -1.21,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T06:18:50.711000+00:00",
+      "closed_at": "2026-10-09T06:20:27.171000+00:00",
+      "hold_seconds": 96.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58834169411,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4192.92,
+      "exit_price": 4192.9,
+      "profit": -0.02,
+      "result": "LOSS",
+      "opened_at": "2026-10-09T06:16:49.209000+00:00",
+      "closed_at": "2026-10-09T06:20:27.047000+00:00",
+      "hold_seconds": 217.8,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    }
+  ],
+  "observed_excursions": {
+    "58833676895": {
+      "peak_floating": 0.31,
+      "trough_floating": -4.52
+    },
+    "58833774819": {
+      "peak_floating": 1.42,
+      "trough_floating": -4.46
+    },
+    "58833782367": {
+      "peak_floating": -0.28,
+      "trough_floating": -4.77
+    },
+    "58833891294": {
+      "peak_floating": 1.0,
+      "trough_floating": -1.56
+    },
+    "58833899633": {
+      "peak_floating": -0.1,
+      "trough_floating": -2.66
+    },
+    "58833969435": {
+      "peak_floating": 2.93,
+      "trough_floating": -2.25
+    },
+    "58833993413": {
+      "peak_floating": 1.65,
+      "trough_floating": -0.42
+    },
+    "58834004081": {
+      "peak_floating": 0.52,
+      "trough_floating": -0.54
+    },
+    "58834053424": {
+      "peak_floating": -0.22,
+      "trough_floating": -4.74
+    },
+    "58834135671": {
+      "peak_floating": 2.4,
+      "trough_floating": -0.7
+    },
+    "58834152919": {
+      "peak_floating": 0.76,
+      "trough_floating": -0.72
+    },
+    "58834169411": {
+      "peak_floating": 1.48,
+      "trough_floating": -0.17
+    },
+    "58834188421": {
+      "peak_floating": 0.29,
+      "trough_floating": -0.67
+    }
+  }
+}

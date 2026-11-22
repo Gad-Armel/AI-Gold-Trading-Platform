@@ -1,0 +1,12 @@
+{
+    "last_sync": "2026-11-09T10:41:52.588936",
+    "last_attempt": "2026-11-09T10:41:52.588936",
+    "last_success": true,
+    "last_message": "Free official/verified calendar sync complete. FMP economic calendar disabled; no FMP calendar API call was made.",
+    "last_added_events": 6,
+    "total_events": 6,
+    "provider": "FREE_FALLBACK",
+    "refresh_hours": 3,
+    "fmp_calendar_enabled": false,
+    "fmp_api_call_made": false
+}

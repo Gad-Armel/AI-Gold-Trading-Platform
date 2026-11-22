@@ -1,0 +1,13 @@
+{
+  "traces": 37,
+  "families": 33,
+  "domains": 13,
+  "access": {
+    "read": 29,
+    "search_only": 1,
+    "code_read": 1,
+    "unavailable": 4,
+    "metadata_only": 2
+  },
+  "experiments": 6
+}

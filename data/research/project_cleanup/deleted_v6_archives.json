@@ -1,0 +1,42 @@
+﻿[
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6.3_Expanded_Macro_2026-09-07.zip",
+        "bytes":  59917,
+        "sha256":  "D084377C90FBAB17AEB6B185B27750ECCCD8F86CE71D086995773D37829E99EC",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4242973Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6.4_Official_Scalp_Intraday_2026-09-07.zip",
+        "bytes":  110994,
+        "sha256":  "5E4F41E4DD230424085286BA16ADFD79AF1FDFD988E143651F70BCADDA74F07D",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4425783Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_2026-09-07.zip",
+        "bytes":  44643,
+        "sha256":  "5DEB16CDA32E1AAEFCD27AE7F45BAABFC586A54E2A09BAC6A630C3202D393DC6",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4460844Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_6.1_Institutional_2026-09-07.zip",
+        "bytes":  34910,
+        "sha256":  "40C9B4F8F6F2558E7A4C5F89E317086801786693BDBD5C2F22B2E41B9CE491D1",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4495011Z"
+    },
+    {
+        "path":  "AI_Gold_Economic_Advisor_V6_6.2_Confidence_Points_2026-09-07.zip",
+        "bytes":  46886,
+        "sha256":  "71FFE3E790F19057E9A72F54FDC62C43CD3B1BA5586E911F4BCE9E135180EAB6",
+        "status":  "Deleted after explicit user confirmation",
+        "reason":  "Retired economic advisor release; potentially the only remaining source copy",
+        "deleted_utc":  "2026-09-25T17:02:33.4560479Z"
+    }
+]

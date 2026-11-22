@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-10-21T17:34:31.820357+00:00",
+  "read_only": true,
+  "M15_rows": 600,
+  "point": 0.01,
+  "tick_size": 0.01,
+  "volume_min": 0.01,
+  "volume_step": 0.01,
+  "contract_size": 100.0,
+  "stops_level_points": 0,
+  "freeze_level_points": 0
+}

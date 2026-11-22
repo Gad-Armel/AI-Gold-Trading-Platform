@@ -1,0 +1,56 @@
+;==================================================================
+; EXNESS XAUUSD TITAN QUANT EA - AGGRESSIVE PRESET
+; Recommended for: Low-spread accounts (Exness Pro / Raw Spread / Zero)
+; Focus: Rapid momentum scalping, breakouts, dynamic range mean reversion
+;==================================================================
+InpSymbol=AUTO
+InpMagicNumber=778898
+InpTradeComment=TITAN_AGGRESSIVE
+
+;--- Strategy & Operational Mode
+InpTradingMode=1
+InpMicroTF=1
+InpMacroTF=5
+InpMinConfidence=55.00000000
+
+;--- Technical Indicators & Filters
+InpMacroEMABase=200
+InpMacroEMATrend=50
+InpMicroEMAFast=9
+InpMicroEMASlow=21
+InpRSIPeriod=14
+InpATRPeriod=14
+InpMomentumPeriod=14
+
+;--- Risk Management & Capital Bounds
+InpRiskMode=0
+InpRiskPercent=1.50000000
+InpFixedLot=0.01000000
+InpMaxDailyDrawdown=4.00000000
+InpCloseAllOnDailyDD=1
+InpMaxConcurrentPos=3
+InpMaxExposureLots=0.30000000
+InpMaxConsecutiveLosses=4
+InpStreakCooldownMin=45
+
+;--- Execution & Spread Protection
+InpMaxSpreadPoints=25.00000000
+InpMaxSlippagePoints=25
+InpMaxOrderRetries=3
+InpTickThrottleMs=50
+
+;--- Position Lifecycle & Exit Logic
+InpEnableBreakEven=1
+InpBETriggerATR=0.80000000
+InpBELockPoints=8.00000000
+InpEnableTrailing=1
+InpTrailDistATR=1.10000000
+InpTrailStepATR=0.25000000
+InpEnablePartialClose=1
+InpPartialTriggerATR=1.20000000
+InpPartialClosePct=50.00000000
+
+;--- Telemetry & Diagnostics
+InpShowDashboard=1
+InpLogLevel=1
+InpEnableFileLog=0

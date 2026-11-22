@@ -1,0 +1,46 @@
+{
+  "as_of": "2026-10-23T00:26:33.638031+00:00",
+  "since": "2026-10-22T17:11:21+00:00",
+  "summary": {
+    "trades": 50,
+    "net": -17.89,
+    "wins": 20,
+    "losses": 30,
+    "win_rate": 0.4,
+    "average_win": 1.0405,
+    "average_loss": -1.29,
+    "profit_factor": 0.5377260981912144
+  },
+  "by_timeframe": {
+    "S15": {
+      "trades": 4,
+      "net": -1.91,
+      "wins": 2,
+      "losses": 2,
+      "win_rate": 0.5,
+      "average_win": 0.315,
+      "average_loss": -1.27,
+      "profit_factor": 0.24803149606299213
+    },
+    "S30": {
+      "trades": 24,
+      "net": -15.9,
+      "wins": 7,
+      "losses": 17,
+      "win_rate": 0.2916666666666667,
+      "average_win": 1.4600000000000002,
+      "average_loss": -1.5364705882352943,
+      "profit_factor": 0.39127105666156203
+    },
+    "S5": {
+      "trades": 22,
+      "net": -0.08,
+      "wins": 11,
+      "losses": 11,
+      "win_rate": 0.5,
+      "average_win": 0.9054545454545454,
+      "average_loss": -0.9127272727272726,
+      "profit_factor": 0.9920318725099602
+    }
+  }
+}

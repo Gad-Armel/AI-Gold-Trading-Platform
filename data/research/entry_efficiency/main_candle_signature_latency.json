@@ -1,0 +1,20 @@
+{
+  "results": {
+    "canonical": {
+      "median_ms": 32.44809998432174,
+      "samples": 50
+    },
+    "validated_fast_path": {
+      "median_ms": 26.259999955073,
+      "samples": 50
+    }
+  },
+  "output_parity": true,
+  "reduction_percent": 19.07076233196615,
+  "limitations": [
+    "Same frozen broker snapshot, alternating order, warm cache in both cases.",
+    "Only validated numeric ordered frames use fast path; other inputs use canonical cleanup.",
+    "No changed signal algorithm, historical outcome selection or orders.",
+    "Component benchmark cannot establish whole-loop speed or trade profitability."
+  ]
+}

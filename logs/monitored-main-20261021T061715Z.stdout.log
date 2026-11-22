@@ -1,0 +1,1038 @@
+Connected to MT5
+Fast cost profile: PROVISIONAL_DEMO; commission=0.1, slippage=0.2 price equivalents
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum 4 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-21 07:17:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 13 | 2026-10-21 07:17:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 19 | 2026-10-21 07:18:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 24 | 2026-10-21 07:18:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 35 | 2026-10-21 07:18:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 46 | 2026-10-21 07:19:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 58 | 2026-10-21 07:19:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 67 | 2026-10-21 07:19:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   77.5      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 81 | 2026-10-21 07:20:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 91 | 2026-10-21 07:20:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 103 | 2026-10-21 07:20:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    28.2      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 115 | 2026-10-21 07:20:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 126 | 2026-10-21 07:21:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 135 | 2026-10-21 07:21:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 145 | 2026-10-21 07:21:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 158 | 2026-10-21 07:22:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 171 | 2026-10-21 07:22:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 181 | 2026-10-21 07:22:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 190 | 2026-10-21 07:22:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 200 | 2026-10-21 07:23:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   66.5      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 216 | 2026-10-21 07:23:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 231 | 2026-10-21 07:23:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 242 | 2026-10-21 07:23:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 256 | 2026-10-21 07:24:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   81.1      True     0     -           -       Current quote has reversed or is extended beyond one recent S5 range
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 270 | 2026-10-21 07:24:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 281 | 2026-10-21 07:24:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 297 | 2026-10-21 07:24:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 309 | 2026-10-21 07:25:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 318 | 2026-10-21 07:25:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 325 | 2026-10-21 07:25:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 335 | 2026-10-21 07:25:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 345 | 2026-10-21 07:26:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 360 | 2026-10-21 07:26:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 368 | 2026-10-21 07:26:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 381 | 2026-10-21 07:27:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    87.1      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 394 | 2026-10-21 07:27:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 409 | 2026-10-21 07:27:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 420 | 2026-10-21 07:27:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 434 | 2026-10-21 07:28:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 448 | 2026-10-21 07:28:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 461 | 2026-10-21 07:28:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 472 | 2026-10-21 07:28:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   69.2      True     0     -           -       Current quote has reversed or is extended beyond one recent S5 range
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 488 | 2026-10-21 07:29:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 503 | 2026-10-21 07:29:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 519 | 2026-10-21 07:29:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 535 | 2026-10-21 07:29:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 542 | 2026-10-21 07:30:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    91.3      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 553 | 2026-10-21 07:30:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 565 | 2026-10-21 07:30:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    9.4       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 577 | 2026-10-21 07:31:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 590 | 2026-10-21 07:31:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 600 | 2026-10-21 07:31:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 613 | 2026-10-21 07:31:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 625 | 2026-10-21 07:32:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 640 | 2026-10-21 07:32:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    53.3      True     0     -           -       Current quote has reversed or is extended beyond one recent S5 range
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 653 | 2026-10-21 07:32:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 665 | 2026-10-21 07:32:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    37.6      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 676 | 2026-10-21 07:33:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 691 | 2026-10-21 07:33:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 705 | 2026-10-21 07:33:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 712 | 2026-10-21 07:33:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 722 | 2026-10-21 07:34:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 732 | 2026-10-21 07:34:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    54.0      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 743 | 2026-10-21 07:34:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 750 | 2026-10-21 07:34:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 764 | 2026-10-21 07:35:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 780 | 2026-10-21 07:35:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   71.8      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 794 | 2026-10-21 07:35:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 805 | 2026-10-21 07:35:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 815 | 2026-10-21 07:36:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    61.9      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 829 | 2026-10-21 07:36:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 841 | 2026-10-21 07:36:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   82.6      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 851 | 2026-10-21 07:37:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   66.8      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 862 | 2026-10-21 07:37:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    69.3      True     0     -           -       Signal persistence is 1.6s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 878 | 2026-10-21 07:37:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 886 | 2026-10-21 07:37:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 898 | 2026-10-21 07:38:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 914 | 2026-10-21 07:38:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   52.8      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 927 | 2026-10-21 07:38:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    42.5      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 940 | 2026-10-21 07:38:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 955 | 2026-10-21 07:39:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 970 | 2026-10-21 07:39:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 987 | 2026-10-21 07:39:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 997 | 2026-10-21 07:39:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   81.8      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1007 | 2026-10-21 07:40:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1018 | 2026-10-21 07:40:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1029 | 2026-10-21 07:40:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1039 | 2026-10-21 07:40:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1051 | 2026-10-21 07:41:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1064 | 2026-10-21 07:41:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1076 | 2026-10-21 07:41:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1084 | 2026-10-21 07:42:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1099 | 2026-10-21 07:42:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1112 | 2026-10-21 07:42:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1122 | 2026-10-21 07:42:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1133 | 2026-10-21 07:43:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1147 | 2026-10-21 07:43:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1160 | 2026-10-21 07:43:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1169 | 2026-10-21 07:43:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1181 | 2026-10-21 07:44:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1193 | 2026-10-21 07:44:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1205 | 2026-10-21 07:44:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1214 | 2026-10-21 07:45:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1230 | 2026-10-21 07:45:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1244 | 2026-10-21 07:45:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1257 | 2026-10-21 07:45:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1267 | 2026-10-21 07:46:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1283 | 2026-10-21 07:46:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1297 | 2026-10-21 07:46:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1308 | 2026-10-21 07:46:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1320 | 2026-10-21 07:47:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1332 | 2026-10-21 07:47:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1346 | 2026-10-21 07:47:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1356 | 2026-10-21 07:48:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   60.3      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1367 | 2026-10-21 07:48:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1381 | 2026-10-21 07:48:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1396 | 2026-10-21 07:48:50 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1405 | 2026-10-21 07:49:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1419 | 2026-10-21 07:49:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1435 | 2026-10-21 07:49:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1447 | 2026-10-21 07:49:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   65.4      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1453 | 2026-10-21 07:50:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1456 | 2026-10-21 07:50:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1469 | 2026-10-21 07:50:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1481 | 2026-10-21 07:50:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1487 | 2026-10-21 07:51:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   33.3      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1500 | 2026-10-21 07:51:28 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   81.2      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1515 | 2026-10-21 07:51:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1526 | 2026-10-21 07:52:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1538 | 2026-10-21 07:52:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    59.9      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1552 | 2026-10-21 07:52:35 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1565 | 2026-10-21 07:52:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1582 | 2026-10-21 07:53:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1611 | 2026-10-21 07:53:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1641 | 2026-10-21 07:53:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   52.7      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1671 | 2026-10-21 07:53:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1688 | 2026-10-21 07:54:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    38.0      True     0     -           -       Recent S5 range does not clear three times estimated round-trip cost
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1695 | 2026-10-21 07:54:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1704 | 2026-10-21 07:54:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1710 | 2026-10-21 07:55:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1719 | 2026-10-21 07:55:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1730 | 2026-10-21 07:55:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1737 | 2026-10-21 07:55:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1741 | 2026-10-21 07:56:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1745 | 2026-10-21 07:56:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 has no usable direction above the evidence threshold.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1757 | 2026-10-21 07:56:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1763 | 2026-10-21 07:57:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       S5 tick signal is unavailable or stale.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================

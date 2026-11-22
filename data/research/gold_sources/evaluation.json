@@ -1,0 +1,69 @@
+{
+  "rows": 12162,
+  "first": "2026-07-02 17:40:00+00:00",
+  "last": "2026-09-14 17:10:00+00:00",
+  "split_time": "2026-08-14 21:35:00+00:00",
+  "models": {
+    "gold_only": {
+      "mae_bps": 10.70411683915156,
+      "zero_mae_bps": 10.69703000438935,
+      "direction_accuracy": 0.49743062692702983,
+      "blocks": [
+        {
+          "rows": 1217,
+          "mae_bps": 9.998471821060292,
+          "zero_mae_bps": 9.978746163735776
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 11.06609071717478,
+          "zero_mae_bps": 11.078025453645763
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 11.304063820487167,
+          "zero_mae_bps": 11.28901581870627
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 10.44842129806335,
+          "zero_mae_bps": 10.442923275417488
+        }
+      ]
+    },
+    "gold_plus_currencies": {
+      "mae_bps": 10.722529859413306,
+      "zero_mae_bps": 10.69703000438935,
+      "direction_accuracy": 0.49558067831449126,
+      "blocks": [
+        {
+          "rows": 1217,
+          "mae_bps": 10.000518224309532,
+          "zero_mae_bps": 9.978746163735776
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 11.095521240308614,
+          "zero_mae_bps": 11.078025453645763
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 11.305049375908748,
+          "zero_mae_bps": 11.28901581870627
+        },
+        {
+          "rows": 1216,
+          "mae_bps": 10.489624356694678,
+          "zero_mae_bps": 10.442923275417488
+        }
+      ]
+    }
+  },
+  "execution_approved": false,
+  "note": "Forecast diagnostic only; two fixed ridge specifications, no tuning or trading-profit claim",
+  "source_hashes": {
+    "XAUUSD": "69b3f94088db7c8cc07f613bf40dde0bec5f741198c0d09871b1fcb78b2cb1c9",
+    "EURUSD": "75f092e571776d1a43ab3752cd4a05c5e1619e047deb4ce5667eda555084dda7",
+    "USDJPY": "9565697d5ed4cb3e7d9248e0a966fea3376e3e77544877e89cefff9e32856840"
+  }
+}

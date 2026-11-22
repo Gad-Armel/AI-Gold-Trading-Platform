@@ -1,0 +1,38 @@
+{
+  "updated_at": "2026-10-08T12:17:46.251026+00:00",
+  "status": "COMPLETED",
+  "role": "NO_BROKER_ORDERS",
+  "policy": "BIDIRECTIONAL_5M_OBSERVATION_V1",
+  "signal": {
+    "observed_at": "2026-10-08T12:17:02.721913+00:00",
+    "bar_available_broker_epoch": 1791472620.0,
+    "buy_expected_usd": -0.35000875569691964,
+    "sell_expected_usd": -0.3401096243267316,
+    "direction": "WAIT",
+    "role": "RESEARCH_OBSERVATION_ONLY",
+    "live_approved": false,
+    "features": {
+      "m1_bias": -1.0,
+      "m5_bias": 1.0,
+      "m15_bias": 0.0,
+      "m1_extension": -0.2875915089572057,
+      "m5_extension": 0.19396552634377998,
+      "m15_extension": 0.2577337069329409,
+      "body_atr": 0.41950666321854824,
+      "prior_body_atr": -0.5922447010140778,
+      "range_atr": 1.1696832845033758,
+      "atr": 2.0261895090747193,
+      "cost_atr": 0.11351356769438212,
+      "m5_vol_ratio": 2.0497685281103384,
+      "hour_sin": -0.7547095802140026,
+      "hour_cos": -0.6560590290005954
+    }
+  },
+  "position": null,
+  "closed_trades": 0,
+  "realized": 0,
+  "floating": null,
+  "error": null,
+  "model_sha256": "e78eb5749fbcbc7c8857dcd167d7988193da70095b1082843f1d807d3f4635b8",
+  "ended_at": "2026-10-08T12:17:52.258402+00:00"
+}

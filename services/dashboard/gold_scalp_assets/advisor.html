@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Gold Advisor 1 | Analysis desk</title>
+<link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/advisor.css"><script src="/advisor.js" defer></script></head>
+<body>
+<header class="topbar"><div class="brand"><span class="monogram">Au</span><div><strong>Gold <span>Advisor 1</span></strong><small>MARKET ANALYSIS / XAUUSD</small></div></div><div class="connection"><span id="heartbeat" class="pill amber">CONNECTING</span><span id="clock">--</span></div></header>
+<main>
+  <nav class="desk-nav" aria-label="Dashboards"><a href="/" target="_blank" rel="noopener">Main bot / Live trading &#8599;</a><a href="/advisor" aria-current="page">Advisor 1 / Analysis</a></nav>
+  <section class="intro"><div><p class="eyebrow">SCALP / INTRADAY / SWING</p><h1>The analysis behind the decision.</h1><p>Original Advisor 1 signals, explanations and validity windows.</p></div><span class="tag">READ-ONLY ADVISOR</span></section>
+  <div id="notice" class="notice" role="status">Connecting to Advisor 1 reports...</div>
+  <div id="report" hidden>
+    <section class="panel analysis-summary"><div><p class="eyebrow" id="decision-label">ADVISOR DECISION</p><h2 id="decision">--</h2><p id="market">--</p></div><div class="analysis-time"><p id="analyzed">--</p><p id="age">--</p><small id="timezone">--</small></div></section>
+    <section class="panel horizon-panel"><div class="panel-heading"><div><h2>Outlook by horizon</h2><p>Times use your browser's local timezone. Dates are included to make overnight windows clear.</p></div></div>
+      <div class="table-scroll"><table><thead><tr><th>Horizon</th><th>Action</th><th>Bias</th><th>Evidence</th><th>Valid for</th><th>Valid window (local)</th><th>Next review (local)</th><th>Validity</th></tr></thead><tbody id="horizons"></tbody></table></div>
+      <p class="footnote">Evidence measures directional strength. It is not a calibrated win probability. An advisor setup does not mean the main bot has placed an order.</p>
+    </section>
+    <section class="panel explanations"><div class="panel-heading"><h2 id="why-title">WHY THERE IS NO ENTRY</h2></div><ul id="blocks"></ul><p id="bias-note"></p></section>
+    <section class="horizon-details" id="details" aria-label="Horizon evidence and advisory levels"></section>
+    <section class="panel timeframe-panel"><div class="panel-heading"><div><h2>Closed-candle evidence</h2><p>Timeframe views from the same original report.</p></div></div><div class="table-scroll"><table><thead><tr><th>Timeframe</th><th>Direction</th><th>Strength (0–1)</th><th>ATR ($)</th><th>Last close</th></tr></thead><tbody id="timeframes"></tbody></table></div></section>
+    <section class="panel context-panel"><div class="panel-heading"><h2>Market context</h2></div><dl id="context" class="filters"></dl><p id="proxy-note" class="footnote"></p></section>
+  </div>
+  <footer><span>GOLD ADVISOR 1 / LOCAL ANALYSIS DESK</span><span id="support">Waiting for report transport.</span></footer>
+</main></body></html>

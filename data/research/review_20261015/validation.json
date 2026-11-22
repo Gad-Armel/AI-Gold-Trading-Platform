@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-10-15T07:20:35.076496+00:00",
+  "advisor1_protected_files": 18,
+  "advisor1_mismatches": [],
+  "python_syntax_errors": [],
+  "test_reports": {
+    "pytest": {
+      "tests": 451,
+      "failures": 4,
+      "errors": 0,
+      "skipped": 0,
+      "failed_cases": [
+        {
+          "suite": "test_gold_ai_integration.PaperPortfolioTests",
+          "test": "test_costs_and_cash_reconcile_buy_and_sell"
+        },
+        {
+          "suite": "test_gold_ai_integration.PaperPortfolioTests",
+          "test": "test_global_cap_fixed_volume_and_no_same_lane_pyramiding"
+        },
+        {
+          "suite": "test_gold_ai_integration.PaperPortfolioTests",
+          "test": "test_loss_breaker_includes_realized_and_expires"
+        },
+        {
+          "suite": "test_gold_continuous_scalp.ContinuousGuardTests",
+          "test": "test_risk_unit_never_exceeds_per_trade_cap"
+        }
+      ]
+    },
+    "targeted": {
+      "tests": 128,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "failed_cases": []
+    }
+  },
+  "native_compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 26544 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 6378 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 2300 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 3113 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsBridge": "Result: 0 errors, 0 warnings, 3820 ms elapsed, cpu='X64 Regular'"
+  },
+  "orders_sent": false,
+  "native_deployed": false,
+  "javascript_tests": "Not run: Node.js is unavailable; dashboard JavaScript was not changed.",
+  "native_selftest": {
+    "checks": 230,
+    "failures": 0,
+    "mode": "isolated mathematical tester; no broker orders"
+  },
+  "review_started_utc": "2026-10-15T06:47:24+00:00",
+  "review_elapsed_seconds": 1991.1,
+  "minimum_requested_review_seconds": 1800,
+  "minimum_duration_reached": true
+}

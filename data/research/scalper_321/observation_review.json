@@ -1,0 +1,338 @@
+{
+  "first_utc": "2026-10-01T07:26:32.336239+00:00",
+  "last_utc": "2026-10-01T08:11:53.072729+00:00",
+  "observations": 79,
+  "duration_seconds": 2720.73649,
+  "errors": 0,
+  "cadence_median_seconds": 34.999717000000004,
+  "cadence_max_seconds": 35.001779,
+  "states": {
+    "live": 78,
+    "stopped": 1
+  },
+  "sampled_statuses": {
+    "SCALP: waiting for 3/8 s impulse or aligned 20 s continuation": 6,
+    "Perte glissante 24 h": 59,
+    "Protection compte memorisee": 14
+  },
+  "median_spread": 0.38,
+  "maximum_spread": 0.52,
+  "cohorts": {
+    "ScalperExpert320": {
+      "closed": 7,
+      "net": -3.96,
+      "win_rate": 28.57,
+      "profit_factor": 0.1141,
+      "average_win": 0.255,
+      "average_loss": 0.894,
+      "breakeven_win_rate_at_observed_payoffs": 77.81
+    },
+    "ScalperExpert310": {
+      "closed": 5,
+      "net": -1.19,
+      "win_rate": 60.0,
+      "profit_factor": 0.5641,
+      "average_win": 0.5133,
+      "average_loss": 1.365,
+      "breakeven_win_rate_at_observed_payoffs": 72.67
+    },
+    "ScalperExpert3": {
+      "closed": 15,
+      "net": -4.9,
+      "win_rate": 33.33,
+      "profit_factor": 0.5467,
+      "average_win": 1.182,
+      "average_loss": 1.081,
+      "breakeven_win_rate_at_observed_payoffs": 47.77
+    }
+  },
+  "trades": [
+    {
+      "position": "58681767950",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 19:49:24",
+      "net": -0.61,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58681782383",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 19:50:09",
+      "net": -1.03,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58681893442",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 19:55:51",
+      "net": 0.56,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58682071396",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 20:05:37",
+      "net": -0.97,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58682233799",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 20:16:31",
+      "net": -1.0,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58682268304",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 20:19:14",
+      "net": -0.55,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58682642423",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 20:46:25",
+      "net": 0.56,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58682735845",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 20:53:15",
+      "net": 0.54,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58683096361",
+      "policy": "ScalperExpert3",
+      "side": "SELL",
+      "entry_server": "2026.09.29 21:07:44",
+      "net": -1.75,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58683441687",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 21:22:58",
+      "net": 1.0,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58683528964",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 21:27:08",
+      "net": 3.25,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58683712511",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 21:36:17",
+      "net": -1.17,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58683940033",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 21:46:52",
+      "net": -1.79,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58684047091",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 21:53:11",
+      "net": -1.4,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58684351957",
+      "policy": "ScalperExpert3",
+      "side": "BUY",
+      "entry_server": "2026.09.29 22:16:54",
+      "net": -0.54,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58706597374",
+      "policy": "ScalperExpert310",
+      "side": "SELL",
+      "entry_server": "2026.09.30 22:36:48",
+      "net": 0.45,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58706796725",
+      "policy": "ScalperExpert310",
+      "side": "BUY",
+      "entry_server": "2026.09.30 22:48:24",
+      "net": 0.6,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58706901473",
+      "policy": "ScalperExpert310",
+      "side": "SELL",
+      "entry_server": "2026.09.30 22:53:51",
+      "net": 0.49,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58706906305",
+      "policy": "ScalperExpert310",
+      "side": "BUY",
+      "entry_server": "2026.09.30 22:54:14",
+      "net": -1.33,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58708363824",
+      "policy": "ScalperExpert310",
+      "side": "SELL",
+      "entry_server": "2026.10.01 03:33:32",
+      "net": -1.4,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": null
+    },
+    {
+      "position": "58712293923",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 09:00:05",
+      "net": 0.29,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": 1.66
+    },
+    {
+      "position": "58712364709",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 09:04:47",
+      "net": 0.22,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": 2.63
+    },
+    {
+      "position": "58712461327",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 09:13:30",
+      "net": -0.89,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": 0.38
+    },
+    {
+      "position": "58712666231",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 09:32:07",
+      "net": -0.89,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": 0.36
+    },
+    {
+      "position": "58712860611",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 09:44:44",
+      "net": -1.08,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": -4.64
+    },
+    {
+      "position": "58713220235",
+      "policy": "ScalperExpert320",
+      "side": "SELL",
+      "entry_server": "2026.10.01 10:07:58",
+      "net": -0.96,
+      "exit_reason": "DEAL_REASON_SL",
+      "preceding_5_closed_m1_change": -1.39
+    },
+    {
+      "position": "58713738334",
+      "policy": "ScalperExpert320",
+      "side": "BUY",
+      "entry_server": "2026.10.01 10:29:34",
+      "net": -0.65,
+      "exit_reason": "DEAL_REASON_EXPERT",
+      "preceding_5_closed_m1_change": -5.11
+    }
+  ],
+  "latest": {
+    "version": "3.21",
+    "status": "Protection compte memorisee",
+    "locked": true,
+    "risk": {
+      "text": "SECURITE jusqu'au 2026.10.02 10:29",
+      "lot": 0.01,
+      "max_positions": 3,
+      "per_trade": 2.0,
+      "aggregate": 4.0,
+      "rolling_limit": 5.0,
+      "rolling_realized": -5.15,
+      "rolling_remaining": 0.0,
+      "loss_streak": 5,
+      "cooldown_seconds": 0,
+      "entries_hour": 1,
+      "entries_hour_max": 36,
+      "daily_equity_percent": 3.0,
+      "lock_remaining_seconds": 83863,
+      "locked_until": "2026.10.02 10:29:35"
+    },
+    "kpi": {
+      "win_rate": "37.0% / 27",
+      "profit_factor": "0.44",
+      "day": "-5.36 USD",
+      "week": "-10.05 USD",
+      "drawdown": "DD actuel 0.05% / max 0.05%",
+      "ready": true
+    },
+    "execution": "Aucune requete | tick moy 25 us / max 1279",
+    "account": {
+      "balance": 23637.96,
+      "equity": 23637.96,
+      "floating": 0.0,
+      "margin_free": 23637.96,
+      "position_count": 0,
+      "pending_count": 0
+    }
+  },
+  "limitations": [
+    "35-second observations can miss short trades; fills are reconciled separately.",
+    "Minute candles cannot prove tick MFE/MAE, signal quality or counterfactual execution.",
+    "This is an observational audit, not a profitability backtest."
+  ]
+}

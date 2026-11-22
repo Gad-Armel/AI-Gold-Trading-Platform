@@ -1,0 +1,183 @@
+{
+  "training_days": [
+    "20260908",
+    "20260909",
+    "20260910",
+    "20260911",
+    "20260913",
+    "20260914",
+    "20260915",
+    "20260916",
+    "20260917",
+    "20260918",
+    "20260920",
+    "20260921",
+    "20260922",
+    "20260923",
+    "20260924"
+  ],
+  "validation_days": [
+    "20260925",
+    "20260927",
+    "20260928",
+    "20260929",
+    "20260930"
+  ],
+  "results": [
+    {
+      "hypothesis": "closed_candle_majority",
+      "training": {
+        "False": {
+          "trades": 3316,
+          "net": -1407.16,
+          "mean": -0.4244,
+          "profit_factor": 0.6656,
+          "drawdown": 1408.5
+        },
+        "True": {
+          "trades": 3330,
+          "net": -2137.17,
+          "mean": -0.6418,
+          "profit_factor": 0.5402,
+          "drawdown": 2137.41
+        }
+      },
+      "validation": {
+        "False": {
+          "trades": 1021,
+          "net": -444.72,
+          "mean": -0.4356,
+          "profit_factor": 0.6193,
+          "drawdown": 444.72
+        },
+        "True": {
+          "trades": 1024,
+          "net": -665.69,
+          "mean": -0.6501,
+          "profit_factor": 0.4898,
+          "drawdown": 665.69
+        }
+      },
+      "passes_validation": false
+    },
+    {
+      "hypothesis": "early_m1_direction",
+      "training": {
+        "False": {
+          "trades": 3881,
+          "net": -1659.41,
+          "mean": -0.4276,
+          "profit_factor": 0.6569,
+          "drawdown": 1661.11
+        },
+        "True": {
+          "trades": 3889,
+          "net": -2459.75,
+          "mean": -0.6325,
+          "profit_factor": 0.5352,
+          "drawdown": 2460.84
+        }
+      },
+      "validation": {
+        "False": {
+          "trades": 1160,
+          "net": -541.52,
+          "mean": -0.4668,
+          "profit_factor": 0.5969,
+          "drawdown": 541.52
+        },
+        "True": {
+          "trades": 1164,
+          "net": -811.14,
+          "mean": -0.6969,
+          "profit_factor": 0.468,
+          "drawdown": 811.14
+        }
+      },
+      "passes_validation": false
+    },
+    {
+      "hypothesis": "closed_candle_majority_tick_aligned",
+      "training": {
+        "False": {
+          "trades": 2909,
+          "net": -1161.12,
+          "mean": -0.3991,
+          "profit_factor": 0.679,
+          "drawdown": 1166.17
+        },
+        "True": {
+          "trades": 2923,
+          "net": -1824.23,
+          "mean": -0.6241,
+          "profit_factor": 0.5479,
+          "drawdown": 1827.67
+        }
+      },
+      "validation": {
+        "False": {
+          "trades": 896,
+          "net": -395.05,
+          "mean": -0.4409,
+          "profit_factor": 0.6131,
+          "drawdown": 400.81
+        },
+        "True": {
+          "trades": 899,
+          "net": -610.24,
+          "mean": -0.6788,
+          "profit_factor": 0.4743,
+          "drawdown": 613.45
+        }
+      },
+      "passes_validation": false
+    },
+    {
+      "hypothesis": "early_m1_direction_tick_aligned",
+      "training": {
+        "False": {
+          "trades": 3403,
+          "net": -1466.8,
+          "mean": -0.431,
+          "profit_factor": 0.6522,
+          "drawdown": 1466.8
+        },
+        "True": {
+          "trades": 3413,
+          "net": -2208.33,
+          "mean": -0.647,
+          "profit_factor": 0.5283,
+          "drawdown": 2208.33
+        }
+      },
+      "validation": {
+        "False": {
+          "trades": 1007,
+          "net": -488.5,
+          "mean": -0.4851,
+          "profit_factor": 0.5916,
+          "drawdown": 493.22
+        },
+        "True": {
+          "trades": 1009,
+          "net": -727.65,
+          "mean": -0.7212,
+          "profit_factor": 0.4616,
+          "drawdown": 727.65
+        }
+      },
+      "passes_validation": false
+    }
+  ],
+  "later_holdout_evaluated": false,
+  "live_approved": false,
+  "limitations": [
+    "Four fixed causal rules, no model fitting or threshold search.",
+    "Full-history EMA directions approximate Advisor 1; strength scores and live adaptive exits omitted.",
+    "M1 direction is an early-response hypothesis, not an edit to standalone Advisor 1.",
+    "Actual historical bid/ask paths, 100ms latency, $.05 per-side slippage, $5 stop and 180s exit.",
+    "Non-overlapping positions, 30s re-entry pause; no fees, financing or liquidity/depth.",
+    "Validation days were already inspected with other candidates, so this is exploratory evidence.",
+    "Final holdout untouched; no rule is enabled for execution."
+  ]
+}

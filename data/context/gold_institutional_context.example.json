@@ -1,0 +1,40 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-07T00:00:00Z",
+  "refresh_status": "EXAMPLE_ONLY",
+  "source": "Replace every example value with a dated official publication",
+  "observations": {
+    "central_bank": {
+      "metric": "REPORTED_MONTHLY_NET_PURCHASES_TONNES",
+      "period": "MONTHLY",
+      "net_tonnes": 0.0,
+      "observed_at": "2026-07-31T00:00:00Z",
+      "published_at": "2026-09-03T00:00:00Z",
+      "source": "World Gold Council central-bank statistics",
+      "source_url": "https://www.gold.org/goldhub/data/gold-reserves-by-country",
+      "source_quality": 0.9
+    },
+    "gold_etf": {
+      "metric": "GLOBAL_PHYSICALLY_BACKED_GOLD_ETF_NET_FLOW_TONNES",
+      "period": "MONTHLY",
+      "net_tonnes": 0.0,
+      "observed_at": "2026-07-31T00:00:00Z",
+      "published_at": "2026-08-06T00:00:00Z",
+      "source": "World Gold Council gold ETF holdings and flows",
+      "source_url": "https://www.gold.org/goldhub/data/gold-etfs-holdings-and-flows",
+      "source_quality": 0.9
+    },
+    "managed_money": {
+      "metric": "COMEX_GOLD_MANAGED_MONEY_FUTURES_ONLY",
+      "period": "WEEKLY",
+      "managed_money_net_change_4w": 0.0,
+      "managed_money_percentile_52w": 0.5,
+      "open_interest": 0.0,
+      "observed_at": "2026-09-01T00:00:00Z",
+      "published_at": "2026-09-04T20:30:00Z",
+      "source": "U.S. CFTC Disaggregated Futures Only",
+      "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+      "source_quality": 0.98
+    }
+  }
+}

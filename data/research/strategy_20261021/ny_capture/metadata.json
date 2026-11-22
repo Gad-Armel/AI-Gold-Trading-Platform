@@ -1,0 +1,29 @@
+{
+  "captured_at": "2026-10-21T17:30:53.446811+00:00",
+  "read_only": true,
+  "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+  "symbol": "XAUUSD",
+  "currency": "USD",
+  "contract_size": 100.0,
+  "tick_size": 0.01,
+  "lot_size": 0.01,
+  "broker_offset_seconds": 10800,
+  "requested_start": "2026-10-20T17:30:53.446811+00:00",
+  "tick_count": 400953,
+  "rates": {
+    "M1": 2640,
+    "M5": 528,
+    "M15": 176,
+    "H1": 44
+  },
+  "first_utc": "2026-10-20T17:30:53.465000+00:00",
+  "last_utc": "2026-10-21T17:30:52.917000+00:00",
+  "bid": 4132.19,
+  "ask": 4132.57,
+  "spread_quantiles": {
+    "0.5": 0.3599999999996726,
+    "0.9": 0.4399999999995998,
+    "0.99": 0.5299999999997453
+  },
+  "quote_gaps_over_3_seconds": 877
+}

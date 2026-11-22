@@ -1,0 +1,52 @@
+{
+  "demo_only": true,
+  "paired_positions": [
+    {
+      "role": "MAIN",
+      "position_id": 59023279604,
+      "net": -1.74,
+      "deals": [
+        {
+          "ticket": 58625596700,
+          "entry": 0,
+          "price": 4016.04,
+          "volume": 0.01,
+          "profit": 0.0,
+          "time_msc": 1792748544069
+        },
+        {
+          "ticket": 58625622597,
+          "entry": 1,
+          "price": 4014.3,
+          "volume": 0.01,
+          "profit": -1.74,
+          "time_msc": 1792748710894
+        }
+      ]
+    },
+    {
+      "role": "INVERSE",
+      "position_id": 59023279624,
+      "net": 0.87,
+      "deals": [
+        {
+          "ticket": 58625596720,
+          "entry": 0,
+          "price": 4015.65,
+          "volume": 0.01,
+          "profit": 0.0,
+          "time_msc": 1792748544295
+        },
+        {
+          "ticket": 58625622669,
+          "entry": 1,
+          "price": 4014.78,
+          "volume": 0.01,
+          "profit": 0.87,
+          "time_msc": 1792748711139
+        }
+      ]
+    }
+  ],
+  "profitability_validated": false
+}

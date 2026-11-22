@@ -1,0 +1,242 @@
+{
+  "as_of": "2026-10-20T07:02:00.022553+00:00",
+  "read_only": true,
+  "ticks": 40225,
+  "costs": {
+    "available": true,
+    "reconciled_pairs": 288,
+    "minimum_pairs": 30,
+    "commission_price": 0.0,
+    "slippage_price": 0.18000000000029104,
+    "order_send_p95_ms": 351.579,
+    "reason": "Historical demo p95 estimates, not guaranteed future costs"
+  },
+  "screening": {
+    "available": true,
+    "execution_enabled": false,
+    "horizon_seconds": 60,
+    "latency_seconds": 1.0,
+    "summary": {
+      "S30": {
+        "candidates": 0,
+        "net_price_sum": 0,
+        "mean_net_price": null,
+        "wins": 0,
+        "extra_cost_stress": {
+          "0.1": 0,
+          "0.25": 0,
+          "0.5": 0
+        }
+      },
+      "M1_PATTERN_BENCHMARK": {
+        "candidates": 23,
+        "net_price_sum": -15.080000000001746,
+        "mean_net_price": -0.6556521739131194,
+        "wins": 9,
+        "extra_cost_stress": {
+          "0.1": -17.380000000001747,
+          "0.25": -20.830000000001746,
+          "0.5": -26.580000000001746
+        }
+      }
+    },
+    "observations": {
+      "S30": [],
+      "M1_PATTERN_BENCHMARK": [
+        {
+          "decision_epoch": 1792472880,
+          "direction": "SELL",
+          "setup_id": "1792472880:SELL",
+          "entry_epoch": 1792472881.177,
+          "exit_epoch": 1792472941.013,
+          "net_price": 1.0299999999997453
+        },
+        {
+          "decision_epoch": 1792472940,
+          "direction": "SELL",
+          "setup_id": "1792472940:SELL",
+          "entry_epoch": 1792472941.013,
+          "exit_epoch": 1792473001.164,
+          "net_price": 0.6700000000000728
+        },
+        {
+          "decision_epoch": 1792473000,
+          "direction": "SELL",
+          "setup_id": "1792473000:SELL",
+          "entry_epoch": 1792473001.164,
+          "exit_epoch": 1792473061.254,
+          "net_price": 0.8400000000001455
+        },
+        {
+          "decision_epoch": 1792473060,
+          "direction": "SELL",
+          "setup_id": "1792473060:SELL",
+          "entry_epoch": 1792473061.254,
+          "exit_epoch": 1792473121.166,
+          "net_price": -2.290000000000873
+        },
+        {
+          "decision_epoch": 1792473420,
+          "direction": "SELL",
+          "setup_id": "1792473420:SELL",
+          "entry_epoch": 1792473421.058,
+          "exit_epoch": 1792473481.968,
+          "net_price": 0.2599999999993088
+        },
+        {
+          "decision_epoch": 1792473480,
+          "direction": "SELL",
+          "setup_id": "1792473480:SELL",
+          "entry_epoch": 1792473481.968,
+          "exit_epoch": 1792473541.148,
+          "net_price": -3.5999999999994543
+        },
+        {
+          "decision_epoch": 1792473960,
+          "direction": "SELL",
+          "setup_id": "1792473960:SELL",
+          "entry_epoch": 1792473961.137,
+          "exit_epoch": 1792474021.365,
+          "net_price": 0.9200000000000728
+        },
+        {
+          "decision_epoch": 1792474020,
+          "direction": "SELL",
+          "setup_id": "1792474020:SELL",
+          "entry_epoch": 1792474021.365,
+          "exit_epoch": 1792474081.019,
+          "net_price": -2.2600000000002183
+        },
+        {
+          "decision_epoch": 1792474800,
+          "direction": "BUY",
+          "setup_id": "1792474800:BUY",
+          "entry_epoch": 1792474801.163,
+          "exit_epoch": 1792474861.05,
+          "net_price": -2.0599999999994907
+        },
+        {
+          "decision_epoch": 1792475160,
+          "direction": "SELL",
+          "setup_id": "1792475160:SELL",
+          "entry_epoch": 1792475161.09,
+          "exit_epoch": 1792475221.086,
+          "net_price": 1.2399999999997817
+        },
+        {
+          "decision_epoch": 1792475220,
+          "direction": "SELL",
+          "setup_id": "1792475220:SELL",
+          "entry_epoch": 1792475221.086,
+          "exit_epoch": 1792475281.166,
+          "net_price": 1.389999999999418
+        },
+        {
+          "decision_epoch": 1792475280,
+          "direction": "SELL",
+          "setup_id": "1792475280:SELL",
+          "entry_epoch": 1792475281.166,
+          "exit_epoch": 1792475342.349,
+          "net_price": -1.4799999999995634
+        },
+        {
+          "decision_epoch": 1792476420,
+          "direction": "BUY",
+          "setup_id": "1792476420:BUY",
+          "entry_epoch": 1792476421.095,
+          "exit_epoch": 1792476481.002,
+          "net_price": -1.230000000000473
+        },
+        {
+          "decision_epoch": 1792476720,
+          "direction": "SELL",
+          "setup_id": "1792476720:SELL",
+          "entry_epoch": 1792476721.11,
+          "exit_epoch": 1792476781.252,
+          "net_price": 2.2600000000002183
+        },
+        {
+          "decision_epoch": 1792476780,
+          "direction": "SELL",
+          "setup_id": "1792476780:SELL",
+          "entry_epoch": 1792476781.252,
+          "exit_epoch": 1792476841.077,
+          "net_price": -0.7600000000002183
+        },
+        {
+          "decision_epoch": 1792476840,
+          "direction": "SELL",
+          "setup_id": "1792476840:SELL",
+          "entry_epoch": 1792476841.077,
+          "exit_epoch": 1792476901.009,
+          "net_price": -1.1500000000005457
+        },
+        {
+          "decision_epoch": 1792477140,
+          "direction": "BUY",
+          "setup_id": "1792477140:BUY",
+          "entry_epoch": 1792477141.104,
+          "exit_epoch": 1792477201.083,
+          "net_price": -1.5
+        },
+        {
+          "decision_epoch": 1792477500,
+          "direction": "BUY",
+          "setup_id": "1792477500:BUY",
+          "entry_epoch": 1792477501.018,
+          "exit_epoch": 1792477561.663,
+          "net_price": -1.069999999999709
+        },
+        {
+          "decision_epoch": 1792477560,
+          "direction": "BUY",
+          "setup_id": "1792477560:BUY",
+          "entry_epoch": 1792477561.663,
+          "exit_epoch": 1792477621.12,
+          "net_price": 1.180000000000291
+        },
+        {
+          "decision_epoch": 1792477620,
+          "direction": "BUY",
+          "setup_id": "1792477620:BUY",
+          "entry_epoch": 1792477621.12,
+          "exit_epoch": 1792477681.156,
+          "net_price": -2.910000000000764
+        },
+        {
+          "decision_epoch": 1792478100,
+          "direction": "BUY",
+          "setup_id": "1792478100:BUY",
+          "entry_epoch": 1792478101.004,
+          "exit_epoch": 1792478161.094,
+          "net_price": -0.36999999999989086
+        },
+        {
+          "decision_epoch": 1792478160,
+          "direction": "BUY",
+          "setup_id": "1792478160:BUY",
+          "entry_epoch": 1792478161.094,
+          "exit_epoch": 1792478221.183,
+          "net_price": -1.0799999999999272
+        },
+        {
+          "decision_epoch": 1792478340,
+          "direction": "SELL",
+          "setup_id": "1792478340:SELL",
+          "entry_epoch": 1792478341.228,
+          "exit_epoch": 1792478401.167,
+          "net_price": -3.1099999999996726
+        }
+      ]
+    },
+    "limitations": [
+      "Pattern-only screen, not production Advisor 1 or dynamic exit backtest.",
+      "Overlapping markouts are correlated and do not enforce portfolio capacity.",
+      "Historical cost calibration is not a chronological out-of-sample validation.",
+      "Bid/ask includes spread once; net_price subtracts estimated fees and slippage once.",
+      "No entry, position sizing or news-filter activation is authorized by this screen."
+    ]
+  },
+  "activation_allowed": false,
+  "decision": "KEEP_FAST_SHADOW_ONLY"
+}

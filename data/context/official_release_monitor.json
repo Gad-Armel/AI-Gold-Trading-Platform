@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-11-09T09:49:13.904210+00:00",
+  "cache_status": "REFRESHED",
+  "providers": {
+    "census_rss": "LIVE",
+    "federal_reserve_rss": "LIVE",
+    "bea_api": "LIVE"
+  },
+  "errors": {},
+  "events": [],
+  "bea_state": {
+    "real_gdp": {
+      "fingerprint": "2026Q3:3.4",
+      "period": "2026Q3",
+      "value": 3.4,
+      "observed_at": "2026-11-09T09:49:13.904210+00:00"
+    },
+    "core_pce": {
+      "fingerprint": "2026M09:0.3",
+      "period": "2026M09",
+      "value": 0.3,
+      "observed_at": "2026-11-09T09:49:13.904210+00:00"
+    }
+  }
+}

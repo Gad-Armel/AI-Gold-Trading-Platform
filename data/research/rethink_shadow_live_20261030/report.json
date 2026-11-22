@@ -1,0 +1,77 @@
+{
+    "started": "2026-10-29T23:37:02.227031+00:00",
+    "ended": "2026-10-29T23:39:02.849353+00:00",
+    "requested_minutes": 2.0,
+    "samples": 25,
+    "directions": {
+        "SELL": 25
+    },
+    "top_blocks": [
+        [
+            "Research entry hold: position exits and broker stops remain active.",
+            25
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            25
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            25
+        ],
+        [
+            "SCALP paused during volatility expansion.",
+            12
+        ],
+        [
+            "Continuous completed S5 structure is required.",
+            10
+        ],
+        [
+            "Executable pressure does not confirm the context direction.",
+            10
+        ],
+        [
+            "Wait for a fresh S5 break or pullback reclaim.",
+            9
+        ],
+        [
+            "Recent observable movement is too small relative to dealing costs.",
+            7
+        ],
+        [
+            "Continuous short-horizon quote pressure required.",
+            4
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 5.4s old. Check feed connection and symbol session.",
+            1
+        ],
+        [
+            "Fresh executable tick required.",
+            1
+        ],
+        [
+            "MT5 tick history is stale",
+            1
+        ]
+    ],
+    "observed_position_tickets": [],
+    "initial_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [],
+        "quote_age": 0.102925
+    },
+    "final_broker": {
+        "available": true,
+        "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+        "positions": [],
+        "quote_age": 1.55004,
+        "history_available": true,
+        "deals": []
+    },
+    "errors": [],
+    "account_continuity": true,
+    "note": "Read-only observation, not calibrated signal accuracy or proof of future profitability."
+}

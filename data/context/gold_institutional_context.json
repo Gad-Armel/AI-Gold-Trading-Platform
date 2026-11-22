@@ -1,0 +1,67 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-11-09T09:42:00.650409+00:00",
+  "last_attempt_at": "2026-11-09T09:42:00.650409+00:00",
+  "last_success_at": "2026-11-09T09:42:00.650409+00:00",
+  "refresh_status": "PARTIAL_REFRESH",
+  "refreshed_sources": [
+    "gold_etf",
+    "managed_money"
+  ],
+  "refresh_errors": {
+    "central_bank": "InstitutionalDataError: The WGC observation date could not be verified."
+  },
+  "observed_at": "2026-11-03T00:00:00+00:00",
+  "source": "U.S. CFTC Disaggregated Futures Only | World Gold Council central-bank statistics | World Gold Council gold ETF holdings and flows",
+  "observations": {
+    "central_bank": {
+      "available": true,
+      "metric": "REPORTED_MONTHLY_NET_PURCHASES_TONNES",
+      "period": "MONTHLY",
+      "net_tonnes": 39.0,
+      "observed_at": "2026-08-31T00:00:00+00:00",
+      "published_at": "2026-10-06T00:00:00+00:00",
+      "source": "World Gold Council central-bank statistics",
+      "source_url": "https://www.gold.org/goldhub/gold-focus/2026/10/central-bank-gold-statistics-central-banks-continue-summer-spree-august",
+      "source_quality": 0.9,
+      "revision_risk": "HIGH",
+      "year_to_date_net_tonnes": 170.0,
+      "retrieved_at": "2026-10-30T08:40:32.763458+00:00"
+    },
+    "managed_money": {
+      "available": true,
+      "metric": "COMEX_GOLD_MANAGED_MONEY_FUTURES_ONLY",
+      "period": "WEEKLY",
+      "managed_money_net": 103614.0,
+      "managed_money_net_change_4w": -7373.0,
+      "managed_money_percentile_52w": 0.36538461538461536,
+      "open_interest": 399169.0,
+      "observed_at": "2026-11-03T00:00:00+00:00",
+      "published_at": "2026-11-06T20:30:00+00:00",
+      "source": "U.S. CFTC Disaggregated Futures Only",
+      "source_url": "https://publicreporting.cftc.gov/resource/72hh-3qpy.json",
+      "source_quality": 0.98,
+      "revision_risk": "MEDIUM",
+      "retrieved_at": "2026-11-09T09:42:00.650409+00:00"
+    },
+    "gold_etf": {
+      "available": true,
+      "metric": "GLOBAL_PHYSICALLY_BACKED_GOLD_ETF_NET_FLOW_TONNES",
+      "period": "MONTHLY",
+      "net_tonnes": 246.0,
+      "observed_at": "2026-10-31T00:00:00+00:00",
+      "published_at": "2026-11-05T08:00:00+00:00",
+      "source": "World Gold Council gold ETF holdings and flows",
+      "source_url": "https://www.gold.org/goldhub/data/global-gold-backed-etf-holdings-and-flows",
+      "source_quality": 0.9,
+      "revision_risk": "MEDIUM",
+      "retrieved_at": "2026-11-09T09:42:00.650409+00:00"
+    }
+  },
+  "central_bank_net_tonnes_change": 39.0,
+  "etf_tonnes_change": 246.0,
+  "managed_money_net_change_4w": -7373.0,
+  "managed_money_percentile_52w": 0.36538461538461536,
+  "usage": "SWING_REGIME_CONTEXT_ONLY",
+  "warning": "Delayed and revisable institutional observations. They can adjust SWING economic context, but cannot authorize a trade or affect SCALP entries."
+}

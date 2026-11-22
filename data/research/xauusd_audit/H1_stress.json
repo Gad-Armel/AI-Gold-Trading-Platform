@@ -1,0 +1,137 @@
+{
+  "frozen_parameters": true,
+  "retuned_after_holdout": false,
+  "cost_stress": {
+    "1.0": {
+      "trades": 688,
+      "net": 1870.75,
+      "mean": 2.7191,
+      "win_rate": 0.3561,
+      "profit_factor": 1.2032,
+      "drawdown": 646.47
+    },
+    "2.0": {
+      "trades": 688,
+      "net": 1609.31,
+      "mean": 2.3391,
+      "win_rate": 0.3474,
+      "profit_factor": 1.1717,
+      "drawdown": 676.87
+    },
+    "4.0": {
+      "trades": 688,
+      "net": 1086.43,
+      "mean": 1.5791,
+      "win_rate": 0.3416,
+      "profit_factor": 1.1118,
+      "drawdown": 737.67
+    }
+  },
+  "time_blocks": [
+    {
+      "start_broker_clock": "2018-03-27T21:00:00",
+      "end_broker_clock": "2019-12-04T16:00:00",
+      "fixed": {
+        "trades": 804,
+        "net": -240.21,
+        "mean": -0.2988,
+        "win_rate": 0.3918,
+        "profit_factor": 0.8855,
+        "drawdown": 322.55
+      },
+      "adaptive": {
+        "trades": 713,
+        "net": -269.29,
+        "mean": -0.3777,
+        "win_rate": 0.3072,
+        "profit_factor": 0.8367,
+        "drawdown": 337.17
+      }
+    },
+    {
+      "start_broker_clock": "2019-12-04T17:00:00",
+      "end_broker_clock": "2021-08-16T07:00:00",
+      "fixed": {
+        "trades": 1015,
+        "net": 44.93,
+        "mean": 0.0443,
+        "win_rate": 0.5182,
+        "profit_factor": 1.0106,
+        "drawdown": 218.44
+      },
+      "adaptive": {
+        "trades": 660,
+        "net": 293.3,
+        "mean": 0.4444,
+        "win_rate": 0.3288,
+        "profit_factor": 1.1019,
+        "drawdown": 248.22
+      }
+    },
+    {
+      "start_broker_clock": "2021-08-16T08:00:00",
+      "end_broker_clock": "2023-04-21T22:00:00",
+      "fixed": {
+        "trades": 1022,
+        "net": -357.51,
+        "mean": -0.3498,
+        "win_rate": 0.4814,
+        "profit_factor": 0.9104,
+        "drawdown": 365.27
+      },
+      "adaptive": {
+        "trades": 692,
+        "net": -35.32,
+        "mean": -0.051,
+        "win_rate": 0.3425,
+        "profit_factor": 0.9873,
+        "drawdown": 204.23
+      }
+    },
+    {
+      "start_broker_clock": "2023-04-21T23:00:00",
+      "end_broker_clock": "2024-12-26T09:00:00",
+      "fixed": {
+        "trades": 1043,
+        "net": -15.37,
+        "mean": -0.0147,
+        "win_rate": 0.5225,
+        "profit_factor": 0.9964,
+        "drawdown": 308.87
+      },
+      "adaptive": {
+        "trades": 694,
+        "net": 101.78,
+        "mean": 0.1467,
+        "win_rate": 0.3228,
+        "profit_factor": 1.0328,
+        "drawdown": 339.06
+      }
+    },
+    {
+      "start_broker_clock": "2024-12-26T10:00:00",
+      "end_broker_clock": "2026-09-10T17:00:00",
+      "fixed": {
+        "trades": 1497,
+        "net": -491.13,
+        "mean": -0.3281,
+        "win_rate": 0.6486,
+        "profit_factor": 0.963,
+        "drawdown": 1377.08
+      },
+      "adaptive": {
+        "trades": 687,
+        "net": 1876.75,
+        "mean": 2.7318,
+        "win_rate": 0.3566,
+        "profit_factor": 1.204,
+        "drawdown": 646.47
+      }
+    }
+  ],
+  "holdout_block_bootstrap_mean_95_interval": [
+    -0.5110132385472136,
+    6.467142208955737
+  ],
+  "limitations": "Post-selection robustness audit, not a new independent holdout. Omits swap and commission, assumes bid-bar fills."
+}

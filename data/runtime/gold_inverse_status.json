@@ -1,0 +1,85 @@
+{
+    "protocol": 1,
+    "state": "ERROR",
+    "heartbeat_epoch": 1793029073.4347277,
+    "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+    "magic": 631021,
+    "demo_only": true,
+    "lot": 0.01,
+    "max_combined_positions": 4,
+    "signal_policy": "INHERIT_MAIN_ANALYSIS_REVERSE_CONFIRMED_FILL",
+    "detail": {
+        "source_positions": 0,
+        "inverse_positions": 0,
+        "pending_inverse_orders": 0,
+        "inverse_floating_profit": 0,
+        "events": [],
+        "uncertain_links": []
+    },
+    "error": "Locked USD DEMO hedging account required; account changes are blocked",
+    "trading": {
+        "available": true,
+        "updated_at": "2026-10-26T15:27:11.823873+00:00",
+        "positions": [],
+        "closed_trades": [
+            {
+                "position_id": 59050462285,
+                "direction": "SELL",
+                "volume": 0.01,
+                "profit": -1.56,
+                "closed_at": "2026-10-26T14:43:40.371000+00:00"
+            },
+            {
+                "position_id": 59041249613,
+                "direction": "SELL",
+                "volume": 0.01,
+                "profit": 2.05,
+                "closed_at": "2026-10-26T05:51:11.187000+00:00"
+            }
+        ],
+        "reset_epoch": 1792984705.8097162,
+        "main_display": {
+            "closed_trades": [
+                {
+                    "position_id": 59050462169,
+                    "direction": "BUY",
+                    "volume": 0.01,
+                    "profit": 1.12,
+                    "closed_at": "2026-10-26T14:43:40.065000+00:00"
+                },
+                {
+                    "position_id": 59041249548,
+                    "direction": "BUY",
+                    "volume": 0.01,
+                    "profit": -2.91,
+                    "closed_at": "2026-10-26T05:51:11.047000+00:00"
+                }
+            ],
+            "pnl": {
+                "available": true,
+                "realized": -1.79,
+                "floating": 0.0,
+                "total": -1.79,
+                "actual_floating": 0.0
+            }
+        },
+        "pnl": {
+            "available": true,
+            "realized": 0.48999999999999977,
+            "floating": 0.0,
+            "total": 0.48999999999999977,
+            "actual_floating": 0.0
+        },
+        "scope": "Display change since reset (open P/L baseline included)",
+        "paired": {
+            "available": true,
+            "linked_sources": 98,
+            "main_net": -1.79,
+            "inverse_net": 0.48999999999999977,
+            "main_actual_floating": 0.0,
+            "combined_net": -1.3000000000000003,
+            "scope": "Linked experiment since display reset"
+        },
+        "note": "Position cards show broker floating P/L; aggregate open P/L includes recorded fees/swap."
+    }
+}

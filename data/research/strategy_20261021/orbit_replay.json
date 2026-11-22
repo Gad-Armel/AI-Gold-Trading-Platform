@@ -1,0 +1,165 @@
+{
+  "read_only": true,
+  "execution_enabled": false,
+  "strategy": "ORBIT_M1_M15_RESEARCH_V1",
+  "proposal_parameters_frozen": true,
+  "split_epoch": 1792569293.1362,
+  "rejection_counts": {
+    "No completed trend pullback, breakout retest or range sweep with activity confirmation": 1307,
+    "Waiting for a fresh completed M1 setup": 1,
+    "Spread exceeds 15% of structural risk or 0.75 price units": 9,
+    "Setup price has moved too far; do not chase": 1
+  },
+  "results": [
+    {
+      "segment": "DEVELOPMENT",
+      "round_trip_cost": 0.3,
+      "summary": {
+        "trades": 2,
+        "net_price": 0.47,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "profit_factor": 1.1620689655174852,
+        "average_price": 0.2350000000003094
+      },
+      "trades": [
+        {
+          "entered_at": 1792544221.926,
+          "exited_at": 1792544474.151,
+          "direction": "SELL",
+          "entry": 4118.04,
+          "exit": 4114.37,
+          "setup": "TREND_PULLBACK",
+          "gross_price": 3.6700000000000728,
+          "net_price": 3.370000000000073,
+          "reason": "DYNAMIC_TRAIL",
+          "hold_seconds": 252.22499990463257
+        },
+        {
+          "entered_at": 1792552380.558,
+          "exited_at": 1792552484.498,
+          "direction": "SELL",
+          "entry": 4113.43,
+          "exit": 4116.03,
+          "setup": "BREAKOUT_RETEST",
+          "gross_price": -2.5999999999994543,
+          "net_price": -2.899999999999454,
+          "reason": "BROKER_SL",
+          "hold_seconds": 103.93999981880188
+        }
+      ],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true
+    },
+    {
+      "segment": "CHRONOLOGICAL_TAIL",
+      "round_trip_cost": 0.3,
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true
+    },
+    {
+      "segment": "DEVELOPMENT",
+      "round_trip_cost": 0.08,
+      "summary": {
+        "trades": 2,
+        "net_price": 0.91,
+        "wins": 1,
+        "losses": 1,
+        "win_rate": 0.5,
+        "profit_factor": 1.33955223880627,
+        "average_price": 0.45500000000030916
+      },
+      "trades": [
+        {
+          "entered_at": 1792544221.926,
+          "exited_at": 1792544474.151,
+          "direction": "SELL",
+          "entry": 4118.04,
+          "exit": 4114.37,
+          "setup": "TREND_PULLBACK",
+          "gross_price": 3.6700000000000728,
+          "net_price": 3.5900000000000727,
+          "reason": "DYNAMIC_TRAIL",
+          "hold_seconds": 252.22499990463257
+        },
+        {
+          "entered_at": 1792552380.558,
+          "exited_at": 1792552484.498,
+          "direction": "SELL",
+          "entry": 4113.43,
+          "exit": 4116.03,
+          "setup": "BREAKOUT_RETEST",
+          "gross_price": -2.5999999999994543,
+          "net_price": -2.6799999999994544,
+          "reason": "BROKER_SL",
+          "hold_seconds": 103.93999981880188
+        }
+      ],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true
+    },
+    {
+      "segment": "CHRONOLOGICAL_TAIL",
+      "round_trip_cost": 0.08,
+      "summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "trades": [],
+      "rejected": {
+        "expired": 0,
+        "invalid_risk": 0,
+        "gap_entry": 0
+      },
+      "censored_positions": 0,
+      "unfilled_requests": 0,
+      "modeled_quantity_ounces": 1.0,
+      "read_only": true
+    }
+  ],
+  "limitations": [
+    "One broker and one day; proposed strategy is not proven profitable.",
+    "Historical tail follows earlier research on overlapping data; not a new independent blind test.",
+    "No account margin, bankruptcy, news exclusion, pending limit queue or partial-close model.",
+    "Trend, breakout and range modes are fixed hypotheses; no parameter selection on these outcomes.",
+    "Paper-only: fixed .01 lot equivalent, one position; maximum structural risk 10 price units.",
+    "Stop gaps and delayed exits can lose more than planned; no fixed TP is installed."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "captured_at": "2026-10-08T13:57:28.532224+00:00",
+  "requested_start": "2026-09-07T00:00:00+00:00",
+  "requested_end": "2026-10-08T00:00:00+00:00",
+  "broker_offset_seconds": 10800,
+  "symbols": {
+    "EURUSD": {
+      "rows": 33117,
+      "first_broker_epoch": 1788750000,
+      "last_broker_epoch": 1791428400,
+      "live_quote_age_seconds": 0.59325,
+      "sha256": "5fc3516729c963ab87adfce4edcc7f886a339bc7ff67ab1054f4e27feba52b66"
+    },
+    "USDJPY": {
+      "rows": 33112,
+      "first_broker_epoch": 1788750000,
+      "last_broker_epoch": 1791428400,
+      "live_quote_age_seconds": 0.251865,
+      "sha256": "ead0c635c6d4f800c982de59d79f75f160549d1228d54746a7a0efb9da6aaff4"
+    }
+  },
+  "limitations": [
+    "Historical revisions and incomplete terminal history are possible.",
+    "Broker clock convention verified against current quote; historical offset assumed constant."
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "limitations": [
+    "Recorded allowed signals, not actual fills or a portfolio replay.",
+    "Samples spaced five minutes per lane; 15-minute outcomes overlap.",
+    "Both periods were previously inspected; neither is a blind holdout.",
+    "Historical signal policy changed during collection.",
+    "Markouts include executable spread and $.10 round-trip slippage, but omit stops, adaptive exits, fees and financing.",
+    "Future quotes are used only as labels; input decisions precede entry quotes."
+  ],
+  "groups": [
+    {
+      "period": "20261008T040208Z",
+      "lane": "SCALP",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 14,
+          "mean_usd": -0.6021,
+          "positive_fraction": 0.1429
+        },
+        "300": {
+          "n": 13,
+          "mean_usd": -0.5508,
+          "positive_fraction": 0.4615
+        },
+        "900": {
+          "n": 15,
+          "mean_usd": -0.6993,
+          "positive_fraction": 0.2
+        }
+      }
+    },
+    {
+      "period": "20261008T040208Z",
+      "lane": "SCALP",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 2,
+          "mean_usd": -0.63,
+          "positive_fraction": 0.0
+        },
+        "300": {
+          "n": 3,
+          "mean_usd": -0.8533,
+          "positive_fraction": 0.6667
+        },
+        "900": {
+          "n": 3,
+          "mean_usd": -3.61,
+          "positive_fraction": 0.0
+        }
+      }
+    },
+    {
+      "period": "20261008T040208Z",
+      "lane": "INTRADAY",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 4,
+          "mean_usd": -0.9075,
+          "positive_fraction": 0.0
+        },
+        "300": {
+          "n": 3,
+          "mean_usd": -0.8533,
+          "positive_fraction": 0.6667
+        },
+        "900": {
+          "n": 5,
+          "mean_usd": -3.3,
+          "positive_fraction": 0.0
+        }
+      }
+    },
+    {
+      "period": "20261008T040208Z",
+      "lane": "INTRADAY",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "300": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "900": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        }
+      }
+    },
+    {
+      "period": "20261008T040208Z",
+      "lane": "SWING",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "300": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "900": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        }
+      }
+    },
+    {
+      "period": "20261008T040208Z",
+      "lane": "SWING",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "300": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "900": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "SCALP",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 30,
+          "mean_usd": -0.6013,
+          "positive_fraction": 0.2
+        },
+        "300": {
+          "n": 30,
+          "mean_usd": -1.0953,
+          "positive_fraction": 0.4
+        },
+        "900": {
+          "n": 30,
+          "mean_usd": -2.9197,
+          "positive_fraction": 0.2667
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "SCALP",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 6,
+          "mean_usd": -0.4083,
+          "positive_fraction": 0.1667
+        },
+        "300": {
+          "n": 6,
+          "mean_usd": -0.9533,
+          "positive_fraction": 0.1667
+        },
+        "900": {
+          "n": 6,
+          "mean_usd": -4.99,
+          "positive_fraction": 0.1667
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "INTRADAY",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 21,
+          "mean_usd": -0.3771,
+          "positive_fraction": 0.2857
+        },
+        "300": {
+          "n": 20,
+          "mean_usd": -0.941,
+          "positive_fraction": 0.4
+        },
+        "900": {
+          "n": 21,
+          "mean_usd": -1.8405,
+          "positive_fraction": 0.3333
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "INTRADAY",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "300": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "900": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "SWING",
+      "band": "ALL",
+      "outcomes": {
+        "60": {
+          "n": 30,
+          "mean_usd": -0.458,
+          "positive_fraction": 0.3333
+        },
+        "300": {
+          "n": 29,
+          "mean_usd": -0.64,
+          "positive_fraction": 0.4138
+        },
+        "900": {
+          "n": 30,
+          "mean_usd": -1.276,
+          "positive_fraction": 0.3333
+        }
+      }
+    },
+    {
+      "period": "20261008T060830Z",
+      "lane": "SWING",
+      "band": "85_PLUS",
+      "outcomes": {
+        "60": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "300": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        },
+        "900": {
+          "n": 0,
+          "mean_usd": null,
+          "positive_fraction": null
+        }
+      }
+    }
+  ]
+}

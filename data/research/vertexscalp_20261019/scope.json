@@ -1,0 +1,33 @@
+{
+  "review_date": "2026-10-19",
+  "instrument": "XAUUSD",
+  "public_only": true,
+  "external_binaries_executed": false,
+  "purchase_or_registration": false,
+  "private_groups_joined": false,
+  "active_strategy_parameters_changed": false,
+  "running_bot_restarted": false,
+  "new_diagnostic": "M1_RETEST_SHADOW_V1",
+  "new_diagnostic_execution_enabled": false,
+  "new_diagnostic_loaded_in_running_process": false,
+  "captures": [
+    {"file": "vertex_home.html", "url": "https://www.vertexscalp.com/", "access": "http_200"},
+    {"file": "vertex_home_fr.html", "url": "https://www.vertexscalp.com/", "language_cookie": "fr", "access": "http_200"},
+    {"file": "page_1.txt", "url": "https://www.vertexscalp.com/buy", "access": "http_200"},
+    {"file": "page_2.txt", "url": "https://www.vertexscalp.com/buy?product=mighty-scalper-ea", "access": "http_200"},
+    {"file": "page_3.txt", "url": "https://www.vertexscalp.com/buy?product=glory-profits-scalper-bot", "access": "http_200"},
+    {"file": "page_6.txt", "url": "https://www.vertexscalp.com/_next/static/chunks/app/page-fac09b0c6339816a.js", "access": "http_200_read_not_executed"},
+    {"file": "page_7.txt", "url": "https://www.vertexscalp.com/_next/static/chunks/907-4bfb885a91c128a0.js", "access": "http_200_read_not_executed"},
+    {"file": "page_8.txt", "url": "https://www.vertexscalp.com/_next/static/chunks/619-ba102abea3e3d0e4.js", "access": "http_200_read_not_executed"},
+    {"file": "extra_1.txt", "url": "https://www.vertexscalp.com/_next/static/chunks/app/buy/page-1cc0dbc2389f760a.js", "access": "http_200_read_not_executed"},
+    {"file": "extra_2.txt", "url": "https://t.me/s/Vertexscalp", "access": "public_preview_text_only"},
+    {"file": "extra_3.txt", "url": "https://t.me/Trader_Marcuss", "access": "public_profile_only"}
+  ],
+  "limitations": [
+    {"url": "https://www.vertexscalp.com/robots.txt", "access": "http_404"},
+    {"url": "https://www.vertexscalp.com/sitemap.xml", "access": "http_404"},
+    {"url": "https://www.myfxbook.com/members/goldscalperx/88451364/12088967", "access": "http_403"}
+  ],
+  "performance_independently_verified": false,
+  "validation": {"passed_tests": 74, "passed_subtests": 5, "profitability_backtest": false}
+}

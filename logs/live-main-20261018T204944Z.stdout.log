@@ -1,0 +1,224 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+THREE INDEPENDENT HORIZON BOT — DEMO EXECUTION ONLY
+Lanes active: SCALP + INTRADAY + SWING
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum THREE positions TOTAL across lanes, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive mode uses one position per lane and no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1 | 2026-10-18 21:49:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175790.2s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175790.2s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175790.2s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 26 | 2026-10-18 21:50:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175814.7s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175814.7s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175814.7s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 56 | 2026-10-18 21:50:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175829.8s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175829.8s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175829.8s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 87 | 2026-10-18 21:50:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175845.3s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175845.3s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175845.3s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 111 | 2026-10-18 21:51:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175860.8s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175860.8s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175860.8s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 141 | 2026-10-18 21:51:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175876.3s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175876.3s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175876.3s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 169 | 2026-10-18 21:51:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175891.6s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175891.6s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175891.6s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 193 | 2026-10-18 21:51:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175907.1s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175907.1s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175907.1s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 219 | 2026-10-18 21:52:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175922.1s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175922.1s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175922.1s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 249 | 2026-10-18 21:52:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175937.8s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175937.8s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175937.8s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 279 | 2026-10-18 21:52:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175952.8s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175952.8s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175952.8s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 298 | 2026-10-18 21:52:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175968.1s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175968.1s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175968.1s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 325 | 2026-10-18 21:53:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175983.4s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175983.4s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175983.4s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 353 | 2026-10-18 21:53:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 175998.5s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175998.5s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 175998.5s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 377 | 2026-10-18 21:53:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176013.6s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176013.6s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176013.6s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 402 | 2026-10-18 21:53:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176029.3s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176029.3s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176029.3s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 431 | 2026-10-18 21:54:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176044.6s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176044.6s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176044.6s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 459 | 2026-10-18 21:54:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176058.9s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176058.9s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176058.9s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 484 | 2026-10-18 21:54:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176074.5s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176074.5s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176074.5s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 513 | 2026-10-18 21:54:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176089.8s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176089.8s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176089.8s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 536 | 2026-10-18 21:55:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176105.1s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176105.1s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176105.1s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 565 | 2026-10-18 21:55:21 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176120.9s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176120.9s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176120.9s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 594 | 2026-10-18 21:55:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176136.3s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176136.3s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176136.3s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 618 | 2026-10-18 21:55:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       No fresh XAUUSD quote: last broker tick is 176151.3s old. Check feed connection and symbol session.
+INTRADAY  WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176151.3s old. Check feed connection and symbol session.
+SWING     WAIT   0.0       False    0     -           -       No fresh XAUUSD quote: last broker tick is 176151.3s old. Check feed connection and symbol session.
+Session P/L: realized $0.00 | floating $0.00 | total $0.00
+======================================================================================================================

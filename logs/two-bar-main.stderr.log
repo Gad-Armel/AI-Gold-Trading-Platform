@@ -1,0 +1,7 @@
+Bot exited with code -1. Read the error above; do not launch another copy.
+At C:\Users\Gad Asopjio\Desktop\AI Trading Platform\tools\start_gold_consensus.ps1:23 char:28
++ ... DE -ne 0) { throw "Bot exited with code $LASTEXITCODE. Read the error ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Bot exited with...h another copy.:String) [], RuntimeException
+    + FullyQualifiedErrorId : Bot exited with code -1. Read the error above; do not launch another copy.
+ 

@@ -1,0 +1,88 @@
+{
+    "events": [
+        {
+            "title": "CPI - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-10 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:CPI - Conservative Watch:2026-11-10 14:30:00",
+            "country": "US",
+            "category": "CPI",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        },
+        {
+            "title": "CPI - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-11 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:CPI - Conservative Watch:2026-11-11 14:30:00",
+            "country": "US",
+            "category": "CPI",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        },
+        {
+            "title": "CPI - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-12 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:CPI - Conservative Watch:2026-11-12 14:30:00",
+            "country": "US",
+            "category": "CPI",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        },
+        {
+            "title": "CPI - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-13 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:CPI - Conservative Watch:2026-11-13 14:30:00",
+            "country": "US",
+            "category": "CPI",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        },
+        {
+            "title": "Retail Sales - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-16 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:Retail Sales - Conservative Watch:2026-11-16 14:30:00",
+            "country": "US",
+            "category": "Retail Sales",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        },
+        {
+            "title": "Retail Sales - Conservative Watch",
+            "currency": "USD",
+            "impact": "MEDIUM",
+            "event_time": "2026-11-17 14:30:00",
+            "enabled": true,
+            "source": "AUTO_FREE_FALLBACK",
+            "provider": "Free Official/Conservative Fallback",
+            "external_id": "FREE:Retail Sales - Conservative Watch:2026-11-17 14:30:00",
+            "country": "US",
+            "category": "Retail Sales",
+            "source_detail": "conservative_mid_month",
+            "calendar_confidence": "ESTIMATED"
+        }
+    ]
+}

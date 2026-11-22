@@ -1,0 +1,18 @@
+{
+  "started_at": "2026-10-21T19:16:46.365412+00:00",
+  "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+  "execution_enabled": false,
+  "config": {
+    "latency": 0.35,
+    "round_trip_cost": 0.3,
+    "maximum_hold": 3600.0,
+    "trailing_arm_r": 1.2,
+    "trailing_gap_r": 0.5,
+    "cooldown": 5.0,
+    "maximum_entry_risk": 10.0,
+    "breakeven_arm_r": 0.8,
+    "trailing_gap_atr": 1.5
+  },
+  "strategy": "ABC_REGIME_RESEARCH_V1",
+  "source_sha256": "65664ca400f4dfe086d00c6604fb666079c37f881ee6ebeba26bce2fb5e882df"
+}

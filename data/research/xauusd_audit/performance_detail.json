@@ -1,0 +1,59 @@
+{
+  "ALL": {
+    "trades": 1325,
+    "net": -691.92,
+    "average_win": 2.54,
+    "average_loss": -3.99,
+    "drawdown": 869.09,
+    "median_hold_seconds": 137.0,
+    "close_comments": {
+      "[tp": 22,
+      "[sl": 188,
+      "GoldConsensusClose": 47,
+      "SCALPPolicyClose": 701,
+      "SWINGPolicyClose": 173,
+      "INTRADAYPolicyClose": 194
+    }
+  },
+  "SCALP": {
+    "trades": 840,
+    "net": -222.77,
+    "average_win": 2.03,
+    "average_loss": -2.22,
+    "drawdown": 265.5,
+    "median_hold_seconds": 85.0,
+    "close_comments": {
+      "[tp": 20,
+      "[sl": 112,
+      "GoldConsensusClose": 7,
+      "SCALPPolicyClose": 701
+    }
+  },
+  "INTRADAY": {
+    "trades": 287,
+    "net": -271.79,
+    "average_win": 3.19,
+    "average_loss": -7.91,
+    "drawdown": 349.26,
+    "median_hold_seconds": 345.0,
+    "close_comments": {
+      "[tp": 2,
+      "GoldConsensusClose": 19,
+      "INTRADAYPolicyClose": 194,
+      "[sl": 72
+    }
+  },
+  "SWING": {
+    "trades": 198,
+    "net": -197.36,
+    "average_win": 3.14,
+    "average_loss": -10.29,
+    "drawdown": 279.54,
+    "median_hold_seconds": 568.0,
+    "close_comments": {
+      "GoldConsensusClose": 21,
+      "SWINGPolicyClose": 173,
+      "[sl": 4
+    }
+  }
+}

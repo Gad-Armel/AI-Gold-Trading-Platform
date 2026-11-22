@@ -1,0 +1,76 @@
+{
+  "review_started_at": "2026-10-09T05:43:50+00:00",
+  "manifest_at": "2026-10-09T06:06:02.013491+00:00",
+  "minimum_review_minutes": 60,
+  "observation_folder": "data/monitoring/20261009T054448Z",
+  "attachments": [
+    {
+      "number": 1,
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\1922042f-de67-4dc5-b162-f3a6434a0db4\\Pasted text.txt",
+      "bytes": 20287,
+      "sha256": "d5a69b25a788fdcd349f27c8c95c02e411efbcb04c1c73b9fa8cc0b57125e23e"
+    },
+    {
+      "number": 2,
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\8b6348a7-1ecd-4592-9cf5-5748d73e2ccd\\Pasted text.txt",
+      "bytes": 19892,
+      "sha256": "74a29f85c4e0e20f7193e30024b44dc31365b825e762c3cce5059bfc3b97a893"
+    },
+    {
+      "number": 3,
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\5b2a100a-3701-4fc2-b0ad-5dbd16042c2b\\Pasted text.txt",
+      "bytes": 14741,
+      "sha256": "6106213c70acc6f0715c1630cfd1d22bd699ee7f600c2f98f53525203998ab38"
+    },
+    {
+      "number": 4,
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\9da39182-bae4-4b72-811d-fa5ab61da54d\\Pasted text.txt",
+      "bytes": 11045,
+      "sha256": "f0999bd32705960700a0329fec795a245deff512c66f5f99af19c9aec0e208c9"
+    }
+  ],
+  "source_sha256": {
+    "run_gold_consensus_bot.py": "0f11963ecb42d91cb31c4449e5d5f41957edd4762c25701cd2670358e13eb037",
+    "config/gold_consensus_settings.py": "1f1d1199832464eb022a0bba398f3920f8e8aefac1a5b2f8974cae914337caef",
+    "services/research/gold_profit_lock.py": "95b5e63e3edb4af8da45c4b24778f59405ca0b545925324c86d8ccfca497c470",
+    "services/research/gold_adaptive_exit.py": "0f740daf7a31d90d438398ad301d4735a48bdf68e513afea1b24e89df19a3b8e",
+    "services/research/gold_exit_state.py": "c48aa2bc56fc9c8644f06fa99a63e97fa91d1eedc624e1410496a9e5c7902c04",
+    "services/research/gold_scalp_setups.py": "7dbf6a5b30793a97e053dde0a1c2f9cdab88d9d79589768210855a3326d3f2ec",
+    "services/research/gold_main_candle_signal.py": "d53c5aafbc0058479440a82ef05fb345beda345f4a255da19b56908eb87be02d",
+    "services/execution/gold_consensus_demo_broker.py": "0b62fdeba64cf0959d8b62840de7bc24f5ce961fe9c060b0560cd95d03359874",
+    "services/execution/gold_execution_metrics.py": "291d87ee4d3f9727aba2f28d437d323947da9316bc01eb2acb6886677963e3a8",
+    "services/execution/gold_paper_portfolio.py": "bc5407a1e9518744ace04402d6cde1f84a3d06242a3c9d9350e499c140293565",
+    "services/dashboard/gold_consensus_web.py": "ed1a8b248cdd0ccfdc8060241c41845132ea0294cd5991b9f2379bdd781ee886"
+  },
+  "entry_detector_execution_enabled": false,
+  "main_execution": "SCALP_ONLY_DEMO",
+  "profit_lock": "per ticket, arm6 USD, retain80 percent of highest observed executable profit",
+  "first_engineering_deployment": "2026-10-09T05:58:31+00:00",
+  "changes": [
+    "quote-first profit locking",
+    "broker-valued stop price on tick grid",
+    "execution latency and fill-result telemetry",
+    "causal setup observations without entry authority",
+    "position peak and protection-trigger display"
+  ],
+  "final_engineering_deployment": "2026-10-09T06:09:41+00:00",
+  "manifest_updated_at": "2026-10-09T06:14:38.869568+00:00",
+  "review_completed_at": "2026-10-09T06:46:03.717165+00:00",
+  "actual_review_minutes": 62.23,
+  "monitor_minutes": 60.16,
+  "final_tests_passed": 168,
+  "runtime_source_hashes_unchanged": true,
+  "final_source_sha256": {
+    "run_gold_consensus_bot.py": "0f11963ecb42d91cb31c4449e5d5f41957edd4762c25701cd2670358e13eb037",
+    "config/gold_consensus_settings.py": "1f1d1199832464eb022a0bba398f3920f8e8aefac1a5b2f8974cae914337caef",
+    "services/research/gold_profit_lock.py": "95b5e63e3edb4af8da45c4b24778f59405ca0b545925324c86d8ccfca497c470",
+    "services/research/gold_adaptive_exit.py": "0f740daf7a31d90d438398ad301d4735a48bdf68e513afea1b24e89df19a3b8e",
+    "services/research/gold_exit_state.py": "c48aa2bc56fc9c8644f06fa99a63e97fa91d1eedc624e1410496a9e5c7902c04",
+    "services/research/gold_scalp_setups.py": "7dbf6a5b30793a97e053dde0a1c2f9cdab88d9d79589768210855a3326d3f2ec",
+    "services/research/gold_main_candle_signal.py": "d53c5aafbc0058479440a82ef05fb345beda345f4a255da19b56908eb87be02d",
+    "services/execution/gold_consensus_demo_broker.py": "0b62fdeba64cf0959d8b62840de7bc24f5ce961fe9c060b0560cd95d03359874",
+    "services/execution/gold_execution_metrics.py": "291d87ee4d3f9727aba2f28d437d323947da9316bc01eb2acb6886677963e3a8",
+    "services/execution/gold_paper_portfolio.py": "bc5407a1e9518744ace04402d6cde1f84a3d06242a3c9d9350e499c140293565",
+    "services/dashboard/gold_consensus_web.py": "ed1a8b248cdd0ccfdc8060241c41845132ea0294cd5991b9f2379bdd781ee886"
+  }
+}

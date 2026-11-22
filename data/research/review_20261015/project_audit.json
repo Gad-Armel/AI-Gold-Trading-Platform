@@ -1,0 +1,1455 @@
+{
+  "generated_at": "2026-10-15T07:20:35.076496+00:00",
+  "orders_sent": false,
+  "mt5_connection_attempted": false,
+  "source_files": 275,
+  "syntax_errors": [],
+  "python_order_send_sites": [
+    {
+      "path": "services/execution/gold_consensus_demo_broker.py",
+      "line": 381
+    },
+    {
+      "path": "services/execution/gold_consensus_demo_broker.py",
+      "line": 422
+    },
+    {
+      "path": "services/execution/gold_consensus_demo_broker.py",
+      "line": 551
+    },
+    {
+      "path": "tools/apply_gold_analysis_stops.py",
+      "line": 48
+    }
+  ],
+  "protected_advisor1_files": 18,
+  "protected_advisor1_mismatches": [],
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\.venv-audit\\Scripts\\python.exe",
+    "packages": {
+      "numpy": "2.5.4",
+      "pandas": "3.0.6",
+      "scikit-learn": "1.9.1",
+      "MetaTrader5": "5.0.6231",
+      "pytest": "9.1.1",
+      "pyarrow": "26.0.0"
+    }
+  },
+  "python_policy": {
+    "max_positions": 5,
+    "fixed_lot": 0.01,
+    "extended_position_evidence": 85.0,
+    "loop_target_seconds": 0.5,
+    "session_loss_stop_enabled": false,
+    "scalp": {
+      "magic": 631011,
+      "comment": "GoldScalpDemo",
+      "max_positions": 5,
+      "trade_enabled": true,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "exit_frame": "M1",
+      "entry_evidence": 82.0,
+      "exit_evidence": 58.0,
+      "confirmation_cycles": 2,
+      "stop_mode": "ANALYSIS",
+      "individual_stop_loss_usd": null,
+      "advisor_weights": {
+        "MT5_CANDLES": 0.3,
+        "API_CANDLES": 0.1,
+        "MT5_TICK_FLOW": 0.6
+      },
+      "required_strong_advisors": [
+        "MT5_CANDLES"
+      ],
+      "minimum_signal_seconds": 2.0,
+      "add_position_evidence": 75.0,
+      "add_position_spacing_seconds": 5.0,
+      "news_policy": "CLOSE_AND_BLOCK",
+      "preferred_target": "tp1"
+    }
+  },
+  "native_source_version": "3.22",
+  "inventory": [
+    {
+      "path": "config/free_data_settings.py",
+      "bytes": 3947,
+      "sha256": "49405b1e3262a9b14f3fb0cb954ad1ec18b514b1793c4bc5338ef9957534f796"
+    },
+    {
+      "path": "config/gold_consensus_settings.py",
+      "bytes": 13455,
+      "sha256": "849d46aa823ccdca55657a3a8e5d718faf7ba546980986b184d23a3cda03a975"
+    },
+    {
+      "path": "config/scalping_settings.py",
+      "bytes": 54636,
+      "sha256": "8a32ea7f0feef79afba8cb8bc9885149ab9729c745e4bf5054d45d96f9555ec3"
+    },
+    {
+      "path": "config/settings.py",
+      "bytes": 7297,
+      "sha256": "a1c474fc8df136c004e9350c0d9e74fa004a837ca1d65ddf4aa75423b47f4897"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpAI.mq5",
+      "bytes": 23672,
+      "sha256": "175c42de427ad4f4e288bd7a45ed6d9bc1c366f8b8c2ac3aadf1245b87386e07"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpControls.mqh",
+      "bytes": 2725,
+      "sha256": "a2faaec24f22ec8a84920e10baa2049975854770ad70b43805379907e53a096d"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpControlWire.mqh",
+      "bytes": 1519,
+      "sha256": "c754d8c893070a8ae66b6e98d3cb9494ca4637c842a1bc7298697a2f2467a0b3"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpDashboard.mqh",
+      "bytes": 6323,
+      "sha256": "7bd6eafb79a91ce653fc0c66dace62b8b0801d488eb67145b4a31340f8c7c38c"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpDashboardPreview.mq5",
+      "bytes": 2149,
+      "sha256": "71de2234949da984a9e6fd8d1c24bf1e02112e846f174fc8375c1212cbc27bde"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpEntry.mqh",
+      "bytes": 2077,
+      "sha256": "53ef62053fc554305053435415000cf015f0530a314b89d2b3f8ff691433a7a5"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpExecution.mqh",
+      "bytes": 4224,
+      "sha256": "aa99bb9efac247d323bf794c9195bbce117d1f9ee06b0b0a1f850fda54eff5ee"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpExit.mqh",
+      "bytes": 1080,
+      "sha256": "54e25558d522bbfb832525cc84176186c3e21480a8e7d1ca48dbcf93d00a0815"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpExpert.mqh",
+      "bytes": 4452,
+      "sha256": "495c2140a66e4dc2ea303f24f0b42ef41003b6c665a316a762618b13c7dd4be8"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpFeeds.mqh",
+      "bytes": 5667,
+      "sha256": "ff4b966c76ffc755032fcff8138e4156bb6d6852371fdbf23cae349d569d4da8"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpFlow.mqh",
+      "bytes": 2755,
+      "sha256": "73e7f7bb8fd13bfa808191edc4a6960984d1af864c89e4ac655ff102a3c5353b"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpInstance.mqh",
+      "bytes": 1682,
+      "sha256": "a06dafdd531f7fbe3a13f5fe29a9cb62c3d34b753227caf86243da3a9de396e0"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpLearning.mqh",
+      "bytes": 2767,
+      "sha256": "81ca6be8191e031dfd2ae1a11f4dcd2a5d690134def56e3d1847286eef99e33a"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpMacro.mqh",
+      "bytes": 4487,
+      "sha256": "9adb368d4b0ab0acf108db53691ab020fe66c46fad249e9657f93a0233ce5a11"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpMarket.mqh",
+      "bytes": 6485,
+      "sha256": "27e27a3f74dd6ec75ac0055a9d197b1d29ff3bd43020c34e58ab1ee4b9e2f3f0"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpMath.mqh",
+      "bytes": 1681,
+      "sha256": "4141644987add3ce453547696885666037a2506b89e7156245b6cc9c075256b3"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpOrders.mqh",
+      "bytes": 8271,
+      "sha256": "e948920bab3359c85352fe2d6a2dfb38fc1d5331a053314448e28ee626921d9f"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpReplayDiagnostic.mqh",
+      "bytes": 2483,
+      "sha256": "28529085b9300aaf93ef28228fa690934c3d0304c5698b4e06bf8411a0b254a1"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpRotation.mqh",
+      "bytes": 2290,
+      "sha256": "cc118241e14d65a52f0127dcc0fe5d7014b69ed4be20ef0f2770f321b2270c39"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpRuntime.mqh",
+      "bytes": 30964,
+      "sha256": "15aa3953dde6f0de062ed9e5c60a7bf7d9a0da5e3ec178d0541b8333a7bcdd6b"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpSafety.mqh",
+      "bytes": 3199,
+      "sha256": "9a01a7a9bc7a793bda639f8d2ed82bdf820aec44249bb02aaad65c38724ff60e"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpSelfTest.mq5",
+      "bytes": 34624,
+      "sha256": "c518122af036bc2c99c9a4f13608ec6f4c7c12d9cbc205c5a0e78fbf0f643c00"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpStats.mqh",
+      "bytes": 6960,
+      "sha256": "f70fe65dc6d4b7f52b34631f06ec6009db7e15f2bf51442653b77ce340892028"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpTelemetry.mqh",
+      "bytes": 14846,
+      "sha256": "16ed0908356da260ff3c4fc47dd151655d8fd7bc95562c9b8e658211aa9d0020"
+    },
+    {
+      "path": "mql5/Experts/GoldScalpAI/GoldScalpWire.mqh",
+      "bytes": 1269,
+      "sha256": "c15573ab0c91a25d63dd05015102bc22e08057b9425d25620365a04503827fbb"
+    },
+    {
+      "path": "mql5/Scripts/GoldScalpNewsBridge.mq5",
+      "bytes": 231,
+      "sha256": "a34f4b0ab37a2b31b8380adcc2ce075f4d65e4f9acca775de3cbc7ee5fbd20b9"
+    },
+    {
+      "path": "mql5/Services/GoldScalpNewsFeed.mq5",
+      "bytes": 206,
+      "sha256": "776a3fcb4c208ca25847443e1598cd48fa49bee297b00927f131abd017f71139"
+    },
+    {
+      "path": "mql5/Services/GoldScalpNewsPublisher.mqh",
+      "bytes": 3815,
+      "sha256": "9e37e0138b0bb614e4c4e82b25425f9a21de04a96f5a4d833d959c2ed6b2b4e1"
+    },
+    {
+      "path": "run_gold_advisor.py",
+      "bytes": 2313,
+      "sha256": "763c906589d19afabe43ae619eca6668cb79c660e72c55352df6d7f6f50b1d93"
+    },
+    {
+      "path": "run_gold_ai.py",
+      "bytes": 1154,
+      "sha256": "0713b7263c92c9a3eac90ea96619adc7a939cf0895c65b8b58a9d444cd9c56d9"
+    },
+    {
+      "path": "run_gold_consensus_bot.py",
+      "bytes": 60269,
+      "sha256": "99474aea311f2a4780b22a13eb6397a04544a444d101c904e24c999e87bf7fe0"
+    },
+    {
+      "path": "run_gold_consensus_dashboard.py",
+      "bytes": 982,
+      "sha256": "1dd17e66c74438ba0139a6c9fe85b23700f58221ac3162efcdee4b57e9488e38"
+    },
+    {
+      "path": "run_gold_consensus_health_check.py",
+      "bytes": 4752,
+      "sha256": "cc5f2e3eab005a24873e5872c43752da239451b23cb6715d65a13a612d6ac606"
+    },
+    {
+      "path": "run_gold_economic_advisor_v5.py",
+      "bytes": 1371,
+      "sha256": "709daed41aa04f724f595d4f1f82a44ef2bc8079c465355d86a54ac4cd7e41f1"
+    },
+    {
+      "path": "run_gold_scalp_dashboard.py",
+      "bytes": 2401,
+      "sha256": "63caaed9013d6fd39791375806be834b2cee9c8c3bf6f0565110a227f5e14d2d"
+    },
+    {
+      "path": "run_gold_source_advisor.py",
+      "bytes": 1615,
+      "sha256": "0f68b238756eff218eba6e71114a7f6130a5c8a665b1c73cc48fbb5015a08032"
+    },
+    {
+      "path": "run_vfinal.py",
+      "bytes": 193,
+      "sha256": "eec763c50c051b5bbf3258beea3f8b1b889d0bc90751fd90eb2d44048dca23a1"
+    },
+    {
+      "path": "run_vfinal_dashboard.py",
+      "bytes": 710,
+      "sha256": "fa2538a8eefb32af79addbf7e6c4f2aedef9163bec49815446f394372ef33498"
+    },
+    {
+      "path": "run_vfinal_demo.py",
+      "bytes": 2540,
+      "sha256": "578658dc667652db665b0df0b760839b8a0ff6b5874a41ce9037dc0073c2cbfc"
+    },
+    {
+      "path": "services/analysis/v6_market_structure.py",
+      "bytes": 23845,
+      "sha256": "6b0815efbec4652a017453644da8dd3d9d52572dfb425a41061b41d2391deb8a"
+    },
+    {
+      "path": "services/analysis/verified_market_context.py",
+      "bytes": 11421,
+      "sha256": "02d369894eb22055e6d1c8dc755525458c7029135f5250de0021392596d2c3a9"
+    },
+    {
+      "path": "services/bot/emergency_stop.py",
+      "bytes": 1041,
+      "sha256": "cd15de48e4e4eb26badb7cb14ed14fc332b14f078db76184c56ec347245c5708"
+    },
+    {
+      "path": "services/bot/scalping_instance_lock.py",
+      "bytes": 2905,
+      "sha256": "7897364843fbd176fbb10cbb69882c84e45a504ddca8d875980127af271db5b9"
+    },
+    {
+      "path": "services/dashboard/gold_advisor_web.py",
+      "bytes": 4058,
+      "sha256": "a58391f4c789a459b70b018e983471d5c40754f6eb485869dac7bdab852ecf5a"
+    },
+    {
+      "path": "services/dashboard/gold_consensus_web.py",
+      "bytes": 20140,
+      "sha256": "491d2a86339f0215d2451f002b2b126dbd1e054342caba649d5a3ef5d0062027"
+    },
+    {
+      "path": "services/dashboard/gold_horizon_history.py",
+      "bytes": 1411,
+      "sha256": "2be82c2c22d8148d2e66e2a75e166973b6629221cd1804394ce3fa43e600abbe"
+    },
+    {
+      "path": "services/dashboard/gold_loss_reset.py",
+      "bytes": 1109,
+      "sha256": "af69d5423dbc50d2f45fbb7d4db7c0ea4ccda75f15b430d78ff5d8b04a9587e5"
+    },
+    {
+      "path": "services/dashboard/gold_scalp_assets/advisor.js",
+      "bytes": 7128,
+      "sha256": "b7624abce8aab7bc1165693bf92e58c005bfae991c677d3c71813f5681b56c63"
+    },
+    {
+      "path": "services/dashboard/gold_scalp_assets/app.js",
+      "bytes": 25128,
+      "sha256": "0887e2623aff64c6e33bbf5dbe8e7b7b1626697f1fe4c8474764329dc87e39ab"
+    },
+    {
+      "path": "services/dashboard/gold_scalp_controls.py",
+      "bytes": 3568,
+      "sha256": "10df182fd6ec9099207dbb8dfd8d97acd4e037ebee0b0c80a6c5ca729e4c6c9d"
+    },
+    {
+      "path": "services/dashboard/gold_scalp_support.py",
+      "bytes": 5337,
+      "sha256": "f3b4203f79ec7b76157af18f1ef35e9c1117ec676c086e0029764a248fbf300b"
+    },
+    {
+      "path": "services/dashboard/gold_scalp_web.py",
+      "bytes": 10907,
+      "sha256": "b5c1c4381817d79cf4dff77f45681c05071bbb605632bfd2986b5ef825a96991"
+    },
+    {
+      "path": "services/execution/demo_session_guard.py",
+      "bytes": 2933,
+      "sha256": "5339e69e68879b4f53d81ee75eb0e12d0b9cc999a202c8b5608425339c53ead6"
+    },
+    {
+      "path": "services/execution/gold_consensus_demo_broker.py",
+      "bytes": 40245,
+      "sha256": "1ee946e718fc30268d506beab01163d6178ede1d12c75474b99777d37e261126"
+    },
+    {
+      "path": "services/execution/gold_execution_metrics.py",
+      "bytes": 1587,
+      "sha256": "291d87ee4d3f9727aba2f28d437d323947da9316bc01eb2acb6886677963e3a8"
+    },
+    {
+      "path": "services/execution/gold_paper_portfolio.py",
+      "bytes": 10830,
+      "sha256": "cbb625960b06e039057ca7bb9b32a0af6d66cbee2ac3cff470267d6c9778d8ec"
+    },
+    {
+      "path": "services/execution/mt5_connector.py",
+      "bytes": 492,
+      "sha256": "b1f5309e938768cfde630753c1972348681c58b1af35caeb033178c74ce72109"
+    },
+    {
+      "path": "services/execution/scalp_profit_calculator.py",
+      "bytes": 3996,
+      "sha256": "5bfe0c0430bd36a55a64043968db9919c3069f732a891d2c885d8f69964de657"
+    },
+    {
+      "path": "services/market_data/candle_service.py",
+      "bytes": 585,
+      "sha256": "12de15dfcaf3d2f48cf4a509680463726466571cf8093a0172385ab97d09e874"
+    },
+    {
+      "path": "services/market_data/free_macro_context.py",
+      "bytes": 14685,
+      "sha256": "6a773080802d56f01121c1b8599558cd85f7c6da0cd889c647d2b9e2f9129beb"
+    },
+    {
+      "path": "services/market_data/gold_broker_clock.py",
+      "bytes": 808,
+      "sha256": "d2e2adcfb5ce183652a36b54844813fa70d1d2cb08745047b112ab7ca9e1f695"
+    },
+    {
+      "path": "services/market_data/gold_institutional_context.py",
+      "bytes": 21961,
+      "sha256": "303709cc3d2d0619e7487bfe3d6923e69d2597cc091401d5a93efb5f8a23e86c"
+    },
+    {
+      "path": "services/market_data/oanda_gold.py",
+      "bytes": 4658,
+      "sha256": "f2cf2cc98f9750c0d8ac454d2a1a122f7bbbd23e001c03042dd057081fc08ebc"
+    },
+    {
+      "path": "services/market_data/price_service.py",
+      "bytes": 1226,
+      "sha256": "7b783f4c5d866fd0b4dccf2a399588a9f55bb6944c56fbd9741048110de42789"
+    },
+    {
+      "path": "services/market_data/scalping_snapshot.py",
+      "bytes": 14111,
+      "sha256": "c8ac390504778834261ffc429b7d5d38999db89a983900c4fb49166f54800ae5"
+    },
+    {
+      "path": "services/market_data/session_service.py",
+      "bytes": 1752,
+      "sha256": "c55bc86d98e031886855a6a3400bc25488124dee89270321cd7dba7132611b28"
+    },
+    {
+      "path": "services/market_data/spread_utils.py",
+      "bytes": 1347,
+      "sha256": "f743f055743959f42a1586eb24b4282e0990be9a4cc35bd35dcf275567e589e4"
+    },
+    {
+      "path": "services/market_data/timeframe_service.py",
+      "bytes": 318,
+      "sha256": "938404cd05244d9a2d432691fecd3e88684700f2ee44c6d41c15d65aab996f43"
+    },
+    {
+      "path": "services/market_data/twelve_data_gold.py",
+      "bytes": 3247,
+      "sha256": "c94b928e50fac415eb91c496a5dc9bfcc2ac80cd8941646b2d111a407735ef42"
+    },
+    {
+      "path": "services/news/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/news/official_release_monitor.py",
+      "bytes": 16462,
+      "sha256": "6138ebcb8da48edd2e11ad4fb712ee06913527fe51706520389b12ef51d919b2"
+    },
+    {
+      "path": "services/news/unified_news_intelligence.py",
+      "bytes": 13211,
+      "sha256": "ff499c938607803bd3482a3aca8c2d316deaecc1cff514d5c9b28145c6467e3f"
+    },
+    {
+      "path": "services/research/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "services/research/background_refresh.py",
+      "bytes": 1217,
+      "sha256": "5a4c2f85198bb8a1878117384c116c2b5b0dde8f576188179e55dc913116d1dc"
+    },
+    {
+      "path": "services/research/gold_adaptive_exit.py",
+      "bytes": 14227,
+      "sha256": "0f740daf7a31d90d438398ad301d4735a48bdf68e513afea1b24e89df19a3b8e"
+    },
+    {
+      "path": "services/research/gold_advisory.py",
+      "bytes": 8139,
+      "sha256": "858eb302f928b7fbd8280e0355bdd645b2108e9653dce8334a698ad28a1f1f30"
+    },
+    {
+      "path": "services/research/gold_advisory_consensus.py",
+      "bytes": 13262,
+      "sha256": "3d53ad5a1b2c922e932ec0c4a52543cde03988b13514e001880ee04248537792"
+    },
+    {
+      "path": "services/research/gold_advisory_dashboard.py",
+      "bytes": 4232,
+      "sha256": "e8d9c176f622ed2a19f31d7b7e6ed0ca05c017e2cf81acd5a595c21dec94160a"
+    },
+    {
+      "path": "services/research/gold_advisory_v2.py",
+      "bytes": 1623,
+      "sha256": "64c312bdede26fdff7cba8b9412886fef8ea2b4305be29321a988f26365de501"
+    },
+    {
+      "path": "services/research/gold_advisory_v3.py",
+      "bytes": 15980,
+      "sha256": "c128100c900785ee1ed0b904f23f5d84ea354e98bbd9772f2f317cd1988c80e1"
+    },
+    {
+      "path": "services/research/gold_candle_confirmation.py",
+      "bytes": 3344,
+      "sha256": "1a5f62adbe91b3cbd437b0e67f0dba2c690f8721c13d00e0da89a6fccaef78ea"
+    },
+    {
+      "path": "services/research/gold_continuous_session.py",
+      "bytes": 661,
+      "sha256": "af862fe8e18f2821bdb4feedf0a44f9d9cd308434256494d0c2e181e82726d97"
+    },
+    {
+      "path": "services/research/gold_cross_market.py",
+      "bytes": 7580,
+      "sha256": "ae388af086bf3ea171f0c94853da8ea7f451dfb7d4dd3d0c188272bd4b1d6253"
+    },
+    {
+      "path": "services/research/gold_economic_advisor_v5.py",
+      "bytes": 37866,
+      "sha256": "29b1be784c73b67d8720a1c77b58a44b2eb0e01966458fd382e25ee0799b629e"
+    },
+    {
+      "path": "services/research/gold_entry_coordination.py",
+      "bytes": 3602,
+      "sha256": "206a026fc60c815cf5e90d6fb9bc91c0a048ce88511e254d9acfdd4ef1d373ad"
+    },
+    {
+      "path": "services/research/gold_entry_momentum.py",
+      "bytes": 2885,
+      "sha256": "91608dbd300c3b71bee45c02dd236be0e44a4d70fb0e74488077cc364468ad18"
+    },
+    {
+      "path": "services/research/gold_entry_structure_features.py",
+      "bytes": 2156,
+      "sha256": "2ebdb3daa5e66dcccd55b55bd4f768a210fb1b3935096f411c3086dea42325cb"
+    },
+    {
+      "path": "services/research/gold_exit_context_cache.py",
+      "bytes": 2331,
+      "sha256": "373ce4aa37c4dde6d1406b79515bc272955c95898e536faa3842f80bdcd82b96"
+    },
+    {
+      "path": "services/research/gold_exit_state.py",
+      "bytes": 6935,
+      "sha256": "c48aa2bc56fc9c8644f06fa99a63e97fa91d1eedc624e1410496a9e5c7902c04"
+    },
+    {
+      "path": "services/research/gold_fast_protection.py",
+      "bytes": 1287,
+      "sha256": "1b471c3a026214fdf51f9b96b0f23c5bd7c3a2e1a8381eef197fd28e24e24ba3"
+    },
+    {
+      "path": "services/research/gold_flow_exit.py",
+      "bytes": 4105,
+      "sha256": "7218018a79bcabb9a4957658352efb96fd9b412c255b65134387d6da90adb82e"
+    },
+    {
+      "path": "services/research/gold_horizon_policy.py",
+      "bytes": 23558,
+      "sha256": "9fd41a871c85dac75277d272dae6154ea5707689cf88a1fc50eb46eba50357c1"
+    },
+    {
+      "path": "services/research/gold_learned_policy.py",
+      "bytes": 6994,
+      "sha256": "4817e262f46826a3c975fb73745f0abbac0a0e0e634b4392eef035e83030990f"
+    },
+    {
+      "path": "services/research/gold_main_candle_signal.py",
+      "bytes": 4037,
+      "sha256": "d53c5aafbc0058479440a82ef05fb345beda345f4a255da19b56908eb87be02d"
+    },
+    {
+      "path": "services/research/gold_main_event_calendar.py",
+      "bytes": 3668,
+      "sha256": "e355cbb91ffb20949cd4ffadfdd9939f19fb157abe04975e57daa5885900c569"
+    },
+    {
+      "path": "services/research/gold_micro_flow.py",
+      "bytes": 9776,
+      "sha256": "d76540160e0d9ce0229b8e56548ecfd518b131e5fc77111dfdb340ebe0d2017f"
+    },
+    {
+      "path": "services/research/gold_position_conscience.py",
+      "bytes": 16642,
+      "sha256": "8046a16ebbc522e5cc0ea4ec43c528bb761790edf6c610d7ef51fcf3488bb3ec"
+    },
+    {
+      "path": "services/research/gold_profit_lock.py",
+      "bytes": 3078,
+      "sha256": "95b5e63e3edb4af8da45c4b24778f59405ca0b545925324c86d8ccfca497c470"
+    },
+    {
+      "path": "services/research/gold_research_recorder.py",
+      "bytes": 3534,
+      "sha256": "83405947b93d3777422b7c314481e4d94497c59328c0b23e99671c1cb6f092d6"
+    },
+    {
+      "path": "services/research/gold_runtime_health.py",
+      "bytes": 1917,
+      "sha256": "5819622f1974d6698cfd89cffeaece2363e2853744d4dd85a255804187cd4b3e"
+    },
+    {
+      "path": "services/research/gold_scalp_additions.py",
+      "bytes": 1676,
+      "sha256": "2222fc0f3f268c1108df1180c71b3ddc4bfe171294a8ec3c4c1538dd9307bdc7"
+    },
+    {
+      "path": "services/research/gold_scalp_context.py",
+      "bytes": 1289,
+      "sha256": "4d0e9f33300835d6a622809a97deaa8d8d1dea56ad70cfb5d611f778a907c930"
+    },
+    {
+      "path": "services/research/gold_scalp_guard.py",
+      "bytes": 3163,
+      "sha256": "22e83a793b2a35aaf7fcdb930c241af4e159283515adedcc34cc4bd11a846dcf"
+    },
+    {
+      "path": "services/research/gold_scalp_setups.py",
+      "bytes": 5565,
+      "sha256": "7dbf6a5b30793a97e053dde0a1c2f9cdab88d9d79589768210855a3326d3f2ec"
+    },
+    {
+      "path": "services/research/gold_source_intelligence.py",
+      "bytes": 10180,
+      "sha256": "788c27c80dcbe0e9277dd679bab4281b4586146340be5706e76ef8b5fad9f5c4"
+    },
+    {
+      "path": "services/research/gold_tick_entry_research.py",
+      "bytes": 5181,
+      "sha256": "927706c8c373ccf07653e551735e0f2b6703a3d9dbf8af8db748cdf2d3903999"
+    },
+    {
+      "path": "services/research/gold_tick_history.py",
+      "bytes": 2921,
+      "sha256": "a538fe7438966144667ac177be10b42e8e4cd2612b29aa2787e6e0f496531aeb"
+    },
+    {
+      "path": "services/research/gold_trade_episode_audit.py",
+      "bytes": 1913,
+      "sha256": "7ac8d97e94592f91c2ee3d6099c6970cf3c9e608be395d56f2726e21cfa7d5d5"
+    },
+    {
+      "path": "services/risk/automatic_economic_calendar.py",
+      "bytes": 44013,
+      "sha256": "9b41b1f2ab2a82e7a68225a01c7004af5a4ed35804349df199bf89d3ae7cfbd2"
+    },
+    {
+      "path": "services/risk/economic_event_manager.py",
+      "bytes": 2795,
+      "sha256": "ee80baa534c8a8ef3f0b70368a15df88710ef1288a5ad885325f9f83af4888a9"
+    },
+    {
+      "path": "services/risk/news_event_filter.py",
+      "bytes": 5821,
+      "sha256": "4c4817c671d6245bc6af92c6125c93545e1fff978c183feaec41ed311f962cc9"
+    },
+    {
+      "path": "services/utils/__init__.py",
+      "bytes": 59,
+      "sha256": "0322db991cd8003c4484cf1f38bdc805248f084ad378b7edbbae58e144d80010"
+    },
+    {
+      "path": "services/utils/atomic_json.py",
+      "bytes": 4374,
+      "sha256": "add384e977b64fe9831243554fce557191bdf5d78b07137bf90f1c73e974be95"
+    },
+    {
+      "path": "test_background_refresh.py",
+      "bytes": 1244,
+      "sha256": "3eb601caadff63a820bc48117b59e16bc237932e964c40e9db4ac2cd0444c0b4"
+    },
+    {
+      "path": "test_free_macro_context.py",
+      "bytes": 5922,
+      "sha256": "597ac3bc3922b1dfaac3b48071b70a5024ceaca765b027e8805ccff32aae3ec9"
+    },
+    {
+      "path": "test_gold_actual_entry_horizons.py",
+      "bytes": 1482,
+      "sha256": "2d6cb91a91436fb03b7789f016c24545c805b569b765d16e6a3882b8cceaa201"
+    },
+    {
+      "path": "test_gold_adaptive_exit.py",
+      "bytes": 5759,
+      "sha256": "78a36f4d28fcd74f6069fc339ee7d7a07a0ca6416812ca10792660588b607fdb"
+    },
+    {
+      "path": "test_gold_advisory.py",
+      "bytes": 3966,
+      "sha256": "a8cebb4ce3143d43f8ab7acc4af05e7d81fe8b62bc1471069c3f42cdb77ecc60"
+    },
+    {
+      "path": "test_gold_advisory_consensus.py",
+      "bytes": 8588,
+      "sha256": "e99195305b49c902d90b5c3b1b8be1ef4ae421890719873fb3c3f3722e117114"
+    },
+    {
+      "path": "test_gold_advisory_v2.py",
+      "bytes": 4053,
+      "sha256": "7bf49d20f425fbd70a9e9b4cec56ae09eed0342aa27f097ca95684857f4f9c9a"
+    },
+    {
+      "path": "test_gold_advisory_v3.py",
+      "bytes": 3477,
+      "sha256": "21928b5d636fd9104e022983033e6a5676cb1af6c5b29fbf269973e7b7b9fd07"
+    },
+    {
+      "path": "test_gold_ai_integration.py",
+      "bytes": 7107,
+      "sha256": "c1a390edfa1808400c40e5b0a3619840eb029d2c10c4bd863cccd34935a926be"
+    },
+    {
+      "path": "test_gold_analysis_stop.py",
+      "bytes": 2742,
+      "sha256": "4d51bb3ae5c87d29aa4dabdc56d2970168aa7bc56c529e73e9bebf99042dcedf"
+    },
+    {
+      "path": "test_gold_blueprint_improvements.py",
+      "bytes": 5496,
+      "sha256": "4f4f51a743bfafdafa0209e981ba569d093b4a5436158ce5df289dbea15a47dd"
+    },
+    {
+      "path": "test_gold_broker_clock.py",
+      "bytes": 2961,
+      "sha256": "f6394dfb04d52b3b84ffcc80745d3cba356438192bd1a4b1b907cdd4298ffa5a"
+    },
+    {
+      "path": "test_gold_candle_confirmation.py",
+      "bytes": 3330,
+      "sha256": "ef806b4933f9366264ce9785d670d88fe4e5d02338177a2006ba6226ec6e852d"
+    },
+    {
+      "path": "test_gold_consensus_dashboard.py",
+      "bytes": 2482,
+      "sha256": "1d59b92ef6e32e074bf465f3b3c38bc5b0c4172a9cb030b63aa51e8b833d5baa"
+    },
+    {
+      "path": "test_gold_consensus_demo_broker.py",
+      "bytes": 20426,
+      "sha256": "15cbc3403059d97ce7515c941804b173ec98747f1c56ec400eb4e2ea2f234b73"
+    },
+    {
+      "path": "test_gold_continuous_scalp.py",
+      "bytes": 10190,
+      "sha256": "11fd0d78168eb19ef42c859180123a405c420e4d19315755d31a2959f32c7bdc"
+    },
+    {
+      "path": "test_gold_continuous_session.py",
+      "bytes": 930,
+      "sha256": "5eaf600ce5556b8ef4aad359a7fb88c8c593a9c1be3f8a3798ae7a3d75cbbcd9"
+    },
+    {
+      "path": "test_gold_currency_features.py",
+      "bytes": 1693,
+      "sha256": "35dc4b7d59c499408b208ad89d499333152c9304160cfedfd0923367c5fc8a16"
+    },
+    {
+      "path": "test_gold_economic_advisor_v5.py",
+      "bytes": 14345,
+      "sha256": "63c1e302d3da0b13a752d9bd8ace624099cc1e1836f8a873acb7c86656d44300"
+    },
+    {
+      "path": "test_gold_entry_benchmark.py",
+      "bytes": 2500,
+      "sha256": "0a9d036ef49297a2877ee5808791ae90062ac23970320a84ae9777f88979231e"
+    },
+    {
+      "path": "test_gold_entry_coordination.py",
+      "bytes": 3716,
+      "sha256": "98bf866125ab7875ef4fafdc14b111f4f08a0670abd03591fcdd0a907e7e6746"
+    },
+    {
+      "path": "test_gold_entry_momentum.py",
+      "bytes": 3373,
+      "sha256": "67df0b6047c30b64ad234de42854196888e53df67303d41d4e4e411824b65440"
+    },
+    {
+      "path": "test_gold_entry_reaction.py",
+      "bytes": 1303,
+      "sha256": "511039f76b49d2e69792f091714386a0e70041aaa305a71e61a8ee9ce0d3ddea"
+    },
+    {
+      "path": "test_gold_entry_structure_features.py",
+      "bytes": 1937,
+      "sha256": "7f6ec4164667637a4f1645f0c6dc73b84ef54e95847c07d964ffdbcb8d24af11"
+    },
+    {
+      "path": "test_gold_exit_context_cache.py",
+      "bytes": 2763,
+      "sha256": "314aeb060d9360de450f8b270fe551249e9ff3823003522bc44ef8b4848bb04b"
+    },
+    {
+      "path": "test_gold_exit_state.py",
+      "bytes": 5071,
+      "sha256": "ab77d988d7e0817e77b70b70ccbb67dabc8117d8c584e24e9f4cf360dd958a16"
+    },
+    {
+      "path": "test_gold_feed_reliability.py",
+      "bytes": 7895,
+      "sha256": "a9cdda1c74b74d0f7b4126b8039406947c98f08b04d64a4c7eb9111f36dcda71"
+    },
+    {
+      "path": "test_gold_flow_exit.py",
+      "bytes": 3708,
+      "sha256": "1cb7c20e244557a19192acf629a445b974b61117eebc7661855becb027eedd42"
+    },
+    {
+      "path": "test_gold_horizon_policy.py",
+      "bytes": 10361,
+      "sha256": "c587b723d2edbc9d5920bdd404a65ea91e3f907c6e8e1b3da514743bcb0dbc3c"
+    },
+    {
+      "path": "test_gold_institutional_context.py",
+      "bytes": 6288,
+      "sha256": "0e9edd5e468cbb9f3b94852339636b80a27483c1063d5397e534b66f114e7f25"
+    },
+    {
+      "path": "test_gold_institutional_context_tool.py",
+      "bytes": 953,
+      "sha256": "0da96ee7658c7e44b3f3ab6ac1709961f9b92c1df949feb411f74f4c4acfca20"
+    },
+    {
+      "path": "test_gold_main_candle_signal.py",
+      "bytes": 3927,
+      "sha256": "2c897f963f2ca51de90e5ecb84a6a6741b02f2a4b95368c022a9453106d6d46f"
+    },
+    {
+      "path": "test_gold_main_event_calendar.py",
+      "bytes": 2819,
+      "sha256": "23a5672ea8d7309fc5a1a3811908e21fe76588a7c74cf7820b1ace6007865a31"
+    },
+    {
+      "path": "test_gold_neutral_exit.py",
+      "bytes": 1883,
+      "sha256": "080b4baf26f90fadd1985803885eedbbaf4cafbca9c09fb41aabf4d5dd4e78bb"
+    },
+    {
+      "path": "test_gold_paper_parity.py",
+      "bytes": 3110,
+      "sha256": "57b7153abd9181b896927d868ba4c5ddde09000c57e69814624015037d86276f"
+    },
+    {
+      "path": "test_gold_policy_outcomes.py",
+      "bytes": 2242,
+      "sha256": "cd4519796c4da21f1a6d7df9bc4d3e31d98b81d2fd07c8ed5f593fa64f8614cc"
+    },
+    {
+      "path": "test_gold_position_conscience.py",
+      "bytes": 10546,
+      "sha256": "dc0b33c94fbf49da82266589cc9e311d55cbcc4c946860e09f012bec75f475aa"
+    },
+    {
+      "path": "test_gold_proposal_features.py",
+      "bytes": 3470,
+      "sha256": "1b8d47da7e25145d3bd26330bf36b1c9e77bb3765fab095701871c874464b007"
+    },
+    {
+      "path": "test_gold_replay_capture.py",
+      "bytes": 2647,
+      "sha256": "0071dc7b9e433cc6ec602cce5d3e014245c1aff27fa2dc3e7922e8b545d5adaa"
+    },
+    {
+      "path": "test_gold_scalp_context.py",
+      "bytes": 2077,
+      "sha256": "97ef9d147cee2c2bb56b65399e7ab819de7bcd03d0d2a8a2c572501260f0866b"
+    },
+    {
+      "path": "test_gold_scalp_only.py",
+      "bytes": 2446,
+      "sha256": "60fdf045d47e1f838a2acc831235f00b6fe708014d46952b54900c95906b565c"
+    },
+    {
+      "path": "test_gold_scalp_setups.py",
+      "bytes": 2965,
+      "sha256": "7dceae74578eefc7dae4c2ffa89186d2a6d7f6f393ef53529ab5e0d9e0def983"
+    },
+    {
+      "path": "test_gold_source_intelligence.py",
+      "bytes": 11581,
+      "sha256": "2a3e95b49f18166f4517b81539486bd8e1f38f553262c084b281713ad877c019"
+    },
+    {
+      "path": "test_gold_tick_entry_research.py",
+      "bytes": 2197,
+      "sha256": "cca5bf50288b2ef6a345b7da59410795ea4139cb7713af98d2ea55b06f0aab4e"
+    },
+    {
+      "path": "test_gold_trade_episode_audit.py",
+      "bytes": 912,
+      "sha256": "27ce47984c3df90213c449f1adf70f27cfee22a14c99ddd856c16716c52d2f3c"
+    },
+    {
+      "path": "test_official_release_monitor.py",
+      "bytes": 5292,
+      "sha256": "ca83f2ba014407fce482d6d6730d2e48fe1d9de1ff78f8dbc803d0b54cdde0a9"
+    },
+    {
+      "path": "test_unified_news_intelligence.py",
+      "bytes": 5892,
+      "sha256": "17844c54b5178c419265499d294b1a837497253be28e3fe3e65dbd1fa0c46f81"
+    },
+    {
+      "path": "tests/gold_scalp_ui.test.cjs",
+      "bytes": 3903,
+      "sha256": "7c3b21accb8af60c138217c04122b19bd04f4c66f66924d2a4904cb4d11d8e98"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 1636,
+      "sha256": "f0dfab86e340d96ec4a5ae7d2ed34b42056b4420fa52e9fee0080c4f54ef2496"
+    },
+    {
+      "path": "tests/test_feature_integrity.py",
+      "bytes": 2490,
+      "sha256": "9fb8033aebb35c1476f9764bde49e97c712248863eee7b4c8a78ea1d14d1a354"
+    },
+    {
+      "path": "tests/test_gold_advisor_web.py",
+      "bytes": 4715,
+      "sha256": "58144711dabdc06f256ba6007c86ca228871bfecfc56ee359f71a259ae855d2c"
+    },
+    {
+      "path": "tests/test_gold_scalp_controls.py",
+      "bytes": 8664,
+      "sha256": "2adfe6cac34f2745753f66bfe83ee9ae59341778b4fb2546194d1b0d67015419"
+    },
+    {
+      "path": "tests/test_gold_scalp_support.py",
+      "bytes": 2336,
+      "sha256": "580c609f33d5c0fa1ec7615c45840f580850303913754f982f92054502376b57"
+    },
+    {
+      "path": "tests/test_gold_scalp_web.py",
+      "bytes": 6913,
+      "sha256": "2fc6b4242a5cb2e60ce43cd3e4b51a311a1d180404394295d818f2e156c47d86"
+    },
+    {
+      "path": "tests/test_scalper_observation_review.py",
+      "bytes": 2241,
+      "sha256": "8c5bd8bc6dbceaa1984b02587568b467f5af7b48fca50a98d67fc3093cedb3ef"
+    },
+    {
+      "path": "tests/test_signal_confidence_audit.py",
+      "bytes": 1354,
+      "sha256": "f7c48cfbede6002bd60c67c5af7e4bca08dc873e3783647dbd54b71d3c26aed3"
+    },
+    {
+      "path": "tests/test_training_promotion.py",
+      "bytes": 1955,
+      "sha256": "88f90850a271c9175d2e53edb7c7a323082d8cb975412de05732038ff3652bbc"
+    },
+    {
+      "path": "tests/test_vfinal_execution_integrity.py",
+      "bytes": 2713,
+      "sha256": "83c0a2c86566f7516bdc40147c24a0fd561afa55ba61fd2deba85ebc96c04af7"
+    },
+    {
+      "path": "tests/test_walk_forward_integrity.py",
+      "bytes": 5770,
+      "sha256": "7633afeadb43c98803e634ce3a61ddcf76370dbd09cdcdbdcac6e467f91d9143"
+    },
+    {
+      "path": "tools/__init__.py",
+      "bytes": 35,
+      "sha256": "a2cae1d128493fb1251d98fd9f75f7aaa2aaba31ca67de2ecd67dfe284ff04ea"
+    },
+    {
+      "path": "tools/apply_gold_analysis_stops.py",
+      "bytes": 3662,
+      "sha256": "848e2316107b08e49f9dae5bf41252a78eddd84e5c43b5ec48ba8338adbebdeb"
+    },
+    {
+      "path": "tools/assess_gold_frozen_candidate.py",
+      "bytes": 4551,
+      "sha256": "0522829a86cdf3679c4af1cd5d324c3be9c87ac771704a470553f89e0e002942"
+    },
+    {
+      "path": "tools/audit_continuous_scalp.py",
+      "bytes": 8832,
+      "sha256": "a71276062db424f18d0b562a780f909dd040963f6f6134463d06b9f7613d787a"
+    },
+    {
+      "path": "tools/audit_gold_actual_entry_horizons.py",
+      "bytes": 6294,
+      "sha256": "6333cfe26b60b75cefc8b2aecb0c72507ee0460c4380dc96f610a8f684a5da45"
+    },
+    {
+      "path": "tools/audit_gold_analysis_stops.py",
+      "bytes": 3966,
+      "sha256": "ca2d98a237ef32ebd48adc667033ec892c086c3cfe6fb95c6beb28a6c6e57d86"
+    },
+    {
+      "path": "tools/audit_gold_blueprint_entries.py",
+      "bytes": 4757,
+      "sha256": "e795d1c30166dcfc4a1d8cb646ef06eb7c5e4eb39f564dd9e14a9a1c12e6cf0f"
+    },
+    {
+      "path": "tools/audit_gold_entries.py",
+      "bytes": 6045,
+      "sha256": "48ad6ea3ca8b294b9d2642fdeb262225bb563c544699dddf536622e2d2bc70bf"
+    },
+    {
+      "path": "tools/audit_gold_entry_delays.py",
+      "bytes": 5742,
+      "sha256": "301a4e4fd1293457a7f1c0acb03bf72ffb40d2b6a36cb7fe9f9c6ddade5f6d4c"
+    },
+    {
+      "path": "tools/audit_gold_entry_execution.py",
+      "bytes": 3297,
+      "sha256": "4f669e52cab1296ac0d50d1162b1246103579beeac15b06ade21075cf2109c64"
+    },
+    {
+      "path": "tools/audit_gold_entry_reaction.py",
+      "bytes": 4748,
+      "sha256": "15914b5d2f80636a715e4ae15361494dee056f5143ba3eb6442a3757199d8b8a"
+    },
+    {
+      "path": "tools/audit_gold_execution_quality.py",
+      "bytes": 4692,
+      "sha256": "773bed1c6291a5d162609aa88f672b092b40c4394d66509714ea8227c583f3f5"
+    },
+    {
+      "path": "tools/audit_gold_performance.py",
+      "bytes": 3814,
+      "sha256": "e0da2fc167de1e0e04dbcae3846441abd5bef0785e02e62d52e4714beabe0013"
+    },
+    {
+      "path": "tools/audit_gold_policy_outcomes.py",
+      "bytes": 4790,
+      "sha256": "6979de20328ccb0426cb222850deeed745c9bf01e14f8c2cfdd7263e99ce6a89"
+    },
+    {
+      "path": "tools/audit_gold_project_review.py",
+      "bytes": 7055,
+      "sha256": "dab740ac4740ab2cfd52bc8872009b2df90c7746776d7d35a4a9526b453e91d5"
+    },
+    {
+      "path": "tools/audit_gold_review_constraints.py",
+      "bytes": 2659,
+      "sha256": "ca5aef6949dc351fef2df0821abbb198f7bd3818f2df97d9c3f89b3939fc611d"
+    },
+    {
+      "path": "tools/audit_gold_signal_confidence.py",
+      "bytes": 11695,
+      "sha256": "fa938aa7cad0356d9887e04a6009be8104f8d1bfa9fcd8798f71f7b99a911f78"
+    },
+    {
+      "path": "tools/audit_gold_tick_alignment.py",
+      "bytes": 2920,
+      "sha256": "b9c7c9254556929c3067a5e46d663f402410362079aaa2018ae7e770219e1426"
+    },
+    {
+      "path": "tools/audit_project_assets.py",
+      "bytes": 2168,
+      "sha256": "9ff741c8104a1f13d44da7b5d5bad75c6e23a761592d75feed966a2e253a500d"
+    },
+    {
+      "path": "tools/audit_python_reachability.py",
+      "bytes": 2890,
+      "sha256": "8ba41011054e8c6cc64e2584974f610491e6d64472c4211906fb724ea74bf793"
+    },
+    {
+      "path": "tools/benchmark_gold_cross_market_cache.py",
+      "bytes": 3015,
+      "sha256": "7f60ed5ad018edfcb64e8d354f39a0844417eb9c3db1b5b87ade7104059ae5c8"
+    },
+    {
+      "path": "tools/benchmark_gold_entry_patterns.py",
+      "bytes": 7543,
+      "sha256": "2e011ac8c22aa05ebcaeb2a0e0405d65520c6590c6e40cb9b45c2f37d7dea88e"
+    },
+    {
+      "path": "tools/benchmark_gold_exit_context.py",
+      "bytes": 2730,
+      "sha256": "4bbbf202931dbff2787cbde5567900bcfef79cc8c02c11a0d53482d09b048671"
+    },
+    {
+      "path": "tools/benchmark_gold_main_candle_signature.py",
+      "bytes": 2460,
+      "sha256": "49eaf4ce413a2ad5640c2fdf56feb94516fff6e0e1bcc79eec9e0d44f9ff3fb9"
+    },
+    {
+      "path": "tools/benchmark_gold_stop_preparation.py",
+      "bytes": 2926,
+      "sha256": "8c665596673236e2b925949cb391385a476a1438cc24dba02b24147d55edadfc"
+    },
+    {
+      "path": "tools/check_live_candle_cache.py",
+      "bytes": 1324,
+      "sha256": "52ef0c537cd549d81dbbaee0fa1cbadfe5cecabc59e57b976fd04792abe52a3a"
+    },
+    {
+      "path": "tools/compare_gold_runtime_latency.py",
+      "bytes": 1336,
+      "sha256": "00898d496881ba653c39de505996358254ef3baa61021eb8228256990adb7be9"
+    },
+    {
+      "path": "tools/compile_gold_scalp.ps1",
+      "bytes": 1439,
+      "sha256": "0fc415894245a2eebb03e05d4028a2dad07945e49627e4da0b8db6f32980af80"
+    },
+    {
+      "path": "tools/diagnose_gold_feed.py",
+      "bytes": 1811,
+      "sha256": "d1c547f800e54f2d648e9c8f085d5ddef2481f0b9801838fc83896d3efa7565c"
+    },
+    {
+      "path": "tools/diagnose_gold_scalp_losses.py",
+      "bytes": 2527,
+      "sha256": "e6610b8088a496e853179c2a2b2de49969aedb85d0c987b0c7e146c9c07c0ad9"
+    },
+    {
+      "path": "tools/evaluate_gold_signal_markouts.py",
+      "bytes": 4101,
+      "sha256": "31a279702846de5549c89ff6a089f2b7026efcf370c7633fa7a66cbb7eb38a52"
+    },
+    {
+      "path": "tools/export_advisor1_replay.py",
+      "bytes": 2821,
+      "sha256": "56b6a361bf8676a34523a7b2b5b46d9b656abb810169a87ac619a07802182123"
+    },
+    {
+      "path": "tools/export_gold_historical_ticks.py",
+      "bytes": 3812,
+      "sha256": "fed9bc1bf30a5a4ed0d81801c96bcf271673dcbe9703a4422240bccaa50e335c"
+    },
+    {
+      "path": "tools/export_gold_research_bars.py",
+      "bytes": 1473,
+      "sha256": "933cc8e211fcea69001f9ec036b292b3887aae76e10171d2fbc0e667b53ae37e"
+    },
+    {
+      "path": "tools/export_gold_tick_probe.py",
+      "bytes": 2354,
+      "sha256": "c67179fb31417801eca9473d5c709d1449802eeb380c27c6d31c1236abff2ed2"
+    },
+    {
+      "path": "tools/export_scalper_ticks.py",
+      "bytes": 2710,
+      "sha256": "ca234a1cdd3939a96f6ffc52b328a1f1741b624dce7c31f56c909bad553eb347"
+    },
+    {
+      "path": "tools/finalize_gold_blueprint_review.py",
+      "bytes": 5005,
+      "sha256": "168bfe3e728ff497add41314af8aef0484185ec71400ccbf9d82c3e523a53e9e"
+    },
+    {
+      "path": "tools/generate_project_structure.py",
+      "bytes": 3820,
+      "sha256": "c544220085e512cc7720a4f161e3815258b9f48990776d24d1e4e8e0d379b556"
+    },
+    {
+      "path": "tools/install_gold_scalp.ps1",
+      "bytes": 2833,
+      "sha256": "6c7390ac53ca853d5ce3829165e6dc39227969bec98570bf21667e1778d0d13b"
+    },
+    {
+      "path": "tools/monitor_demo_session.py",
+      "bytes": 2986,
+      "sha256": "753dd79d65bdd6a59f9d5345bb16020d44175f80594a921ea86cca94ac12d179"
+    },
+    {
+      "path": "tools/observe_gold_bidirectional.py",
+      "bytes": 7973,
+      "sha256": "1081361ae5f742651ac5aa1b7c35c2652c5d7e65f37f39336ba0640d86ae78fe"
+    },
+    {
+      "path": "tools/observe_scalper.py",
+      "bytes": 1977,
+      "sha256": "bef5464b4226a8bc0c68e2f21d778d8f12bbd07b3c8e14daaf29cc51541c091b"
+    },
+    {
+      "path": "tools/open_gold_scalp_dashboard.ps1",
+      "bytes": 1947,
+      "sha256": "f3cd19f2456ee3ec15be9bfc52ccb0306ceb5c17ae854424deb48505be6660e1"
+    },
+    {
+      "path": "tools/plot_demo_monitoring.py",
+      "bytes": 1781,
+      "sha256": "1908704fc7468300c849d04de18275bc6a7280a7a612ca2fbdb02ac47c2531ea"
+    },
+    {
+      "path": "tools/profile_gold_main_loop.py",
+      "bytes": 2829,
+      "sha256": "a30e6bb2abbd114a8e3074ee02a5c0e4cb3c02728fa5421cd05f2e9f739bb462"
+    },
+    {
+      "path": "tools/publish_advisor1_reference.ps1",
+      "bytes": 2192,
+      "sha256": "99918139b7615d263d1a6aa99cd2141330e9389d6057a716f6713d839fb28548"
+    },
+    {
+      "path": "tools/replay_gold_entry_coordination.py",
+      "bytes": 14494,
+      "sha256": "48fa5c3bd9559452ab7f87f0265d0cd65d9bf88569cade4b1894a0d8cd4e030b"
+    },
+    {
+      "path": "tools/report_gold_ai.py",
+      "bytes": 1728,
+      "sha256": "54da3a7117c7593fe434f3cb824bcc12895f4cc9540df453fb235d75bd3cc803"
+    },
+    {
+      "path": "tools/research_gold_adaptive.py",
+      "bytes": 8146,
+      "sha256": "6974a94d1352716d73099935e9d7887cfc7172fc2d7cb23ab6d1cafec4777b49"
+    },
+    {
+      "path": "tools/research_gold_bidirectional.py",
+      "bytes": 5404,
+      "sha256": "8dffceebeee4934de74fe98c2b7df6e4b51aa5fd4ec5bcee83172df4a2631b4a"
+    },
+    {
+      "path": "tools/research_gold_blueprint_setups.py",
+      "bytes": 6810,
+      "sha256": "1acb1ad976274231629aaffa1fd95a1058882ed7ceb68a6c7114133746f37cc7"
+    },
+    {
+      "path": "tools/research_gold_currency_entries.py",
+      "bytes": 5934,
+      "sha256": "a699b69bbca52215077ccc6acc313584510a23b19d61061490a5df4039aeace5"
+    },
+    {
+      "path": "tools/research_gold_entry_filter.py",
+      "bytes": 3640,
+      "sha256": "ff8c8fc0c12aaa994579725eec7f833c2d29d6aaa2bbcc96769be4ceece387b2"
+    },
+    {
+      "path": "tools/research_gold_rolling_candidate.py",
+      "bytes": 3454,
+      "sha256": "c4b5e7ac791b19b631961cbc48f9d3cf7048f067ec9002c4e328c255b5b4561e"
+    },
+    {
+      "path": "tools/research_gold_sources.py",
+      "bytes": 3029,
+      "sha256": "6ed8a07fe2453d18af88990c79f1731664b430a93079d7d679b1c4edc0583d2f"
+    },
+    {
+      "path": "tools/research_gold_structure_entries.py",
+      "bytes": 2658,
+      "sha256": "7f674392d00d7feaa228bb0385fb939d919797fa3822bef45e9d119cd588b2f5"
+    },
+    {
+      "path": "tools/research_gold_tick_entries.py",
+      "bytes": 8335,
+      "sha256": "61897b865886a25ab44343587dddd5788253f243745966f32f0e137035333922"
+    },
+    {
+      "path": "tools/restart_gold_dashboards.ps1",
+      "bytes": 2406,
+      "sha256": "0c152a2bccfb379d2a78b23a2ca99966966593270df149ad86f1e9c578fadc2b"
+    },
+    {
+      "path": "tools/restart_monitored_main.ps1",
+      "bytes": 1799,
+      "sha256": "0f6450ae58623f17a1ca85e3974b6069ac286b4d4d49668a086b63bd8c170820"
+    },
+    {
+      "path": "tools/review_gold_blueprint_live.py",
+      "bytes": 4884,
+      "sha256": "f9e0991fd1f2401b3b377773cba736d556c77e6d7d90b9e305a848de505a36d4"
+    },
+    {
+      "path": "tools/review_scalper_trades.py",
+      "bytes": 5498,
+      "sha256": "dcae2499881fd12d790e0c3458e75bf0c0a589e9f6056012a22afc9344023bf9"
+    },
+    {
+      "path": "tools/start_gold_scalp_mt5.ps1",
+      "bytes": 6155,
+      "sha256": "d438dda54c352bbdff841e7d57c1ddf370909962c606c1597a5dafc032553018"
+    },
+    {
+      "path": "tools/stress_gold_candidate.py",
+      "bytes": 2077,
+      "sha256": "c8051297455161d98343ac2516cc301b885b0657f7a97d9135c90d2016e6681f"
+    },
+    {
+      "path": "tools/summarize_demo_monitoring.py",
+      "bytes": 4418,
+      "sha256": "d6a51f3ff9844694b064c606e1cae44bfaed78353957ef6fa6268a9c02569a05"
+    },
+    {
+      "path": "tools/summarize_scalper_observations.py",
+      "bytes": 4915,
+      "sha256": "7cd3790d8b3bf0273d6908655a5efd4f12c176deab879471ca39aef777bb1ab1"
+    },
+    {
+      "path": "tools/test_gold_scalp.ps1",
+      "bytes": 4342,
+      "sha256": "30babc01fcc9f6f1ac5b5d8d217478c247e5b2ff81a6668119b55de65237c2a7"
+    },
+    {
+      "path": "tools/train_gold_ai.py",
+      "bytes": 6353,
+      "sha256": "d50e6664cb317516afe54172cf3ab6e83d86466bc3432bfdeba76b9ecac8ee83"
+    },
+    {
+      "path": "tools/update_gold_institutional_context.py",
+      "bytes": 5034,
+      "sha256": "92833d93288afbe1ea5afd7264016b73819e67967d5d6fc9841bfc0f6a9afc0d"
+    },
+    {
+      "path": "tools/validate_gold_changes.py",
+      "bytes": 1439,
+      "sha256": "922d623590945dde254593244e44ca5760ff5cd473b8eaccf349a2faebf2bd12"
+    },
+    {
+      "path": "vfinal/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/cli/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/cli/main.py",
+      "bytes": 5533,
+      "sha256": "52437d4769a6eee7f40ddb2b744834de788cb89eb7d33c1e32fa24793ace8e3c"
+    },
+    {
+      "path": "vfinal/config.py",
+      "bytes": 5846,
+      "sha256": "2715f9027947bb4f22239c216dedd5f7b39147a72c0daf69c02b5a228ca55480"
+    },
+    {
+      "path": "vfinal/dashboard.py",
+      "bytes": 2566,
+      "sha256": "d2e4d8553d3beb34bf0066997ff703f00a9e88f3c5bef619ca3a02e812609d93"
+    },
+    {
+      "path": "vfinal/data/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/data/dataset.py",
+      "bytes": 2982,
+      "sha256": "77c60a3369100e9aa57932aa7e01569068513ab0cc9ccfb2ca6eb5b82e2ec3b1"
+    },
+    {
+      "path": "vfinal/data/labels.py",
+      "bytes": 6463,
+      "sha256": "d5ac04f35414b7559cf227c401ffa68ad716c2951f7fc0dba2e5d608d4fb4be7"
+    },
+    {
+      "path": "vfinal/data/quality.py",
+      "bytes": 8235,
+      "sha256": "da4f53c25c2ea91beb9c2dd35295f35f6c5cac8005e88b9acc3c6553497b78ed"
+    },
+    {
+      "path": "vfinal/data/snapshot_store.py",
+      "bytes": 1070,
+      "sha256": "25b0d899ca1ce984c1cacfcfcf8cf1be9062a51154c5209c16b15d2307e6491e"
+    },
+    {
+      "path": "vfinal/execution/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/execution/decision.py",
+      "bytes": 3131,
+      "sha256": "098d266344d8ae7faf9c2b3fb28e9662b91dd98285c38d80f82bff9e94fc8cb5"
+    },
+    {
+      "path": "vfinal/execution/vfinal_meta_engine.py",
+      "bytes": 3885,
+      "sha256": "e2baec7fd94ad49217bd86870836d6e1efeba1b9e44b78ceee7b033f6b1ea5d5"
+    },
+    {
+      "path": "vfinal/features/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/features/core.py",
+      "bytes": 10855,
+      "sha256": "ff93ce5ec9876ba8b2ec0c0edde5a258f953e1048299641cc9da3a36bc4713b7"
+    },
+    {
+      "path": "vfinal/features/market_state.py",
+      "bytes": 4185,
+      "sha256": "039f433fa972b6d16df29a37d437e04edbbb1a9abf95b777ae8d1c12853c50f3"
+    },
+    {
+      "path": "vfinal/integration.py",
+      "bytes": 2203,
+      "sha256": "1d3505ad166f37cc20b9f2d124b1c03b2e953208637d011dd23275736646b310"
+    },
+    {
+      "path": "vfinal/model/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/model/calibration.py",
+      "bytes": 971,
+      "sha256": "45fe051a782e607d4cbccf71ee7113516b809eec3fb55f752bd2683ae3482a6d"
+    },
+    {
+      "path": "vfinal/model/metrics.py",
+      "bytes": 2088,
+      "sha256": "7995cc6b96c1140ecb90d9da0b605cc6a434e38564057ea00b6a5aeed19f285c"
+    },
+    {
+      "path": "vfinal/model/monitor.py",
+      "bytes": 1402,
+      "sha256": "988df5f6c3805230a296050c3d93b4e4c900e9b8bb48c9ae09ceddfbbc1ecc61"
+    },
+    {
+      "path": "vfinal/model/train.py",
+      "bytes": 2520,
+      "sha256": "bf27f49b7dc58ee9790ebf058c615443871b0c0829c98224ad7511b29964de5f"
+    },
+    {
+      "path": "vfinal/model/walk_forward.py",
+      "bytes": 13487,
+      "sha256": "621a611f8106c7161eafdbaebd5c5cf9a91718e180e0d70771b89f3dbc46cad4"
+    },
+    {
+      "path": "vfinal/providers/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "vfinal/providers/bls.py",
+      "bytes": 955,
+      "sha256": "83feaacc8f5abdbba9b50a2668c40ca1e2e6375a0b17282ba92a22b308f66dc5"
+    },
+    {
+      "path": "vfinal/providers/cftc.py",
+      "bytes": 2953,
+      "sha256": "cc65e50f32aba18bfe8bcfc0e79f7a96f41ef70ed398cbc053208dcaa8de99d4"
+    },
+    {
+      "path": "vfinal/providers/fred.py",
+      "bytes": 6101,
+      "sha256": "8c9a069f36232af55967fddb02ad4ac50960178be02a0e2e1c0a85680f2718c9"
+    },
+    {
+      "path": "vfinal/providers/health.py",
+      "bytes": 690,
+      "sha256": "bc102b7485be45f3a6ec234fba403e081702037db42cd37a76b08d87efd38104"
+    },
+    {
+      "path": "vfinal/providers/mt5_ticks.py",
+      "bytes": 1688,
+      "sha256": "393c36907fecee101ec835b7f12c3c704d97f34fd45200184d208e2047602535"
+    },
+    {
+      "path": "vfinal/schema.py",
+      "bytes": 1364,
+      "sha256": "a7c595f82d72872fad0f77261ffabddd24fdc1fdc78a9f47c99bc6d49b84ce82"
+    }
+  ],
+  "limitations": [
+    "Syntax parsing and hashes do not establish trading correctness or profitability.",
+    "This inventories project source; it does not attest to the installed/running MT5 binary.",
+    "Account state, credentials, .env and live broker history are not read by this tool."
+  ]
+}

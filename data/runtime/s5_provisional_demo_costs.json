@@ -1,0 +1,17 @@
+{
+  "as_of": "2026-10-29T23:36:07.235970+00:00",
+  "profile_type": "PROVISIONAL_DEMO",
+  "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+  "terminal_path": "C:\\Program Files\\MetaTrader 5\\terminal64.exe",
+  "read_only": true,
+  "symbol": "XAUUSD",
+  "currency": "USD",
+  "volume": 0.01,
+  "costs": {
+    "available": false,
+    "reconciled_pairs": 0,
+    "commission_price": 0.1,
+    "slippage_price": 0.2
+  },
+  "warning": "User-approved demo assumptions, NOT measurements or guaranteed maximum costs. Spread is live and added separately."
+}

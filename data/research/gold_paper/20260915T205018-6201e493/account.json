@@ -1,0 +1,18 @@
+{
+  "available": true,
+  "realized": 0,
+  "floating": 0,
+  "total": 0,
+  "balance": 100.0,
+  "equity": 100.0,
+  "simulated": true,
+  "starting_capital": 100.0,
+  "max_drawdown_usd": 0.0,
+  "run_id": "20260915T205018-6201e493",
+  "learned_policy": "observe",
+  "cross_market_policy": "observe",
+  "positions": [],
+  "trades": 0,
+  "quote_valid": false,
+  "note": "Sampled-quote simulation; gaps, unobserved ticks, commissions and swap are not fully modeled"
+}

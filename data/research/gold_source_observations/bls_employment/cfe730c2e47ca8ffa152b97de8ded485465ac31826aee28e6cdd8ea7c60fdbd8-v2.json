@@ -1,0 +1,11 @@
+{
+  "parser_version": 2,
+  "source": "bls_employment",
+  "url": "https://www.bls.gov/feed/empsit.rss",
+  "retrieved_at": "2026-09-14T14:54:20.445192+00:00",
+  "payload_sha256": "cfe730c2e47ca8ffa152b97de8ded485465ac31826aee28e6cdd8ea7c60fdbd8",
+  "events": [],
+  "role": "PUBLICATION_DETECTION_ONLY",
+  "feed_entries": 12,
+  "unverified_recent_releases": []
+}

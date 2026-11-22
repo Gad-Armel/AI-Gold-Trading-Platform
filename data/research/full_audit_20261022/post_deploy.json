@@ -1,0 +1,533 @@
+{
+  "observations": [
+    {
+      "updated": "2026-10-22T17:12:39.423206+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:39.845325+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:41.303113+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:41.567619+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:42.067337+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:42.616238+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:43.036247+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:43.683111+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:44.232217+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:44.615338+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:45.137159+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:45.531393+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:46.038180+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:46.525691+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:47.565491+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:48.300747+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:49.007157+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:49.894219+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:50.835578+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:51.352050+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:51.884409+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:52.829746+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:53.314585+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:53.833461+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:54.386788+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:55.118031+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:55.442770+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:56.127355+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:56.883096+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:57.409483+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:57.866532+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:58.401427+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    },
+    {
+      "updated": "2026-10-22T17:12:58.925835+00:00",
+      "status": "RUNNING",
+      "hold": false,
+      "risk_cap": 5.0,
+      "micro_confirmation": true,
+      "timeframe": "S30",
+      "positions": 0,
+      "blocks": [
+        "The directional policy has not authorized an entry.",
+        "Signal persistence is 0.0s; 2.0s required.",
+        "Completed S30 candles do not agree",
+        "Six-second follow-through is too weak relative to spread or too noisy"
+      ],
+      "errors": {}
+    }
+  ],
+  "profitability_validated": false
+}

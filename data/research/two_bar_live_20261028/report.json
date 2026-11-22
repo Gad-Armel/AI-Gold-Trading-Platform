@@ -1,0 +1,113 @@
+{
+    "started": "2026-10-28T22:57:57.836269+00:00",
+    "ended": "2026-10-28T23:01:05.603387+00:00",
+    "requested_minutes": 3.0,
+    "samples": 37,
+    "directions": {
+        "WAIT": 26,
+        "BUY": 6,
+        "SELL": 5
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            34
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            29
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            27
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            27
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            26
+        ],
+        [
+            "Completed S30 candles do not agree",
+            23
+        ],
+        [
+            "Recent S30 range does not clear 1.5 times estimated round-trip cost",
+            23
+        ],
+        [
+            "Insufficient continuous six-second quote coverage",
+            9
+        ],
+        [
+            "Spread expansion",
+            9
+        ],
+        [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            8
+        ],
+        [
+            "S30 tick signal is unavailable or stale.",
+            3
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            2
+        ],
+        [
+            "Incomplete S30 tick coverage; no synthetic fill",
+            2
+        ],
+        [
+            "Recent S30 range does not clear three times estimated round-trip cost",
+            1
+        ],
+        [
+            "Signal persistence is 0.7s; 1.0s required.",
+            1
+        ],
+        [
+            "Signal persistence is 0.9s; 1.0s required.",
+            1
+        ],
+        [
+            "SCALP spread $0.79 exceeds the scalping ceiling $0.75.",
+            1
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 4.1s old. Check feed connection and symbol session.",
+            1
+        ],
+        [
+            "MT5 tick history is stale",
+            1
+        ],
+        [
+            "Tick history is stale",
+            1
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 2.5s old. Check feed connection and symbol session.",
+            1
+        ]
+    ],
+    "observed_position_tickets": [],
+    "initial_broker": {
+        "available": false,
+        "error": "(-10005, 'IPC timeout')"
+    },
+    "final_broker": {
+        "available": true,
+        "account_fingerprint": "e3cd3d3b96d2d2fa382a7ff6ac4eef1d4f62e94ead9dfa24b8984b3f5fe008d4",
+        "positions": [],
+        "quote_age": 0.95926,
+        "history_available": true,
+        "deals": []
+    },
+    "errors": [],
+    "account_continuity": false,
+    "note": "Read-only observation, not calibrated signal accuracy or proof of future profitability."
+}

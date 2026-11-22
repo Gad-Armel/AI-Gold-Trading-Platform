@@ -1,0 +1,6 @@
+{
+    "account_fingerprint": "5e2070aec5974df3b867a516bc9d75e43c9edf5a12455a9280e6148750da8e71",
+    "source_id": "59027698410",
+    "decided_at": 1792757042.519963,
+    "reason": "Flow reversal risk 0.77 while 1.25 in profit (floor 0.76); banking it rather than waiting for a target"
+}

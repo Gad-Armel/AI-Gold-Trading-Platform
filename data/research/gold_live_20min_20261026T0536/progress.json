@@ -1,0 +1,152 @@
+{
+    "started": "2026-10-26T05:36:43.054918+00:00",
+    "samples": 240,
+    "last": {
+        "observed_at": "2026-10-26T05:56:43.297048+00:00",
+        "updated_at": "2026-10-26T05:56:43.024070+00:00",
+        "status": "RUNNING",
+        "direction": "WAIT",
+        "allowed": false,
+        "entry_ready": false,
+        "reasons": [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            "S30 has no usable direction above the evidence threshold.",
+            "The directional policy has not authorized an entry.",
+            "Signal persistence is 0.0s; 2.0s required.",
+            "Completed S30 candles do not agree",
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            "Recent S30 range does not clear three times estimated round-trip cost"
+        ],
+        "positions": [],
+        "last_execution": {
+            "action": "CLOSE",
+            "success": true,
+            "message": "SCALP: Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss; closed 1."
+        },
+        "selection": {
+            "policy": "FASTEST_FEASIBLE",
+            "selected": "S30",
+            "pinned": false,
+            "candidates": [
+                {
+                    "timeframe": "S5",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Incomplete S5 tick coverage; no synthetic fill",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S15",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Completed S15 candles do not agree",
+                        "Six-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S15 range does not clear three times estimated round-trip cost",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S30",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Completed S30 candles do not agree",
+                        "Six-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S30 range does not clear three times estimated round-trip cost",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                }
+            ],
+            "reason": "No candidate passed; fallback is for observation only, entry gates still apply"
+        },
+        "candidate": {
+            "execution_enabled": false,
+            "role": "SHADOW_ONLY",
+            "setup": "S30_TICK_CONTINUATION",
+            "direction": "WAIT",
+            "calibrated_probability": null,
+            "expected_value": null,
+            "pattern_ready": false,
+            "cost_screen_passed": false,
+            "blocks": [
+                "Completed S30 candles do not agree",
+                "Six-second follow-through is too weak relative to spread or too noisy",
+                "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                "Recent S30 range does not clear three times estimated round-trip cost"
+            ],
+            "warnings": [],
+            "setup_id": "S30:1792994160:WAIT",
+            "quote_efficiency": 0.3768,
+            "executable_confirmation": false,
+            "signed_bid_move_price": 0.0,
+            "signed_ask_move_price": 0.0,
+            "micro_confirmation_enforced": true,
+            "raw_tick_efficiency": 0.1209,
+            "efficiency_sampling_seconds": 1,
+            "signed_move_price": 0.0,
+            "spread_price": 0.4600000000000364,
+            "recent_range_proxy_price": 0.9600000000000364,
+            "extension_price": 0.0,
+            "round_trip_cost_price": 0.7600000000000364,
+            "range_cost_screen_enforced": true,
+            "research_candidate": false
+        },
+        "inverse_state": "RUNNING"
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            237
+        ],
+        [
+            "Recent S30 range does not clear three times estimated round-trip cost",
+            227
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            223
+        ],
+        [
+            "Signal persistence is 0.0s; 2.0s required.",
+            208
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            207
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            207
+        ],
+        [
+            "Completed S30 candles do not agree",
+            207
+        ],
+        [
+            "All three lanes are very weak (below 15/100); new entries paused.",
+            70
+        ],
+        [
+            "Adding a position requires evidence >= 75.0/100.",
+            21
+        ],
+        [
+            "SCALP additions require the same direction as every open SCALP position.",
+            21
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            11
+        ],
+        [
+            "SCALP additions wait until every open position is profitable beyond dealing noise.",
+            7
+        ]
+    ]
+}

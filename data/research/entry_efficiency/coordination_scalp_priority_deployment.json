@@ -1,0 +1,13 @@
+{
+    "deployed_at":  "2026-10-08T13:17:49.8817802Z",
+    "scope":  "MAIN_DEMO_RISK_ALLOCATION",
+    "policy":  "STAGED_EXPOSURE_SCALP_PRIORITY_V1",
+    "enabled":  true,
+    "positive_edge_proven":  false,
+    "config_source_sha256":  "285C422C9BD7CAAD6FBE5BE8E0273FC6CB6EA30B5876C3B78314E9EE51065FAE",
+    "main_source_sha256":  "57983D1311CA95A1235CFD6B50C8BD6E596C184D60A0D4E905D702A8546D890F",
+    "allocation_source_sha256":  "206A026FC60C815CF5E90D6FB9BC91C0A048CE88511E254D9ACFDD4EF1D373AD",
+    "tests_passed":  238,
+    "research_artifact":  "coordination_scalp_priority_assessment.json",
+    "tradeoff":  "Earlier replay lost upside and had higher drawdown; later periods lost less, still negative."
+}

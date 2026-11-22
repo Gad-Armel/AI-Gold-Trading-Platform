@@ -1,0 +1,19 @@
+{
+  "results": {
+    "fresh": {
+      "median_ms": 24.71084997523576,
+      "samples": 50
+    },
+    "cached": {
+      "median_ms": 9.425599942915142,
+      "samples": 50
+    }
+  },
+  "output_parity": true,
+  "reduction_percent": 61.856431679359034,
+  "limitations": [
+    "Frozen read-only broker snapshot; quote freshness patched for paired timing only.",
+    "Alternating sequence reduces ordering bias; wall time still includes CPU contention.",
+    "Component computation benefit does not establish entry accuracy or profitability."
+  ]
+}

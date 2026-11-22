@@ -1,0 +1,80 @@
+{
+  "as_of": "2026-10-21T17:53:36.253847+00:00",
+  "read_only": true,
+  "monitoring_windows": [
+    {
+      "path": "data/monitoring/20261021T100648Z",
+      "samples": 129,
+      "first": "2026-10-21T10:06:48.067626+00:00",
+      "last": "2026-10-21T10:39:01.124129+00:00",
+      "observed_span_seconds": 1933.056503,
+      "observation_errors": 0,
+      "maximum_observed_open_positions": 0,
+      "loop_median_ms": 393.16,
+      "loop_p95_ms": 1331.0359999999994
+    },
+    {
+      "path": "data/monitoring/20261021T173105Z",
+      "samples": 89,
+      "first": "2026-10-21T17:31:05.432638+00:00",
+      "last": "2026-10-21T17:53:13.933895+00:00",
+      "observed_span_seconds": 1328.501257,
+      "observation_errors": 0,
+      "maximum_observed_open_positions": 0,
+      "loop_median_ms": 411.82,
+      "loop_p95_ms": 1830.6659999999965
+    }
+  ],
+  "total_recorded_observation_minutes": 54.35929599999999,
+  "continuous_monitoring_during_conversation_gap": false,
+  "advisor1_protected_files": 18,
+  "advisor1_changed_files": [],
+  "main": {
+    "status": "RUNNING",
+    "updated_at": "2026-10-21T17:53:35.990032+00:00",
+    "mode": "demo",
+    "positions": 0,
+    "advisor_errors": {},
+    "research_entry_hold": true,
+    "lot": 0.01,
+    "maximum_positions": 4
+  },
+  "strategy_promoted_to_execution": false,
+  "profitable_strategy_validated": false,
+  "forward_trials": {
+    "forward": {
+      "observed_at": "2026-10-21T10:39:13.941879+00:00",
+      "duration_seconds": 1790.6628830432892,
+      "paper_summary": {
+        "trades": 4,
+        "net_price": -3.11,
+        "wins": 1,
+        "losses": 3,
+        "win_rate": 0.25,
+        "profit_factor": 0.03715170278640108,
+        "average_price": -0.7774999999999637
+      },
+      "censored_positions": 0,
+      "completed": null,
+      "completed_at": null,
+      "note": "Paper-only; quotes/latency/cost assumptions, not broker trade performance"
+    },
+    "orbit_forward": {
+      "observed_at": "2026-10-21T17:49:57.577427+00:00",
+      "duration_seconds": 1001.8738107681274,
+      "paper_summary": {
+        "trades": 0,
+        "net_price": 0,
+        "wins": 0,
+        "losses": 0,
+        "win_rate": null,
+        "profit_factor": null,
+        "average_price": null
+      },
+      "censored_positions": 0,
+      "completed": true,
+      "completed_at": "2026-10-21T17:50:15.977221+00:00",
+      "note": "Paper-only; quotes/latency/cost assumptions, not broker trade performance"
+    }
+  }
+}

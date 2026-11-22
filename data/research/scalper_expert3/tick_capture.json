@@ -1,0 +1,11 @@
+{
+  "hours_requested": 24,
+  "broker_ticks": 514140,
+  "sampled_ticks": 285799,
+  "mean_spread": 0.34226487846353576,
+  "median_spread": 0.32000000000061846,
+  "fraction_above_old_030": 0.6170455459956123,
+  "fraction_above_new_060": 0.01411131599480754,
+  "orders_sent": 0,
+  "purpose": "Real broker tick diagnostic, not a profitability backtest"
+}

@@ -1,0 +1,14 @@
+{
+  "observed_at": "2026-10-08T12:05:24.348126+00:00",
+  "batches_per_method": 60,
+  "lanes_per_batch": 3,
+  "median_ms": {
+    "fresh": 53.077,
+    "cached": 14.245
+  },
+  "note": "Paired isolated candle-context latency, not full trading-loop latency or profit evidence.",
+  "parity": true,
+  "cache_hits": 180,
+  "cache_misses": 3,
+  "median_reduction_fraction": 0.7316
+}

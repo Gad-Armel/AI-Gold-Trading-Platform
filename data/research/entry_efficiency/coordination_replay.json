@@ -1,0 +1,56 @@
+{
+  "results": [
+    {
+      "period": "20261008T040208Z",
+      "staged": false,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "trades": 7,
+      "realized": 5.72,
+      "floating": -1.51,
+      "profit_factor": 1.755,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T113140-e0c89200"
+    },
+    {
+      "period": "20261008T040208Z",
+      "staged": true,
+      "quotes": 7843,
+      "stale_context_quotes": 12,
+      "trades": 7,
+      "realized": -0.97,
+      "floating": -1.51,
+      "profit_factor": 0.923,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T113155-6561277b"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": false,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "trades": 26,
+      "realized": -11.2,
+      "floating": -7.95,
+      "profit_factor": 0.751,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T113223-ef396586"
+    },
+    {
+      "period": "20261008T060830Z",
+      "staged": true,
+      "quotes": 28917,
+      "stale_context_quotes": 62,
+      "trades": 17,
+      "realized": -8.61,
+      "floating": -2.55,
+      "profit_factor": 0.675,
+      "account_path": "C:\\Users\\Gad Asopjio\\Desktop\\AI Trading Platform\\data\\research\\entry_efficiency\\replay_accounts\\20261008T113337-6b6a0048"
+    }
+  ],
+  "limitations": [
+    "Challenger comparison, not exact production replay or blind holdout.",
+    "Recorded decisions/context update about every 15 seconds; entries use subsequent executable quotes.",
+    "Independent simulated positions, candle confirmation, adaptive and flow exit states.",
+    "Omits production conscience and SCALP churn controls; current neutral-thesis exits are included; source-policy changes remain in recorded signals.",
+    "$100 simulated starting balance, assumed $10 margin per position, $.10 round-trip slippage, no fees or financing.",
+    "Sampled quote stops can miss intragap touches; terminal positions are marked, not force closed."
+  ]
+}

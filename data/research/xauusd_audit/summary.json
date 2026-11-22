@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-09-10T15:28:22.807369+00:00",
+  "lookback_days": 30,
+  "broker_utc_offset_seconds": 10800,
+  "lanes": {
+    "SCALP": {
+      "trades": 840,
+      "net_profit": -222.77,
+      "win_rate": 0.4583333333333333,
+      "profit_factor": 0.7781639298553086,
+      "closed_trade_drawdown": 265.5,
+      "average_hold_seconds": 147.05833333333334
+    },
+    "INTRADAY": {
+      "trades": 287,
+      "net_profit": -271.79,
+      "win_rate": 0.627177700348432,
+      "profit_factor": 0.6789818697218445,
+      "closed_trade_drawdown": 349.26,
+      "average_hold_seconds": 678.3693379790941
+    },
+    "SWING": {
+      "trades": 198,
+      "net_profit": -197.36,
+      "win_rate": 0.6919191919191919,
+      "profit_factor": 0.6855422070679706,
+      "closed_trade_drawdown": 279.54,
+      "average_hold_seconds": 1025.6262626262626
+    }
+  },
+  "bars": {
+    "M5": "Existing research export preserved",
+    "M15": "Existing research export preserved",
+    "H1": "Existing research export preserved"
+  }
+}

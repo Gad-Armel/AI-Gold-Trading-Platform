@@ -1,0 +1,43 @@
+{
+    "observed_at":  "2026-10-08T13:18:03.096974+00:00",
+    "status_at":  "2026-10-08T13:18:02.172870+00:00",
+    "mode":  "SCALP_PRIORITY",
+    "main_pnl":  {
+                     "realized":  -78.47,
+                     "floating":  3.13,
+                     "total":  -75.34
+                 },
+    "balance":  23554.48,
+    "equity":  23557.39,
+    "carried_positions":  [
+                              {
+                                  "ticket":  58821926864,
+                                  "opened_epoch":  1791465000.0,
+                                  "direction":  "SELL",
+                                  "volume":  0.01,
+                                  "entry_price":  4125.7,
+                                  "current_price":  4123.93,
+                                  "profit":  1.77,
+                                  "sl":  4130.71,
+                                  "tp":  0.0,
+                                  "horizon":  "INTRADAY"
+                              },
+                              {
+                                  "ticket":  58821933421,
+                                  "opened_epoch":  1791465014.0,
+                                  "direction":  "SELL",
+                                  "volume":  0.01,
+                                  "entry_price":  4125.29,
+                                  "current_price":  4123.93,
+                                  "profit":  1.3599999999999999,
+                                  "sl":  4130.28,
+                                  "tp":  0.0,
+                                  "horizon":  "SWING"
+                              }
+                          ],
+    "limitations":  [
+                        "First captured sample after activation; not an exact activation-time mark.",
+                        "Existing positions keep their original entries and exit management; their returns are not evidence for the new entry rule.",
+                        "Position opened_epoch is normalized UTC; raw MT5 server time is not used for policy attribution."
+                    ]
+}

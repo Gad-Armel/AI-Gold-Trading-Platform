@@ -1,0 +1,77 @@
+{
+  "observed_at": "2026-10-08T14:09:13.403201+00:00",
+  "rows": [
+    {
+      "order": 58822930407,
+      "deal": 58431131936,
+      "lane": "SCALP",
+      "direction": "BUY",
+      "requested": 4131.24,
+      "broker_reported": 4131.21,
+      "deal_price": 4131.21,
+      "adverse_price_slippage": -0.03,
+      "reported_price_matches_deal": true,
+      "deal_volume": 0.01,
+      "reported_volume": 0.01,
+      "quote_age_seconds": 0.283689,
+      "entry_deal_charges": 0.0
+    },
+    {
+      "order": 58822937269,
+      "deal": 58431138620,
+      "lane": "SWING",
+      "direction": "SELL",
+      "requested": 4130.65,
+      "broker_reported": 4130.7,
+      "deal_price": 4130.7,
+      "adverse_price_slippage": -0.05,
+      "reported_price_matches_deal": true,
+      "deal_volume": 0.01,
+      "reported_volume": 0.01,
+      "quote_age_seconds": 0.226754,
+      "entry_deal_charges": 0.0
+    }
+  ],
+  "groups": [
+    {
+      "lane": "SCALP",
+      "entries": 1,
+      "reported_price_mismatches": 0,
+      "mean_adverse_price_slippage": -0.03,
+      "median_quote_age_seconds": 0.283689,
+      "entry_deal_charges": 0.0
+    },
+    {
+      "lane": "INTRADAY",
+      "entries": 0,
+      "reported_price_mismatches": 0,
+      "mean_adverse_price_slippage": null,
+      "median_quote_age_seconds": null,
+      "entry_deal_charges": 0
+    },
+    {
+      "lane": "SWING",
+      "entries": 1,
+      "reported_price_mismatches": 0,
+      "mean_adverse_price_slippage": -0.05,
+      "median_quote_age_seconds": 0.226754,
+      "entry_deal_charges": 0.0
+    },
+    {
+      "lane": "ALL",
+      "entries": 2,
+      "reported_price_mismatches": 0,
+      "mean_adverse_price_slippage": -0.04,
+      "median_quote_age_seconds": 0.2552215,
+      "entry_deal_charges": 0.0
+    }
+  ],
+  "missing_deal_orders": [],
+  "limitations": [
+    "Only post-instrumentation successful journal entries with matching captured deals are measured.",
+    "Negative adverse slippage means a better price; it is not prediction profit or a positive strategy edge.",
+    "Price differences are instrument price units; dollar impact depends on contract size and volume.",
+    "Partial fills can generate several deals; this check matches the specific returned deal only.",
+    "Entry charges exclude later closing charges; observed broker quote age is not measured execution latency."
+  ]
+}

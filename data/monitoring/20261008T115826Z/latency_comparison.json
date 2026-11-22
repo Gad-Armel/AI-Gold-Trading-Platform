@@ -1,0 +1,15 @@
+{
+  "groups": {
+    "before_context_cache": {
+      "samples": 36,
+      "median_ms": 172.0,
+      "p95_ms": 344.0
+    },
+    "after_context_cache": {
+      "samples": 45,
+      "median_ms": 125.0,
+      "p95_ms": 266.0
+    }
+  },
+  "limitation": "Different market times and CPU load; isolated paired benchmark is the stronger attribution evidence."
+}

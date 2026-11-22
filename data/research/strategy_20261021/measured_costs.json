@@ -1,0 +1,62 @@
+{
+  "as_of": "2026-10-21T10:04:07.922732+00:00",
+  "read_only": true,
+  "symbol": "XAUUSD",
+  "currency": "USD",
+  "volume": 0.01,
+  "ticks": 442,
+  "costs": {
+    "available": true,
+    "reconciled_pairs": 57,
+    "minimum_pairs": 30,
+    "commission_price": 0.0,
+    "slippage_price": 0.07999999999992724,
+    "order_send_p95_ms": 163.33,
+    "reason": "Historical demo p95 estimates, not guaranteed future costs"
+  },
+  "screening": {
+    "available": true,
+    "execution_enabled": false,
+    "horizon_seconds": 60,
+    "pattern_ready_cycles": 0,
+    "blocker_cycles": {},
+    "latency_seconds": 1.0,
+    "summary": {
+      "S30": {
+        "candidates": 0,
+        "net_price_sum": 0,
+        "mean_net_price": null,
+        "wins": 0,
+        "extra_cost_stress": {
+          "0.1": 0,
+          "0.25": 0,
+          "0.5": 0
+        }
+      },
+      "M1_PATTERN_BENCHMARK": {
+        "candidates": 0,
+        "net_price_sum": 0,
+        "mean_net_price": null,
+        "wins": 0,
+        "extra_cost_stress": {
+          "0.1": 0,
+          "0.25": 0,
+          "0.5": 0
+        }
+      }
+    },
+    "observations": {
+      "S30": [],
+      "M1_PATTERN_BENCHMARK": []
+    },
+    "limitations": [
+      "Pattern-only screen, not production Advisor 1 or dynamic exit backtest.",
+      "Overlapping markouts are correlated and do not enforce portfolio capacity.",
+      "Historical cost calibration is not a chronological out-of-sample validation.",
+      "Bid/ask includes spread once; net_price subtracts estimated fees and slippage once.",
+      "No entry, position sizing or news-filter activation is authorized by this screen."
+    ]
+  },
+  "activation_allowed": false,
+  "decision": "KEEP_FAST_SHADOW_ONLY"
+}

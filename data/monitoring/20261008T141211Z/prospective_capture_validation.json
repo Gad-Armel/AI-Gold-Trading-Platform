@@ -1,0 +1,13 @@
+{
+  "window": {
+    "first": "2026-10-08T14:14:56.661799+00:00",
+    "last": "2026-10-08T14:16:11.747808+00:00",
+    "complete_observations": 6,
+    "sha256": "166acfbf9c5f858fc94f234798b3ed269558ae49ccb481f9daa62c78dea3b9a2",
+    "start_utc": "2026-10-08T14:14:46.909857+00:00",
+    "excluded_before_cutoff": 11
+  },
+  "changed_frozen_sources": [],
+  "validation_only": true,
+  "performance_conclusion": null
+}

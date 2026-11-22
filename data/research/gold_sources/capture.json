@@ -1,0 +1,24 @@
+{
+  "XAUUSD": {
+    "rows": 15000,
+    "description": "Gold vs US Dollar",
+    "base": "XAU",
+    "quote": "USD",
+    "last_bar": 1789406700
+  },
+  "EURUSD": {
+    "rows": 15000,
+    "description": "Euro vs US Dollar",
+    "base": "EUR",
+    "quote": "USD",
+    "last_bar": 1789406700
+  },
+  "USDJPY": {
+    "rows": 15000,
+    "description": "US Dollar vs Yen",
+    "base": "USD",
+    "quote": "JPY",
+    "last_bar": 1789406700
+  },
+  "captured_at": "2026-09-14T14:33:14.179262+00:00"
+}

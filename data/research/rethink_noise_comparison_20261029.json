@@ -1,0 +1,2438 @@
+{
+  "role": "OFFLINE_MATCHED_ENTRY_EXIT_COMPARISON_NOT_FULL_STRATEGY_BACKTEST",
+  "configuration": {
+    "control": {
+      "profit_lock_arm_usd": 1.0,
+      "profit_lock_retained_fraction": 0.8
+    },
+    "challenger": {
+      "profit_lock_arm_usd": 1.0,
+      "profit_lock_retained_fraction": 0.8,
+      "profit_lock_noise_spreads": 1.0,
+      "profit_lock_min_retained_usd": 0.3
+    },
+    "horizon_seconds": 180.0,
+    "decision_fill_latency_seconds": 0.35,
+    "maximum_quote_gap_seconds": 3.0,
+    "cost_usd_per_trade": 0.3,
+    "contract_size": 100.0
+  },
+  "input_ticks": 73113,
+  "input_closed_positions": 131,
+  "baseline": {
+    "trades": 62,
+    "net_usd": -57.85999999999931,
+    "wins": 15,
+    "losses": 47,
+    "mean_net_usd": -0.9332258064516015,
+    "mean_hold_seconds": 52.48903224929686,
+    "exit_reasons": {
+      "HORIZON_EXIT": 4,
+      "PROFIT_LOCK": 15,
+      "INITIAL_BROKER_STOP": 43
+    }
+  },
+  "challenger": {
+    "trades": 62,
+    "net_usd": -58.46999999999898,
+    "wins": 15,
+    "losses": 47,
+    "mean_net_usd": -0.9430645161290155,
+    "mean_hold_seconds": 53.19372579359239,
+    "exit_reasons": {
+      "HORIZON_EXIT": 4,
+      "PROFIT_LOCK": 15,
+      "INITIAL_BROKER_STOP": 43
+    }
+  },
+  "paired": {
+    "trades": 62,
+    "total_delta_usd": -0.6099999999996724,
+    "mean_delta_usd": -0.00983870967741407,
+    "improved": 3,
+    "worsened": 6,
+    "unchanged": 53
+  },
+  "post_actual_exit_15s": {
+    "available": 62,
+    "mean_additional_quote_move_usd": -0.028225806451620237
+  },
+  "excluded": {
+    "incomplete_horizon_or_outside_capture": 35,
+    "quote_gap_over_three_seconds": 33,
+    "stale_boundary": 1
+  },
+  "matched_positions": [
+    {
+      "position_id": 59093417452,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:14:52.932000+00:00",
+      "actual_net_usd": -1.76,
+      "baseline": {
+        "net_usd": -2.280000000000018,
+        "gross_exit_side_usd": -1.9800000000000182,
+        "exit_time_utc": "2026-10-29T06:17:53.091000+00:00",
+        "exit_price": 4024.52,
+        "hold_seconds": 180.15900015830994,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4023.63
+      },
+      "challenger": {
+        "net_usd": -2.280000000000018,
+        "gross_exit_side_usd": -1.9800000000000182,
+        "exit_time_utc": "2026-10-29T06:17:53.091000+00:00",
+        "exit_price": 4024.52,
+        "hold_seconds": 180.15900015830994,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4023.63
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.22000000000025466,
+        "held_to_plus15_quote_net_usd": -1.8799999999999273,
+        "quote_at_actual_exit": 4024.7,
+        "quote_at_plus15": 4024.92,
+        "actual_closed_net_usd": -1.76,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093449819,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:18:01.053000+00:00",
+      "actual_net_usd": -1.16,
+      "baseline": {
+        "net_usd": -2.55,
+        "gross_exit_side_usd": -2.25,
+        "exit_time_utc": "2026-10-29T06:21:01.127000+00:00",
+        "exit_price": 4026.56,
+        "hold_seconds": 180.07400012016296,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.59
+      },
+      "challenger": {
+        "net_usd": -2.55,
+        "gross_exit_side_usd": -2.25,
+        "exit_time_utc": "2026-10-29T06:21:01.127000+00:00",
+        "exit_price": 4026.56,
+        "hold_seconds": 180.07400012016296,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.59
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.49000000000023647,
+        "held_to_plus15_quote_net_usd": -1.9300000000001092,
+        "quote_at_actual_exit": 4025.45,
+        "quote_at_plus15": 4025.94,
+        "actual_closed_net_usd": -1.16,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093460932,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:19:10.691000+00:00",
+      "actual_net_usd": -0.43,
+      "baseline": {
+        "net_usd": 0.5899999999998726,
+        "gross_exit_side_usd": 0.8899999999998727,
+        "exit_time_utc": "2026-10-29T06:21:32.645000+00:00",
+        "exit_price": 4027.03,
+        "hold_seconds": 141.9539999961853,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:21:32.145000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4023.92
+      },
+      "challenger": {
+        "net_usd": 0.5599999999996725,
+        "gross_exit_side_usd": 0.8599999999996726,
+        "exit_time_utc": "2026-10-29T06:21:33.043000+00:00",
+        "exit_price": 4027.0,
+        "hold_seconds": 142.35199999809265,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:21:32.645000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4023.92
+      },
+      "paired_delta_usd": -0.03000000000020009,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.23999999999978172,
+        "held_to_plus15_quote_net_usd": -0.9800000000002911,
+        "quote_at_actual_exit": 4025.7,
+        "quote_at_plus15": 4025.46,
+        "actual_closed_net_usd": -0.43,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093470708,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:20:20.556000+00:00",
+      "actual_net_usd": -0.77,
+      "baseline": {
+        "net_usd": -1.5099999999995817,
+        "gross_exit_side_usd": -1.2099999999995816,
+        "exit_time_utc": "2026-10-29T06:20:46.886000+00:00",
+        "exit_price": 4026.67,
+        "hold_seconds": 26.329999923706055,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.65
+      },
+      "challenger": {
+        "net_usd": -1.5099999999995817,
+        "gross_exit_side_usd": -1.2099999999995816,
+        "exit_time_utc": "2026-10-29T06:20:46.886000+00:00",
+        "exit_price": 4026.67,
+        "hold_seconds": 26.329999923706055,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.65
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.18000000000029104,
+        "held_to_plus15_quote_net_usd": -1.1999999999996362,
+        "quote_at_actual_exit": 4026.18,
+        "quote_at_plus15": 4026.36,
+        "actual_closed_net_usd": -0.77,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093480361,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:21:17.386000+00:00",
+      "actual_net_usd": -0.17,
+      "baseline": {
+        "net_usd": 0.7,
+        "gross_exit_side_usd": 1.0,
+        "exit_time_utc": "2026-10-29T06:23:38.635000+00:00",
+        "exit_price": 4027.97,
+        "hold_seconds": 141.24900007247925,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:23:37.433000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4024.87
+      },
+      "challenger": {
+        "net_usd": 0.37000000000007277,
+        "gross_exit_side_usd": 0.6700000000000728,
+        "exit_time_utc": "2026-10-29T06:23:44.093000+00:00",
+        "exit_price": 4027.64,
+        "hold_seconds": 146.70700001716614,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:23:43.695000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4024.87
+      },
+      "paired_delta_usd": -0.3299999999999272,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.2699999999999818,
+        "held_to_plus15_quote_net_usd": -0.7599999999995817,
+        "quote_at_actual_exit": 4026.78,
+        "quote_at_plus15": 4026.51,
+        "actual_closed_net_usd": -0.17,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093511638,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:24:04.450000+00:00",
+      "actual_net_usd": -1.5899999999999999,
+      "baseline": {
+        "net_usd": -1.9400000000003275,
+        "gross_exit_side_usd": -1.6400000000003274,
+        "exit_time_utc": "2026-10-29T06:24:14.994000+00:00",
+        "exit_price": 4027.14,
+        "hold_seconds": 10.543999910354614,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.19
+      },
+      "challenger": {
+        "net_usd": -1.9400000000003275,
+        "gross_exit_side_usd": -1.6400000000003274,
+        "exit_time_utc": "2026-10-29T06:24:14.994000+00:00",
+        "exit_price": 4027.14,
+        "hold_seconds": 10.543999910354614,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.19
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.2800000000002001,
+        "held_to_plus15_quote_net_usd": -1.5600000000002183,
+        "quote_at_actual_exit": 4027.24,
+        "quote_at_plus15": 4027.52,
+        "actual_closed_net_usd": -1.5899999999999999,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093519866,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:24:50.752000+00:00",
+      "actual_net_usd": -0.8,
+      "baseline": {
+        "net_usd": -0.47000000000007275,
+        "gross_exit_side_usd": -0.17000000000007276,
+        "exit_time_utc": "2026-10-29T06:27:50.802000+00:00",
+        "exit_price": 4027.44,
+        "hold_seconds": 180.04999995231628,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.04
+      },
+      "challenger": {
+        "net_usd": -0.47000000000007275,
+        "gross_exit_side_usd": -0.17000000000007276,
+        "exit_time_utc": "2026-10-29T06:27:50.802000+00:00",
+        "exit_price": 4027.44,
+        "hold_seconds": 180.04999995231628,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.04
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.38999999999987267,
+        "held_to_plus15_quote_net_usd": -1.4900000000000546,
+        "quote_at_actual_exit": 4028.07,
+        "quote_at_plus15": 4028.46,
+        "actual_closed_net_usd": -0.8,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093534771,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:26:29.529000+00:00",
+      "actual_net_usd": -0.87,
+      "baseline": {
+        "net_usd": -1.189999999999418,
+        "gross_exit_side_usd": -0.8899999999994179,
+        "exit_time_utc": "2026-10-29T06:26:40.151000+00:00",
+        "exit_price": 4026.76,
+        "hold_seconds": 10.621999979019165,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.78
+      },
+      "challenger": {
+        "net_usd": -1.189999999999418,
+        "gross_exit_side_usd": -0.8899999999994179,
+        "exit_time_utc": "2026-10-29T06:26:40.151000+00:00",
+        "exit_price": 4026.76,
+        "hold_seconds": 10.621999979019165,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.78
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.22999999999956344,
+        "held_to_plus15_quote_net_usd": -0.9599999999998545,
+        "quote_at_actual_exit": 4026.76,
+        "quote_at_plus15": 4026.99,
+        "actual_closed_net_usd": -0.87,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093541030,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:27:13.085000+00:00",
+      "actual_net_usd": -1.13,
+      "baseline": {
+        "net_usd": -1.4999999999993634,
+        "gross_exit_side_usd": -1.1999999999993634,
+        "exit_time_utc": "2026-10-29T06:27:14.905000+00:00",
+        "exit_price": 4028.18,
+        "hold_seconds": 1.8199999332427979,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.11
+      },
+      "challenger": {
+        "net_usd": -1.4999999999993634,
+        "gross_exit_side_usd": -1.1999999999993634,
+        "exit_time_utc": "2026-10-29T06:27:14.905000+00:00",
+        "exit_price": 4028.18,
+        "hold_seconds": 1.8199999332427979,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.11
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.09999999999990905,
+        "held_to_plus15_quote_net_usd": -1.3999999999994543,
+        "quote_at_actual_exit": 4028.18,
+        "quote_at_plus15": 4028.08,
+        "actual_closed_net_usd": -1.13,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093549307,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:28:09.272000+00:00",
+      "actual_net_usd": -1.18,
+      "baseline": {
+        "net_usd": -1.5500000000004548,
+        "gross_exit_side_usd": -1.2500000000004547,
+        "exit_time_utc": "2026-10-29T06:28:18.756000+00:00",
+        "exit_price": 4026.52,
+        "hold_seconds": 9.483999967575073,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.59
+      },
+      "challenger": {
+        "net_usd": -1.5500000000004548,
+        "gross_exit_side_usd": -1.2500000000004547,
+        "exit_time_utc": "2026-10-29T06:28:18.756000+00:00",
+        "exit_price": 4026.52,
+        "hold_seconds": 9.483999967575073,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.59
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.15999999999985448,
+        "held_to_plus15_quote_net_usd": -1.730000000000291,
+        "quote_at_actual_exit": 4026.5,
+        "quote_at_plus15": 4026.34,
+        "actual_closed_net_usd": -1.18,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093558226,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:29:00.794000+00:00",
+      "actual_net_usd": -0.46,
+      "baseline": {
+        "net_usd": 0.2899999999996908,
+        "gross_exit_side_usd": 0.5899999999996908,
+        "exit_time_utc": "2026-10-29T06:29:53.637000+00:00",
+        "exit_price": 4026.31,
+        "hold_seconds": 52.843000173568726,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:29:53.284000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.18
+      },
+      "challenger": {
+        "net_usd": 0.3299999999996544,
+        "gross_exit_side_usd": 0.6299999999996544,
+        "exit_time_utc": "2026-10-29T06:29:53.880000+00:00",
+        "exit_price": 4026.27,
+        "hold_seconds": 53.086000204086304,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:29:53.492000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.18
+      },
+      "paired_delta_usd": 0.03999999999996362,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.5300000000002001,
+        "held_to_plus15_quote_net_usd": -0.23000000000029103,
+        "quote_at_actual_exit": 4027.36,
+        "quote_at_plus15": 4026.83,
+        "actual_closed_net_usd": -0.46,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093565314,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:29:55.892000+00:00",
+      "actual_net_usd": -1.37,
+      "baseline": {
+        "net_usd": -1.7299999999998363,
+        "gross_exit_side_usd": -1.4299999999998363,
+        "exit_time_utc": "2026-10-29T06:30:08.409000+00:00",
+        "exit_price": 4027.29,
+        "hold_seconds": 12.516999959945679,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.23
+      },
+      "challenger": {
+        "net_usd": -1.7299999999998363,
+        "gross_exit_side_usd": -1.4299999999998363,
+        "exit_time_utc": "2026-10-29T06:30:08.409000+00:00",
+        "exit_price": 4027.29,
+        "hold_seconds": 12.516999959945679,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.23
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.9699999999997999,
+        "held_to_plus15_quote_net_usd": -0.7400000000000546,
+        "quote_at_actual_exit": 4027.27,
+        "quote_at_plus15": 4026.3,
+        "actual_closed_net_usd": -1.37,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093572385,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:30:43.218000+00:00",
+      "actual_net_usd": -0.61,
+      "baseline": {
+        "net_usd": -1.7099999999998545,
+        "gross_exit_side_usd": -1.4099999999998545,
+        "exit_time_utc": "2026-10-29T06:32:09.333000+00:00",
+        "exit_price": 4027.37,
+        "hold_seconds": 86.11500000953674,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.26
+      },
+      "challenger": {
+        "net_usd": -1.7099999999998545,
+        "gross_exit_side_usd": -1.4099999999998545,
+        "exit_time_utc": "2026-10-29T06:32:09.333000+00:00",
+        "exit_price": 4027.37,
+        "hold_seconds": 86.11500000953674,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.26
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.20000000000027285,
+        "held_to_plus15_quote_net_usd": -0.7099999999998545,
+        "quote_at_actual_exit": 4026.57,
+        "quote_at_plus15": 4026.37,
+        "actual_closed_net_usd": -0.61,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093578434,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:31:25.930000+00:00",
+      "actual_net_usd": -1.47,
+      "baseline": {
+        "net_usd": -2.1699999999998907,
+        "gross_exit_side_usd": -1.8699999999998909,
+        "exit_time_utc": "2026-10-29T06:32:09.333000+00:00",
+        "exit_price": 4027.37,
+        "hold_seconds": 43.40299987792969,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.29
+      },
+      "challenger": {
+        "net_usd": -2.1699999999998907,
+        "gross_exit_side_usd": -1.8699999999998909,
+        "exit_time_utc": "2026-10-29T06:32:09.333000+00:00",
+        "exit_price": 4027.37,
+        "hold_seconds": 43.40299987792969,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.29
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.06999999999970896,
+        "held_to_plus15_quote_net_usd": -2.0399999999997815,
+        "quote_at_actual_exit": 4027.17,
+        "quote_at_plus15": 4027.24,
+        "actual_closed_net_usd": -1.47,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093592258,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:32:45.976000+00:00",
+      "actual_net_usd": -0.06,
+      "baseline": {
+        "net_usd": -2.3500000000001817,
+        "gross_exit_side_usd": -2.050000000000182,
+        "exit_time_utc": "2026-10-29T06:35:46.167000+00:00",
+        "exit_price": 4027.04,
+        "hold_seconds": 180.1909999847412,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4024.52
+      },
+      "challenger": {
+        "net_usd": -2.3500000000001817,
+        "gross_exit_side_usd": -2.050000000000182,
+        "exit_time_utc": "2026-10-29T06:35:46.167000+00:00",
+        "exit_price": 4027.04,
+        "hold_seconds": 180.1909999847412,
+        "reason": "HORIZON_EXIT",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4024.52
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.020000000000436557,
+        "held_to_plus15_quote_net_usd": -0.37999999999992723,
+        "quote_at_actual_exit": 4028.99,
+        "quote_at_plus15": 4029.01,
+        "actual_closed_net_usd": -0.06,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093614882,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:34:28.498000+00:00",
+      "actual_net_usd": 0.12,
+      "baseline": {
+        "net_usd": 0.6800000000004729,
+        "gross_exit_side_usd": 0.9800000000004729,
+        "exit_time_utc": "2026-10-29T06:36:46.251000+00:00",
+        "exit_price": 4026.64,
+        "hold_seconds": 137.75300002098083,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:36:45.662000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.95
+      },
+      "challenger": {
+        "net_usd": 0.6800000000004729,
+        "gross_exit_side_usd": 0.9800000000004729,
+        "exit_time_utc": "2026-10-29T06:36:46.251000+00:00",
+        "exit_price": 4026.64,
+        "hold_seconds": 137.75300002098083,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:36:45.662000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4028.95
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.7799999999997453,
+        "held_to_plus15_quote_net_usd": 0.5000000000001819,
+        "quote_at_actual_exit": 4027.6,
+        "quote_at_plus15": 4026.82,
+        "actual_closed_net_usd": 0.12,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093635076,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:36:24.252000+00:00",
+      "actual_net_usd": -1.56,
+      "baseline": {
+        "net_usd": -2.0200000000007092,
+        "gross_exit_side_usd": -1.7200000000007094,
+        "exit_time_utc": "2026-10-29T06:36:44.013000+00:00",
+        "exit_price": 4025.99,
+        "hold_seconds": 19.76099991798401,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.15
+      },
+      "challenger": {
+        "net_usd": -2.0200000000007092,
+        "gross_exit_side_usd": -1.7200000000007094,
+        "exit_time_utc": "2026-10-29T06:36:44.013000+00:00",
+        "exit_price": 4025.99,
+        "hold_seconds": 19.76099991798401,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4026.15
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.09999999999990905,
+        "held_to_plus15_quote_net_usd": -2.1200000000006183,
+        "quote_at_actual_exit": 4025.99,
+        "quote_at_plus15": 4025.89,
+        "actual_closed_net_usd": -1.56,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093639586,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:36:56.657000+00:00",
+      "actual_net_usd": -1.34,
+      "baseline": {
+        "net_usd": -2.160000000000127,
+        "gross_exit_side_usd": -1.8600000000001273,
+        "exit_time_utc": "2026-10-29T06:38:05.177000+00:00",
+        "exit_price": 4028.02,
+        "hold_seconds": 68.51999998092651,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.8
+      },
+      "challenger": {
+        "net_usd": -2.160000000000127,
+        "gross_exit_side_usd": -1.8600000000001273,
+        "exit_time_utc": "2026-10-29T06:38:05.177000+00:00",
+        "exit_price": 4028.02,
+        "hold_seconds": 68.51999998092651,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.8
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.44000000000005457,
+        "held_to_plus15_quote_net_usd": -2.180000000000109,
+        "quote_at_actual_exit": 4027.6,
+        "quote_at_plus15": 4028.04,
+        "actual_closed_net_usd": -1.34,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093650353,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T06:38:04.210000+00:00",
+      "actual_net_usd": 0.83,
+      "baseline": {
+        "net_usd": 0.5600000000001273,
+        "gross_exit_side_usd": 0.8600000000001273,
+        "exit_time_utc": "2026-10-29T06:38:14.296000+00:00",
+        "exit_price": 4028.47,
+        "hold_seconds": 10.085999965667725,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:38:13.900000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4025.69
+      },
+      "challenger": {
+        "net_usd": 0.7900000000001455,
+        "gross_exit_side_usd": 1.0900000000001455,
+        "exit_time_utc": "2026-10-29T06:38:36.075000+00:00",
+        "exit_price": 4028.7,
+        "hold_seconds": 31.865000009536743,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:38:35.672000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4025.69
+      },
+      "paired_delta_usd": 0.2300000000000182,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.6300000000001091,
+        "held_to_plus15_quote_net_usd": 1.1200000000005275,
+        "quote_at_actual_exit": 4028.4,
+        "quote_at_plus15": 4029.03,
+        "actual_closed_net_usd": 0.83,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093655243,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:38:21.740000+00:00",
+      "actual_net_usd": -0.78,
+      "baseline": {
+        "net_usd": -1.0800000000002001,
+        "gross_exit_side_usd": -0.7800000000002001,
+        "exit_time_utc": "2026-10-29T06:38:25.673000+00:00",
+        "exit_price": 4029.59,
+        "hold_seconds": 3.933000087738037,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.59
+      },
+      "challenger": {
+        "net_usd": -1.0800000000002001,
+        "gross_exit_side_usd": -0.7800000000002001,
+        "exit_time_utc": "2026-10-29T06:38:25.673000+00:00",
+        "exit_price": 4029.59,
+        "hold_seconds": 3.933000087738037,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.59
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.5,
+        "held_to_plus15_quote_net_usd": -0.5800000000002001,
+        "quote_at_actual_exit": 4029.59,
+        "quote_at_plus15": 4029.09,
+        "actual_closed_net_usd": -0.78,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093658908,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:38:33.727000+00:00",
+      "actual_net_usd": -0.96,
+      "baseline": {
+        "net_usd": -1.3700000000006185,
+        "gross_exit_side_usd": -1.0700000000006185,
+        "exit_time_utc": "2026-10-29T06:40:01.435000+00:00",
+        "exit_price": 4030.06,
+        "hold_seconds": 87.70799994468689,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.95
+      },
+      "challenger": {
+        "net_usd": -1.3700000000006185,
+        "gross_exit_side_usd": -1.0700000000006185,
+        "exit_time_utc": "2026-10-29T06:40:01.435000+00:00",
+        "exit_price": 4030.06,
+        "hold_seconds": 87.70799994468689,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.95
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.40000000000009095,
+        "held_to_plus15_quote_net_usd": -1.2700000000007095,
+        "quote_at_actual_exit": 4030.36,
+        "quote_at_plus15": 4029.96,
+        "actual_closed_net_usd": -0.96,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093660271,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:38:39.723000+00:00",
+      "actual_net_usd": -1.07,
+      "baseline": {
+        "net_usd": -1.4599999999998545,
+        "gross_exit_side_usd": -1.1599999999998545,
+        "exit_time_utc": "2026-10-29T06:40:01.435000+00:00",
+        "exit_price": 4030.06,
+        "hold_seconds": 81.71199989318848,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.97
+      },
+      "challenger": {
+        "net_usd": -1.4599999999998545,
+        "gross_exit_side_usd": -1.1599999999998545,
+        "exit_time_utc": "2026-10-29T06:40:01.435000+00:00",
+        "exit_price": 4030.06,
+        "hold_seconds": 81.71199989318848,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.97
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.40000000000009095,
+        "held_to_plus15_quote_net_usd": -1.3599999999999455,
+        "quote_at_actual_exit": 4030.36,
+        "quote_at_plus15": 4029.96,
+        "actual_closed_net_usd": -1.07,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093679200,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:40:12.744000+00:00",
+      "actual_net_usd": -0.95,
+      "baseline": {
+        "net_usd": -1.4400000000003275,
+        "gross_exit_side_usd": -1.1400000000003274,
+        "exit_time_utc": "2026-10-29T06:40:21.977000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 9.233000040054321,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.61
+      },
+      "challenger": {
+        "net_usd": -1.4400000000003275,
+        "gross_exit_side_usd": -1.1400000000003274,
+        "exit_time_utc": "2026-10-29T06:40:21.977000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 9.233000040054321,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.61
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.8799999999996544,
+        "held_to_plus15_quote_net_usd": -2.3399999999999634,
+        "quote_at_actual_exit": 4030.82,
+        "quote_at_plus15": 4031.7,
+        "actual_closed_net_usd": -0.95,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093677351,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:40:06.982000+00:00",
+      "actual_net_usd": -0.99,
+      "baseline": {
+        "net_usd": -1.3799999999999273,
+        "gross_exit_side_usd": -1.0799999999999272,
+        "exit_time_utc": "2026-10-29T06:40:22.999000+00:00",
+        "exit_price": 4030.96,
+        "hold_seconds": 16.01699995994568,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.87
+      },
+      "challenger": {
+        "net_usd": -1.3799999999999273,
+        "gross_exit_side_usd": -1.0799999999999272,
+        "exit_time_utc": "2026-10-29T06:40:22.999000+00:00",
+        "exit_price": 4030.96,
+        "hold_seconds": 16.01699995994568,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.87
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.6799999999998363,
+        "held_to_plus15_quote_net_usd": -2.0399999999997815,
+        "quote_at_actual_exit": 4030.94,
+        "quote_at_plus15": 4031.62,
+        "actual_closed_net_usd": -0.99,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093682171,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:40:22.250000+00:00",
+      "actual_net_usd": -1.0,
+      "baseline": {
+        "net_usd": -1.3099999999997636,
+        "gross_exit_side_usd": -1.0099999999997635,
+        "exit_time_utc": "2026-10-29T06:40:26.131000+00:00",
+        "exit_price": 4031.33,
+        "hold_seconds": 3.88100004196167,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.32
+      },
+      "challenger": {
+        "net_usd": -1.3099999999997636,
+        "gross_exit_side_usd": -1.0099999999997635,
+        "exit_time_utc": "2026-10-29T06:40:26.131000+00:00",
+        "exit_price": 4031.33,
+        "hold_seconds": 3.88100004196167,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.32
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.5100000000002183,
+        "held_to_plus15_quote_net_usd": -1.8,
+        "quote_at_actual_exit": 4031.31,
+        "quote_at_plus15": 4031.82,
+        "actual_closed_net_usd": -1.0,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093693919,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:40:58.689000+00:00",
+      "actual_net_usd": -0.35,
+      "baseline": {
+        "net_usd": -1.310000000000673,
+        "gross_exit_side_usd": -1.010000000000673,
+        "exit_time_utc": "2026-10-29T06:41:46.436000+00:00",
+        "exit_price": 4031.63,
+        "hold_seconds": 47.747000217437744,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.62
+      },
+      "challenger": {
+        "net_usd": -1.310000000000673,
+        "gross_exit_side_usd": -1.010000000000673,
+        "exit_time_utc": "2026-10-29T06:41:46.436000+00:00",
+        "exit_price": 4031.63,
+        "hold_seconds": 47.747000217437744,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.62
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.32999999999992724,
+        "held_to_plus15_quote_net_usd": -0.9700000000005276,
+        "quote_at_actual_exit": 4030.96,
+        "quote_at_plus15": 4031.29,
+        "actual_closed_net_usd": -0.35,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093695701,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:41:05.063000+00:00",
+      "actual_net_usd": -0.62,
+      "baseline": {
+        "net_usd": -1.3700000000001638,
+        "gross_exit_side_usd": -1.0700000000001637,
+        "exit_time_utc": "2026-10-29T06:41:35.180000+00:00",
+        "exit_price": 4031.42,
+        "hold_seconds": 30.117000102996826,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.41
+      },
+      "challenger": {
+        "net_usd": -1.3700000000001638,
+        "gross_exit_side_usd": -1.0700000000001637,
+        "exit_time_utc": "2026-10-29T06:41:35.180000+00:00",
+        "exit_price": 4031.42,
+        "hold_seconds": 30.117000102996826,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.41
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.32999999999992724,
+        "held_to_plus15_quote_net_usd": -1.2400000000000546,
+        "quote_at_actual_exit": 4030.96,
+        "quote_at_plus15": 4031.29,
+        "actual_closed_net_usd": -0.62,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093705802,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:41:53.894000+00:00",
+      "actual_net_usd": -0.86,
+      "baseline": {
+        "net_usd": -1.1599999999996726,
+        "gross_exit_side_usd": -0.8599999999996726,
+        "exit_time_utc": "2026-10-29T06:42:21.768000+00:00",
+        "exit_price": 4031.99,
+        "hold_seconds": 27.87399983406067,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.99
+      },
+      "challenger": {
+        "net_usd": -1.1599999999996726,
+        "gross_exit_side_usd": -0.8599999999996726,
+        "exit_time_utc": "2026-10-29T06:42:21.768000+00:00",
+        "exit_price": 4031.99,
+        "hold_seconds": 27.87399983406067,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.99
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.020000000000436557,
+        "held_to_plus15_quote_net_usd": -1.1800000000001092,
+        "quote_at_actual_exit": 4031.99,
+        "quote_at_plus15": 4032.01,
+        "actual_closed_net_usd": -0.86,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093704851,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:41:48.444000+00:00",
+      "actual_net_usd": -1.02,
+      "baseline": {
+        "net_usd": -1.3799999999999273,
+        "gross_exit_side_usd": -1.0799999999999272,
+        "exit_time_utc": "2026-10-29T06:42:23.020000+00:00",
+        "exit_price": 4032.2,
+        "hold_seconds": 34.57599997520447,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.14
+      },
+      "challenger": {
+        "net_usd": -1.3799999999999273,
+        "gross_exit_side_usd": -1.0799999999999272,
+        "exit_time_utc": "2026-10-29T06:42:23.020000+00:00",
+        "exit_price": 4032.2,
+        "hold_seconds": 34.57599997520447,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.14
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.02999999999974534,
+        "held_to_plus15_quote_net_usd": -1.2100000000003093,
+        "quote_at_actual_exit": 4032.06,
+        "quote_at_plus15": 4032.03,
+        "actual_closed_net_usd": -1.02,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093711811,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:42:22.994000+00:00",
+      "actual_net_usd": 0.8,
+      "baseline": {
+        "net_usd": 0.5899999999998726,
+        "gross_exit_side_usd": 0.8899999999998727,
+        "exit_time_utc": "2026-10-29T06:44:04.536000+00:00",
+        "exit_price": 4030.77,
+        "hold_seconds": 101.54200005531311,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:44:04.141000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.65
+      },
+      "challenger": {
+        "net_usd": 0.7599999999999454,
+        "gross_exit_side_usd": 1.0599999999999454,
+        "exit_time_utc": "2026-10-29T06:44:13.839000+00:00",
+        "exit_price": 4030.6,
+        "hold_seconds": 110.84500002861023,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:44:13.394000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.65
+      },
+      "paired_delta_usd": 0.17000000000007276,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.34999999999990905,
+        "held_to_plus15_quote_net_usd": 0.22999999999974535,
+        "quote_at_actual_exit": 4030.78,
+        "quote_at_plus15": 4031.13,
+        "actual_closed_net_usd": 0.8,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093720177,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:42:55.854000+00:00",
+      "actual_net_usd": 0.48,
+      "baseline": {
+        "net_usd": 0.3599999999998545,
+        "gross_exit_side_usd": 0.6599999999998545,
+        "exit_time_utc": "2026-10-29T06:44:13.743000+00:00",
+        "exit_price": 4030.59,
+        "hold_seconds": 77.88899993896484,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:44:13.343000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.24
+      },
+      "challenger": {
+        "net_usd": 0.35000000000009096,
+        "gross_exit_side_usd": 0.650000000000091,
+        "exit_time_utc": "2026-10-29T06:44:13.839000+00:00",
+        "exit_price": 4030.6,
+        "hold_seconds": 77.98499989509583,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:44:13.394000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.24
+      },
+      "paired_delta_usd": -0.009999999999763531,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.4600000000000364,
+        "held_to_plus15_quote_net_usd": -0.22000000000007275,
+        "quote_at_actual_exit": 4030.71,
+        "quote_at_plus15": 4031.17,
+        "actual_closed_net_usd": 0.48,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093734427,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:44:11.207000+00:00",
+      "actual_net_usd": -0.95,
+      "baseline": {
+        "net_usd": -1.380000000000382,
+        "gross_exit_side_usd": -1.080000000000382,
+        "exit_time_utc": "2026-10-29T06:44:16.193000+00:00",
+        "exit_price": 4030.91,
+        "hold_seconds": 4.986000061035156,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.78
+      },
+      "challenger": {
+        "net_usd": -1.380000000000382,
+        "gross_exit_side_usd": -1.080000000000382,
+        "exit_time_utc": "2026-10-29T06:44:16.193000+00:00",
+        "exit_price": 4030.91,
+        "hold_seconds": 4.986000061035156,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.78
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.6100000000001273,
+        "held_to_plus15_quote_net_usd": -1.9800000000007458,
+        "quote_at_actual_exit": 4030.9,
+        "quote_at_plus15": 4031.51,
+        "actual_closed_net_usd": -0.95,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093737095,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:44:21.739000+00:00",
+      "actual_net_usd": -1.0,
+      "baseline": {
+        "net_usd": -1.4899999999995999,
+        "gross_exit_side_usd": -1.1899999999995998,
+        "exit_time_utc": "2026-10-29T06:45:02.313000+00:00",
+        "exit_price": 4032.02,
+        "hold_seconds": 40.573999881744385,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.83
+      },
+      "challenger": {
+        "net_usd": -1.4899999999995999,
+        "gross_exit_side_usd": -1.1899999999995998,
+        "exit_time_utc": "2026-10-29T06:45:02.313000+00:00",
+        "exit_price": 4032.02,
+        "hold_seconds": 40.573999881744385,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.83
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.05999999999994543,
+        "held_to_plus15_quote_net_usd": -1.5599999999997636,
+        "quote_at_actual_exit": 4032.03,
+        "quote_at_plus15": 4032.09,
+        "actual_closed_net_usd": -1.0,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093738339,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:44:27.652000+00:00",
+      "actual_net_usd": -0.92,
+      "baseline": {
+        "net_usd": -1.2200000000000728,
+        "gross_exit_side_usd": -0.9200000000000728,
+        "exit_time_utc": "2026-10-29T06:45:03.552000+00:00",
+        "exit_price": 4032.13,
+        "hold_seconds": 35.90000009536743,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.13
+      },
+      "challenger": {
+        "net_usd": -1.2200000000000728,
+        "gross_exit_side_usd": -0.9200000000000728,
+        "exit_time_utc": "2026-10-29T06:45:03.552000+00:00",
+        "exit_price": 4032.13,
+        "hold_seconds": 35.90000009536743,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.13
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.09000000000014552,
+        "held_to_plus15_quote_net_usd": -1.169999999999891,
+        "quote_at_actual_exit": 4032.17,
+        "quote_at_plus15": 4032.08,
+        "actual_closed_net_usd": -0.92,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093744981,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:45:02.756000+00:00",
+      "actual_net_usd": -0.89,
+      "baseline": {
+        "net_usd": -1.2999999999995453,
+        "gross_exit_side_usd": -0.9999999999995453,
+        "exit_time_utc": "2026-10-29T06:45:07.609000+00:00",
+        "exit_price": 4032.56,
+        "hold_seconds": 4.852999925613403,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.45
+      },
+      "challenger": {
+        "net_usd": -1.2999999999995453,
+        "gross_exit_side_usd": -0.9999999999995453,
+        "exit_time_utc": "2026-10-29T06:45:07.609000+00:00",
+        "exit_price": 4032.56,
+        "hold_seconds": 4.852999925613403,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.45
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.4600000000000364,
+        "held_to_plus15_quote_net_usd": -0.7799999999995635,
+        "quote_at_actual_exit": 4032.5,
+        "quote_at_plus15": 4032.04,
+        "actual_closed_net_usd": -0.89,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093754398,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:45:40.181000+00:00",
+      "actual_net_usd": -0.92,
+      "baseline": {
+        "net_usd": -1.219999999999618,
+        "gross_exit_side_usd": -0.919999999999618,
+        "exit_time_utc": "2026-10-29T06:45:43.984000+00:00",
+        "exit_price": 4032.5,
+        "hold_seconds": 3.802999973297119,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.5
+      },
+      "challenger": {
+        "net_usd": -1.219999999999618,
+        "gross_exit_side_usd": -0.919999999999618,
+        "exit_time_utc": "2026-10-29T06:45:43.984000+00:00",
+        "exit_price": 4032.5,
+        "hold_seconds": 3.802999973297119,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.5
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.6000000000003638,
+        "held_to_plus15_quote_net_usd": -0.6499999999994543,
+        "quote_at_actual_exit": 4032.53,
+        "quote_at_plus15": 4031.93,
+        "actual_closed_net_usd": -0.92,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093761858,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:46:22.100000+00:00",
+      "actual_net_usd": -0.96,
+      "baseline": {
+        "net_usd": -1.3399999999999637,
+        "gross_exit_side_usd": -1.0399999999999636,
+        "exit_time_utc": "2026-10-29T06:46:41.135000+00:00",
+        "exit_price": 4031.52,
+        "hold_seconds": 19.03500008583069,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.44
+      },
+      "challenger": {
+        "net_usd": -1.3399999999999637,
+        "gross_exit_side_usd": -1.0399999999999636,
+        "exit_time_utc": "2026-10-29T06:46:41.135000+00:00",
+        "exit_price": 4031.52,
+        "hold_seconds": 19.03500008583069,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.44
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.15999999999985448,
+        "held_to_plus15_quote_net_usd": -1.1600000000001274,
+        "quote_at_actual_exit": 4031.5,
+        "quote_at_plus15": 4031.34,
+        "actual_closed_net_usd": -0.96,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093760877,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:46:16.507000+00:00",
+      "actual_net_usd": -1.13,
+      "baseline": {
+        "net_usd": -1.4799999999998363,
+        "gross_exit_side_usd": -1.1799999999998363,
+        "exit_time_utc": "2026-10-29T06:46:50.280000+00:00",
+        "exit_price": 4031.6,
+        "hold_seconds": 33.77300000190735,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.55
+      },
+      "challenger": {
+        "net_usd": -1.4799999999998363,
+        "gross_exit_side_usd": -1.1799999999998363,
+        "exit_time_utc": "2026-10-29T06:46:50.280000+00:00",
+        "exit_price": 4031.6,
+        "hold_seconds": 33.77300000190735,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.55
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 1.1900000000000546,
+        "held_to_plus15_quote_net_usd": -0.26000000000003637,
+        "quote_at_actual_exit": 4031.57,
+        "quote_at_plus15": 4030.38,
+        "actual_closed_net_usd": -1.13,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093765690,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:46:41.380000+00:00",
+      "actual_net_usd": 1.18,
+      "baseline": {
+        "net_usd": 0.7199999999999818,
+        "gross_exit_side_usd": 1.0199999999999818,
+        "exit_time_utc": "2026-10-29T06:47:33.654000+00:00",
+        "exit_price": 4030.0,
+        "hold_seconds": 52.2739999294281,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:47:33.152000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.08
+      },
+      "challenger": {
+        "net_usd": 0.7199999999999818,
+        "gross_exit_side_usd": 1.0199999999999818,
+        "exit_time_utc": "2026-10-29T06:47:33.654000+00:00",
+        "exit_price": 4030.0,
+        "hold_seconds": 52.2739999294281,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T06:47:33.152000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4032.08
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.27999999999974534,
+        "held_to_plus15_quote_net_usd": 0.6000000000000909,
+        "quote_at_actual_exit": 4029.84,
+        "quote_at_plus15": 4030.12,
+        "actual_closed_net_usd": 1.18,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093773593,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:47:22.900000+00:00",
+      "actual_net_usd": -0.06,
+      "baseline": {
+        "net_usd": -1.219999999999618,
+        "gross_exit_side_usd": -0.919999999999618,
+        "exit_time_utc": "2026-10-29T06:48:27.725000+00:00",
+        "exit_price": 4030.7,
+        "hold_seconds": 64.82499980926514,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.7
+      },
+      "challenger": {
+        "net_usd": -1.219999999999618,
+        "gross_exit_side_usd": -0.919999999999618,
+        "exit_time_utc": "2026-10-29T06:48:27.725000+00:00",
+        "exit_price": 4030.7,
+        "hold_seconds": 64.82499980926514,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.7
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.11999999999989086,
+        "held_to_plus15_quote_net_usd": -0.6399999999996908,
+        "quote_at_actual_exit": 4030.0,
+        "quote_at_plus15": 4030.12,
+        "actual_closed_net_usd": -0.06,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093777940,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:47:40.824000+00:00",
+      "actual_net_usd": -0.92,
+      "baseline": {
+        "net_usd": -1.2700000000002547,
+        "gross_exit_side_usd": -0.9700000000002547,
+        "exit_time_utc": "2026-10-29T06:48:13.166000+00:00",
+        "exit_price": 4030.51,
+        "hold_seconds": 32.342000007629395,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.46
+      },
+      "challenger": {
+        "net_usd": -1.2700000000002547,
+        "gross_exit_side_usd": -0.9700000000002547,
+        "exit_time_utc": "2026-10-29T06:48:13.166000+00:00",
+        "exit_price": 4030.51,
+        "hold_seconds": 32.342000007629395,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.46
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.17000000000007276,
+        "held_to_plus15_quote_net_usd": -1.5100000000000364,
+        "quote_at_actual_exit": 4030.58,
+        "quote_at_plus15": 4030.75,
+        "actual_closed_net_usd": -0.92,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093779221,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:47:46.318000+00:00",
+      "actual_net_usd": -0.92,
+      "baseline": {
+        "net_usd": -1.2900000000002365,
+        "gross_exit_side_usd": -0.9900000000002365,
+        "exit_time_utc": "2026-10-29T06:48:13.166000+00:00",
+        "exit_price": 4030.51,
+        "hold_seconds": 26.847999811172485,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.44
+      },
+      "challenger": {
+        "net_usd": -1.2900000000002365,
+        "gross_exit_side_usd": -0.9900000000002365,
+        "exit_time_utc": "2026-10-29T06:48:13.166000+00:00",
+        "exit_price": 4030.51,
+        "hold_seconds": 26.847999811172485,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.44
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.17000000000007276,
+        "held_to_plus15_quote_net_usd": -1.5300000000000182,
+        "quote_at_actual_exit": 4030.58,
+        "quote_at_plus15": 4030.75,
+        "actual_closed_net_usd": -0.92,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093784947,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:48:19.184000+00:00",
+      "actual_net_usd": -0.93,
+      "baseline": {
+        "net_usd": -1.2499999999998181,
+        "gross_exit_side_usd": -0.9499999999998181,
+        "exit_time_utc": "2026-10-29T06:48:27.873000+00:00",
+        "exit_price": 4030.74,
+        "hold_seconds": 8.688999891281128,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.72
+      },
+      "challenger": {
+        "net_usd": -1.2499999999998181,
+        "gross_exit_side_usd": -0.9499999999998181,
+        "exit_time_utc": "2026-10-29T06:48:27.873000+00:00",
+        "exit_price": 4030.74,
+        "hold_seconds": 8.688999891281128,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.72
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.3400000000001455,
+        "held_to_plus15_quote_net_usd": -0.9700000000000728,
+        "quote_at_actual_exit": 4030.8,
+        "quote_at_plus15": 4030.46,
+        "actual_closed_net_usd": -0.93,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093785810,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:48:25.118000+00:00",
+      "actual_net_usd": -0.88,
+      "baseline": {
+        "net_usd": -1.1899999999998727,
+        "gross_exit_side_usd": -0.8899999999998727,
+        "exit_time_utc": "2026-10-29T06:48:27.927000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 2.809000015258789,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.79
+      },
+      "challenger": {
+        "net_usd": -1.1899999999998727,
+        "gross_exit_side_usd": -0.8899999999998727,
+        "exit_time_utc": "2026-10-29T06:48:27.927000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 2.809000015258789,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.79
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.32999999999992724,
+        "held_to_plus15_quote_net_usd": -0.8499999999997272,
+        "quote_at_actual_exit": 4030.79,
+        "quote_at_plus15": 4030.46,
+        "actual_closed_net_usd": -0.88,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093790961,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:49:00.425000+00:00",
+      "actual_net_usd": 0.3,
+      "baseline": {
+        "net_usd": -1.2200000000000728,
+        "gross_exit_side_usd": -0.9200000000000728,
+        "exit_time_utc": "2026-10-29T06:50:35.036000+00:00",
+        "exit_price": 4031.28,
+        "hold_seconds": 94.61100006103516,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.27
+      },
+      "challenger": {
+        "net_usd": -1.2200000000000728,
+        "gross_exit_side_usd": -0.9200000000000728,
+        "exit_time_utc": "2026-10-29T06:50:35.036000+00:00",
+        "exit_price": 4031.28,
+        "hold_seconds": 94.61100006103516,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.27
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.3200000000001637,
+        "held_to_plus15_quote_net_usd": -0.3199999999999818,
+        "quote_at_actual_exit": 4030.06,
+        "quote_at_plus15": 4030.38,
+        "actual_closed_net_usd": 0.3,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093791681,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:49:06.065000+00:00",
+      "actual_net_usd": 0.05,
+      "baseline": {
+        "net_usd": -1.339999999999509,
+        "gross_exit_side_usd": -1.0399999999995089,
+        "exit_time_utc": "2026-10-29T06:50:34.138000+00:00",
+        "exit_price": 4031.15,
+        "hold_seconds": 88.07299995422363,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.01
+      },
+      "challenger": {
+        "net_usd": -1.339999999999509,
+        "gross_exit_side_usd": -1.0399999999995089,
+        "exit_time_utc": "2026-10-29T06:50:34.138000+00:00",
+        "exit_price": 4031.15,
+        "hold_seconds": 88.07299995422363,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.01
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.3200000000001637,
+        "held_to_plus15_quote_net_usd": -0.5699999999995271,
+        "quote_at_actual_exit": 4030.06,
+        "quote_at_plus15": 4030.38,
+        "actual_closed_net_usd": 0.05,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59093800063,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T06:50:04.446000+00:00",
+      "actual_net_usd": -0.89,
+      "baseline": {
+        "net_usd": -1.3300000000002001,
+        "gross_exit_side_usd": -1.0300000000002,
+        "exit_time_utc": "2026-10-29T06:50:34.138000+00:00",
+        "exit_price": 4031.15,
+        "hold_seconds": 29.691999912261963,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.01
+      },
+      "challenger": {
+        "net_usd": -1.3300000000002001,
+        "gross_exit_side_usd": -1.0300000000002,
+        "exit_time_utc": "2026-10-29T06:50:34.138000+00:00",
+        "exit_price": 4031.15,
+        "hold_seconds": 29.691999912261963,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.01
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.09999999999990905,
+        "held_to_plus15_quote_net_usd": -1.4100000000001274,
+        "quote_at_actual_exit": 4031.13,
+        "quote_at_plus15": 4031.23,
+        "actual_closed_net_usd": -0.89,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094136648,
+      "direction": "BUY",
+      "entry_time_utc": "2026-10-29T07:17:57.890000+00:00",
+      "actual_net_usd": 0.23,
+      "baseline": {
+        "net_usd": 0.5899999999998726,
+        "gross_exit_side_usd": 0.8899999999998727,
+        "exit_time_utc": "2026-10-29T07:19:23.608000+00:00",
+        "exit_price": 4033.71,
+        "hold_seconds": 85.71799993515015,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:19:23.256000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.9
+      },
+      "challenger": {
+        "net_usd": 0.5899999999998726,
+        "gross_exit_side_usd": 0.8899999999998727,
+        "exit_time_utc": "2026-10-29T07:19:23.608000+00:00",
+        "exit_price": 4033.71,
+        "hold_seconds": 85.71799993515015,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:19:23.256000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4031.9
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.3900000000003274,
+        "held_to_plus15_quote_net_usd": -0.4600000000003092,
+        "quote_at_actual_exit": 4033.05,
+        "quote_at_plus15": 4032.66,
+        "actual_closed_net_usd": 0.23,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094212077,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:24:04.029000+00:00",
+      "actual_net_usd": 0.66,
+      "baseline": {
+        "net_usd": 0.5800000000001091,
+        "gross_exit_side_usd": 0.8800000000001091,
+        "exit_time_utc": "2026-10-29T07:25:40.717000+00:00",
+        "exit_price": 4028.23,
+        "hold_seconds": 96.68799996376038,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:25:40.276000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.95
+      },
+      "challenger": {
+        "net_usd": 0.36000000000030924,
+        "gross_exit_side_usd": 0.6600000000003092,
+        "exit_time_utc": "2026-10-29T07:25:41.320000+00:00",
+        "exit_price": 4028.45,
+        "hold_seconds": 97.29099988937378,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:25:40.826000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.95
+      },
+      "paired_delta_usd": -0.21999999999979986,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.3100000000004002,
+        "held_to_plus15_quote_net_usd": 0.04999999999990906,
+        "quote_at_actual_exit": 4028.45,
+        "quote_at_plus15": 4028.76,
+        "actual_closed_net_usd": 0.66,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094218611,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:24:28.711000+00:00",
+      "actual_net_usd": 0.76,
+      "baseline": {
+        "net_usd": 0.6799999999995634,
+        "gross_exit_side_usd": 0.9799999999995634,
+        "exit_time_utc": "2026-10-29T07:25:40.717000+00:00",
+        "exit_price": 4028.23,
+        "hold_seconds": 72.00600004196167,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:25:40.327000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.99
+      },
+      "challenger": {
+        "net_usd": 0.45999999999976354,
+        "gross_exit_side_usd": 0.7599999999997635,
+        "exit_time_utc": "2026-10-29T07:25:41.320000+00:00",
+        "exit_price": 4028.45,
+        "hold_seconds": 72.60899996757507,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:25:40.826000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.99
+      },
+      "paired_delta_usd": -0.21999999999979986,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.3100000000004002,
+        "held_to_plus15_quote_net_usd": 0.14999999999936336,
+        "quote_at_actual_exit": 4028.45,
+        "quote_at_plus15": 4028.76,
+        "actual_closed_net_usd": 0.76,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094237232,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:25:45.465000+00:00",
+      "actual_net_usd": 0.86,
+      "baseline": {
+        "net_usd": 0.5599999999996725,
+        "gross_exit_side_usd": 0.8599999999996726,
+        "exit_time_utc": "2026-10-29T07:26:37.482000+00:00",
+        "exit_price": 4027.58,
+        "hold_seconds": 52.01700019836426,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:26:36.887000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.16
+      },
+      "challenger": {
+        "net_usd": 0.5599999999996725,
+        "gross_exit_side_usd": 0.8599999999996726,
+        "exit_time_utc": "2026-10-29T07:26:37.482000+00:00",
+        "exit_price": 4027.58,
+        "hold_seconds": 52.01700019836426,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:26:36.887000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.16
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.34999999999990905,
+        "held_to_plus15_quote_net_usd": 0.9099999999995816,
+        "quote_at_actual_exit": 4027.58,
+        "quote_at_plus15": 4027.23,
+        "actual_closed_net_usd": 0.86,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094238330,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:25:50.724000+00:00",
+      "actual_net_usd": 0.9,
+      "baseline": {
+        "net_usd": 0.6000000000005457,
+        "gross_exit_side_usd": 0.9000000000005457,
+        "exit_time_utc": "2026-10-29T07:26:37.482000+00:00",
+        "exit_price": 4027.58,
+        "hold_seconds": 46.75800013542175,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:26:36.887000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.14
+      },
+      "challenger": {
+        "net_usd": 0.6000000000005457,
+        "gross_exit_side_usd": 0.9000000000005457,
+        "exit_time_utc": "2026-10-29T07:26:37.482000+00:00",
+        "exit_price": 4027.58,
+        "hold_seconds": 46.75800013542175,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:26:36.887000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.14
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.34999999999990905,
+        "held_to_plus15_quote_net_usd": 0.9500000000004547,
+        "quote_at_actual_exit": 4027.58,
+        "quote_at_plus15": 4027.23,
+        "actual_closed_net_usd": 0.9,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094340514,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:34:25.365000+00:00",
+      "actual_net_usd": -0.83,
+      "baseline": {
+        "net_usd": -1.149999999999909,
+        "gross_exit_side_usd": -0.849999999999909,
+        "exit_time_utc": "2026-10-29T07:35:34.198000+00:00",
+        "exit_price": 4030.49,
+        "hold_seconds": 68.83299994468689,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.47
+      },
+      "challenger": {
+        "net_usd": -1.149999999999909,
+        "gross_exit_side_usd": -0.849999999999909,
+        "exit_time_utc": "2026-10-29T07:35:34.198000+00:00",
+        "exit_price": 4030.49,
+        "hold_seconds": 68.83299994468689,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.47
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.09999999999990905,
+        "held_to_plus15_quote_net_usd": -1.05,
+        "quote_at_actual_exit": 4030.49,
+        "quote_at_plus15": 4030.39,
+        "actual_closed_net_usd": -0.83,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094355342,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:36:06.867000+00:00",
+      "actual_net_usd": -0.76,
+      "baseline": {
+        "net_usd": -1.0700000000004366,
+        "gross_exit_side_usd": -0.7700000000004366,
+        "exit_time_utc": "2026-10-29T07:36:53.548000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 46.680999994277954,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.79
+      },
+      "challenger": {
+        "net_usd": -1.0700000000004366,
+        "gross_exit_side_usd": -0.7700000000004366,
+        "exit_time_utc": "2026-10-29T07:36:53.548000+00:00",
+        "exit_price": 4030.8,
+        "hold_seconds": 46.680999994277954,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.79
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.07999999999992724,
+        "held_to_plus15_quote_net_usd": -1.1500000000003638,
+        "quote_at_actual_exit": 4030.8,
+        "quote_at_plus15": 4030.88,
+        "actual_closed_net_usd": -0.76,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094358414,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:36:31.084000+00:00",
+      "actual_net_usd": -0.78,
+      "baseline": {
+        "net_usd": -1.1299999999994725,
+        "gross_exit_side_usd": -0.8299999999994725,
+        "exit_time_utc": "2026-10-29T07:37:08.262000+00:00",
+        "exit_price": 4030.89,
+        "hold_seconds": 37.17799997329712,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.84
+      },
+      "challenger": {
+        "net_usd": -1.1299999999994725,
+        "gross_exit_side_usd": -0.8299999999994725,
+        "exit_time_utc": "2026-10-29T07:37:08.262000+00:00",
+        "exit_price": 4030.89,
+        "hold_seconds": 37.17799997329712,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.84
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.6100000000001273,
+        "held_to_plus15_quote_net_usd": -0.5099999999995817,
+        "quote_at_actual_exit": 4030.88,
+        "quote_at_plus15": 4030.27,
+        "actual_closed_net_usd": -0.78,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094367551,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:37:38.512000+00:00",
+      "actual_net_usd": -0.76,
+      "baseline": {
+        "net_usd": -1.069999999999527,
+        "gross_exit_side_usd": -0.7699999999995271,
+        "exit_time_utc": "2026-10-29T07:37:41.508000+00:00",
+        "exit_price": 4030.15,
+        "hold_seconds": 2.995999813079834,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.14
+      },
+      "challenger": {
+        "net_usd": -1.069999999999527,
+        "gross_exit_side_usd": -0.7699999999995271,
+        "exit_time_utc": "2026-10-29T07:37:41.508000+00:00",
+        "exit_price": 4030.15,
+        "hold_seconds": 2.995999813079834,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.14
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.17000000000007276,
+        "held_to_plus15_quote_net_usd": -0.8899999999992361,
+        "quote_at_actual_exit": 4030.14,
+        "quote_at_plus15": 4029.97,
+        "actual_closed_net_usd": -0.76,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094361855,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:36:56.249000+00:00",
+      "actual_net_usd": 0.97,
+      "baseline": {
+        "net_usd": 0.6800000000000181,
+        "gross_exit_side_usd": 0.9800000000000182,
+        "exit_time_utc": "2026-10-29T07:38:08.898000+00:00",
+        "exit_price": 4029.12,
+        "hold_seconds": 72.6489999294281,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:38:08.053000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.92
+      },
+      "challenger": {
+        "net_usd": 0.43999999999978173,
+        "gross_exit_side_usd": 0.7399999999997817,
+        "exit_time_utc": "2026-10-29T07:38:14.106000+00:00",
+        "exit_price": 4029.36,
+        "hold_seconds": 77.85699987411499,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:38:13.666000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4030.92
+      },
+      "paired_delta_usd": -0.2400000000002364,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.36999999999989086,
+        "held_to_plus15_quote_net_usd": 0.29999999999990906,
+        "quote_at_actual_exit": 4029.13,
+        "quote_at_plus15": 4029.5,
+        "actual_closed_net_usd": 0.97,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094432591,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:44:43.309000+00:00",
+      "actual_net_usd": 1.43,
+      "baseline": {
+        "net_usd": 0.9499999999995452,
+        "gross_exit_side_usd": 1.2499999999995453,
+        "exit_time_utc": "2026-10-29T07:45:07.106000+00:00",
+        "exit_price": 4027.04,
+        "hold_seconds": 23.79699993133545,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:45:06.724000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.06
+      },
+      "challenger": {
+        "net_usd": 0.9499999999995452,
+        "gross_exit_side_usd": 1.2499999999995453,
+        "exit_time_utc": "2026-10-29T07:45:07.106000+00:00",
+        "exit_price": 4027.04,
+        "hold_seconds": 23.79699993133545,
+        "reason": "PROFIT_LOCK",
+        "decision_time_utc": "2026-10-29T07:45:06.724000+00:00",
+        "cost_usd": 0.3,
+        "initial_stop_price": 4029.06
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.05999999999994543,
+        "held_to_plus15_quote_net_usd": 1.069999999999436,
+        "quote_at_actual_exit": 4026.86,
+        "quote_at_plus15": 4026.92,
+        "actual_closed_net_usd": 1.43,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094439272,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:45:11.893000+00:00",
+      "actual_net_usd": -0.65,
+      "baseline": {
+        "net_usd": -1.0200000000007095,
+        "gross_exit_side_usd": -0.7200000000007094,
+        "exit_time_utc": "2026-10-29T07:45:31.362000+00:00",
+        "exit_price": 4027.44,
+        "hold_seconds": 19.469000101089478,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.37
+      },
+      "challenger": {
+        "net_usd": -1.0200000000007095,
+        "gross_exit_side_usd": -0.7200000000007094,
+        "exit_time_utc": "2026-10-29T07:45:31.362000+00:00",
+        "exit_price": 4027.44,
+        "hold_seconds": 19.469000101089478,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.37
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": 0.15999999999985448,
+        "held_to_plus15_quote_net_usd": -0.860000000000855,
+        "quote_at_actual_exit": 4027.44,
+        "quote_at_plus15": 4027.28,
+        "actual_closed_net_usd": -0.65,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094440825,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:45:17.434000+00:00",
+      "actual_net_usd": -0.69,
+      "baseline": {
+        "net_usd": -0.9999999999998181,
+        "gross_exit_side_usd": -0.6999999999998181,
+        "exit_time_utc": "2026-10-29T07:45:54.152000+00:00",
+        "exit_price": 4027.55,
+        "hold_seconds": 36.71799993515015,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.54
+      },
+      "challenger": {
+        "net_usd": -0.9999999999998181,
+        "gross_exit_side_usd": -0.6999999999998181,
+        "exit_time_utc": "2026-10-29T07:45:54.152000+00:00",
+        "exit_price": 4027.55,
+        "hold_seconds": 36.71799993515015,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.54
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.9800000000000182,
+        "held_to_plus15_quote_net_usd": -1.9799999999998363,
+        "quote_at_actual_exit": 4027.55,
+        "quote_at_plus15": 4028.53,
+        "actual_closed_net_usd": -0.69,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094444275,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:45:31.754000+00:00",
+      "actual_net_usd": -0.82,
+      "baseline": {
+        "net_usd": -1.2499999999993634,
+        "gross_exit_side_usd": -0.9499999999993634,
+        "exit_time_utc": "2026-10-29T07:46:00.066000+00:00",
+        "exit_price": 4027.93,
+        "hold_seconds": 28.312000036239624,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.8
+      },
+      "challenger": {
+        "net_usd": -1.2499999999993634,
+        "gross_exit_side_usd": -0.9499999999993634,
+        "exit_time_utc": "2026-10-29T07:46:00.066000+00:00",
+        "exit_price": 4027.93,
+        "hold_seconds": 28.312000036239624,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.8
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.6200000000003456,
+        "held_to_plus15_quote_net_usd": -2.1399999999996906,
+        "quote_at_actual_exit": 4028.2,
+        "quote_at_plus15": 4028.82,
+        "actual_closed_net_usd": -0.82,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    },
+    {
+      "position_id": 59094448245,
+      "direction": "SELL",
+      "entry_time_utc": "2026-10-29T07:45:54.422000+00:00",
+      "actual_net_usd": -0.84,
+      "baseline": {
+        "net_usd": -1.369999999999709,
+        "gross_exit_side_usd": -1.069999999999709,
+        "exit_time_utc": "2026-10-29T07:46:00.131000+00:00",
+        "exit_price": 4028.2,
+        "hold_seconds": 5.709000110626221,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.97
+      },
+      "challenger": {
+        "net_usd": -1.369999999999709,
+        "gross_exit_side_usd": -1.069999999999709,
+        "exit_time_utc": "2026-10-29T07:46:00.131000+00:00",
+        "exit_price": 4028.2,
+        "hold_seconds": 5.709000110626221,
+        "reason": "INITIAL_BROKER_STOP",
+        "decision_time_utc": null,
+        "cost_usd": 0.3,
+        "initial_stop_price": 4027.97
+      },
+      "paired_delta_usd": 0.0,
+      "post_exit_15s": {
+        "available": true,
+        "additional_quote_move_usd": -0.7800000000002001,
+        "held_to_plus15_quote_net_usd": -1.9900000000000546,
+        "quote_at_actual_exit": 4028.04,
+        "quote_at_plus15": 4028.82,
+        "actual_closed_net_usd": -0.84,
+        "note": "Quote-based markout, not a realizable alternative fill; ignores intervening stop."
+      }
+    }
+  ],
+  "limitations": [
+    "Actual recorded entries/fills held fixed: no replacement-entry, sizing or margin replay.",
+    "Overlapping positions remain correlated; changing exits changes later live entries.",
+    "Initial SL executes at first observed crossed executable quote, no guaranteed stop price.",
+    "Profit-lock order fills first available quote >=decision+350ms; broker rejection/queue omitted.",
+    "Horizon close uses first quote >=entry+180.35s; gaps above three seconds censor both variants.",
+    "Fixed .30 USD additional cost per trade by default; observed entry spread already paid in actual fill.",
+    "Both modes retain initial broker stop and omit other adaptive/news/flow exits.",
+    "Post-exit markout is hypothetical quoted movement, not profit recoverable by ignoring stops.",
+    "Two fixed profiles only, no parameter optimization or profitability guarantee.",
+    "Audit/capture fingerprints missing: identity consistency not independently established."
+  ],
+  "capture": "data\\research\\rethink_capture_20261029\\ticks.parquet",
+  "audit": "data\\research\\exit_review_20261029.json",
+  "account_identity_verified": false
+}

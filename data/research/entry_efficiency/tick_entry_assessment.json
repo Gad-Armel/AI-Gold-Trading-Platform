@@ -1,0 +1,277 @@
+{
+  "examples": 293885,
+  "training_examples": 176135,
+  "features": [
+    "spread",
+    "tick_age",
+    "spread_ratio",
+    "quote_rate",
+    "uptick_fraction",
+    "realized_30",
+    "range_30",
+    "pressure_6",
+    "efficiency_6",
+    "pressure_12",
+    "efficiency_12",
+    "pressure_30",
+    "efficiency_30",
+    "pressure_60",
+    "efficiency_60",
+    "acceleration",
+    "c_m1_bias",
+    "c_m5_bias",
+    "c_m15_bias",
+    "c_m1_extension",
+    "c_m5_extension",
+    "c_m15_extension",
+    "c_body_atr",
+    "c_prior_body_atr",
+    "c_range_atr",
+    "c_atr",
+    "c_cost_atr",
+    "c_m5_vol_ratio",
+    "c_hour_sin",
+    "c_hour_cos"
+  ],
+  "train_days": [
+    "20260908",
+    "20260909",
+    "20260910",
+    "20260911",
+    "20260913",
+    "20260914",
+    "20260915",
+    "20260916",
+    "20260917",
+    "20260918",
+    "20260920",
+    "20260921",
+    "20260922",
+    "20260923",
+    "20260924"
+  ],
+  "validation_days": [
+    "20260925",
+    "20260927",
+    "20260928",
+    "20260929",
+    "20260930"
+  ],
+  "latest_days": [
+    "20261001",
+    "20261002",
+    "20261004",
+    "20261005",
+    "20261006",
+    "20261007"
+  ],
+  "validation": [
+    {
+      "threshold": 0.0,
+      "base": {
+        "trades": 434,
+        "net": -185.37,
+        "mean": -0.4271,
+        "profit_factor": 0.6879,
+        "drawdown": 196.6
+      },
+      "stress": {
+        "trades": 437,
+        "net": -330.72,
+        "mean": -0.7568,
+        "profit_factor": 0.5186,
+        "drawdown": 331.05
+      }
+    },
+    {
+      "threshold": 0.25,
+      "base": {
+        "trades": 240,
+        "net": -128.49,
+        "mean": -0.5354,
+        "profit_factor": 0.6512,
+        "drawdown": 170.36
+      },
+      "stress": {
+        "trades": 241,
+        "net": -194.69,
+        "mean": -0.8078,
+        "profit_factor": 0.5233,
+        "drawdown": 224.93
+      }
+    },
+    {
+      "threshold": 0.5,
+      "base": {
+        "trades": 154,
+        "net": -73.24,
+        "mean": -0.4756,
+        "profit_factor": 0.7044,
+        "drawdown": 122.27
+      },
+      "stress": {
+        "trades": 155,
+        "net": -94.52,
+        "mean": -0.6098,
+        "profit_factor": 0.6417,
+        "drawdown": 137.05
+      }
+    },
+    {
+      "threshold": 1.0,
+      "base": {
+        "trades": 56,
+        "net": -42.34,
+        "mean": -0.7561,
+        "profit_factor": 0.5794,
+        "drawdown": 67.69
+      },
+      "stress": {
+        "trades": 57,
+        "net": -62.89,
+        "mean": -1.1034,
+        "profit_factor": 0.4826,
+        "drawdown": 81.67
+      }
+    }
+  ],
+  "calibration": {
+    "training": [
+      {
+        "expected_range": [
+          null,
+          0.0
+        ],
+        "overlapping_examples": 68423,
+        "predicted_mean": -0.21435537506417324,
+        "realized_mean": 0.4247541031522684,
+        "positive_fraction": 0.5678646069304182
+      },
+      {
+        "expected_range": [
+          0.0,
+          0.25
+        ],
+        "overlapping_examples": 14157,
+        "predicted_mean": 0.10498649885280277,
+        "realized_mean": 1.3146810764990806,
+        "positive_fraction": 0.7178780815144451
+      },
+      {
+        "expected_range": [
+          0.25,
+          0.5
+        ],
+        "overlapping_examples": 5982,
+        "predicted_mean": 0.35796967111578637,
+        "realized_mean": 2.1044032096287117,
+        "positive_fraction": 0.8042460715479772
+      },
+      {
+        "expected_range": [
+          0.5,
+          1.0
+        ],
+        "overlapping_examples": 4959,
+        "predicted_mean": 0.703058016453946,
+        "realized_mean": 3.0585420447669094,
+        "positive_fraction": 0.8757814075418431
+      },
+      {
+        "expected_range": [
+          1.0,
+          2.0
+        ],
+        "overlapping_examples": 2468,
+        "predicted_mean": 1.367542264278945,
+        "realized_mean": 4.506734197730763,
+        "positive_fraction": 0.9055915721231766
+      },
+      {
+        "expected_range": [
+          2.0,
+          null
+        ],
+        "overlapping_examples": 1041,
+        "predicted_mean": 3.2742992951393606,
+        "realized_mean": 8.307886647454191,
+        "positive_fraction": 0.9337175792507204
+      }
+    ],
+    "validation": [
+      {
+        "expected_range": [
+          null,
+          0.0
+        ],
+        "overlapping_examples": 20252,
+        "predicted_mean": -0.20990603864730004,
+        "realized_mean": -0.5318338929490208,
+        "positive_fraction": 0.4044045032589374
+      },
+      {
+        "expected_range": [
+          0.0,
+          0.25
+        ],
+        "overlapping_examples": 4292,
+        "predicted_mean": 0.10733817437446647,
+        "realized_mean": -0.6692986952471515,
+        "positive_fraction": 0.3991146318732526
+      },
+      {
+        "expected_range": [
+          0.25,
+          0.5
+        ],
+        "overlapping_examples": 2270,
+        "predicted_mean": 0.3647781313130742,
+        "realized_mean": -0.42395154185039974,
+        "positive_fraction": 0.41145374449339206
+      },
+      {
+        "expected_range": [
+          0.5,
+          1.0
+        ],
+        "overlapping_examples": 1431,
+        "predicted_mean": 0.680357090947666,
+        "realized_mean": -0.4447938504544126,
+        "positive_fraction": 0.45213137665967856
+      },
+      {
+        "expected_range": [
+          1.0,
+          2.0
+        ],
+        "overlapping_examples": 508,
+        "predicted_mean": 1.392085526705491,
+        "realized_mean": 0.02850393700770039,
+        "positive_fraction": 0.5295275590551181
+      },
+      {
+        "expected_range": [
+          2.0,
+          null
+        ],
+        "overlapping_examples": 148,
+        "predicted_mean": 2.5046327578905427,
+        "realized_mean": -0.03594594594613707,
+        "positive_fraction": 0.4797297297297297
+      }
+    ]
+  },
+  "selected_threshold": null,
+  "latest": [],
+  "quality": [],
+  "live_approved": false,
+  "limitations": [
+    "Chronological day splits; outcome paths stay within each source UTC day, before later splits.",
+    "Tick features known at second close; assumed 100ms order latency and $.05 per-side slippage.",
+    "Observed bid/ask, first adverse tick stop fills, $5 planned risk, one ounce exposure, 180s time exits.",
+    "No fees, financing, news or liquidity/depth; recorded ticks may miss server gaps.",
+    "Four thresholds chosen only on middle days; final days used only if validation qualifies.",
+    "Historical candles may contain later broker corrections; this is not blind prospective validation.",
+    "No model exported, promoted or connected to main-bot execution."
+  ]
+}

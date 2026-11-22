@@ -1,0 +1,62 @@
+{
+  "read_only": true,
+  "created_at": "2026-10-21T17:36:07.203878+00:00",
+  "source": "MetaQuotes demo XAUUSD executable bid/ask history, not consolidated gold market",
+  "segments": {
+    "UTC_TODAY": {
+      "ticks": 352608,
+      "first": "2026-10-21T00:00:00.066999911+00:00",
+      "last": "2026-10-21T17:30:52.917000055+00:00",
+      "midpoint_open": 4114.075000000001,
+      "midpoint_high": 4141.965,
+      "midpoint_low": 4106.27,
+      "midpoint_last": 4132.255,
+      "midpoint_change": 18.17999999999938,
+      "spread_median": 0.36999999999989086,
+      "spread_p95": 0.4600000000000364
+    },
+    "ASIA_UTC_00_07": {
+      "ticks": 119845,
+      "first": "2026-10-21T00:00:00.066999911+00:00",
+      "last": "2026-10-21T06:59:59.698999882+00:00",
+      "midpoint_open": 4114.075000000001,
+      "midpoint_high": 4129.59,
+      "midpoint_low": 4106.27,
+      "midpoint_last": 4112.33,
+      "midpoint_change": -1.7450000000008004,
+      "spread_median": 0.3900000000003274,
+      "spread_p95": 0.4899999999997817
+    },
+    "LONDON_UTC_07_12": {
+      "ticks": 89720,
+      "first": "2026-10-21T07:00:00.058000088+00:00",
+      "last": "2026-10-21T11:59:59.661000013+00:00",
+      "midpoint_open": 4112.355,
+      "midpoint_high": 4141.195,
+      "midpoint_low": 4111.66,
+      "midpoint_last": 4139.955,
+      "midpoint_change": 27.600000000000364,
+      "spread_median": 0.3599999999996726,
+      "spread_p95": 0.43000000000029104
+    }
+  },
+  "tick_run_diagnostic": {
+    "runs_reaching_second": 100303,
+    "runs_reaching_fifth": 9828,
+    "conditional_fifth_fraction": 0.09798311117314537,
+    "second_to_fifth_midpoint_gain_median": 0.10500000000047294,
+    "second_to_fifth_midpoint_gain_p90": 0.25500000000101863,
+    "second_to_fifth_seconds_median": 0.3429999351501465,
+    "limitations": [
+      "Conditional on reaching five ticks: excludes failed shorter runs and is optimistically selected.",
+      "Midpoint drift is not executable net P/L; spread, latency and fees remain to be paid."
+    ]
+  },
+  "quote_interarrival_median_seconds": 0.06200003623962402,
+  "quote_interarrival_p95_seconds": 0.751000165939331,
+  "limitations": [
+    "One demo broker, incomplete current day and no centralized order book.",
+    "Session names are descriptive UTC windows for this October sample, not universal session calendars.",
+    "No claim about causality, tomorrow, or a statistically reliable trading edge."
+  ]
+}

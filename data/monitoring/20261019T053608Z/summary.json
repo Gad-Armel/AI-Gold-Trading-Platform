@@ -1,0 +1,59 @@
+{
+  "started_at": "2026-10-19T05:36:08.063699+00:00",
+  "latest_at": "2026-10-19T05:36:38.375184+00:00",
+  "minutes": 0.51,
+  "observations": 7,
+  "raw_observations": 7,
+  "excluded_stale_or_incomplete_observations": 0,
+  "equity_change": 0.0,
+  "balance_change": 0.0,
+  "maximum_equity_drawdown": 0.0,
+  "maximum_status_lag_seconds": 0.38,
+  "main_realized_change": 0.0,
+  "main_total_change": 0.0,
+  "wins": 0,
+  "losses": 0,
+  "gross_gains": 0,
+  "gross_losses": 0,
+  "profit_factor": null,
+  "open_positions": [],
+  "latency_median_ms": 129.05,
+  "latency_p95_ms": 168.03,
+  "common_entry_blocks": [
+    [
+      "SCALP: The directional policy has not authorized an entry.",
+      7
+    ],
+    [
+      "SCALP: Signal persistence is 0.0s; 2.0s required.",
+      7
+    ],
+    [
+      "SCALP: Signal weakened",
+      7
+    ],
+    [
+      "SCALP: Advisor 1 SCALP has no usable direction at or above 15/100.",
+      7
+    ],
+    [
+      "INTRADAY: The directional policy has not authorized an entry.",
+      7
+    ],
+    [
+      "INTRADAY: Analysis only",
+      7
+    ],
+    [
+      "INTRADAY: Signal persistence is 0.0s; 15.0s required.",
+      7
+    ],
+    [
+      "INTRADAY: Signal weakened",
+      7
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [],
+  "observed_excursions": {}
+}

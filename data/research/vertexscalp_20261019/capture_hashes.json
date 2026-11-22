@@ -1,0 +1,46 @@
+﻿[
+    {
+        "file":  "extra_1.txt",
+        "sha256":  "1852e7f9884b695fa257d9bc53c4f79bdd4fdb50c2cecdfef6c98dc86313f314"
+    },
+    {
+        "file":  "extra_2.txt",
+        "sha256":  "5ca63f698967680fa640e219e3aa7eff33262ffef76c2d6d9a508c48c8f30a95"
+    },
+    {
+        "file":  "extra_3.txt",
+        "sha256":  "e910b6206cd1389a612004a2365b0a1b99998f4cc78b920eb296690bf5847b07"
+    },
+    {
+        "file":  "page_1.txt",
+        "sha256":  "b86d1e4bd709468ad4960129e10aba38d21495c809cb393d539f6d6fccce8d9a"
+    },
+    {
+        "file":  "page_2.txt",
+        "sha256":  "9af3d00f857c0b46c9e0ea2e914bee5961eebec5f4c264d2ce86181a30557509"
+    },
+    {
+        "file":  "page_3.txt",
+        "sha256":  "82f876d4e05418ca562ebf1fbf2e9b7ab7d3d2f53a41534cd636a0d008df9812"
+    },
+    {
+        "file":  "page_6.txt",
+        "sha256":  "8aee4b813c617a03ae6f5e9c1b6aacafd6d7958dcb24c384949b0c2af6cc45f4"
+    },
+    {
+        "file":  "page_7.txt",
+        "sha256":  "b56653dfc3ccc4e067ed206e1d9fc453841634ea0442128290e09c6c9e1b55e1"
+    },
+    {
+        "file":  "page_8.txt",
+        "sha256":  "da92e2decc447fb1ea49b4a14e0b92477a343e6dbc5a18a4e3bb67c84fdccf71"
+    },
+    {
+        "file":  "vertex_home.html",
+        "sha256":  "ab341fe96d0b25ba9598f2fe4cbf3e9f74a4ee1857c1e16dc9836cda2a906147"
+    },
+    {
+        "file":  "vertex_home_fr.html",
+        "sha256":  "920cd2331e9456a25c99a59d94ac8d910f348b13c4ba69fe8b4071f761544a24"
+    }
+]

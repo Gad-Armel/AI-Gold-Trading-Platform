@@ -1,0 +1,118 @@
+{
+  "created_at": "2026-09-10T22:35:41.908061+00:00",
+  "live_approved": false,
+  "experiment": "ONE fixed learner; 60/20/20 chronological split, 3-bar purge; no holdout tuning",
+  "limitations": [
+    "Historical bars already explored in earlier research: not a new untouched holdout",
+    "Forecast-only diagnostic is not integrated strategy performance",
+    "No point-in-time news training; existing live news veto remains separate",
+    "Future announcements mean published schedules, not knowledge of future results"
+  ],
+  "frames": {
+    "M5": {
+      "model_id": "gold-forecast-v1-M5-65d7bc2d91e3",
+      "source_sha256": "65d7bc2d91e30c9afafc4b1bb07ca4c70eede61aee275ecab5f3a72d4abde836",
+      "training_rows": 29938,
+      "training_last_bar": 1779897300,
+      "validation": {
+        "trades": 350,
+        "net_usd": -185.79999999999384,
+        "profit_factor": 0.6902404054549797,
+        "max_drawdown_usd": 219.58999999999608,
+        "win_rate": 0.17714285714285713,
+        "minimum_equity_usd": -86.91999999999294,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "test": {
+        "trades": 354,
+        "net_usd": -139.4999999999972,
+        "profit_factor": 0.7617827868852503,
+        "max_drawdown_usd": 157.5999999999937,
+        "win_rate": 0.2033898305084746,
+        "minimum_equity_usd": -55.7199999999967,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "cost_stress": {
+        "trades": 215,
+        "net_usd": -128.24000000000663,
+        "profit_factor": 0.6591990220308632,
+        "max_drawdown_usd": 163.33000000000308,
+        "win_rate": 0.16744186046511628,
+        "minimum_equity_usd": -48.420000000006354,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "forecast_mae": 4.32415292251659,
+      "zero_forecast_mae": 4.321601480444134
+    },
+    "M15": {
+      "model_id": "gold-forecast-v1-M15-eb6c09d0ba83",
+      "source_sha256": "eb6c09d0ba83e506f96e446e47ea3f16f22eba84ef40b539f4e534945bd9b45e",
+      "training_rows": 29938,
+      "training_last_bar": 1761689700,
+      "validation": {
+        "trades": 2103,
+        "net_usd": -54.719999999962056,
+        "profit_factor": 0.9860623982761482,
+        "max_drawdown_usd": 392.4899999999925,
+        "win_rate": 0.11174512601046124,
+        "minimum_equity_usd": -231.4599999999856,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "test": {
+        "trades": 1466,
+        "net_usd": -207.57999999996701,
+        "profit_factor": 0.9224023206782725,
+        "max_drawdown_usd": 386.1699999999819,
+        "win_rate": 0.13369713506139155,
+        "minimum_equity_usd": -190.629999999973,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "cost_stress": {
+        "trades": 1242,
+        "net_usd": -651.9000000000134,
+        "profit_factor": 0.7258897335844935,
+        "max_drawdown_usd": 682.4599999999963,
+        "win_rate": 0.11272141706924316,
+        "minimum_equity_usd": -551.8999999999974,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "forecast_mae": 8.230746192512225,
+      "zero_forecast_mae": 8.176948084425332
+    },
+    "H1": {
+      "model_id": "gold-forecast-v1-H1-de0343f155e1",
+      "source_sha256": "de0343f155e17544d69d49197c4a581cf9223837b09a584b2bda0d2d255976cb",
+      "training_rows": 29938,
+      "training_last_bar": 1681808400,
+      "validation": {
+        "trades": 547,
+        "net_usd": -97.14000000001437,
+        "profit_factor": 0.8920318769381085,
+        "max_drawdown_usd": 182.8400000000071,
+        "win_rate": 0.20475319926873858,
+        "minimum_equity_usd": -75.73000000000661,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "test": {
+        "trades": 3140,
+        "net_usd": -1224.5199999999961,
+        "profit_factor": 0.7987390372503392,
+        "max_drawdown_usd": 1294.489999999975,
+        "win_rate": 0.08248407643312101,
+        "minimum_equity_usd": -1188.229999999976,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "cost_stress": {
+        "trades": 2963,
+        "net_usd": -2049.1100000000165,
+        "profit_factor": 0.6561970963720563,
+        "max_drawdown_usd": 2077.570000000144,
+        "win_rate": 0.06918663516706042,
+        "minimum_equity_usd": -1977.5700000001439,
+        "note": "Unconstrained diagnostic; no daily circuit breaker, margin, news or financing simulation"
+      },
+      "forecast_mae": 14.568771879284919,
+      "zero_forecast_mae": 14.402301690507151
+    }
+  }
+}

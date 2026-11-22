@@ -1,0 +1,147 @@
+{
+    "started": "2026-10-29T23:37:02.227031+00:00",
+    "samples": 25,
+    "last": {
+        "observed_at": "2026-10-29T23:39:02.840073+00:00",
+        "updated_at": "2026-10-29T23:38:56.938857+00:00",
+        "status": "RUNNING",
+        "direction": "SELL",
+        "allowed": false,
+        "entry_ready": false,
+        "reasons": [
+            "Continuous completed S5 structure is required.",
+            "Research entry hold: position exits and broker stops remain active.",
+            "The directional policy has not authorized an entry.",
+            "Signal persistence is 0.0s; 1.0s required."
+        ],
+        "positions": [],
+        "last_execution": {
+            "message": "No execution attempted."
+        },
+        "selection": {
+            "policy": "FASTEST_FEASIBLE",
+            "selected": "S30",
+            "pinned": false,
+            "candidates": [
+                {
+                    "timeframe": "S5",
+                    "direction": "WAIT",
+                    "eligible": false,
+                    "blocks": [
+                        "Incomplete S5 tick coverage; no synthetic fill (4 ticks, largest gap 3.22s; limit 1.67s)",
+                        "No usable closed-candle direction above 15/100"
+                    ]
+                },
+                {
+                    "timeframe": "S15",
+                    "direction": "SELL",
+                    "eligible": false,
+                    "blocks": [
+                        "Insufficient continuous three-second quote coverage",
+                        "Recent S15 range does not clear 1 times estimated round-trip cost"
+                    ]
+                },
+                {
+                    "timeframe": "S30",
+                    "direction": "BUY",
+                    "eligible": false,
+                    "blocks": [
+                        "Insufficient continuous three-second quote coverage",
+                        "Three-second follow-through is too weak relative to spread or too noisy",
+                        "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                        "Recent S30 range does not clear 1 times estimated round-trip cost"
+                    ]
+                }
+            ],
+            "reason": "No candidate passed; fallback is for observation only, entry gates still apply"
+        },
+        "candidate": {
+            "execution_enabled": false,
+            "role": "SHADOW_ONLY",
+            "setup": "S30_TICK_CONTINUATION",
+            "direction": "BUY",
+            "calibrated_probability": null,
+            "expected_value": null,
+            "pattern_ready": false,
+            "cost_screen_passed": false,
+            "blocks": [
+                "Insufficient continuous three-second quote coverage",
+                "Three-second follow-through is too weak relative to spread or too noisy",
+                "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+                "Recent S30 range does not clear 1 times estimated round-trip cost"
+            ],
+            "warnings": [],
+            "setup_id": "S30:1793317080:BUY",
+            "micro_window_seconds": 3,
+            "activity_mode": true,
+            "movement_floor_price": 0.06100000000001274,
+            "efficiency_floor": 0.35,
+            "quote_efficiency": 1.0,
+            "executable_confirmation": false,
+            "signed_bid_move_price": -0.4099999999998545,
+            "signed_ask_move_price": -0.30999999999994543,
+            "micro_confirmation_enforced": true,
+            "raw_tick_efficiency": 1.0,
+            "efficiency_sampling_seconds": 1,
+            "signed_move_price": -0.3599999999996726,
+            "spread_price": 0.6100000000001273,
+            "recent_range_proxy_price": 0.7650000000003274,
+            "extension_price": 0.025000000000545697,
+            "round_trip_cost_price": 0.9100000000001274,
+            "range_cost_multiple": 1.0,
+            "range_cost_screen_enforced": true,
+            "research_candidate": false
+        },
+        "inverse_state": "STALE"
+    },
+    "top_blocks": [
+        [
+            "Research entry hold: position exits and broker stops remain active.",
+            25
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            25
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            25
+        ],
+        [
+            "SCALP paused during volatility expansion.",
+            12
+        ],
+        [
+            "Continuous completed S5 structure is required.",
+            10
+        ],
+        [
+            "Executable pressure does not confirm the context direction.",
+            10
+        ],
+        [
+            "Wait for a fresh S5 break or pullback reclaim.",
+            9
+        ],
+        [
+            "Recent observable movement is too small relative to dealing costs.",
+            7
+        ],
+        [
+            "Continuous short-horizon quote pressure required.",
+            4
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 5.4s old. Check feed connection and symbol session.",
+            1
+        ],
+        [
+            "Fresh executable tick required.",
+            1
+        ],
+        [
+            "MT5 tick history is stale",
+            1
+        ]
+    ]
+}

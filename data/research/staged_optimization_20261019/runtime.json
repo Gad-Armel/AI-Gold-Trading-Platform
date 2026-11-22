@@ -1,0 +1,45 @@
+{
+  "updated_at": "2026-10-19T05:36:18.725555+00:00",
+  "status": "RUNNING",
+  "pnl": {
+    "available": true,
+    "realized": -28.08,
+    "floating": 0,
+    "total": -28.08,
+    "reason": ""
+  },
+  "loop_elapsed_ms": 154.08,
+  "adaptive_state_recovery": "RESTORED",
+  "config": {
+    "lot_size": 0.01,
+    "history_limit": 30,
+    "max_positions_total": 5,
+    "starting_capital_usd": 100.0,
+    "max_trade_risk_usd": null,
+    "max_positions_per_horizon": 5,
+    "trading_horizons": [
+      "SCALP"
+    ],
+    "broker_utc_offset_seconds": 10800,
+    "exit_policy": "adaptive",
+    "max_session_loss_usd": null,
+    "session_loss_stop_enabled": false,
+    "post_exit_analysis_seconds": 30.0,
+    "entry_coordination_mode": "SCALP_PRIORITY",
+    "demo_only": true
+  },
+  "staged": {
+    "required_bars": 3,
+    "after_epoch": null,
+    "execution_enabled": true,
+    "blocks": []
+  },
+  "quality": {
+    "available": false,
+    "execution_enabled": false,
+    "role": "SEQUENCE_QUALITY_RESEARCH_V1",
+    "reason": "No directional sequence"
+  },
+  "s30_execution_enabled": false,
+  "positions": []
+}

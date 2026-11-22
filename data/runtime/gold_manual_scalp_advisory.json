@@ -1,0 +1,48 @@
+{
+  "advisor_name": "XAUUSD MANUAL SCALP ADVISOR (CANDLE + TICK CONFLUENCE)",
+  "version": "0.1-research",
+  "generated_at": "2026-11-06T19:10:40.510473+00:00",
+  "valid_until": "2026-11-06T19:10:53.751265+00:00",
+  "symbol": "XAUUSD",
+  "action": "WAIT",
+  "bias": "WAIT",
+  "directional_evidence_score": 54.59,
+  "score_note": "Minimum of two uncalibrated directional evidence scores; not a win probability.",
+  "reports": {
+    "candle_generated_at": "2026-11-06T19:10:38.751265+00:00",
+    "tick_generated_at": "2026-11-06T19:10:40.331118+00:00",
+    "candle_age_seconds": 1.759,
+    "tick_report_age_seconds": 0.179,
+    "latest_tick_age_seconds": 0.098,
+    "candle_action": "WAIT",
+    "candle_score": 78.28,
+    "tick_action": "WAIT",
+    "tick_score": 54.59,
+    "tick_data_quality": 0.5196
+  },
+  "quote": {
+    "bid": 4073.39,
+    "ask": 4073.52,
+    "spread": 0.13,
+    "snapshot_mid_difference": 0.35
+  },
+  "scenario_levels": {},
+  "scenario_risk_price_units": null,
+  "scenario_reward_to_risk": null,
+  "reasons": [
+    "Both closed-candle and short-window MT5 quote-flow scalp models must agree.",
+    "Tick-flow is a broker quote-change proxy, not centralized trade aggressor flow.",
+    "2/3 BUY and 0/3 SELL closed-bar votes",
+    "0/3 BUY, 2/3 SELL tick-window votes",
+    "microstructure data quality 0.67"
+  ],
+  "blocks": [
+    "Closed-candle scalp model does not confirm a direction.",
+    "Short-window tick-flow model does not confirm a direction.",
+    "Both directional scores must be at least 60/100.",
+    "Candle and tick reports use materially different quote snapshots."
+  ],
+  "execution_enabled": false,
+  "orders_sent": false,
+  "disclaimer": "Manual decision support only, not a promise of performance or calibrated probability. Check the live quote and your risk plan; skip expired or WAIT signals."
+}

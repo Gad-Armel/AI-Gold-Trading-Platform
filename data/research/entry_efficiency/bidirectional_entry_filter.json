@@ -1,0 +1,172 @@
+{
+  "results": [
+    {
+      "minutes": 5,
+      "training_labels": {
+        "1": 51428,
+        "-1": 51428
+      },
+      "validation": [
+        {
+          "threshold": 0.0,
+          "base": {
+            "trades": 537,
+            "net": 35.03,
+            "mean": 0.0652,
+            "profit_factor": 1.037,
+            "drawdown": 112.81
+          },
+          "stress": {
+            "trades": 539,
+            "net": -58.77,
+            "mean": -0.109,
+            "profit_factor": 0.941,
+            "drawdown": 133.61
+          }
+        },
+        {
+          "threshold": 0.25,
+          "base": {
+            "trades": 203,
+            "net": 32.4,
+            "mean": 0.1596,
+            "profit_factor": 1.0829,
+            "drawdown": 89.49
+          },
+          "stress": {
+            "trades": 204,
+            "net": -14.93,
+            "mean": -0.0732,
+            "profit_factor": 0.9644,
+            "drawdown": 118.45
+          }
+        },
+        {
+          "threshold": 0.5,
+          "base": {
+            "trades": 92,
+            "net": 52.75,
+            "mean": 0.5734,
+            "profit_factor": 1.2967,
+            "drawdown": 33.38
+          },
+          "stress": {
+            "trades": 92,
+            "net": 26.31,
+            "mean": 0.2859,
+            "profit_factor": 1.1354,
+            "drawdown": 46.7
+          }
+        },
+        {
+          "threshold": 1.0,
+          "base": {
+            "trades": 19,
+            "net": -17.81,
+            "mean": -0.9374,
+            "profit_factor": 0.6811,
+            "drawdown": 37.36
+          },
+          "stress": {
+            "trades": 19,
+            "net": -19.61,
+            "mean": -1.0318,
+            "profit_factor": 0.6519,
+            "drawdown": 38.59
+          }
+        }
+      ],
+      "selected_threshold": null,
+      "latest": []
+    },
+    {
+      "minutes": 15,
+      "training_labels": {
+        "1": 51001,
+        "-1": 51001
+      },
+      "validation": [
+        {
+          "threshold": 0.0,
+          "base": {
+            "trades": 748,
+            "net": 6.31,
+            "mean": 0.0084,
+            "profit_factor": 1.0037,
+            "drawdown": 263.46
+          },
+          "stress": {
+            "trades": 755,
+            "net": -115.88,
+            "mean": -0.1535,
+            "profit_factor": 0.9356,
+            "drawdown": 321.58
+          }
+        },
+        {
+          "threshold": 0.25,
+          "base": {
+            "trades": 527,
+            "net": -97.86,
+            "mean": -0.1857,
+            "profit_factor": 0.9242,
+            "drawdown": 250.57
+          },
+          "stress": {
+            "trades": 533,
+            "net": -161.73,
+            "mean": -0.3034,
+            "profit_factor": 0.881,
+            "drawdown": 289.26
+          }
+        },
+        {
+          "threshold": 0.5,
+          "base": {
+            "trades": 352,
+            "net": -9.45,
+            "mean": -0.0268,
+            "profit_factor": 0.989,
+            "drawdown": 209.72
+          },
+          "stress": {
+            "trades": 358,
+            "net": -52.05,
+            "mean": -0.1454,
+            "profit_factor": 0.9429,
+            "drawdown": 232.75
+          }
+        },
+        {
+          "threshold": 1.0,
+          "base": {
+            "trades": 179,
+            "net": 18.6,
+            "mean": 0.1039,
+            "profit_factor": 1.0397,
+            "drawdown": 148.99
+          },
+          "stress": {
+            "trades": 182,
+            "net": 21.08,
+            "mean": 0.1158,
+            "profit_factor": 1.0434,
+            "drawdown": 147.28
+          }
+        }
+      ],
+      "selected_threshold": null,
+      "latest": []
+    }
+  ],
+  "live_approved": false,
+  "limitations": [
+    "Separate BUY/SELL return forecasts; at least one non-neutral completed-candle view required.",
+    "Frozen parameters and forecast gap $.25; thresholds chosen only on chronological middle 20%.",
+    "Validation gate: >=100 trades, base PF>=1.1 and 1.5x cost PF>=1.05.",
+    "Labels purged before next period; fixed 5/15-minute exits differ from production.",
+    "Latest period was inspected with prior hypotheses; this is not blind forward validation.",
+    "Sampled bid bars and assumed spreads/slippage; fees, financing and news omitted.",
+    "No candidate is approved for live execution by this research script."
+  ]
+}

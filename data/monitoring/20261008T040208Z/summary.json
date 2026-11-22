@@ -1,0 +1,229 @@
+{
+  "started_at": "2026-10-08T04:02:08.737416+00:00",
+  "latest_at": "2026-10-08T06:07:18.212406+00:00",
+  "minutes": 125.16,
+  "observations": 499,
+  "equity_change": -6.31,
+  "balance_change": -6.49,
+  "maximum_equity_drawdown": 16.75,
+  "maximum_status_lag_seconds": 5.72,
+  "main_realized_change": -6.49,
+  "main_total_change": -6.13,
+  "wins": 4,
+  "losses": 4,
+  "gross_gains": 13.25,
+  "gross_losses": 19.74,
+  "profit_factor": 0.671,
+  "open_positions": [
+    {
+      "ticket": 58814871315,
+      "time": 1791450058,
+      "time_msc": 1791450058398,
+      "time_update": 1791450058,
+      "time_update_msc": 1791450058398,
+      "type": 1,
+      "magic": 631011,
+      "identifier": 58814871315,
+      "reason": 3,
+      "volume": 0.01,
+      "price_open": 4119.76,
+      "sl": 4124.76,
+      "tp": 0.0,
+      "price_current": 4119.03,
+      "swap": 0.0,
+      "profit": 0.73,
+      "symbol": "XAUUSD",
+      "comment": "GoldScalpDemo",
+      "external_id": ""
+    }
+  ],
+  "latency_median_ms": 234.0,
+  "latency_p95_ms": 828.0,
+  "common_entry_blocks": [
+    [
+      "SWING: The directional policy has not authorized an entry.",
+      499
+    ],
+    [
+      "SWING: Signal persistence is 0.0s; 30.0s required.",
+      499
+    ],
+    [
+      "SWING: No usable directional evidence at or above 15.0/100.",
+      499
+    ],
+    [
+      "INTRADAY: The directional policy has not authorized an entry.",
+      410
+    ],
+    [
+      "INTRADAY: Signal persistence is 0.0s; 15.0s required.",
+      410
+    ],
+    [
+      "INTRADAY: No usable directional evidence at or above 15.0/100.",
+      404
+    ],
+    [
+      "INTRADAY: Adding a position requires evidence >= 90.0/100.",
+      306
+    ],
+    [
+      "INTRADAY: Adaptive candidate uses one position per lane until pyramiding is validated.",
+      306
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58813342001,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4137.06,
+      "exit_price": 4140.15,
+      "profit": 3.09,
+      "result": "WIN",
+      "opened_at": "2026-10-08T03:43:42.911000+00:00",
+      "closed_at": "2026-10-08T04:11:21.424000+00:00",
+      "hold_seconds": 1658.5,
+      "close_comment": "INTRADAYPolicyClose",
+      "horizon": "INTRADAY"
+    },
+    {
+      "position_id": 58813636984,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4139.91,
+      "exit_price": 4134.86,
+      "profit": -5.05,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T04:12:09.963000+00:00",
+      "closed_at": "2026-10-08T04:20:43.042000+00:00",
+      "hold_seconds": 513.1,
+      "close_comment": "[sl 4134.86]",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58813640577,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4140.05,
+      "exit_price": 4134.99,
+      "profit": -5.06,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T04:12:36.187000+00:00",
+      "closed_at": "2026-10-08T04:20:43.044000+00:00",
+      "hold_seconds": 486.9,
+      "close_comment": "[sl 4134.99]",
+      "horizon": "INTRADAY"
+    },
+    {
+      "position_id": 58813744249,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4135.38,
+      "exit_price": 4130.74,
+      "profit": -4.64,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T04:22:03.429000+00:00",
+      "closed_at": "2026-10-08T05:21:43.144000+00:00",
+      "hold_seconds": 3579.7,
+      "close_comment": "INTRADAYPolicyClose",
+      "horizon": "INTRADAY"
+    },
+    {
+      "position_id": 58814349549,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4129.51,
+      "exit_price": 4126.23,
+      "profit": 3.28,
+      "result": "WIN",
+      "opened_at": "2026-10-08T05:25:09.425000+00:00",
+      "closed_at": "2026-10-08T05:31:03.903000+00:00",
+      "hold_seconds": 354.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58814540299,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4128.34,
+      "exit_price": 4124.94,
+      "profit": 3.4,
+      "result": "WIN",
+      "opened_at": "2026-10-08T05:39:36.322000+00:00",
+      "closed_at": "2026-10-08T05:47:54.743000+00:00",
+      "hold_seconds": 498.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58814702449,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4122.46,
+      "exit_price": 4118.98,
+      "profit": 3.48,
+      "result": "WIN",
+      "opened_at": "2026-10-08T05:51:32.843000+00:00",
+      "closed_at": "2026-10-08T05:55:32.838000+00:00",
+      "hold_seconds": 240.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58814803141,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4116.22,
+      "exit_price": 4121.21,
+      "profit": -4.99,
+      "result": "LOSS",
+      "opened_at": "2026-10-08T05:56:20.830000+00:00",
+      "closed_at": "2026-10-08T06:00:22.844000+00:00",
+      "hold_seconds": 242.0,
+      "close_comment": "[sl 4121.21]",
+      "horizon": "SCALP"
+    }
+  ],
+  "observed_excursions": {
+    "58813342001": {
+      "peak_floating": 4.65,
+      "trough_floating": -0.15
+    },
+    "58813636984": {
+      "peak_floating": -0.31,
+      "trough_floating": -4.86
+    },
+    "58813640577": {
+      "peak_floating": -0.45,
+      "trough_floating": -5.0
+    },
+    "58813744249": {
+      "peak_floating": 0.19,
+      "trough_floating": -4.5600000000000005
+    },
+    "58814349549": {
+      "peak_floating": 4.0,
+      "trough_floating": -0.34
+    },
+    "58814540299": {
+      "peak_floating": 4.29,
+      "trough_floating": -3.17
+    },
+    "58814702449": {
+      "peak_floating": 5.25,
+      "trough_floating": -0.62
+    },
+    "58814803141": {
+      "peak_floating": -1.6,
+      "trough_floating": -4.75
+    },
+    "58814871315": {
+      "peak_floating": 0.76,
+      "trough_floating": -0.92
+    }
+  }
+}

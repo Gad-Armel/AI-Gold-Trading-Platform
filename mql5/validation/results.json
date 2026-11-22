@@ -1,0 +1,12 @@
+﻿{
+    "protected_files":  18,
+    "unchanged":  true,
+    "python_tests":  221,
+    "python_failures":  0,
+    "native_tests":  27,
+    "native_failures":  0,
+    "compiler_errors":  0,
+    "compiler_warnings":  0,
+    "historical_backtest":  "not_started_missing_account",
+    "real_orders_sent":  0
+}

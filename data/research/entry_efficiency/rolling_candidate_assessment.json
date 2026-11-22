@@ -1,0 +1,140 @@
+{
+  "results": [
+    {
+      "period": "ALL_WALK_FORWARD",
+      "cost_stress": 1.0,
+      "trades": 439,
+      "net": -236.74,
+      "mean": -0.5393,
+      "profit_factor": 0.7552,
+      "drawdown": 267.63
+    },
+    {
+      "period": "ALL_WALK_FORWARD",
+      "cost_stress": 1.5,
+      "trades": 441,
+      "net": -319.75,
+      "mean": -0.7251,
+      "profit_factor": 0.6832,
+      "drawdown": 340.34
+    },
+    {
+      "period": "EARLIER_WALK_FORWARD",
+      "cost_stress": 1.0,
+      "trades": 253,
+      "net": -123.0,
+      "mean": -0.4862,
+      "profit_factor": 0.7981,
+      "drawdown": 146.98
+    },
+    {
+      "period": "EARLIER_WALK_FORWARD",
+      "cost_stress": 1.5,
+      "trades": 254,
+      "net": -163.89,
+      "mean": -0.6453,
+      "profit_factor": 0.7387,
+      "drawdown": 184.15
+    },
+    {
+      "period": "LATEST_WALK_FORWARD",
+      "cost_stress": 1.0,
+      "trades": 186,
+      "net": -113.74,
+      "mean": -0.6115,
+      "profit_factor": 0.6822,
+      "drawdown": 137.77
+    },
+    {
+      "period": "LATEST_WALK_FORWARD",
+      "cost_stress": 1.5,
+      "trades": 187,
+      "net": -155.85,
+      "mean": -0.8334,
+      "profit_factor": 0.592,
+      "drawdown": 166.44
+    }
+  ],
+  "folds": [
+    {
+      "start": 50000,
+      "end": 55000,
+      "training_labels": {
+        "1": 28984,
+        "-1": 28984
+      },
+      "first_prediction_broker_epoch": 1787846820
+    },
+    {
+      "start": 55000,
+      "end": 60000,
+      "training_labels": {
+        "1": 28969,
+        "-1": 28969
+      },
+      "first_prediction_broker_epoch": 1788351780
+    },
+    {
+      "start": 60000,
+      "end": 65000,
+      "training_labels": {
+        "1": 28907,
+        "-1": 28907
+      },
+      "first_prediction_broker_epoch": 1788862140
+    },
+    {
+      "start": 65000,
+      "end": 70000,
+      "training_labels": {
+        "1": 28965,
+        "-1": 28965
+      },
+      "first_prediction_broker_epoch": 1789367100
+    },
+    {
+      "start": 70000,
+      "end": 75000,
+      "training_labels": {
+        "1": 28930,
+        "-1": 28930
+      },
+      "first_prediction_broker_epoch": 1789699260
+    },
+    {
+      "start": 75000,
+      "end": 80000,
+      "training_labels": {
+        "1": 28961,
+        "-1": 28961
+      },
+      "first_prediction_broker_epoch": 1790196180
+    },
+    {
+      "start": 80000,
+      "end": 85000,
+      "training_labels": {
+        "1": 28940,
+        "-1": 28940
+      },
+      "first_prediction_broker_epoch": 1790701380
+    },
+    {
+      "start": 85000,
+      "end": 88992,
+      "training_labels": {
+        "1": 28878,
+        "-1": 28878
+      },
+      "first_prediction_broker_epoch": 1791206340
+    }
+  ],
+  "live_approved": false,
+  "limitations": [
+    "Frozen 30000-bar training window, 5000-bar update schedule, $.50 threshold and $.25 forecast gap.",
+    "Models trained only on prior outcomes, with full five-minute label purge before each block.",
+    "Historical periods already inspected with other hypotheses; no claim of blind validation.",
+    "Fixed time exit, $5 stop and simulated costs; fees, financing, news and production exits omitted.",
+    "No model from this experiment is exported or promoted for execution."
+  ]
+}

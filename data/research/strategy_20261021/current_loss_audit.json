@@ -1,0 +1,3360 @@
+{
+  "as_of": "2026-10-21T10:04:06.451187+00:00",
+  "read_only": true,
+  "lookback_days": 1,
+  "overall": {
+    "trades": 75,
+    "net": -33.38,
+    "wins": 21,
+    "losses": 53,
+    "average_win": 0.541,
+    "average_loss": -0.8442,
+    "expectancy": -0.4451,
+    "profit_factor": 0.2539
+  },
+  "by_lane": {
+    "SCALP": {
+      "trades": 75,
+      "net": -33.38,
+      "wins": 21,
+      "losses": 53,
+      "average_win": 0.541,
+      "average_loss": -0.8442,
+      "expectancy": -0.4451,
+      "profit_factor": 0.2539
+    }
+  },
+  "scalp_by_day": {
+    "2026-10-21": {
+      "trades": 75,
+      "net": -33.38,
+      "wins": 21,
+      "losses": 53,
+      "average_win": 0.541,
+      "average_loss": -0.8442,
+      "expectancy": -0.4451,
+      "profit_factor": 0.2539
+    }
+  },
+  "scalp_by_direction": {
+    "BUY": {
+      "trades": 35,
+      "net": -16.34,
+      "wins": 12,
+      "losses": 23,
+      "average_win": 0.5933,
+      "average_loss": -1.02,
+      "expectancy": -0.4669,
+      "profit_factor": 0.3035
+    },
+    "SELL": {
+      "trades": 40,
+      "net": -17.04,
+      "wins": 9,
+      "losses": 30,
+      "average_win": 0.4711,
+      "average_loss": -0.7093,
+      "expectancy": -0.426,
+      "profit_factor": 0.1992
+    }
+  },
+  "scalp_by_exit_reason": {
+    "Broker stop loss": {
+      "trades": 18,
+      "net": -22.06,
+      "wins": 0,
+      "losses": 18,
+      "average_win": null,
+      "average_loss": -1.2256,
+      "expectancy": -1.2256,
+      "profit_factor": 0.0
+    },
+    "Confirmed market thesis invalidation": {
+      "trades": 26,
+      "net": -8.02,
+      "wins": 5,
+      "losses": 20,
+      "average_win": 0.27,
+      "average_loss": -0.4685,
+      "expectancy": -0.3085,
+      "profit_factor": 0.1441
+    },
+    "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss": {
+      "trades": 6,
+      "net": -7.41,
+      "wins": 0,
+      "losses": 6,
+      "average_win": null,
+      "average_loss": -1.235,
+      "expectancy": -1.235,
+      "profit_factor": 0.0
+    },
+    "Flow reversal risk": {
+      "trades": 4,
+      "net": 3.85,
+      "wins": 4,
+      "losses": 0,
+      "average_win": 0.9625,
+      "average_loss": null,
+      "expectancy": 0.9625,
+      "profit_factor": null
+    },
+    "Profit giveback": {
+      "trades": 16,
+      "net": 2.1,
+      "wins": 9,
+      "losses": 7,
+      "average_win": 0.6489,
+      "average_loss": -0.5343,
+      "expectancy": 0.1313,
+      "profit_factor": 1.5615
+    },
+    "Protected winner returned to breakeven; banking it rather than risking the stop": {
+      "trades": 4,
+      "net": 0.1,
+      "wins": 3,
+      "losses": 1,
+      "average_win": 0.1067,
+      "average_loss": -0.22,
+      "expectancy": 0.025,
+      "profit_factor": 1.4545
+    },
+    "Sustained executable quote reversal": {
+      "trades": 1,
+      "net": -1.94,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.94,
+      "expectancy": -1.94,
+      "profit_factor": 0.0
+    }
+  },
+  "scalp_recorded_evidence": {
+    "85_or_more": {
+      "trades": 5,
+      "net": -1.55,
+      "wins": 2,
+      "losses": 3,
+      "average_win": 0.91,
+      "average_loss": -1.1233,
+      "expectancy": -0.31,
+      "profit_factor": 0.5401
+    },
+    "below_85": {
+      "trades": 70,
+      "net": -31.83,
+      "wins": 19,
+      "losses": 50,
+      "average_win": 0.5021,
+      "average_loss": -0.8274,
+      "expectancy": -0.4547,
+      "profit_factor": 0.2306
+    }
+  },
+  "recent_scalp": {
+    "trades": 30,
+    "net": -17.1,
+    "wins": 9,
+    "losses": 21,
+    "average_win": 0.4622,
+    "average_loss": -1.0124,
+    "expectancy": -0.57,
+    "profit_factor": 0.1957
+  },
+  "recent_trades": [
+    {
+      "position_id": 58985966756,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.45,
+      "exit_price": 4121.85,
+      "profit": -1.4,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T08:42:31.501000+00:00",
+      "closed_at": "2026-10-21T08:42:42.234000+00:00",
+      "hold_seconds": 10.7,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 51.28,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.352423,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 59.34,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:47:31.388283+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 59.68,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:47:15.222824+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:44:30.988996+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 51.28,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:42:34.560620+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58985986315,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4123.03,
+      "exit_price": 4121.09,
+      "profit": -1.94,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T08:44:02.943000+00:00",
+      "closed_at": "2026-10-21T08:54:14.558000+00:00",
+      "hold_seconds": 611.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 46.15,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 1.102532,
+      "exit_reason": "Sustained executable quote reversal with loss or profit giveback",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 59.34,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:49:02.510117+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 59.68,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:48:15.007199+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 47.72,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:45:58.253562+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "BUY",
+          "evidence": 46.15,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:44:05.977282+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986111011,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4121.73,
+      "exit_price": 4120.11,
+      "profit": -1.62,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T08:55:17.525000+00:00",
+      "closed_at": "2026-10-21T08:55:48.777000+00:00",
+      "hold_seconds": 31.3,
+      "close_comment": "[sl 4120.11]",
+      "horizon": "SCALP",
+      "evidence": 42.06,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.684423,
+      "exit_reason": "[sl 4120.11]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.48,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:00:17.462205+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 59.84,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:59:19.721378+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 47.94,
+          "source_usable": false,
+          "valid_until": "2026-10-21T08:57:15.093033+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 42.06,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:55:20.593662+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986123896,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.02,
+      "exit_price": 4119.72,
+      "profit": 0.3,
+      "result": "WIN",
+      "opened_at": "2026-10-21T08:56:25.010000+00:00",
+      "closed_at": "2026-10-21T08:56:35.921000+00:00",
+      "hold_seconds": 10.9,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 77.03,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.973542,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.48,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:01:24.724316+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.53,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:01:19.781048+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T08:58:21.631886+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 77.03,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:56:28.056023+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986133633,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4119.38,
+      "exit_price": 4119.88,
+      "profit": -0.5,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T08:57:06.548000+00:00",
+      "closed_at": "2026-10-21T08:57:17.407000+00:00",
+      "hold_seconds": 10.9,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 68.92,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 1.077345,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.48,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:02:03.953207+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.53,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:01:19.781048+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T08:59:05.746858+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "SELL",
+          "evidence": 68.92,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:57:09.556611+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986163964,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4119.59,
+      "exit_price": 4119.52,
+      "profit": 0.07,
+      "result": "WIN",
+      "opened_at": "2026-10-21T08:59:53.344000+00:00",
+      "closed_at": "2026-10-21T09:01:53.022000+00:00",
+      "hold_seconds": 119.7,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 55.06,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.671097,
+      "exit_reason": "Profit giveback of 0.75 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.48,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:04:53.266281+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.53,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:04:20.282874+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "SELL",
+          "evidence": 46.01,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:01:48.868728+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 55.06,
+          "source_usable": true,
+          "valid_until": "2026-10-21T08:59:56.410940+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986210001,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.46,
+      "exit_price": 4120.64,
+      "profit": -1.82,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:02:32.080000+00:00",
+      "closed_at": "2026-10-21T09:02:51.896000+00:00",
+      "hold_seconds": 19.8,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 90.52,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.286215,
+      "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:07:31.851790+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:07:21.896916+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:04:31.505340+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 90.52,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:02:35.110914+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986232982,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4121.82,
+      "exit_price": 4120.91,
+      "profit": -0.91,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:04:02.565000+00:00",
+      "closed_at": "2026-10-21T09:04:05.808000+00:00",
+      "hold_seconds": 3.2,
+      "close_comment": "[sl 4120.91]",
+      "horizon": "SCALP",
+      "evidence": 50.6,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.265613,
+      "exit_reason": "[sl 4120.91]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:09:02.479411+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:08:21.435950+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:05:58.551349+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "BUY",
+          "evidence": 50.6,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:04:05.637307+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986249338,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.75,
+      "exit_price": 4121.33,
+      "profit": -0.58,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:05:12.630000+00:00",
+      "closed_at": "2026-10-21T09:06:29.273000+00:00",
+      "hold_seconds": 76.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 48.05,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.301222,
+      "exit_reason": "Profit giveback of 0.95 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:10:12.427829+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:09:59.449479+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "SELL",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "SELL",
+          "evidence": 60.82,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:07:10.004868+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "SELL",
+          "evidence": 48.05,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:05:15.684360+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986270684,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.41,
+      "exit_price": 4121.06,
+      "profit": -0.65,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:07:17.581000+00:00",
+      "closed_at": "2026-10-21T09:09:42.512000+00:00",
+      "hold_seconds": 144.9,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 28.09,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.756059,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:12:17.393302+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:11:59.663048+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:09:14.463558+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 28.09,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:07:20.620890+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986298006,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4121.79,
+      "exit_price": 4120.56,
+      "profit": -1.23,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:10:13.118000+00:00",
+      "closed_at": "2026-10-21T09:10:53.959000+00:00",
+      "hold_seconds": 40.8,
+      "close_comment": "[sl 4120.56]",
+      "horizon": "SCALP",
+      "evidence": 64.67,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.462029,
+      "exit_reason": "[sl 4120.56]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:15:12.692477+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:15:00.099703+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:12:09.057796+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "BUY",
+          "evidence": 64.67,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:10:16.101424+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986311632,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.57,
+      "exit_price": 4121.45,
+      "profit": -0.88,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:11:24.269000+00:00",
+      "closed_at": "2026-10-21T09:12:10.529000+00:00",
+      "hold_seconds": 46.3,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 62.36,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.863695,
+      "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:16:24.193517+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:16:00.128097+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:13:24.245399+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 62.36,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:11:27.343577+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986333267,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.91,
+      "exit_price": 4123.71,
+      "profit": 0.8,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:13:22.635000+00:00",
+      "closed_at": "2026-10-21T09:15:23.936000+00:00",
+      "hold_seconds": 121.3,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 85.78,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.872351,
+      "exit_reason": "Profit giveback of 0.85 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:18:22.541473+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:18:01.373492+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:15:22.603828+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "BUY",
+          "evidence": 85.78,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:13:25.711723+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986400347,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4123.14,
+      "exit_price": 4122.18,
+      "profit": 0.96,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:17:18.002000+00:00",
+      "closed_at": "2026-10-21T09:23:36.403000+00:00",
+      "hold_seconds": 378.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 50.69,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.216959,
+      "exit_reason": "Profit giveback of 0.92 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 85.8,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:22:17.790944+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 86.31,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:22:01.813484+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:19:15.408359+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "SELL",
+          "evidence": 50.69,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:17:20.999143+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986480751,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4121.37,
+      "exit_price": 4120.41,
+      "profit": -0.96,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:24:12.693000+00:00",
+      "closed_at": "2026-10-21T09:24:50.596000+00:00",
+      "hold_seconds": 37.9,
+      "close_comment": "[sl 4120.41]",
+      "horizon": "SCALP",
+      "evidence": 50.43,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.756249,
+      "exit_reason": "[sl 4120.41]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 56.12,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:29:12.495383+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 56.41,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:29:04.219992+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:26:12.595272+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "BUY",
+          "evidence": 50.43,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:24:15.758957+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986492929,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.48,
+      "exit_price": 4122.57,
+      "profit": -2.09,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:25:20.836000+00:00",
+      "closed_at": "2026-10-21T09:27:25.496000+00:00",
+      "hold_seconds": 124.7,
+      "close_comment": "[sl 4122.57]",
+      "horizon": "SCALP",
+      "evidence": 38.55,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 1.240569,
+      "exit_reason": "[sl 4122.57]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.97,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:30:20.777925+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.35,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:30:04.979413+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:27:17.871860+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "SELL",
+          "evidence": 38.55,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:25:23.917027+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986524383,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.82,
+      "exit_price": 4123.17,
+      "profit": 0.35,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:27:56.265000+00:00",
+      "closed_at": "2026-10-21T09:29:55.337000+00:00",
+      "hold_seconds": 119.1,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 50.73,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.861951,
+      "exit_reason": "Profit giveback of 0.72 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.97,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:32:56.094437+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.35,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:32:05.420842+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:29:56.166692+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 50.73,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:27:59.336340+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986569993,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4123.59,
+      "exit_price": 4123.4,
+      "profit": -0.19,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:31:07.900000+00:00",
+      "closed_at": "2026-10-21T09:31:49.850000+00:00",
+      "hold_seconds": 42.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 41.08,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.886872,
+      "exit_reason": "Profit giveback of 0.88 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 64.88,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:36:07.736532+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 64.39,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:36:07.148773+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:33:05.605693+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 41.08,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:31:10.964753+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986602424,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4124.72,
+      "exit_price": 4124.73,
+      "profit": 0.01,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:33:32.644000+00:00",
+      "closed_at": "2026-10-21T09:36:04.800000+00:00",
+      "hold_seconds": 152.2,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 44.97,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 0.282262,
+      "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 66.12,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:38:32.502474+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 65.87,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:38:08.410198+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 65.42,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:35:31.050998+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "BUY",
+          "evidence": 44.97,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:33:35.722158+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986654619,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4123.55,
+      "exit_price": 4123.8,
+      "profit": -0.25,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:36:35.434000+00:00",
+      "closed_at": "2026-10-21T09:36:46.464000+00:00",
+      "hold_seconds": 11.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 64.6,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.25575,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 83.34,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:41:35.396494+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 83.18,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:41:08.119706+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:38:30.464242+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 64.6,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:36:38.522180+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986677818,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4122.13,
+      "exit_price": 4121.94,
+      "profit": 0.19,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:38:00.091000+00:00",
+      "closed_at": "2026-10-21T09:41:07.087000+00:00",
+      "hold_seconds": 187.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 56.58,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 1.021268,
+      "exit_reason": "Profit giveback of 0.80 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 74.05,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:42:59.994923+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 73.4,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:42:08.620415+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "SELL",
+          "evidence": 31.8,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:39:57.546058+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "SELL",
+          "evidence": 56.58,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:38:03.176548+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986723135,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.32,
+      "exit_price": 4122.48,
+      "profit": 0.16,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:41:37.707000+00:00",
+      "closed_at": "2026-10-21T09:44:10.872000+00:00",
+      "hold_seconds": 153.2,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 52.73,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.792868,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.55,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:46:37.472234+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.76,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:46:10.606296+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:43:36.096277+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 52.73,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:41:40.756945+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986771195,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.61,
+      "exit_price": 4121.56,
+      "profit": -1.05,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:46:07.998000+00:00",
+      "closed_at": "2026-10-21T09:48:23.700000+00:00",
+      "hold_seconds": 135.7,
+      "close_comment": "[sl 4121.56]",
+      "horizon": "SCALP",
+      "evidence": 54.8,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.358722,
+      "exit_reason": "[sl 4121.56]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.9,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:51:07.711132+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 55.16,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:50:14.019797+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:48:03.703764+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "BUY",
+          "evidence": 54.8,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:46:11.022703+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986796942,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4121.75,
+      "exit_price": 4121.97,
+      "profit": -0.22,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:48:54.401000+00:00",
+      "closed_at": "2026-10-21T09:50:21.702000+00:00",
+      "hold_seconds": 87.3,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 65.96,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.349379,
+      "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.9,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:53:54.150840+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 55.16,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:53:11.796533+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "BUY",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 67.37,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:50:51.242758+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "SELL",
+          "evidence": 65.96,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:48:57.475656+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986818645,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4122.09,
+      "exit_price": 4121.05,
+      "profit": -1.04,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:51:02.057000+00:00",
+      "closed_at": "2026-10-21T09:51:43.575000+00:00",
+      "hold_seconds": 41.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 18.47,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 0.393338,
+      "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:56:01.734342+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:55:12.912012+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:52:57.437026+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "BUY",
+          "evidence": 18.47,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:51:05.077602+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986834034,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.75,
+      "exit_price": 4121.13,
+      "profit": -0.38,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:52:16.332000+00:00",
+      "closed_at": "2026-10-21T09:54:31.083000+00:00",
+      "hold_seconds": 134.8,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 56.92,
+      "entry_mode": "S15_PRIMARY",
+      "quote_age": 0.261486,
+      "exit_reason": "Profit giveback of 0.82 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:57:13.323344+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:56:12.853567+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:54:12.355495+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S15_TICKS",
+          "bias": "SELL",
+          "evidence": 56.92,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:52:19.165337+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986869394,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4121.26,
+      "exit_price": 4122.19,
+      "profit": -0.93,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:55:22.425000+00:00",
+      "closed_at": "2026-10-21T09:55:24.775000+00:00",
+      "hold_seconds": 2.4,
+      "close_comment": "[sl 4122.19]",
+      "horizon": "SCALP",
+      "evidence": 40.56,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.31509,
+      "exit_reason": "[sl 4122.19]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:00:22.256369+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:00:14.191367+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:57:21.825867+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "SELL",
+          "evidence": 40.56,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:55:25.489541+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986881138,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.18,
+      "exit_price": 4121.39,
+      "profit": -1.21,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:56:17.776000+00:00",
+      "closed_at": "2026-10-21T09:56:30.660000+00:00",
+      "hold_seconds": 12.9,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 85.25,
+      "entry_mode": "S5_PRIMARY",
+      "quote_age": 0.270953,
+      "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:01:17.460353+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:01:13.391091+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "SELL",
+          "evidence": 38.35,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:58:15.076435+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S5_TICKS",
+          "bias": "SELL",
+          "evidence": 85.25,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:56:20.782571+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986890839,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4120.15,
+      "exit_price": 4118.83,
+      "profit": 1.32,
+      "result": "WIN",
+      "opened_at": "2026-10-21T09:57:06.944000+00:00",
+      "closed_at": "2026-10-21T10:00:25.420000+00:00",
+      "hold_seconds": 198.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 56.87,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 0.465405,
+      "exit_reason": "Profit giveback of 1.00 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:02:03.358551+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:01:13.391091+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-21T09:59:00.023921+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "SELL",
+          "evidence": 56.87,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:57:09.717630+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "position_id": 58986919347,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4117.45,
+      "exit_price": 4118.86,
+      "profit": -1.41,
+      "result": "LOSS",
+      "opened_at": "2026-10-21T09:58:30.392000+00:00",
+      "closed_at": "2026-10-21T10:00:25.526000+00:00",
+      "hold_seconds": 115.1,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 74.36,
+      "entry_mode": "S30_PRIMARY",
+      "quote_age": 0.533899,
+      "exit_reason": "Profit giveback of 1.00 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:03:30.117758+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:03:14.908899+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "SELL",
+          "evidence": 42.98,
+          "source_usable": true,
+          "valid_until": "2026-10-21T10:00:28.208343+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        },
+        {
+          "action": "WAIT",
+          "advisor": "S30_TICKS",
+          "bias": "SELL",
+          "evidence": 74.36,
+          "source_usable": true,
+          "valid_until": "2026-10-21T09:58:33.410016+00:00",
+          "validity_reason": "",
+          "weight": 1.0
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical policies are mixed unless explicitly stratified by cohort.",
+    "Signal evidence is heuristic, not a probability; this audit does not select a profitable threshold.",
+    "Journal/order joins can be missing. Broker net P/L includes available position fees.",
+    "Only fully closed positions with recoverable opening deals in the requested window are included."
+  ],
+  "requested_scalp_cohort": {
+    "opened_on_or_after": "2026-10-21T09:04:51+00:00",
+    "metrics": {
+      "trades": 22,
+      "net": -9.28,
+      "wins": 7,
+      "losses": 15,
+      "average_win": 0.5414,
+      "average_loss": -0.8713,
+      "expectancy": -0.4218,
+      "profit_factor": 0.29
+    },
+    "trades": [
+      {
+        "position_id": 58986249338,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.75,
+        "exit_price": 4121.33,
+        "profit": -0.58,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:05:12.630000+00:00",
+        "closed_at": "2026-10-21T09:06:29.273000+00:00",
+        "hold_seconds": 76.6,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 48.05,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.301222,
+        "exit_reason": "Profit giveback of 0.95 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:10:12.427829+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:09:59.449479+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "SELL",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "SELL",
+            "evidence": 60.82,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:07:10.004868+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "SELL",
+            "evidence": 48.05,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:05:15.684360+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986270684,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.41,
+        "exit_price": 4121.06,
+        "profit": -0.65,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:07:17.581000+00:00",
+        "closed_at": "2026-10-21T09:09:42.512000+00:00",
+        "hold_seconds": 144.9,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 28.09,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.756059,
+        "exit_reason": "Confirmed market thesis invalidation",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:12:17.393302+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:11:59.663048+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:09:14.463558+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "SELL",
+            "evidence": 28.09,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:07:20.620890+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986298006,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4121.79,
+        "exit_price": 4120.56,
+        "profit": -1.23,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:10:13.118000+00:00",
+        "closed_at": "2026-10-21T09:10:53.959000+00:00",
+        "hold_seconds": 40.8,
+        "close_comment": "[sl 4120.56]",
+        "horizon": "SCALP",
+        "evidence": 64.67,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.462029,
+        "exit_reason": "[sl 4120.56]",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:15:12.692477+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:15:00.099703+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:12:09.057796+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "BUY",
+            "evidence": 64.67,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:10:16.101424+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986311632,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.57,
+        "exit_price": 4121.45,
+        "profit": -0.88,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:11:24.269000+00:00",
+        "closed_at": "2026-10-21T09:12:10.529000+00:00",
+        "hold_seconds": 46.3,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 62.36,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.863695,
+        "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:16:24.193517+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:16:00.128097+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:13:24.245399+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "SELL",
+            "evidence": 62.36,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:11:27.343577+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986333267,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4122.91,
+        "exit_price": 4123.71,
+        "profit": 0.8,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:13:22.635000+00:00",
+        "closed_at": "2026-10-21T09:15:23.936000+00:00",
+        "hold_seconds": 121.3,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 85.78,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.872351,
+        "exit_reason": "Profit giveback of 0.85 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:18:22.541473+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:18:01.373492+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:15:22.603828+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "BUY",
+            "evidence": 85.78,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:13:25.711723+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986400347,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4123.14,
+        "exit_price": 4122.18,
+        "profit": 0.96,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:17:18.002000+00:00",
+        "closed_at": "2026-10-21T09:23:36.403000+00:00",
+        "hold_seconds": 378.4,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 50.69,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.216959,
+        "exit_reason": "Profit giveback of 0.92 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 85.8,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:22:17.790944+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "BUY",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 86.31,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:22:01.813484+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:19:15.408359+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "SELL",
+            "evidence": 50.69,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:17:20.999143+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986480751,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4121.37,
+        "exit_price": 4120.41,
+        "profit": -0.96,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:24:12.693000+00:00",
+        "closed_at": "2026-10-21T09:24:50.596000+00:00",
+        "hold_seconds": 37.9,
+        "close_comment": "[sl 4120.41]",
+        "horizon": "SCALP",
+        "evidence": 50.43,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.756249,
+        "exit_reason": "[sl 4120.41]",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 56.12,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:29:12.495383+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 56.41,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:29:04.219992+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:26:12.595272+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "BUY",
+            "evidence": 50.43,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:24:15.758957+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986492929,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.48,
+        "exit_price": 4122.57,
+        "profit": -2.09,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:25:20.836000+00:00",
+        "closed_at": "2026-10-21T09:27:25.496000+00:00",
+        "hold_seconds": 124.7,
+        "close_comment": "[sl 4122.57]",
+        "horizon": "SCALP",
+        "evidence": 38.55,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 1.240569,
+        "exit_reason": "[sl 4122.57]",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 53.97,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:30:20.777925+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.35,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:30:04.979413+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:27:17.871860+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "SELL",
+            "evidence": 38.55,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:25:23.917027+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986524383,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4122.82,
+        "exit_price": 4123.17,
+        "profit": 0.35,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:27:56.265000+00:00",
+        "closed_at": "2026-10-21T09:29:55.337000+00:00",
+        "hold_seconds": 119.1,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 50.73,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.861951,
+        "exit_reason": "Profit giveback of 0.72 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 53.97,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:32:56.094437+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.35,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:32:05.420842+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:29:56.166692+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "BUY",
+            "evidence": 50.73,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:27:59.336340+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986569993,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4123.59,
+        "exit_price": 4123.4,
+        "profit": -0.19,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:31:07.900000+00:00",
+        "closed_at": "2026-10-21T09:31:49.850000+00:00",
+        "hold_seconds": 42.0,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 41.08,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.886872,
+        "exit_reason": "Profit giveback of 0.88 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 64.88,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:36:07.736532+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "BUY",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 64.39,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:36:07.148773+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:33:05.605693+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "BUY",
+            "evidence": 41.08,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:31:10.964753+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986602424,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4124.72,
+        "exit_price": 4124.73,
+        "profit": 0.01,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:33:32.644000+00:00",
+        "closed_at": "2026-10-21T09:36:04.800000+00:00",
+        "hold_seconds": 152.2,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 44.97,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 0.282262,
+        "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 66.12,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:38:32.502474+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "BUY",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 65.87,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:38:08.410198+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "BUY",
+            "evidence": 65.42,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:35:31.050998+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "BUY",
+            "evidence": 44.97,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:33:35.722158+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986654619,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4123.55,
+        "exit_price": 4123.8,
+        "profit": -0.25,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:36:35.434000+00:00",
+        "closed_at": "2026-10-21T09:36:46.464000+00:00",
+        "hold_seconds": 11.0,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 64.6,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.25575,
+        "exit_reason": "Confirmed market thesis invalidation",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 83.34,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:41:35.396494+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 83.18,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:41:08.119706+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:38:30.464242+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "SELL",
+            "evidence": 64.6,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:36:38.522180+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986677818,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4122.13,
+        "exit_price": 4121.94,
+        "profit": 0.19,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:38:00.091000+00:00",
+        "closed_at": "2026-10-21T09:41:07.087000+00:00",
+        "hold_seconds": 187.0,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 56.58,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 1.021268,
+        "exit_reason": "Profit giveback of 0.80 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 74.05,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:42:59.994923+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "BUY",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 73.4,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:42:08.620415+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "SELL",
+            "evidence": 31.8,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:39:57.546058+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "SELL",
+            "evidence": 56.58,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:38:03.176548+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986723135,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4122.32,
+        "exit_price": 4122.48,
+        "profit": 0.16,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:41:37.707000+00:00",
+        "closed_at": "2026-10-21T09:44:10.872000+00:00",
+        "hold_seconds": 153.2,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 52.73,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.792868,
+        "exit_reason": "Confirmed market thesis invalidation",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.55,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:46:37.472234+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.76,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:46:10.606296+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:43:36.096277+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "BUY",
+            "evidence": 52.73,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:41:40.756945+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986771195,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4122.61,
+        "exit_price": 4121.56,
+        "profit": -1.05,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:46:07.998000+00:00",
+        "closed_at": "2026-10-21T09:48:23.700000+00:00",
+        "hold_seconds": 135.7,
+        "close_comment": "[sl 4121.56]",
+        "horizon": "SCALP",
+        "evidence": 54.8,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.358722,
+        "exit_reason": "[sl 4121.56]",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.9,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:51:07.711132+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 55.16,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:50:14.019797+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:48:03.703764+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "BUY",
+            "evidence": 54.8,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:46:11.022703+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986796942,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4121.75,
+        "exit_price": 4121.97,
+        "profit": -0.22,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:48:54.401000+00:00",
+        "closed_at": "2026-10-21T09:50:21.702000+00:00",
+        "hold_seconds": 87.3,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 65.96,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.349379,
+        "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "BUY",
+            "evidence": 54.9,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:53:54.150840+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "BUY",
+            "evidence": 55.16,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:53:11.796533+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "BUY",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "BUY",
+            "evidence": 67.37,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:50:51.242758+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "SELL",
+            "evidence": 65.96,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:48:57.475656+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986818645,
+        "direction": "BUY",
+        "volume": 0.01,
+        "entry_price": 4122.09,
+        "exit_price": 4121.05,
+        "profit": -1.04,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:51:02.057000+00:00",
+        "closed_at": "2026-10-21T09:51:43.575000+00:00",
+        "hold_seconds": 41.5,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 18.47,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 0.393338,
+        "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:56:01.734342+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:55:12.912012+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:52:57.437026+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "BUY",
+            "evidence": 18.47,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:51:05.077602+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986834034,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.75,
+        "exit_price": 4121.13,
+        "profit": -0.38,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:52:16.332000+00:00",
+        "closed_at": "2026-10-21T09:54:31.083000+00:00",
+        "hold_seconds": 134.8,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 56.92,
+        "entry_mode": "S15_PRIMARY",
+        "quote_age": 0.261486,
+        "exit_reason": "Profit giveback of 0.82 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:57:13.323344+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:56:12.853567+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:54:12.355495+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S15_TICKS",
+            "bias": "SELL",
+            "evidence": 56.92,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:52:19.165337+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986869394,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4121.26,
+        "exit_price": 4122.19,
+        "profit": -0.93,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:55:22.425000+00:00",
+        "closed_at": "2026-10-21T09:55:24.775000+00:00",
+        "hold_seconds": 2.4,
+        "close_comment": "[sl 4122.19]",
+        "horizon": "SCALP",
+        "evidence": 40.56,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.31509,
+        "exit_reason": "[sl 4122.19]",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:00:22.256369+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:00:14.191367+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:57:21.825867+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "SELL",
+            "evidence": 40.56,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:55:25.489541+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986881138,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.18,
+        "exit_price": 4121.39,
+        "profit": -1.21,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:56:17.776000+00:00",
+        "closed_at": "2026-10-21T09:56:30.660000+00:00",
+        "hold_seconds": 12.9,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 85.25,
+        "entry_mode": "S5_PRIMARY",
+        "quote_age": 0.270953,
+        "exit_reason": "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:01:17.460353+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:01:13.391091+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "SELL",
+            "evidence": 38.35,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:58:15.076435+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S5_TICKS",
+            "bias": "SELL",
+            "evidence": 85.25,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:56:20.782571+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986890839,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4120.15,
+        "exit_price": 4118.83,
+        "profit": 1.32,
+        "result": "WIN",
+        "opened_at": "2026-10-21T09:57:06.944000+00:00",
+        "closed_at": "2026-10-21T10:00:25.420000+00:00",
+        "hold_seconds": 198.5,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 56.87,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 0.465405,
+        "exit_reason": "Profit giveback of 1.00 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:02:03.358551+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:01:13.391091+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "source_usable": false,
+            "valid_until": "2026-10-21T09:59:00.023921+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "SELL",
+            "evidence": 56.87,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:57:09.717630+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      },
+      {
+        "position_id": 58986919347,
+        "direction": "SELL",
+        "volume": 0.01,
+        "entry_price": 4117.45,
+        "exit_price": 4118.86,
+        "profit": -1.41,
+        "result": "LOSS",
+        "opened_at": "2026-10-21T09:58:30.392000+00:00",
+        "closed_at": "2026-10-21T10:00:25.526000+00:00",
+        "hold_seconds": 115.1,
+        "close_comment": "SCALPPolicyClose",
+        "horizon": "SCALP",
+        "evidence": 74.36,
+        "entry_mode": "S30_PRIMARY",
+        "quote_age": 0.533899,
+        "exit_reason": "Profit giveback of 1.00 from peak with support fading",
+        "setup_available": true,
+        "entry_contributors": [
+          {
+            "action": "WAIT",
+            "advisor": "MT5_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:03:30.117758+00:00",
+            "validity_reason": "",
+            "weight": 0.3
+          },
+          {
+            "action": "WAIT",
+            "advisor": "API_CANDLES",
+            "bias": "WAIT",
+            "evidence": 15.0,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:03:14.908899+00:00",
+            "validity_reason": "",
+            "weight": 0.1
+          },
+          {
+            "action": "WAIT",
+            "advisor": "MT5_TICK_FLOW",
+            "bias": "SELL",
+            "evidence": 42.98,
+            "source_usable": true,
+            "valid_until": "2026-10-21T10:00:28.208343+00:00",
+            "validity_reason": "",
+            "weight": 0.6
+          },
+          {
+            "action": "WAIT",
+            "advisor": "S30_TICKS",
+            "bias": "SELL",
+            "evidence": 74.36,
+            "source_usable": true,
+            "valid_until": "2026-10-21T09:58:33.410016+00:00",
+            "validity_reason": "",
+            "weight": 1.0
+          }
+        ]
+      }
+    ]
+  }
+}

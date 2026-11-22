@@ -1,0 +1,218 @@
+Connected to MT5
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:37:28
+Market     : XAUUSD | Bid 4039.26 | Ask 4039.70 | Spread $0.44 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        WAIT        15.0/100   5 min       08:37:28 -> 08:42:28     08:38:28
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:37:28 -> 09:07:28     08:47:28
+SWING       WAIT        WAIT        15.0/100   120 min     08:37:28 -> 10:37:28     09:17:28
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.44 exceeds advisory ceiling
+  - price is extended 8.03 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:40:17
+Market     : XAUUSD | Bid 4038.42 | Ask 4038.84 | Spread $0.42 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        BUY         71.5/100   5 min       08:40:17 -> 08:45:17     08:41:17
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:40:17 -> 09:10:17     08:50:17
+SWING       WAIT        WAIT        15.0/100   120 min     08:40:17 -> 10:40:17     09:20:17
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.42 exceeds advisory ceiling
+  - price is extended 5.89 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:45:23
+Market     : XAUUSD | Bid 4038.83 | Ask 4039.27 | Spread $0.44 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        BUY         76.7/100   5 min       08:45:23 -> 08:50:23     08:46:23
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:45:23 -> 09:15:23     08:55:23
+SWING       WAIT        WAIT         0.0/100   120 min     08:45:23 -> 10:45:23     09:25:23
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.44 exceeds advisory ceiling
+  - price is extended 8.14 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:49:27
+Market     : XAUUSD | Bid 4038.14 | Ask 4038.51 | Spread $0.37 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        WAIT        15.0/100   5 min       08:49:27 -> 08:54:27     08:50:27
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:49:27 -> 09:19:27     08:59:27
+SWING       WAIT        WAIT         0.0/100   120 min     08:49:27 -> 10:49:27     09:29:27
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.37 exceeds advisory ceiling
+  - price is extended 7.29 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:54:17
+Market     : XAUUSD | Bid 4040.00 | Ask 4040.37 | Spread $0.37 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        BUY         72.0/100   5 min       08:54:17 -> 08:59:17     08:55:17
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:54:17 -> 09:24:17     09:04:17
+SWING       WAIT        WAIT         0.0/100   120 min     08:54:17 -> 10:54:17     09:34:17
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.37 exceeds advisory ceiling
+  - price is extended 8.11 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 08:55:17
+Market     : XAUUSD | Bid 4039.99 | Ask 4040.41 | Spread $0.42 | Session London
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        BUY         78.3/100   5 min       08:55:17 -> 09:00:17     08:56:17
+INTRADAY    WAIT        WAIT        15.0/100   30 min      08:55:17 -> 09:25:17     09:05:17
+SWING       WAIT        WAIT         0.0/100   120 min     08:55:17 -> 10:55:17     09:35:17
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - spread $0.42 exceeds advisory ceiling
+  - price is extended 9.42 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 23:15:43
+Market     : XAUUSD | Bid 4062.35 | Ask 4062.51 | Spread $0.16 | Session Off Session
+DECISION   : BUY SETUP AVAILABLE
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       BUY         BUY         66.2/100   5 min       23:15:43 -> 23:20:43     23:16:43
+INTRADAY    BUY         BUY         81.4/100   30 min      23:15:43 -> 23:45:43     23:25:43
+SWING       BUY         BUY         66.8/100   120 min     23:15:43 -> 01:15:43     23:55:43
+----------------------------------------------------------------------------------------------------------------------
+ACTIONABLE LEVELS
+
+SCALP BUY (expires 2026-10-28 23:20:43 local, UTC+01:00)
+  Entry zone : 4061.75 - 4063.27
+  Stop loss  : 4057.56
+  Targets    : TP1 4065.94 | TP2 4068.22 | TP3 4070.88
+
+INTRADAY BUY (expires 2026-10-28 23:45:43 local, UTC+01:00)
+  Entry zone : 4061.23 - 4063.79
+  Stop loss  : 4051.65
+  Targets    : TP1 4070.17 | TP2 4075.28 | TP3 4081.67
+
+SWING BUY (expires 2026-10-29 01:15:43 local, UTC+01:00)
+  Entry zone : 4060.81 - 4064.21
+  Stop loss  : 4045.51
+  Targets    : TP1 4075.26 | TP2 4083.76 | TP3 4096.51
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 23:20:01
+Market     : XAUUSD | Bid 4060.46 | Ask 4060.61 | Spread $0.15 | Session Off Session
+DECISION   : BUY SETUP AVAILABLE
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        WAIT        15.0/100   5 min       23:20:01 -> 23:25:01     23:21:01
+INTRADAY    BUY         BUY         66.8/100   30 min      23:20:01 -> 23:50:01     23:30:01
+SWING       BUY         BUY         66.8/100   120 min     23:20:01 -> 01:20:01     00:00:01
+----------------------------------------------------------------------------------------------------------------------
+ACTIONABLE LEVELS
+
+INTRADAY BUY (expires 2026-10-28 23:50:01 local, UTC+01:00)
+  Entry zone : 4059.33 - 4061.89
+  Stop loss  : 4049.75
+  Targets    : TP1 4068.27 | TP2 4073.38 | TP3 4079.77
+
+SWING BUY (expires 2026-10-29 01:20:01 local, UTC+01:00)
+  Entry zone : 4058.91 - 4062.31
+  Stop loss  : 4043.61
+  Targets    : TP1 4073.36 | TP2 4081.86 | TP3 4094.61
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+
+======================================================================================================================
+                                                 GOLD MARKET ADVISOR                                                  
+======================================================================================================================
+Analysis completed (local, UTC+01:00) : 2026-10-28 23:24:11
+Market     : XAUUSD | Bid 4058.05 | Ask 4058.20 | Spread $0.15 | Session Off Session
+DECISION   : WAIT - NO ENTRY
+----------------------------------------------------------------------------------------------------------------------
+HORIZON     ACTION      BIAS      EVIDENCE      VALID FOR   VALID WINDOW (LOCAL)     NEXT REVIEW (LOCAL)
+----------------------------------------------------------------------------------------------------------------------
+SCALP       WAIT        WAIT        15.0/100   5 min       23:24:11 -> 23:29:11     23:25:11
+INTRADAY    WAIT        BUY         66.8/100   30 min      23:24:11 -> 23:54:11     23:34:11
+SWING       WAIT        BUY         66.8/100   120 min     23:24:11 -> 01:24:11     00:04:11
+----------------------------------------------------------------------------------------------------------------------
+WHY THERE IS NO ENTRY
+  - price is extended 2.53 ATR from VWAP
+  - directional evidence below 60/100
+----------------------------------------------------------------------------------------------------------------------
+After the VALID WINDOW expiry, the position advisory is no longer valid and must be recalculated.
+Evidence is directional strength, not a calibrated win probability. No order is sent.
+======================================================================================================================
+Disconnected from MT5

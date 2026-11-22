@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\xau_sim2.py",
+      "sha256": "436d96d19f2d5f0697940c301d9b56162f4ba5b9ae3cf20c287b595f14b270b8",
+      "bytes": 17489
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\Downloads\\XAU_RegimeScalper_AI_v2.mq5",
+      "sha256": "747326b7a0a71d6fead906a8ce526d337db3a2e3a996a746267590ca06e5621c",
+      "bytes": 64857
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\e34acd48-c768-4785-b4df-f0d720452599\\Pasted text.txt",
+      "sha256": "08536cd485813a28426caf76368ac689320d722a6106a609dc24fd43460d4fd4",
+      "bytes": 12649
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\02e320fe-931a-40c8-854c-78e1f35ad597\\Pasted text.txt",
+      "sha256": "ace07e560a17df644b4dd4389e34c50ee408f3f1a3a3502b5deb548fff66aff9",
+      "bytes": 5866
+    },
+    {
+      "path": "C:\\Users\\Gad Asopjio\\.codex\\attachments\\6d9fdf71-bf0a-4cde-a7a3-c720d58dd049\\Pasted text.txt",
+      "sha256": "9b5030ae7f61660aba262c094937f97d739a6ec4de71ce342bcc3adb02b80dd7",
+      "bytes": 13988
+    }
+  ],
+  "originals_modified": false,
+  "native_ea_installed": false,
+  "native_ea_compiled": false
+}

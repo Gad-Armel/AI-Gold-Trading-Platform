@@ -1,0 +1,125 @@
+{
+  "verified_utc": "2026-10-01T08:12:09.303487+00:00",
+  "version": "3.21",
+  "compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 15745 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 4359 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 2152 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 3566 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsBridge": "Result: 0 errors, 0 warnings, 2648 ms elapsed, cpu='X64 Regular'"
+  },
+  "native_checks": 198,
+  "native_failures": 0,
+  "python_transport_tests": 46,
+  "python_observation_tests": 5,
+  "javascript_dom_checks": {
+    "passed": 8,
+    "total": 8,
+    "checks": [
+      {
+        "name": "legacy snapshot has no undefined risk values",
+        "passed": true
+      },
+      {
+        "name": "remaining rolling budget visible",
+        "passed": true
+      },
+      {
+        "name": "cooldown visible",
+        "passed": true
+      },
+      {
+        "name": "hourly cap visible",
+        "passed": true
+      },
+      {
+        "name": "confirmation evidence visible",
+        "passed": true
+      },
+      {
+        "name": "counterflow state visible",
+        "passed": true
+      },
+      {
+        "name": "locked paused account cannot resume",
+        "passed": true
+      },
+      {
+        "name": "missing feed clears budget values",
+        "passed": true
+      }
+    ]
+  },
+  "advisor1_files_unchanged": 18,
+  "advisor1_changed": [],
+  "installed_sha256": "04911422a18034790682b6be7452b798c0a54f2943742b9ffa67c7169080d0a0",
+  "binary_matches": true,
+  "live": {
+    "state": "live",
+    "version": "3.21",
+    "advisor_state": "live",
+    "paused": false,
+    "locked": true,
+    "risk": {
+      "text": "SECURITE jusqu'au 2026.10.02 10:29",
+      "lot": 0.01,
+      "max_positions": 3,
+      "per_trade": 2.0,
+      "aggregate": 4.0,
+      "rolling_limit": 5.0,
+      "rolling_realized": -5.15,
+      "rolling_remaining": 0.0,
+      "loss_streak": 5,
+      "cooldown_seconds": 0,
+      "entries_hour": 1,
+      "entries_hour_max": 36,
+      "daily_equity_percent": 3.0,
+      "lock_remaining_seconds": 83930,
+      "locked_until": "2026.10.02 10:29:35"
+    },
+    "account": {
+      "balance": 23637.96,
+      "equity": 23637.96,
+      "floating": 0.0,
+      "margin_free": 23637.96,
+      "position_count": 0,
+      "pending_count": 0
+    },
+    "execution": "Aucune requete | tick moy 25 us / max 1279"
+  },
+  "observations": {
+    "observations": 79,
+    "first_utc": "2026-10-01T07:26:32.336239+00:00",
+    "last_utc": "2026-10-01T08:11:53.072729+00:00",
+    "duration_seconds": 2720.73649,
+    "cadence_median_seconds": 34.999717000000004,
+    "cadence_max_seconds": 35.001779,
+    "errors": 0,
+    "states": {
+      "live": 78,
+      "stopped": 1
+    }
+  },
+  "trade_audit": {
+    "closed": 27,
+    "v320_closed": 7,
+    "v320_net": -3.96,
+    "v320_losers_never_quoted_profitable": 4
+  },
+  "replay": {
+    "sampled_ticks": 285799,
+    "hours": 24,
+    "strict_confirmation_episodes": 459,
+    "grace_confirmation_episodes": 467,
+    "orders_sent": 0,
+    "profitability_test": false
+  },
+  "limitations": [
+    "Full historical EA backtest not completed: live history cache locked.",
+    "New live order execution not tested: existing 24h loss lock preserved.",
+    "Javascript DOM test double validates rendering text and controls, not pixels.",
+    "No profitability or high-win-rate claim."
+  ],
+  "review_started_utc": "2026-10-01T07:22:25+00:00",
+  "review_minutes": 49.7383918
+}

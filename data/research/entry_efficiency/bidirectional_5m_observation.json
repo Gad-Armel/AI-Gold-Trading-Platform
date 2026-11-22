@@ -1,0 +1,29 @@
+{
+  "policy": "BIDIRECTIONAL_5M_OBSERVATION_V1",
+  "live_approved": false,
+  "threshold": 0.5,
+  "minimum_forecast_gap": 0.25,
+  "horizon_seconds": 300,
+  "trained_through_broker_epoch": 1788247380,
+  "validation_through_broker_epoch": 1789770780,
+  "validation": {
+    "threshold": 0.5,
+    "base": {
+      "trades": 92,
+      "net": 52.75,
+      "mean": 0.5734,
+      "profit_factor": 1.2967,
+      "drawdown": 33.38
+    },
+    "stress": {
+      "trades": 92,
+      "net": 26.31,
+      "mean": 0.2859,
+      "profit_factor": 1.1354,
+      "drawdown": 46.7
+    }
+  },
+  "rejection": "Validation trade count below the predeclared minimum of 100; subsequent frozen assessment lost $41.12 on 62 later trades (PF 0.6543).",
+  "candidate_status": "REJECTED_OUT_OF_SAMPLE",
+  "model_sha256": "e78eb5749fbcbc7c8857dcd167d7988193da70095b1082843f1d807d3f4635b8"
+}

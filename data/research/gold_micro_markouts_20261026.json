@@ -1,0 +1,503 @@
+{
+    "role": "OFFLINE_MARKOUT_DIAGNOSTICS_NOT_STRATEGY_BACKTEST",
+    "source": "data\\research\\scalper_expert3\\scalp_ticks.csv",
+    "sha256": "8a70fcfaea2bc8b73dc78c077cb91e98fb43834d40a2a637d42e60c8d3c20780",
+    "first_epoch": 1790623936.0,
+    "last_epoch": 1790710335.314,
+    "holdout_boundary": 1790684415.5198,
+    "assumptions": {
+        "ticks": "data/research/scalper_expert3/scalp_ticks.csv",
+        "commission_price": 0.1,
+        "slippage_price": 0.2,
+        "latency_seconds": 0.25,
+        "output": "data/research/gold_micro_markouts_20261026.json"
+    },
+    "notes": [
+        "Observations overlap; no equity curve or independent-trade significance is claimed.",
+        "No stop, trailing exit, position cap, margin, fill probability or live strategy replay.",
+        "Historical timestamp offset is left unchanged; only relative timing is used.",
+        "No model fitting or automatic parameter selection; holdout is diagnostic, not untouched after inspection."
+    ],
+    "results": [
+        {
+            "period": 1,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 684,
+            "main_mean_net_price": -0.6345760233917935,
+            "inverse_mean_net_price": -0.7185672514620033,
+            "main_positive_fraction": 0.12719298245614036
+        },
+        {
+            "period": 1,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 1,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1186,
+            "main_mean_net_price": -0.5864839797639096,
+            "inverse_mean_net_price": -0.6402782462057165,
+            "main_positive_fraction": 0.11551433389544688
+        },
+        {
+            "period": 1,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 1,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 675,
+            "main_mean_net_price": -0.7023407407407366,
+            "inverse_mean_net_price": -0.6475703703703712,
+            "main_positive_fraction": 0.21333333333333335
+        },
+        {
+            "period": 1,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 1,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1182,
+            "main_mean_net_price": -0.5607360406091275,
+            "inverse_mean_net_price": -0.6643485617597299,
+            "main_positive_fraction": 0.2428087986463621
+        },
+        {
+            "period": 1,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 1,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 664,
+            "main_mean_net_price": -0.7167168674698614,
+            "inverse_mean_net_price": -0.6356325301204869,
+            "main_positive_fraction": 0.2620481927710843
+        },
+        {
+            "period": 1,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 1,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1176,
+            "main_mean_net_price": -0.5809013605442156,
+            "inverse_mean_net_price": -0.6417346938775458,
+            "main_positive_fraction": 0.27721088435374147
+        },
+        {
+            "period": 1,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 0,
+            "main_mean_net_price": null,
+            "inverse_mean_net_price": null,
+            "main_positive_fraction": null
+        },
+        {
+            "period": 5,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 1582,
+            "main_mean_net_price": -0.6560619469026613,
+            "inverse_mean_net_price": -0.6376042983565143,
+            "main_positive_fraction": 0.0638432364096081
+        },
+        {
+            "period": 5,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": -2.7299999999993814,
+            "inverse_mean_net_price": 1.1000000000000911,
+            "main_positive_fraction": 0.0
+        },
+        {
+            "period": 5,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1111,
+            "main_mean_net_price": -0.6202520252025245,
+            "inverse_mean_net_price": -0.5868406840684038,
+            "main_positive_fraction": 0.07290729072907291
+        },
+        {
+            "period": 5,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.8633333333332,
+            "inverse_mean_net_price": -0.6999999999999393,
+            "main_positive_fraction": 0.3333333333333333
+        },
+        {
+            "period": 5,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 1466,
+            "main_mean_net_price": -0.6510504774897702,
+            "inverse_mean_net_price": -0.6396521145975489,
+            "main_positive_fraction": 0.17121418826739426
+        },
+        {
+            "period": 5,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": -2.299999999999545,
+            "inverse_mean_net_price": 0.8300000000001093,
+            "main_positive_fraction": 0.5
+        },
+        {
+            "period": 5,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1075,
+            "main_mean_net_price": -0.6560279069767362,
+            "inverse_mean_net_price": -0.5492465116278982,
+            "main_positive_fraction": 0.16186046511627908
+        },
+        {
+            "period": 5,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.5466666666665939,
+            "inverse_mean_net_price": -0.9799999999996847,
+            "main_positive_fraction": 0.3333333333333333
+        },
+        {
+            "period": 5,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 1351,
+            "main_mean_net_price": -0.64503330866026,
+            "inverse_mean_net_price": -0.6475425610658777,
+            "main_positive_fraction": 0.22945965951147299
+        },
+        {
+            "period": 5,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": -0.04999999999999982,
+            "inverse_mean_net_price": -1.5599999999997634,
+            "main_positive_fraction": 0.5
+        },
+        {
+            "period": 5,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 1033,
+            "main_mean_net_price": -0.6745885769602991,
+            "inverse_mean_net_price": -0.5317521781219647,
+            "main_positive_fraction": 0.2149080348499516
+        },
+        {
+            "period": 5,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.8266666666666426,
+            "inverse_mean_net_price": -0.6666666666667881,
+            "main_positive_fraction": 0.3333333333333333
+        },
+        {
+            "period": 15,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 648,
+            "main_mean_net_price": -0.6694753086419782,
+            "inverse_mean_net_price": -0.6512962962962814,
+            "main_positive_fraction": 0.05246913580246913
+        },
+        {
+            "period": 15,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 6,
+            "main_mean_net_price": -0.14499999999964838,
+            "inverse_mean_net_price": -1.208333333333303,
+            "main_positive_fraction": 0.3333333333333333
+        },
+        {
+            "period": 15,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 343,
+            "main_mean_net_price": -0.6393002915452376,
+            "inverse_mean_net_price": -0.5617492711370441,
+            "main_positive_fraction": 0.04664723032069971
+        },
+        {
+            "period": 15,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.6700000000001941,
+            "inverse_mean_net_price": -0.5500000000003032,
+            "main_positive_fraction": 0.0
+        },
+        {
+            "period": 15,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 574,
+            "main_mean_net_price": -0.6489024390243958,
+            "inverse_mean_net_price": -0.6539895470383269,
+            "main_positive_fraction": 0.15505226480836237
+        },
+        {
+            "period": 15,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 6,
+            "main_mean_net_price": -0.32166666666668486,
+            "inverse_mean_net_price": -1.0033333333333758,
+            "main_positive_fraction": 0.16666666666666666
+        },
+        {
+            "period": 15,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 324,
+            "main_mean_net_price": -0.6675000000000048,
+            "inverse_mean_net_price": -0.5414506172839606,
+            "main_positive_fraction": 0.1388888888888889
+        },
+        {
+            "period": 15,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.28333333333327265,
+            "inverse_mean_net_price": -0.9066666666665696,
+            "main_positive_fraction": 0.6666666666666666
+        },
+        {
+            "period": 15,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 508,
+            "main_mean_net_price": -0.6824999999999937,
+            "inverse_mean_net_price": -0.6145078740157687,
+            "main_positive_fraction": 0.23031496062992127
+        },
+        {
+            "period": 15,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 6,
+            "main_mean_net_price": -0.36833333333330914,
+            "inverse_mean_net_price": -0.9816666666668424,
+            "main_positive_fraction": 0.5
+        },
+        {
+            "period": 15,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 305,
+            "main_mean_net_price": -0.6653770491803713,
+            "inverse_mean_net_price": -0.5411475409836042,
+            "main_positive_fraction": 0.2262295081967213
+        },
+        {
+            "period": 15,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -0.28333333333357585,
+            "inverse_mean_net_price": -0.9133333333336849,
+            "main_positive_fraction": 0.3333333333333333
+        },
+        {
+            "period": 30,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 293,
+            "main_mean_net_price": -0.6549829351536092,
+            "inverse_mean_net_price": -0.6424914675767838,
+            "main_positive_fraction": 0.05460750853242321
+        },
+        {
+            "period": 30,
+            "horizon": 5,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -1.033333333333576,
+            "inverse_mean_net_price": -0.21333333333295745,
+            "main_positive_fraction": 0.0
+        },
+        {
+            "period": 30,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 201,
+            "main_mean_net_price": -0.6178606965174372,
+            "inverse_mean_net_price": -0.5824875621890535,
+            "main_positive_fraction": 0.05970149253731343
+        },
+        {
+            "period": 30,
+            "horizon": 5,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": -0.3099999999997636,
+            "inverse_mean_net_price": -0.9049999999995635,
+            "main_positive_fraction": 0.5
+        },
+        {
+            "period": 30,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 259,
+            "main_mean_net_price": -0.6844787644787678,
+            "inverse_mean_net_price": -0.6089961389961521,
+            "main_positive_fraction": 0.14671814671814673
+        },
+        {
+            "period": 30,
+            "horizon": 15,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -1.4400000000000244,
+            "inverse_mean_net_price": 0.23000000000004847,
+            "main_positive_fraction": 0.0
+        },
+        {
+            "period": 30,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 193,
+            "main_mean_net_price": -0.610051813471494,
+            "inverse_mean_net_price": -0.6003626943005054,
+            "main_positive_fraction": 0.13989637305699482
+        },
+        {
+            "period": 30,
+            "horizon": 15,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": 0.5300000000003819,
+            "inverse_mean_net_price": -1.7199999999996178,
+            "main_positive_fraction": 0.5
+        },
+        {
+            "period": 30,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "raw_closed_sequence",
+            "observations": 228,
+            "main_mean_net_price": -0.7283333333333367,
+            "inverse_mean_net_price": -0.5571052631578823,
+            "main_positive_fraction": 0.2149122807017544
+        },
+        {
+            "period": 30,
+            "horizon": 30,
+            "segment": "development",
+            "cohort": "filtered",
+            "observations": 3,
+            "main_mean_net_price": -1.4633333333332608,
+            "inverse_mean_net_price": 0.2966666666669577,
+            "main_positive_fraction": 0.0
+        },
+        {
+            "period": 30,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "raw_closed_sequence",
+            "observations": 179,
+            "main_mean_net_price": -0.6153631284915886,
+            "inverse_mean_net_price": -0.5909497206703652,
+            "main_positive_fraction": 0.2346368715083799
+        },
+        {
+            "period": 30,
+            "horizon": 30,
+            "segment": "holdout",
+            "cohort": "filtered",
+            "observations": 2,
+            "main_mean_net_price": 0.8250000000004547,
+            "inverse_mean_net_price": -2.054999999999654,
+            "main_positive_fraction": 1.0
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+﻿CS	0	10:57:37.887	Tester	log file "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\.mt5-validation\Tester\Agent-127.0.0.1-3000\logs\20260925.log" written
+CS	0	10:57:37.888	Tester	test Experts\GoldScalpAI\GoldScalpSelfTest.ex5 on ,H1 thread finished
+CS	0	10:57:37.926	127.0.0.1	tester forced to close
+CS	0	10:57:37.927	127.0.0.1	prepare for shutdown
+CS	0	10:57:37.927	127.0.0.1	stop immediately
+CS	0	10:57:37.927	127.0.0.1	shutdown finished
+CS	0	10:57:38.222	Server	MetaTester 5 stopped
+CS	0	11:00:54.545	Startup	MetaTester 5 build 6194, 13 Sep 2026
+CS	0	11:00:54.546	Startup	Windows 11 build 26200, 4 x AMD Ryzen 3 3250U with Radeon, AVX2, 4 / 13 Gb memory, 665 / 930 Gb disk, UAC, GMT+1
+CS	0	11:00:54.550	Server	MetaTester 5 started on 127.0.0.1:3000
+CS	0	11:00:54.562	Startup	cloud network mode is off
+CS	0	11:00:54.562	Startup	initialization finished
+CS	0	11:00:54.918	127.0.0.1	login (build 6194)
+CS	0	11:00:54.939	Network	1478 bytes of tester parameters loaded
+CS	0	11:00:54.939	Network	196 bytes of input parameters loaded
+CS	1	11:00:54.939	Tester	math calculations test mode means no history and no symbol info for 
+CS	0	11:00:54.939	Tester	expert file added: Experts\GoldScalpAI\GoldScalpSelfTest.ex5. 15065 bytes loaded
+CS	0	11:00:54.939	Tester	successfully initialized
+CS	0	11:00:54.939	Network	14 Kb of total initialization data received
+CS	0	11:00:54.940	Tester	AMD Ryzen 3 3250U with Radeon, 14215 MB
+CS	0	11:00:54.951	Tester	math calculations test of Experts\GoldScalpAI\GoldScalpSelfTest.ex5 started
+CS	0	11:00:54.972	GoldScalpSelfTest	GOLD_SELF_TEST checks=27 failures=0
+CS	0	11:00:54.972	Tester	OnTester result 27
+CS	0	11:00:54.979	Tester	0 : mathematical test passed in 0:00:00.060
+CS	0	11:00:54.979	Tester	25 Mb memory used
+CS	0	11:00:54.979	Tester	log file "C:\Users\Gad Asopjio\Desktop\AI Trading Platform\.mt5-validation\Tester\Agent-127.0.0.1-3000\logs\20260925.log" written
+CS	0	11:00:54.979	Tester	test Experts\GoldScalpAI\GoldScalpSelfTest.ex5 on ,H1 thread finished
+CS	0	11:00:55.018	127.0.0.1	tester forced to close
+CS	0	11:00:55.018	127.0.0.1	prepare for shutdown
+CS	0	11:00:55.018	127.0.0.1	stop immediately
+CS	0	11:00:55.018	127.0.0.1	shutdown finished
+CS	0	11:00:55.161	Server	MetaTester 5 stopped

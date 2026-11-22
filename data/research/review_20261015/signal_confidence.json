@@ -1,0 +1,359 @@
+{
+  "generated_at": "2026-10-15T06:59:31.005034+00:00",
+  "live_approved": false,
+  "orders_sent": false,
+  "fit_days": [
+    "20260908",
+    "20260909",
+    "20260910",
+    "20260911",
+    "20260913",
+    "20260914",
+    "20260915",
+    "20260916",
+    "20260917",
+    "20260918",
+    "20260920",
+    "20260921"
+  ],
+  "calibration_days": [
+    "20260922",
+    "20260923",
+    "20260924"
+  ],
+  "validation_days": [
+    "20260925",
+    "20260927",
+    "20260928",
+    "20260929",
+    "20260930"
+  ],
+  "excluded_final_period_files": [
+    "20261001.pkl",
+    "20261002.pkl",
+    "20261004.pkl",
+    "20261005.pkl",
+    "20261006.pkl",
+    "20261007.pkl"
+  ],
+  "excluded_final_period_read": false,
+  "fit_rows": 89994,
+  "calibration_rows": 25686,
+  "validation_rows": 34769,
+  "features": [
+    "spread",
+    "tick_age",
+    "spread_ratio",
+    "quote_rate",
+    "c_cost_atr",
+    "efficiency_6",
+    "efficiency_30",
+    "c_atr",
+    "c_m5_vol_ratio",
+    "signed_pressure_6",
+    "signed_pressure_30",
+    "signed_acceleration",
+    "signed_extension",
+    "m1_agrees",
+    "m5_agrees",
+    "m15_agrees",
+    "c_hour_sin",
+    "c_hour_cos"
+  ],
+  "model": "standardized logistic C=0.1 + disjoint chronological sigmoid calibration",
+  "target": "positive net executable 180-second outcome after specified commission, with $5 protective stop",
+  "commission_usd": 0.1,
+  "policies": {
+    "all_candidates": {
+      "normal": {
+        "trades": 1021,
+        "days": 5,
+        "net": -546.82,
+        "expectancy": -0.535573,
+        "win_rate": 0.402547,
+        "profit_factor": 0.554707,
+        "drawdown": 546.82,
+        "brier": 0.239143,
+        "ece": 0.033795,
+        "expectancy_day_bootstrap_95": [
+          -0.655696,
+          -0.380012
+        ],
+        "daily": [
+          {
+            "day": "20260925",
+            "trades": 224,
+            "net": -161.26
+          },
+          {
+            "day": "20260927",
+            "trades": 18,
+            "net": 4.68
+          },
+          {
+            "day": "20260928",
+            "trades": 281,
+            "net": -99.08
+          },
+          {
+            "day": "20260929",
+            "trades": 265,
+            "net": -164.17
+          },
+          {
+            "day": "20260930",
+            "trades": 233,
+            "net": -126.99
+          }
+        ]
+      },
+      "stress_1_5": {
+        "trades": 1024,
+        "days": 5,
+        "net": -768.09,
+        "expectancy": -0.750088,
+        "win_rate": 0.347656,
+        "profit_factor": 0.439631,
+        "drawdown": 768.09,
+        "brier": 0.223976,
+        "ece": 0.021144,
+        "expectancy_day_bootstrap_95": [
+          -0.853815,
+          -0.629665
+        ],
+        "daily": [
+          {
+            "day": "20260925",
+            "trades": 224,
+            "net": -205.18
+          },
+          {
+            "day": "20260927",
+            "trades": 18,
+            "net": -1.25
+          },
+          {
+            "day": "20260928",
+            "trades": 284,
+            "net": -182.265
+          },
+          {
+            "day": "20260929",
+            "trades": 265,
+            "net": -219.395
+          },
+          {
+            "day": "20260930",
+            "trades": 233,
+            "net": -160.0
+          }
+        ]
+      }
+    },
+    "calibrated_055": {
+      "normal": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      },
+      "stress_1_5": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      }
+    },
+    "calibrated_065": {
+      "normal": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      },
+      "stress_1_5": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      }
+    },
+    "calibrated_075": {
+      "normal": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      },
+      "stress_1_5": {
+        "trades": 0,
+        "days": 0,
+        "net": 0.0,
+        "expectancy": null,
+        "win_rate": null,
+        "profit_factor": null,
+        "drawdown": 0.0,
+        "brier": null,
+        "ece": null,
+        "expectancy_day_bootstrap_95": null,
+        "daily": []
+      }
+    }
+  },
+  "baseline_constant_probability": 0.4046491988354779,
+  "baseline_episode_brier": 0.240507,
+  "reliability_bins_nonoverlapping": [
+    {
+      "lower": 0.1,
+      "count": 13,
+      "predicted": 0.150401,
+      "observed": 0.153846
+    },
+    {
+      "lower": 0.2,
+      "count": 60,
+      "predicted": 0.263547,
+      "observed": 0.283333
+    },
+    {
+      "lower": 0.3,
+      "count": 708,
+      "predicted": 0.365058,
+      "observed": 0.40113
+    },
+    {
+      "lower": 0.4,
+      "count": 240,
+      "predicted": 0.417778,
+      "observed": 0.45
+    }
+  ],
+  "source_manifest": [
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260908.pkl",
+      "sha256": "495a39bd62bc4da74d1e6e363ad2cf5151613008f43e15360a5a18064af8bd15"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260909.pkl",
+      "sha256": "774f888e18f1047ad65c5d7de2d5163c94a1e0397a8bcf04cdb81023443cd082"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260910.pkl",
+      "sha256": "4749803aa66b6447996be3ce488577836aba2ab6889113f04e02d7f9f15ea433"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260911.pkl",
+      "sha256": "c88d03b887e589bc1c692416a76c69c6eaf92ae88f15000b064998460decd28a"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260913.pkl",
+      "sha256": "f923c29f0a56ec967554659dbb6de6ab7412722c991582ba98f36a1b35d6176a"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260914.pkl",
+      "sha256": "c4bc26d03943ab5ab22f48b183dcabeecd9659616a29b47ba530e40a398ba9c1"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260915.pkl",
+      "sha256": "23a6728b2c6defaeb9a2b8720d8f96f955f081432e8e30027759c67f575aed2d"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260916.pkl",
+      "sha256": "747272478dac1e9a91b64f7f8db19387d19b4e5d47a5ceeb002533762e258d60"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260917.pkl",
+      "sha256": "4aba15aac40e6f8eb25a6ca231f98e3e9a7ca25b179094152ef2ba1134af6267"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260918.pkl",
+      "sha256": "63a63b5477c9abf2c3872fb8a8fd4f8dbadced90c2cade07329607634db04654"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260920.pkl",
+      "sha256": "bfa706258f78c3b998e0f119b07f92187755cf63c6c863f7aebf28e043f74f95"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260921.pkl",
+      "sha256": "1a433a8fb7c0f64e4d739944525462df63d5798921cdab78b08a417a8788a0e6"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260922.pkl",
+      "sha256": "655ab0c628cc644e61304102f4c59823e8cbc614e377178665ca80825eaa6590"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260923.pkl",
+      "sha256": "7b293a408be5315d92ee2b19e4918b5d1b6e6b72ebea9d45efb6403aa8270b00"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260924.pkl",
+      "sha256": "6db8c2a4a1397d776112692f41af483dcda0ccfecf76dfc5bfbcca878e9d4ed0"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260925.pkl",
+      "sha256": "5325458e68a68de0834b60b95159c9b8e7786498fbca954eac0e003c3e0f568a"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260927.pkl",
+      "sha256": "ad820dccb043637a79a2b425fac1936edf7bb5ce1a64ccfb521c3a023f32320c"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260928.pkl",
+      "sha256": "ec765e8edb1008687533f430ad6d1d765fcc55f6084989667ce3c83ce8a87418"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260929.pkl",
+      "sha256": "ffbf0f3cfde7a6f113239a5d37524b480e25f06c905eb55cfe4469099c0e1ac0"
+    },
+    {
+      "path": "data\\research\\entry_efficiency\\tick_datasets\\20260930.pkl",
+      "sha256": "420196cfe708678993c7bb2ad027203e4fcbc6672eb5630d725b5bd1602e5ef9"
+    }
+  ],
+  "limitations": [
+    "Exploratory: these training/validation periods were inspected by previous research; no fresh holdout claim.",
+    "Cached pickle files must be trusted local project artifacts; they can execute code when loaded.",
+    "Candle-majority approximates Advisor 1; it does not reproduce the current runner or native EA.",
+    "One simulated position at a time, then 30-second cooldown; five-position portfolio effects are not measured.",
+    "Labels include archived bid/ask, 100ms nominal latency and $0.05 per-side slippage; commission is an explicit extra assumption.",
+    "Full quote liquidity, stop execution during disconnections and dynamic production exits are not reconstructed.",
+    "Few validation days and clustered labels limit uncertainty estimates; day bootstrap is descriptive, not promotion evidence.",
+    "A higher probability of profit need not imply positive expected profit; payoff magnitude and costs also matter.",
+    "No model artifact is saved, approved, promoted or wired to execution."
+  ]
+}

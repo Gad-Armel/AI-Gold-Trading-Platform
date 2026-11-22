@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "created_on": "2026-10-19",
+  "execution_enabled": false,
+  "automatic_promotion": false,
+  "baseline_constraints": {"demo_only":true,"lot_size":0.01,"max_positions":5,"m1_stages":[3,5,6],"mandatory_broker_sl":true,"fixed_tp_added":false,"s30_execution_enabled":false,"advisor1_modified":false},
+  "primary_objective": "Net expectancy per settled overlapping-ticket campaign, not win rate alone",
+  "metrics": ["net_pnl_after_recovered_costs","expectancy_per_campaign","maximum_equity_drawdown","profit_factor","opportunities_rejected","additional_execution_cost_sensitivity","results_by_regime_and_day"],
+  "promotion_requirements": [
+    "Replay actual changed entry timing, current dynamic exits and capacity; retrospective ticket subsets are not a strategy backtest",
+    "Bid/ask execution data, fees and slippage assumptions declared; missing tick coverage reported",
+    "Chronological training/calibration/test; purge overlapping label horizons and group correlated tickets",
+    "Freeze the chosen hypothesis before a genuinely new shadow period; record every attempted variant",
+    "Positive net expectancy must not depend on one day or one campaign; uncertainty and extra-cost stress reported",
+    "Reject variants with negative net expectancy or unconfirmed data quality; no forced live trades to create labels",
+    "Separate approval and validation before any execution change; no live or real-money activation by this file"
+  ],
+  "experiments": [
+    {"id":"E1","priority":1,"status":"OFFLINE_ANALYSIS_COMPLETED_SMALL_SAMPLE","source_ids":["S01","S02","S22","S26","S31"],"hypothesis":"Small apparent gains disappear under additional execution costs","test":"Add hypothetical USD 0.10/0.25/0.50 per closed ticket to actual settled campaigns; do not call this a fill simulation","artifact":"campaigns.json","next_step":"Collect richer execution cost and rejected-opportunity evidence; do not loosen risk to recover losses"},
+    {"id":"E2","priority":2,"status":"PROPOSED_SHADOW_ONLY","source_ids":["S22","S10","S29"],"hypothesis":"Three same-colour candles can end in rejection or excessive entry extension","features":["last_rejection_fraction","body_range_fraction","entry_extension_atr","spread_atr"],"test":"One fixed candidate filter at a time, chosen only in an earlier calibration segment, then faithful replay and new shadow data","forbidden":"No threshold optimized on the final test or on the thirteen current trades"},
+    {"id":"E3","priority":3,"status":"PROPOSED_SHADOW_ONLY","source_ids":["S01","S11","S28","S29"],"hypothesis":"Trend and range conditions need different interpretations without redundant confirmations","test":"Stratify existing outcomes by recorded M5 regime and session; compare one regime gate with the unchanged baseline","forbidden":"No additional ADX/Hurst/EMA stack or London-only restriction merely because a post recommends it"},
+    {"id":"E4","priority":4,"status":"PROPOSED_OFFLINE_ONLY","source_ids":["S03","S13","S33"],"hypothesis":"Later additions on an extended move dilute the campaign expectancy","test":"Measure marginal outcomes of ranks 2 through 5 and causal ATR/price spacing; replay any changed spacing with fixed lots","forbidden":"No martingale, averaging down, burst orders or larger lots"},
+    {"id":"E5","priority":5,"status":"EXISTING_S30_SHADOW_NOT_PROMOTED","source_ids":["S01","S13","S26","S29"],"hypothesis":"S30 may refine timing but amplify cost/noise exposure","test":"Compare point-in-time S30 context and future executable outcomes while retaining M1/M5 authority","forbidden":"No S30 execution, synthetic gap fills or pretending quote imbalance is centralized traded volume"},
+    {"id":"E6","priority":6,"status":"PROPOSED_OFFLINE_ONLY","source_ids":["S05","S28","S32","S34"],"hypothesis":"Automatic retraining and small win-rate improvements can select noise","test":"Record model/data versions, all trials, purged chronological validation and calibration; inspect negative results","forbidden":"No pretrained web pickle/EX4/EX5 execution, API keys shared with third parties or automatic weekly parameter application"}
+  ]
+}

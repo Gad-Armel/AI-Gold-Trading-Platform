@@ -1,0 +1,67 @@
+{
+  "trial": "THREE_CONSECUTIVE_CLOSED_M1",
+  "deployed_at": "2026-10-19T03:41:12+00:00",
+  "first_observed_at": "2026-10-19T03:41:22.735500+00:00",
+  "required_bars": 3,
+  "account": {
+    "balance": 23404.75,
+    "equity": 23405.17,
+    "profit": 0.42,
+    "margin_free": 23363.37,
+    "currency": "USD",
+    "trade_mode": 0
+  },
+  "pnl": {
+    "available": true,
+    "realized": -26.4,
+    "floating": 0.42,
+    "total": -25.98,
+    "reason": ""
+  },
+  "preexisting_positions": [
+    {
+      "ticket": 58944661599,
+      "time": 1792392001,
+      "time_msc": 1792392001111,
+      "time_update": 1792392001,
+      "time_update_msc": 1792392001111,
+      "type": 0,
+      "magic": 631011,
+      "identifier": 58944661599,
+      "reason": 3,
+      "volume": 0.01,
+      "price_open": 4179.93,
+      "sl": 4177.51,
+      "tp": 0.0,
+      "price_current": 4180.35,
+      "swap": 0.0,
+      "profit": 0.42,
+      "symbol": "XAUUSD",
+      "comment": "GoldScalpDemo",
+      "external_id": ""
+    }
+  ],
+  "config": {
+    "lot_size": 0.01,
+    "history_limit": 30,
+    "max_positions_total": 5,
+    "starting_capital_usd": 100.0,
+    "max_trade_risk_usd": null,
+    "max_positions_per_horizon": 5,
+    "trading_horizons": [
+      "SCALP"
+    ],
+    "broker_utc_offset_seconds": 10800,
+    "exit_policy": "adaptive",
+    "max_session_loss_usd": null,
+    "session_loss_stop_enabled": false,
+    "post_exit_analysis_seconds": 30.0,
+    "entry_coordination_mode": "SCALP_PRIORITY",
+    "demo_only": true
+  },
+  "adaptive_state_recovery": "RESTORED",
+  "limitations": [
+    "Experimental demo entry filter; no positive-expectancy claim.",
+    "Preexisting positions must not be attributed to this new entry rule."
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "started_at": "2026-10-18T20:50:06.952099+00:00",
+  "latest_at": "2026-10-18T22:49:53.518601+00:00",
+  "minutes": 119.78,
+  "observations": 715,
+  "raw_observations": 719,
+  "excluded_stale_or_incomplete_observations": 4,
+  "equity_change": 3.23,
+  "balance_change": 4.05,
+  "maximum_equity_drawdown": 3.2,
+  "maximum_status_lag_seconds": 5.67,
+  "main_realized_change": 4.05,
+  "main_total_change": 3.23,
+  "wins": 3,
+  "losses": 1,
+  "gross_gains": 5.21,
+  "gross_losses": 1.16,
+  "profit_factor": 4.491,
+  "open_positions": [
+    {
+      "ticket": 58941915032,
+      "time": 1792374186,
+      "time_msc": 1792374186048,
+      "time_update": 1792374186,
+      "time_update_msc": 1792374186048,
+      "type": 0,
+      "magic": 631011,
+      "identifier": 58941915032,
+      "reason": 3,
+      "volume": 0.01,
+      "price_open": 4176.86,
+      "sl": 4174.43,
+      "tp": 0.0,
+      "price_current": 4176.04,
+      "swap": 0.0,
+      "profit": -0.82,
+      "symbol": "XAUUSD",
+      "comment": "GoldScalpDemo",
+      "external_id": ""
+    }
+  ],
+  "latency_median_ms": 91.37,
+  "latency_p95_ms": 680.54,
+  "common_entry_blocks": [
+    [
+      "INTRADAY: Analysis only",
+      715
+    ],
+    [
+      "SWING: Analysis only",
+      715
+    ],
+    [
+      "SWING: Adaptive entry requires completed candles.",
+      715
+    ],
+    [
+      "INTRADAY: Signal persistence is 0.0s; 15.0s required.",
+      693
+    ],
+    [
+      "SWING: Signal persistence is 0.0s; 30.0s required.",
+      693
+    ],
+    [
+      "INTRADAY: The directional policy has not authorized an entry.",
+      691
+    ],
+    [
+      "SWING: The directional policy has not authorized an entry.",
+      691
+    ],
+    [
+      "SWING: No usable directional evidence at or above 15.0/100.",
+      690
+    ]
+  ],
+  "advisor_error_samples": {},
+  "closed_trades": [
+    {
+      "position_id": 58941675225,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4175.05,
+      "exit_price": 4173.89,
+      "profit": -1.16,
+      "result": "LOSS",
+      "opened_at": "2026-10-18T22:15:10.817000+00:00",
+      "closed_at": "2026-10-18T22:18:00.477000+00:00",
+      "hold_seconds": 169.7,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58941599504,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4171.19,
+      "exit_price": 4173.98,
+      "profit": 2.79,
+      "result": "WIN",
+      "opened_at": "2026-10-18T22:09:10.946000+00:00",
+      "closed_at": "2026-10-18T22:18:00.376000+00:00",
+      "hold_seconds": 529.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58941748575,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4176.59,
+      "exit_price": 4176.8,
+      "profit": 0.21,
+      "result": "WIN",
+      "opened_at": "2026-10-18T22:23:32.295000+00:00",
+      "closed_at": "2026-10-18T22:36:04.076000+00:00",
+      "hold_seconds": 751.8,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    },
+    {
+      "position_id": 58941712267,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4174.59,
+      "exit_price": 4176.8,
+      "profit": 2.21,
+      "result": "WIN",
+      "opened_at": "2026-10-18T22:19:00.923000+00:00",
+      "closed_at": "2026-10-18T22:36:03.976000+00:00",
+      "hold_seconds": 1023.1,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP"
+    }
+  ],
+  "observed_excursions": {
+    "58941599504": {
+      "peak_floating": 3.84,
+      "trough_floating": -1.37
+    },
+    "58941675225": {
+      "peak_floating": -0.02,
+      "trough_floating": -1.27
+    },
+    "58941712267": {
+      "peak_floating": 3.24,
+      "trough_floating": -0.55
+    },
+    "58941748575": {
+      "peak_floating": 1.24,
+      "trough_floating": -1.4
+    },
+    "58941915032": {
+      "peak_floating": 0.39,
+      "trough_floating": -1.1400000000000001
+    }
+  }
+}

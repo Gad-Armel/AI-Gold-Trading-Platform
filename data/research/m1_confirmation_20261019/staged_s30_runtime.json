@@ -1,0 +1,53 @@
+{
+  "updated_at": "2026-10-19T05:02:41.432224+00:00",
+  "status": "RUNNING",
+  "required": 3,
+  "staged": {
+    "required_bars": 3,
+    "after_epoch": null,
+    "execution_enabled": false,
+    "blocks": [
+      "Latest 3 completed M1 candle(s) do not confirm entry direction; waiting for fresh follow-through."
+    ]
+  },
+  "s30": {
+    "available": true,
+    "execution_enabled": false,
+    "role": "SHADOW_ONLY",
+    "timeframe": "S30",
+    "direction": "SELL",
+    "bars": [
+      {
+        "time": 1792386060,
+        "open": 4183.32,
+        "high": 4183.4,
+        "low": 4182.905,
+        "close": 4182.9349999999995,
+        "ticks": 164,
+        "maximum_spread": 0.3900000000003274
+      },
+      {
+        "time": 1792386090,
+        "open": 4182.969999999999,
+        "high": 4183.02,
+        "low": 4181.49,
+        "close": 4181.54,
+        "ticks": 111,
+        "maximum_spread": 0.3900000000003274
+      },
+      {
+        "time": 1792386120,
+        "open": 4181.59,
+        "high": 4181.845,
+        "low": 4180.83,
+        "close": 4180.835,
+        "ticks": 138,
+        "maximum_spread": 0.4099999999998545
+      }
+    ],
+    "observed_epoch": 1792386161.318922,
+    "reason": "Three completed midpoint S30 candles; spread and execution costs are not a profit forecast"
+  },
+  "recovery": "RESTORED",
+  "positions": 0
+}

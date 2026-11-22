@@ -1,0 +1,278 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+THREE INDEPENDENT HORIZON BOT — DEMO EXECUTION ONLY
+Lanes active: SCALP + INTRADAY + SWING
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum THREE positions TOTAL across lanes, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive mode uses one position per lane and no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 1 | 2026-10-09 06:58:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.66/46%    +0.24R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $0.58 | total $16.55
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 28 | 2026-10-09 06:58:52 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.57/66%    -0.06R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-0.30 | total $15.67
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 58 | 2026-10-09 06:59:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.54/81%    -0.08R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-0.40 | total $15.57
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 87 | 2026-10-09 06:59:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.50/81%    -0.20R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-1.02 | total $14.95
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 118 | 2026-10-09 06:59:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.44/81%    -0.57R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-2.84 | total $13.13
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 149 | 2026-10-09 06:59:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.44/81%    -0.69R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-3.28 | total $12.69
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 179 | 2026-10-09 07:00:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.50/81%    -0.02R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-0.42 | total $15.55
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 209 | 2026-10-09 07:00:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.46/81%    -0.40R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-2.00 | total $13.97
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 238 | 2026-10-09 07:00:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.37/81%    -0.68R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-3.38 | total $12.59
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 268 | 2026-10-09 07:00:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.38/81%    -1.04R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-5.22 | total $10.75
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 297 | 2026-10-09 07:01:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.53/81%    -0.36R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $-1.80 | total $14.17
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 327 | 2026-10-09 07:01:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.58/81%    +0.22R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.97 | floating $1.08 | total $17.05
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 353 | 2026-10-09 07:01:40 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     0     -           -       Post-exit market analysis: 21s remaining.
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $0.00 | total $15.49
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 383 | 2026-10-09 07:01:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     0     -           -       Post-exit market analysis: 6s remaining.
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $0.00 | total $15.49
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 413 | 2026-10-09 07:02:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.59/66%    -0.08R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-0.39 | total $15.10
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 444 | 2026-10-09 07:02:26 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.50/81%    -0.12R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-0.60 | total $14.89
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 474 | 2026-10-09 07:02:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.42/81%    -0.33R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-1.67 | total $13.82
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 505 | 2026-10-09 07:02:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.51/81%    -0.23R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-1.16 | total $14.33
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 534 | 2026-10-09 07:03:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.46/66%    -0.40R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-2.02 | total $13.47
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 565 | 2026-10-09 07:03:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.48/81%    -0.39R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-1.96 | total $13.53
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 593 | 2026-10-09 07:03:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.51/81%    -0.31R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-1.53 | total $13.96
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 623 | 2026-10-09 07:03:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     1     0.54/81%    -0.07R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $0.29 | total $15.78
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 653 | 2026-10-09 07:04:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.61/66%    -0.07R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $-0.34 | total $15.15
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 684 | 2026-10-09 07:04:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     2     0.71/81%    +0.50R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $2.48 | total $17.97
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 711 | 2026-10-09 07:04:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     3     0.64/66%    +0.50R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $2.49 | total $17.98
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 741 | 2026-10-09 07:04:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     3     0.59/81%    +0.41R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $1.95 | total $17.44
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 772 | 2026-10-09 07:05:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     3     0.73/81%    +1.00R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $5.01 | total $20.50
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 802 | 2026-10-09 07:05:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     3     0.58/81%    +0.83R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $4.14 | total $19.63
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 832 | 2026-10-09 07:05:45 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     3     0.66/81%    +1.07R  POSITION OPEN
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $15.49 | floating $5.34 | total $20.83
+======================================================================================================================
+
+======================================================================================================================
+THREE-HORIZON GOLD BOT | Cycle 862 | 2026-10-09 07:06:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     BUY    78.3      True     0     -           -       Post-exit market analysis: 22s remaining.
+INTRADAY  BUY    100.0     True     0     -           -       Analysis only: new positions are disabled for this horizon.
+SWING     BUY    78.3      True     0     -           -       Analysis only: new positions are disabled for this horizon.
+Session P/L: realized $16.10 | floating $0.00 | total $16.10
+======================================================================================================================

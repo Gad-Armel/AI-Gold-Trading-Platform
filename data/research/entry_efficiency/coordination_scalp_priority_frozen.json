@@ -1,0 +1,18 @@
+{
+    "policy":  "STAGED_EXPOSURE_SCALP_PRIORITY_V1",
+    "frozen_at":  "2026-10-08T13:13:20.0248200Z",
+    "prospective_after":  "2026-10-08T13:14:20.0248200Z",
+    "live_approved":  false,
+    "allocation_source_sha256":  "206A026FC60C815CF5E90D6FB9BC91C0A048CE88511E254D9ACFDD4EF1D373AD",
+    "replay_source_sha256":  "6EA83F1FBC50FEABF301B619F5ABC4E2AF860069B3F72E0ECCDAA000BF0F2B25",
+    "rules":  [
+                  "SCALP bypasses only this allocation gate; all existing order safeguards remain.",
+                  "First independent directional setup remains eligible.",
+                  "Secondary same-direction additions require all peer profit cushions above twice spread and fresh completed M5 follow-through."
+              ],
+    "validation_limits":  [
+                              "Historical periods and current outcomes have been inspected; these comparisons are exploratory.",
+                              "Future windows must be reported separately; losses cannot establish a positive edge.",
+                              "Do not promote from one correlated losing episode or threshold fitting."
+                          ]
+}

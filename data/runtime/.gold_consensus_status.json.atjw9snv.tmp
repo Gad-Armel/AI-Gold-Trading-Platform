@@ -1,0 +1,235 @@
+{
+  "status": "DATA_UNAVAILABLE",
+  "status_message": "Market snapshot unavailable: RuntimeError: No live price returned for XAUUSD.",
+  "updated_at": "2026-11-09T19:41:42.632565+00:00",
+  "updated_local": "2026-11-09 10:49:58 W. Central Africa Standard Time",
+  "mode": "shadow",
+  "cycle": 336,
+  "lanes": {
+    "SCALP": {
+      "decision": {
+        "horizon": "SCALP",
+        "direction": "SELL",
+        "dominant_bias": "SELL",
+        "evidence": 55.06,
+        "entry_threshold": 15.0,
+        "evidence_type": "HEURISTIC_STRENGTH",
+        "calibrated_probability": null,
+        "exit_threshold": 15.0,
+        "support_weight": 0.4,
+        "strong_advisor_count": 1,
+        "required_strong_advisor_count": 1,
+        "entry_mode": "ADVISOR1_PRIMARY",
+        "required_strong_advisors": [
+          "MT5_CANDLES"
+        ],
+        "strong_advisors": [
+          "MT5_CANDLES"
+        ],
+        "allowed": false,
+        "blocks": [
+          "Learned expected return does not cover costs and entry margin."
+        ],
+        "reasons": [
+          "Advisor 1 SCALP candles determine direction and evidence; tick flow is context."
+        ],
+        "signal_band": "DEVELOPING",
+        "contrarian_watch": false,
+        "inverse_active": false,
+        "inverse_threshold": 78.5,
+        "contrarian_direction": "WAIT",
+        "contributors": [
+          {
+            "advisor": "MT5_CANDLES",
+            "weight": 0.3,
+            "bias": "SELL",
+            "evidence": 55.06,
+            "action": "WAIT",
+            "valid_until": "2026-11-09T09:54:58.047014+00:00",
+            "validity_reason": "",
+            "source_usable": true
+          },
+          {
+            "advisor": "API_CANDLES",
+            "weight": 0.1,
+            "bias": "SELL",
+            "evidence": 57.82,
+            "action": "WAIT",
+            "valid_until": "2026-11-09T09:54:01.336952+00:00",
+            "validity_reason": "",
+            "source_usable": true
+          },
+          {
+            "advisor": "MT5_TICK_FLOW",
+            "weight": 0.6,
+            "bias": "WAIT",
+            "evidence": 0.0,
+            "action": "WAIT",
+            "valid_until": "2026-11-09T09:51:58.248061+00:00",
+            "validity_reason": "",
+            "source_usable": false
+          }
+        ],
+        "levels": {
+          "sl": 4097.19,
+          "tp1": 4093.42,
+          "tp2": 4092.39,
+          "tp3": 4091.19,
+          "entry_zone": [
+            4094.62,
+            4095.3
+          ],
+          "entry_reference": 4094.96,
+          "source": "ADVISOR1_SCALP"
+        },
+        "entry_reference": 4094.96,
+        "economic_advisor": {
+          "bias": "NEUTRAL",
+          "score": 0.0,
+          "quality": 0.0,
+          "role": "CONTEXT_AND_VETO_ONLY",
+          "components": [],
+          "confidence_points": 0.0,
+          "confirming_points": 0.0,
+          "contradiction_points": 0.0,
+          "data_coverage": 0.0,
+          "active_source_count": 0,
+          "available_source_count": 2,
+          "confidence_breakdown": [
+            {
+              "component": "verified_release_surprise",
+              "maximum_points": 70.0,
+              "points": 0.0,
+              "absolute_points": 0.0,
+              "relationship": "NEUTRAL",
+              "source_direction": "NEUTRAL",
+              "source_score": 0.0,
+              "source_quality": 0.0
+            },
+            {
+              "component": "official_release_reaction_scalp",
+              "maximum_points": 30.0,
+              "points": 0.0,
+              "absolute_points": 0.0,
+              "relationship": "NEUTRAL",
+              "source_direction": "NEUTRAL",
+              "source_score": 0.0,
+              "source_quality": 0.0
+            }
+          ],
+          "confidence_method": "quality-adjusted directional points; confirming sources add, contradicting sources subtract"
+        },
+        "economic_conflict": false,
+        "take_profit": 4093.42,
+        "stop_loss": 4097.19,
+        "target_name": "TP1",
+        "valid_until": "2026-11-09T09:54:58.047014+00:00",
+        "news_block": false,
+        "news_policy": "CLOSE_AND_BLOCK",
+        "macro_context": {},
+        "data_roles": "Advisor 1 M1/M5/M15 candles determine entry bias, evidence and levels; tick flow manages exits.",
+        "all_lanes_very_weak": false,
+        "continuous_directional_entries": true,
+        "higher_timeframe_context": {
+          "role": "SCALP_SUPPORT_ONLY",
+          "views": {
+            "INTRADAY": {
+              "bias": "WAIT",
+              "evidence": 0.0,
+              "usable": false,
+              "relation": "NEUTRAL",
+              "execution_enabled": false
+            },
+            "SWING": {
+              "bias": "WAIT",
+              "evidence": 0.0,
+              "usable": false,
+              "relation": "NEUTRAL",
+              "execution_enabled": false
+            }
+          },
+          "alignment": 0.0,
+          "addition_threshold_adjustment": -0.0,
+          "calibrated_probability": null
+        },
+        "execution_enabled": true,
+        "role": "TRADING",
+        "setup_observation": {
+          "available": true,
+          "role": "RESEARCH_ONLY",
+          "version": 1,
+          "feature_epoch": 1794217740.0,
+          "regime": "RANGE_OR_TRANSITION",
+          "rsi7": 52.02662280521633,
+          "m5_efficiency": 0.11288029570656363,
+          "candidates": {
+            "pullback": "WAIT",
+            "sweep": "WAIT",
+            "breakout": "WAIT"
+          },
+          "calibrated_probability": null,
+          "execution_enabled": false
+        },
+        "smc_strategy": {
+          "available": false,
+          "execution_enabled": false,
+          "version": 1,
+          "candidates": [],
+          "role": "SMC_RESEARCH",
+          "calibrated_probability": null,
+          "reason": "Insufficient, stale or discontinuous completed candles",
+          "policy": "observe"
+        },
+        "market_schedule": {
+          "available": true,
+          "observed_at": "2026-11-09T09:49:58.484124+00:00",
+          "active_centres": [
+            "London"
+          ],
+          "london_new_york_overlap": false,
+          "local_times": {
+            "London": "2026-11-09T09:49:58.484124+00:00",
+            "New_York": "2026-11-09T04:49:58.484124-05:00",
+            "Shanghai": "2026-11-09T17:49:58.484124+08:00"
+          },
+          "sge_regular_session": "BREAK",
+          "next_regular_lbma_auction_utc": "2026-11-09T10:30:00+00:00",
+          "minutes_to_regular_auction": 40.0,
+          "rollover_watch": false,
+          "authoritative_broker_hours": false,
+          "holiday_calendar_verified": false,
+          "execution_authority": false,
+          "note": "Centre windows are liquidity heuristics, not exchange opening hours. Auctions exclude holidays only when separately verified; broker permissions and fresh quotes govern entries."
+        },
+        "market_execution_plan": {
+          "live_strategy": "EXECUTABLE_QUOTE_CONTINUATION",
+          "frequency_policy": "FASTEST_COST_AND_RISK_FEASIBLE_NOT_TARGET_TRADE_COUNT",
+          "market_regime": "RANGE_OR_TRANSITION",
+          "research_candidates": [
+            {
+              "setup": "sweep",
+              "direction": "WAIT",
+              "execution_enabled": false
+            }
+          ],
+          "news_policy": "EXISTING_VERIFIED_CALENDAR_FILTERS_UNCHANGED",
+          "session_policy": "CONTEXT_ONLY_BROKER_PERMISSION_AND_QUOTES_AUTHORITATIVE",
+          "calibrated_probability": null
+        },
+        "regime_research": {
+          "bias": "WAIT",
+          "evidence": 59.09090909101244,
+          "source_usable": true,
+          "levels": {},
+          "timeframe": "S5",
+          "strategy": "REGIME_PULLBACK_V1",
+          "blocks": [
+            "Waiting for coverage_ok, confirmation_ok, structure_ok, M1/M5 trend alignment"
+          ],
+          "thesis_bias": "WAIT",
+          "setup_id": "TREND_PULLBACK:1794217795:WAIT",
+          "checks": {
+            "coverage_ok": false,
+            "confirmation_ok": false,
+            "structure_ok": false,
+            "body_ok": true

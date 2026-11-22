@@ -1,0 +1,610 @@
+Fast cost profile: PROVISIONAL_DEMO; commission=0.1, slippage=0.2 price equivalents
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+2.
+Capital profile: $100. Maximum 3 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-30 00:39:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   91.0      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 18 | 2026-10-30 00:39:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   91.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 34 | 2026-10-30 00:39:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   91.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 4.8s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 58 | 2026-10-30 00:40:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   91.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.4s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 72 | 2026-10-30 00:40:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 95 | 2026-10-30 00:40:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 118 | 2026-10-30 00:40:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 142 | 2026-10-30 00:41:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 162 | 2026-10-30 00:41:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 183 | 2026-10-30 00:41:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 206 | 2026-10-30 00:41:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 228 | 2026-10-30 00:42:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 248 | 2026-10-30 00:42:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 272 | 2026-10-30 00:42:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 299 | 2026-10-30 00:42:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 323 | 2026-10-30 00:43:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 344 | 2026-10-30 00:43:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 368 | 2026-10-30 00:43:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       No fresh XAUUSD quote: last broker tick is 3.8s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 392 | 2026-10-30 00:43:55 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 414 | 2026-10-30 00:44:10 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 435 | 2026-10-30 00:44:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 458 | 2026-10-30 00:44:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 483 | 2026-10-30 00:44:57 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   92.2      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 505 | 2026-10-30 00:45:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   94.8      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 520 | 2026-10-30 00:45:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 544 | 2026-10-30 00:45:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 567 | 2026-10-30 00:45:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 586 | 2026-10-30 00:46:15 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 612 | 2026-10-30 00:46:31 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 636 | 2026-10-30 00:46:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 663 | 2026-10-30 00:47:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 683 | 2026-10-30 00:47:17 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 706 | 2026-10-30 00:47:33 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 732 | 2026-10-30 00:47:48 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 756 | 2026-10-30 00:48:03 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 779 | 2026-10-30 00:48:18 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 806 | 2026-10-30 00:48:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 830 | 2026-10-30 00:48:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 854 | 2026-10-30 00:49:04 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 876 | 2026-10-30 00:49:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 900 | 2026-10-30 00:49:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 923 | 2026-10-30 00:49:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 949 | 2026-10-30 00:50:07 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 972 | 2026-10-30 00:50:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1001 | 2026-10-30 00:50:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1030 | 2026-10-30 00:50:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1057 | 2026-10-30 00:51:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1079 | 2026-10-30 00:51:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1108 | 2026-10-30 00:51:38 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1135 | 2026-10-30 00:51:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1159 | 2026-10-30 00:52:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.5s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1182 | 2026-10-30 00:52:24 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 2.8s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1204 | 2026-10-30 00:52:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1228 | 2026-10-30 00:52:54 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1249 | 2026-10-30 00:53:09 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1271 | 2026-10-30 00:53:25 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       No fresh XAUUSD quote: last broker tick is 6.6s old. Check feed connection and symbol session.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1299 | 2026-10-30 00:53:41 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1327 | 2026-10-30 00:53:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1351 | 2026-10-30 00:54:11 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1375 | 2026-10-30 00:54:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1399 | 2026-10-30 00:54:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1412 | 2026-10-30 00:56:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1414 | 2026-10-30 00:56:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   0.0       False    0     -           -       No unopposed source-count majority at 75/100; equal opposing votes wait.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1416 | 2026-10-30 00:57:00 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.3      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1418 | 2026-10-30 00:57:16 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.3      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1442 | 2026-10-30 00:57:32 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1471 | 2026-10-30 00:57:47 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1493 | 2026-10-30 00:58:02 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1511 | 2026-10-30 00:58:19 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1538 | 2026-10-30 00:58:34 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1563 | 2026-10-30 00:58:49 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1593 | 2026-10-30 00:59:05 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1620 | 2026-10-30 00:59:20 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1649 | 2026-10-30 00:59:36 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1677 | 2026-10-30 00:59:51 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   97.4      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1704 | 2026-10-30 01:00:06 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.0      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1729 | 2026-10-30 01:00:22 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.0      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1753 | 2026-10-30 01:00:37 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1769 | 2026-10-30 01:00:53 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1780 | 2026-10-30 01:01:08 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1792 | 2026-10-30 01:01:23 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1802 | 2026-10-30 01:01:39 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1822 | 2026-10-30 01:01:56 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1836 | 2026-10-30 01:02:12 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1849 | 2026-10-30 01:02:27 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1868 | 2026-10-30 01:02:42 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   98.7      False    0     -           -       Research entry hold: position exits and broker stops remain active.
+Session P/L: realized $-57.27 | floating $0.00 | total $-57.27
+======================================================================================================================

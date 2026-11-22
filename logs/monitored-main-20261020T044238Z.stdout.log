@@ -1,0 +1,64 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum 5 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-20 05:42:43 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 28 | 2026-10-20 05:42:58 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 56 | 2026-10-20 05:43:13 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 86 | 2026-10-20 05:43:29 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 114 | 2026-10-20 05:43:44 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 144 | 2026-10-20 05:43:59 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 173 | 2026-10-20 05:44:14 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 204 | 2026-10-20 05:44:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     WAIT   15.0      False    0     -           -       Advisor 1 SCALP has no usable direction at or above 15/100.
+Session P/L: realized $4.99 | floating $0.00 | total $4.99
+======================================================================================================================

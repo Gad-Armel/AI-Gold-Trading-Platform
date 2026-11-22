@@ -1,0 +1,54 @@
+{
+    "version": 1,
+    "identity": "263b02c643b75ef046133ac48238c4c141157baa09350b50570777ce754c347e",
+    "saved_at": 1792767345.7374485,
+    "lanes": {
+        "SCALP": {
+            "exit_state": {},
+            "previous_tickets": [],
+            "last_closed_bar": "2026-10-23T14:46:00+00:00",
+            "last_exit_at": 1792766831.290363,
+            "last_exit_direction": "SELL",
+            "candle_confirmation_state": {
+                "confirmation": {
+                    "frame": "S30",
+                    "required_bars": 3,
+                    "waiting": true
+                }
+            },
+            "entry_period_seconds": 30
+        },
+        "INTRADAY": {
+            "exit_state": {},
+            "previous_tickets": [],
+            "last_closed_bar": null,
+            "last_exit_at": null,
+            "last_exit_direction": null,
+            "candle_confirmation_state": {
+                "direction": "WAIT",
+                "peak": 0.0
+            },
+            "entry_period_seconds": null
+        },
+        "SWING": {
+            "exit_state": {},
+            "previous_tickets": [],
+            "last_closed_bar": null,
+            "last_exit_at": null,
+            "last_exit_direction": null,
+            "candle_confirmation_state": {
+                "direction": "SELL",
+                "peak": 78.33,
+                "waiting_since": null,
+                "confirmation": {
+                    "waiting": false,
+                    "completed_bars": 2,
+                    "direction": "SELL",
+                    "frame": "M5",
+                    "required_bars": 2
+                }
+            },
+            "entry_period_seconds": null
+        }
+    }
+}

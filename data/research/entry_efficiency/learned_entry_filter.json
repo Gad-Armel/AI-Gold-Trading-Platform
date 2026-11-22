@@ -1,0 +1,93 @@
+{
+  "results": [
+    {
+      "minutes": 5,
+      "training_labels": 17315,
+      "validation": [
+        {
+          "threshold": 0.0,
+          "trades": 302,
+          "net": -29.59,
+          "mean": -0.098,
+          "profit_factor": 0.9498,
+          "drawdown": 82.02
+        },
+        {
+          "threshold": 0.25,
+          "trades": 154,
+          "net": 5.81,
+          "mean": 0.0377,
+          "profit_factor": 1.0178,
+          "drawdown": 35.91
+        },
+        {
+          "threshold": 0.5,
+          "trades": 94,
+          "net": 11.56,
+          "mean": 0.123,
+          "profit_factor": 1.0543,
+          "drawdown": 66.81
+        },
+        {
+          "threshold": 1.0,
+          "trades": 31,
+          "net": -1.69,
+          "mean": -0.0545,
+          "profit_factor": 0.9779,
+          "drawdown": 43.6
+        }
+      ],
+      "selected_threshold": null,
+      "latest": []
+    },
+    {
+      "minutes": 15,
+      "training_labels": 17177,
+      "validation": [
+        {
+          "threshold": 0.0,
+          "trades": 392,
+          "net": 67.49,
+          "mean": 0.1722,
+          "profit_factor": 1.0772,
+          "drawdown": 110.7
+        },
+        {
+          "threshold": 0.25,
+          "trades": 266,
+          "net": -13.28,
+          "mean": -0.0499,
+          "profit_factor": 0.9791,
+          "drawdown": 75.12
+        },
+        {
+          "threshold": 0.5,
+          "trades": 187,
+          "net": -37.02,
+          "mean": -0.198,
+          "profit_factor": 0.9233,
+          "drawdown": 106.26
+        },
+        {
+          "threshold": 1.0,
+          "trades": 87,
+          "net": 35.05,
+          "mean": 0.4029,
+          "profit_factor": 1.1549,
+          "drawdown": 88.16
+        }
+      ],
+      "selected_threshold": null,
+      "latest": []
+    }
+  ],
+  "live_approved": false,
+  "limitations": [
+    "Offline entry challenger; fixed time exits and approximate candle views differ from production.",
+    "60/20/20 chronological split with label-boundary purging; no random train/test split.",
+    "Four thresholds selected only on middle period, minimum 100 trades and validation PF >=1.1.",
+    "Latest historical period was previously inspected with other hypotheses; not a blind holdout.",
+    "No historical point-in-time news, fees or financing. Simulated spread/slippage and $5 stops.",
+    "Forward validation and faithful production replay remain mandatory before any deployment."
+  ]
+}

@@ -1,0 +1,29 @@
+Connected to MT5
+Dashboard: http://127.0.0.1:8765
+
+GOLD SCALP BOT — DEMO EXECUTION ONLY
+SCALP execution; higher-timeframe context analysed in the background.
+Exit policy: ADAPTIVE. Broker clock: UTC+3.
+Capital profile: $100. Maximum 5 positions total, exactly 0.01 lot per entry.
+Entries use directional BIAS and evidence. Adaptive exits have no fixed profit target; protective stops remain active.
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 1 | 2026-10-20 08:18:30 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   79.4      True     0     -           -       Signal persistence is 0.0s; 2.0s required.
+Session P/L: realized $-0.68 | floating $0.00 | total $-0.68
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 28 | 2026-10-20 08:18:46 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   79.4      True     0     -           -       Tick history is stale
+Session P/L: realized $-0.68 | floating $0.00 | total $-0.68
+======================================================================================================================
+
+======================================================================================================================
+GOLD SCALP BOT | Cycle 56 | 2026-10-20 08:19:01 W. Central Africa Standard Time | DEMO
+LANE      BIAS   EVIDENCE  ALLOWED  OPEN  CONVICTION  R       STATUS
+SCALP     SELL   79.4      True     0     -           -       Tick history is stale
+Session P/L: realized $-0.68 | floating $0.00 | total $-0.68
+======================================================================================================================

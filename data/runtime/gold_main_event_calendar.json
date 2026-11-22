@@ -1,0 +1,39 @@
+{
+  "available": true,
+  "status": "OFFICIAL_SCHEDULE",
+  "fetched_at": "2026-11-09T09:41:51.685220+00:00",
+  "events": [
+    {
+      "title": "Initial Jobless Claims",
+      "currency": "USD",
+      "country": "US",
+      "impact": "MEDIUM",
+      "impact_basis": "Main watch classification; source verifies schedule only",
+      "event_time": "2026-11-12 14:30:00",
+      "event_time_utc": "2026-11-12T13:30:00+00:00",
+      "enabled": true,
+      "source": "MAIN_NYFED",
+      "provider": "New York Fed official economic indicators calendar",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "source_detail": "official_new_york_fed_schedule",
+      "calendar_confidence": "VERIFIED",
+      "category": "JOBLESS_CLAIMS"
+    },
+    {
+      "title": "Initial Jobless Claims",
+      "currency": "USD",
+      "country": "US",
+      "impact": "MEDIUM",
+      "impact_basis": "Main watch classification; source verifies schedule only",
+      "event_time": "2026-11-19 14:30:00",
+      "event_time_utc": "2026-11-19T13:30:00+00:00",
+      "enabled": true,
+      "source": "MAIN_NYFED",
+      "provider": "New York Fed official economic indicators calendar",
+      "source_url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "source_detail": "official_new_york_fed_schedule",
+      "calendar_confidence": "VERIFIED",
+      "category": "JOBLESS_CLAIMS"
+    }
+  ]
+}

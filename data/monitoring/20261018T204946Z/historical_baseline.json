@@ -1,0 +1,3613 @@
+{
+  "as_of": "2026-10-18T20:51:34.006513+00:00",
+  "read_only": true,
+  "lookback_days": 14,
+  "overall": {
+    "trades": 412,
+    "net": -206.81,
+    "wins": 187,
+    "losses": 225,
+    "average_win": 1.85,
+    "average_loss": -2.4567,
+    "expectancy": -0.502,
+    "profit_factor": 0.6259
+  },
+  "by_lane": {
+    "INTRADAY": {
+      "trades": 26,
+      "net": -44.0,
+      "wins": 10,
+      "losses": 16,
+      "average_win": 2.179,
+      "average_loss": -4.1119,
+      "expectancy": -1.6923,
+      "profit_factor": 0.3312
+    },
+    "SCALP": {
+      "trades": 365,
+      "net": -140.67,
+      "wins": 166,
+      "losses": 199,
+      "average_win": 1.8242,
+      "average_loss": -2.2285,
+      "expectancy": -0.3854,
+      "profit_factor": 0.6828
+    },
+    "SWING": {
+      "trades": 21,
+      "net": -22.14,
+      "wins": 11,
+      "losses": 10,
+      "average_win": 1.9409,
+      "average_loss": -4.349,
+      "expectancy": -1.0543,
+      "profit_factor": 0.4909
+    }
+  },
+  "scalp_by_day": {
+    "2026-10-08": {
+      "trades": 41,
+      "net": -10.83,
+      "wins": 23,
+      "losses": 18,
+      "average_win": 1.907,
+      "average_loss": -3.0383,
+      "expectancy": -0.2641,
+      "profit_factor": 0.802
+    },
+    "2026-10-09": {
+      "trades": 148,
+      "net": -56.83,
+      "wins": 68,
+      "losses": 80,
+      "average_win": 1.8079,
+      "average_loss": -2.2471,
+      "expectancy": -0.384,
+      "profit_factor": 0.6839
+    },
+    "2026-10-14": {
+      "trades": 2,
+      "net": 4.35,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 2.175,
+      "average_loss": null,
+      "expectancy": 2.175,
+      "profit_factor": null
+    },
+    "2026-10-15": {
+      "trades": 174,
+      "net": -77.36,
+      "wins": 73,
+      "losses": 101,
+      "average_win": 1.8036,
+      "average_loss": -2.0695,
+      "expectancy": -0.4446,
+      "profit_factor": 0.6299
+    }
+  },
+  "scalp_by_direction": {
+    "BUY": {
+      "trades": 279,
+      "net": -93.78,
+      "wins": 126,
+      "losses": 153,
+      "average_win": 1.8754,
+      "average_loss": -2.1574,
+      "expectancy": -0.3361,
+      "profit_factor": 0.7159
+    },
+    "SELL": {
+      "trades": 86,
+      "net": -46.89,
+      "wins": 40,
+      "losses": 46,
+      "average_win": 1.6628,
+      "average_loss": -2.4652,
+      "expectancy": -0.5452,
+      "profit_factor": 0.5865
+    }
+  },
+  "scalp_by_exit_reason": {
+    "Confirmed market thesis invalidation": {
+      "trades": 23,
+      "net": -58.37,
+      "wins": 0,
+      "losses": 23,
+      "average_win": null,
+      "average_loss": -2.5378,
+      "expectancy": -2.5378,
+      "profit_factor": 0.0
+    },
+    "Confirmed neutral directional thesis with opposing momentum; cutting unsupported loss": {
+      "trades": 26,
+      "net": -45.38,
+      "wins": 0,
+      "losses": 26,
+      "average_win": null,
+      "average_loss": -1.7454,
+      "expectancy": -1.7454,
+      "profit_factor": 0.0
+    },
+    "Flow reversal risk 0.70 while 0.72 in profit (floor 0.62); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.72,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.72,
+      "average_loss": null,
+      "expectancy": 0.72,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.70 while 2.13 in profit (floor 1.00); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 4.35,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 2.175,
+      "average_loss": null,
+      "expectancy": 2.175,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.70 while 2.19 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.37,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.37,
+      "average_loss": null,
+      "expectancy": 2.37,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.70 while 2.28 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 7.04,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 2.3467,
+      "average_loss": null,
+      "expectancy": 2.3467,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.71 while 3.22 in profit (floor 0.88); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.28,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.28,
+      "average_loss": null,
+      "expectancy": 3.28,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.71 while 3.48 in profit (floor 0.68); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.48,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.48,
+      "average_loss": null,
+      "expectancy": 3.48,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.71 while 4.97 in profit (floor 1.10); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 9.93,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 4.965,
+      "average_loss": null,
+      "expectancy": 4.965,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.72 while 0.76 in profit (floor 0.68); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 2.26,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.485,
+      "average_loss": -0.71,
+      "expectancy": 0.7533,
+      "profit_factor": 4.1831
+    },
+    "Flow reversal risk 0.72 while 1.08 in profit (floor 0.48); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.04,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.04,
+      "average_loss": null,
+      "expectancy": 1.04,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.72 while 1.25 in profit (floor 0.94); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.27,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.27,
+      "average_loss": null,
+      "expectancy": 1.27,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.72 while 1.30 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 4,
+      "net": 5.2,
+      "wins": 3,
+      "losses": 1,
+      "average_win": 1.97,
+      "average_loss": -0.71,
+      "expectancy": 1.3,
+      "profit_factor": 8.3239
+    },
+    "Flow reversal risk 0.72 while 1.66 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.66,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.66,
+      "average_loss": null,
+      "expectancy": 1.66,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.72 while 3.00 in profit (floor 0.90); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.0,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.0,
+      "average_loss": null,
+      "expectancy": 3.0,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.73 while 1.40 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.4,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.4,
+      "average_loss": null,
+      "expectancy": 1.4,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.73 while 2.33 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.27,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.27,
+      "average_loss": null,
+      "expectancy": 2.27,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.73 while 2.57 in profit (floor 1.06); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.62,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.62,
+      "average_loss": null,
+      "expectancy": 2.62,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.73 while 3.37 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 7.01,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 8.0,
+      "average_loss": -0.99,
+      "expectancy": 3.505,
+      "profit_factor": 8.0808
+    },
+    "Flow reversal risk 0.74 while 1.64 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 4.95,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 1.65,
+      "average_loss": null,
+      "expectancy": 1.65,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.74 while 1.76 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.76,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.76,
+      "average_loss": null,
+      "expectancy": 1.76,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.74 while 2.14 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.17,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.17,
+      "average_loss": null,
+      "expectancy": 2.17,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.74 while 3.02 in profit (floor 0.54); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.02,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.02,
+      "average_loss": null,
+      "expectancy": 3.02,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.74 while 3.57 in profit (floor 0.48); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.59,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.59,
+      "average_loss": null,
+      "expectancy": 3.59,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.75 while 0.59 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.17,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.585,
+      "average_loss": null,
+      "expectancy": 0.585,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.75 while 0.83 in profit (floor 0.78); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.83,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.83,
+      "average_loss": null,
+      "expectancy": 0.83,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.75 while 2.37 in profit (floor 1.06); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.72,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.72,
+      "average_loss": null,
+      "expectancy": 1.72,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.75 while 3.16 in profit (floor 0.84); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.16,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.16,
+      "average_loss": null,
+      "expectancy": 3.16,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.75 while 4.19 in profit (floor 0.46); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 4.19,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 4.19,
+      "average_loss": null,
+      "expectancy": 4.19,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.76 while 0.52 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 0.77,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 1.15,
+      "average_loss": -0.38,
+      "expectancy": 0.385,
+      "profit_factor": 3.0263
+    },
+    "Flow reversal risk 0.76 while 0.66 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.38,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.69,
+      "average_loss": null,
+      "expectancy": 0.69,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.76 while 1.07 in profit (floor 0.60); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.11,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 1.0367,
+      "average_loss": null,
+      "expectancy": 1.0367,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.76 while 1.07 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.07,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.6,
+      "average_loss": -0.13,
+      "expectancy": 1.0233,
+      "profit_factor": 24.6154
+    },
+    "Flow reversal risk 0.76 while 1.26 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.8,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.93,
+      "average_loss": -0.06,
+      "expectancy": 1.2667,
+      "profit_factor": 64.3333
+    },
+    "Flow reversal risk 0.76 while 1.38 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 2.75,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 3.3,
+      "average_loss": -0.55,
+      "expectancy": 1.375,
+      "profit_factor": 6.0
+    },
+    "Flow reversal risk 0.76 while 2.36 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.36,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.36,
+      "average_loss": null,
+      "expectancy": 2.36,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.76 while 3.34 in profit (floor 0.88); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.4,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.4,
+      "average_loss": null,
+      "expectancy": 3.4,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.76 while 4.07 in profit (floor 0.90); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 4.07,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 4.07,
+      "average_loss": null,
+      "expectancy": 4.07,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.77 while 0.31 in profit (floor 0.30); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.28,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.28,
+      "average_loss": null,
+      "expectancy": 0.28,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.77 while 0.81 in profit (floor 0.64); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 2.85,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.595,
+      "average_loss": -0.34,
+      "expectancy": 0.95,
+      "profit_factor": 9.3824
+    },
+    "Flow reversal risk 0.77 while 0.97 in profit (floor 0.94); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.97,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.97,
+      "average_loss": null,
+      "expectancy": 0.97,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.77 while 1.00 in profit (floor 0.74); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 3.01,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.69,
+      "average_loss": -0.37,
+      "expectancy": 1.0033,
+      "profit_factor": 9.1351
+    },
+    "Flow reversal risk 0.77 while 1.05 in profit (floor 0.98); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 2.09,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 2.41,
+      "average_loss": -0.32,
+      "expectancy": 1.045,
+      "profit_factor": 7.5312
+    },
+    "Flow reversal risk 0.77 while 2.72 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.72,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.72,
+      "average_loss": null,
+      "expectancy": 2.72,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.77 while 3.37 in profit (floor 0.78); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 3.38,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 3.38,
+      "average_loss": null,
+      "expectancy": 3.38,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.78 while 0.55 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.1,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.55,
+      "average_loss": null,
+      "expectancy": 0.55,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.78 while 1.83 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 5.79,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 1.93,
+      "average_loss": null,
+      "expectancy": 1.93,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.78 while 4.02 in profit (floor 0.94); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 12.2,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 4.0667,
+      "average_loss": null,
+      "expectancy": 4.0667,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.79 while 0.58 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.58,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.58,
+      "average_loss": null,
+      "expectancy": 0.58,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.79 while 0.96 in profit (floor 0.84); banking it rather than waiting for a target": {
+      "trades": 4,
+      "net": 4.1,
+      "wins": 3,
+      "losses": 1,
+      "average_win": 1.6267,
+      "average_loss": -0.78,
+      "expectancy": 1.025,
+      "profit_factor": 6.2564
+    },
+    "Flow reversal risk 0.79 while 1.13 in profit (floor 0.88); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.13,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.13,
+      "average_loss": null,
+      "expectancy": 1.13,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.79 while 1.57 in profit (floor 0.56); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.57,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.57,
+      "average_loss": null,
+      "expectancy": 1.57,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.79 while 3.91 in profit (floor 1.26); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 4.04,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 4.04,
+      "average_loss": null,
+      "expectancy": 4.04,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.80 while 1.70 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.7,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.7,
+      "average_loss": null,
+      "expectancy": 1.7,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.80 while 2.19 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.19,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.19,
+      "average_loss": null,
+      "expectancy": 2.19,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.81 while 0.54 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.51,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.51,
+      "average_loss": null,
+      "expectancy": 0.51,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.81 while 1.07 in profit (floor 1.06); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 2.81,
+      "wins": 1,
+      "losses": 2,
+      "average_win": 7.01,
+      "average_loss": -2.1,
+      "expectancy": 0.9367,
+      "profit_factor": 1.669
+    },
+    "Flow reversal risk 0.82 while 0.77 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 2,
+      "net": 1.26,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 1.92,
+      "average_loss": -0.66,
+      "expectancy": 0.63,
+      "profit_factor": 2.9091
+    },
+    "Flow reversal risk 0.83 while 1.10 in profit (floor 0.56); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.87,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.87,
+      "average_loss": null,
+      "expectancy": 0.87,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.84 while 2.82 in profit (floor 0.70); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.82,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.82,
+      "average_loss": null,
+      "expectancy": 2.82,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.85 while 0.91 in profit (floor 0.82); banking it rather than waiting for a target": {
+      "trades": 4,
+      "net": 3.97,
+      "wins": 3,
+      "losses": 1,
+      "average_win": 1.68,
+      "average_loss": -1.07,
+      "expectancy": 0.9925,
+      "profit_factor": 4.7103
+    },
+    "Flow reversal risk 0.85 while 0.93 in profit (floor 0.84); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.98,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.98,
+      "average_loss": null,
+      "expectancy": 0.98,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.86 while 0.74 in profit (floor 0.50); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.74,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.74,
+      "average_loss": null,
+      "expectancy": 0.74,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.86 while 2.55 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 7.76,
+      "wins": 3,
+      "losses": 0,
+      "average_win": 2.5867,
+      "average_loss": null,
+      "expectancy": 2.5867,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.88 while 0.84 in profit (floor 0.80); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.84,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.84,
+      "average_loss": null,
+      "expectancy": 0.84,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.88 while 0.90 in profit (floor 0.84); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.9,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.9,
+      "average_loss": null,
+      "expectancy": 0.9,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.88 while 1.84 in profit (floor 1.06); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.84,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.84,
+      "average_loss": null,
+      "expectancy": 1.84,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.88 while 2.02 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.04,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.04,
+      "average_loss": null,
+      "expectancy": 2.04,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.88 while 2.76 in profit (floor 0.46); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.76,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.76,
+      "average_loss": null,
+      "expectancy": 2.76,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.90 while 0.78 in profit (floor 0.78); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 1.86,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.55,
+      "average_loss": -1.24,
+      "expectancy": 0.62,
+      "profit_factor": 2.5
+    },
+    "Flow reversal risk 0.92 while 0.64 in profit (floor 0.52); banking it rather than waiting for a target": {
+      "trades": 3,
+      "net": 1.91,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 1.09,
+      "average_loss": -0.27,
+      "expectancy": 0.6367,
+      "profit_factor": 8.0741
+    },
+    "Flow reversal risk 0.92 while 1.53 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.56,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.56,
+      "average_loss": null,
+      "expectancy": 1.56,
+      "profit_factor": null
+    },
+    "Flow reversal risk 0.94 while 0.84 in profit (floor 0.30); banking it rather than waiting for a target": {
+      "trades": 4,
+      "net": 3.5,
+      "wins": 2,
+      "losses": 2,
+      "average_win": 2.205,
+      "average_loss": -0.455,
+      "expectancy": 0.875,
+      "profit_factor": 4.8462
+    },
+    "Flow reversal risk 0.96 while 2.21 in profit (floor 0.66); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 2.17,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 2.17,
+      "average_loss": null,
+      "expectancy": 2.17,
+      "profit_factor": null
+    },
+    "Flow reversal risk 1.00 while 0.83 in profit (floor 0.76); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 0.79,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.79,
+      "average_loss": null,
+      "expectancy": 0.79,
+      "profit_factor": null
+    },
+    "Flow reversal risk 1.00 while 1.27 in profit (floor 1.02); banking it rather than waiting for a target": {
+      "trades": 1,
+      "net": 1.27,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.27,
+      "average_loss": null,
+      "expectancy": 1.27,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.48 from peak with support fading": {
+      "trades": 1,
+      "net": 0.09,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.09,
+      "average_loss": null,
+      "expectancy": 0.09,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.60 from peak with support fading": {
+      "trades": 1,
+      "net": 0.22,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.22,
+      "average_loss": null,
+      "expectancy": 0.22,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.62 from peak with support fading": {
+      "trades": 2,
+      "net": -0.85,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.02,
+      "average_loss": -0.87,
+      "expectancy": -0.425,
+      "profit_factor": 0.023
+    },
+    "Profit giveback of 0.72 from peak with support fading": {
+      "trades": 3,
+      "net": 0.81,
+      "wins": 2,
+      "losses": 1,
+      "average_win": 0.845,
+      "average_loss": -0.88,
+      "expectancy": 0.27,
+      "profit_factor": 1.9205
+    },
+    "Profit giveback of 0.74 from peak with support fading": {
+      "trades": 1,
+      "net": 0.36,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.36,
+      "average_loss": null,
+      "expectancy": 0.36,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.80 from peak with support fading": {
+      "trades": 1,
+      "net": 0.19,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.19,
+      "average_loss": null,
+      "expectancy": 0.19,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.85 from peak with support fading": {
+      "trades": 6,
+      "net": -3.61,
+      "wins": 2,
+      "losses": 4,
+      "average_win": 0.465,
+      "average_loss": -1.135,
+      "expectancy": -0.6017,
+      "profit_factor": 0.2048
+    },
+    "Profit giveback of 0.86 from peak with support fading": {
+      "trades": 1,
+      "net": 0.14,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.14,
+      "average_loss": null,
+      "expectancy": 0.14,
+      "profit_factor": null
+    },
+    "Profit giveback of 0.87 from peak with support fading": {
+      "trades": 2,
+      "net": 0.38,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.66,
+      "average_loss": -0.28,
+      "expectancy": 0.19,
+      "profit_factor": 2.3571
+    },
+    "Profit giveback of 0.88 from peak with support fading": {
+      "trades": 4,
+      "net": 1.35,
+      "wins": 2,
+      "losses": 2,
+      "average_win": 1.32,
+      "average_loss": -0.645,
+      "expectancy": 0.3375,
+      "profit_factor": 2.0465
+    },
+    "Profit giveback of 0.90 from peak with support fading": {
+      "trades": 5,
+      "net": 1.67,
+      "wins": 3,
+      "losses": 2,
+      "average_win": 0.9667,
+      "average_loss": -0.615,
+      "expectancy": 0.334,
+      "profit_factor": 2.3577
+    },
+    "Profit giveback of 0.95 from peak with support fading": {
+      "trades": 7,
+      "net": -1.92,
+      "wins": 3,
+      "losses": 4,
+      "average_win": 0.6267,
+      "average_loss": -0.95,
+      "expectancy": -0.2743,
+      "profit_factor": 0.4947
+    },
+    "Profit giveback of 0.97 from peak with support fading": {
+      "trades": 2,
+      "net": 0.2,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.74,
+      "average_loss": -0.54,
+      "expectancy": 0.1,
+      "profit_factor": 1.3704
+    },
+    "Profit giveback of 0.98 from peak with support fading": {
+      "trades": 1,
+      "net": 0.7,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.7,
+      "average_loss": null,
+      "expectancy": 0.7,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.00 from peak with support fading": {
+      "trades": 5,
+      "net": 3.86,
+      "wins": 3,
+      "losses": 2,
+      "average_win": 1.8267,
+      "average_loss": -0.81,
+      "expectancy": 0.772,
+      "profit_factor": 3.3827
+    },
+    "Profit giveback of 1.05 from peak with support fading": {
+      "trades": 2,
+      "net": -0.53,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 0.46,
+      "average_loss": -0.99,
+      "expectancy": -0.265,
+      "profit_factor": 0.4646
+    },
+    "Profit giveback of 1.08 from peak with support fading": {
+      "trades": 1,
+      "net": -0.33,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -0.33,
+      "expectancy": -0.33,
+      "profit_factor": 0.0
+    },
+    "Profit giveback of 1.15 from peak with support fading": {
+      "trades": 3,
+      "net": 0.93,
+      "wins": 1,
+      "losses": 2,
+      "average_win": 2.88,
+      "average_loss": -0.975,
+      "expectancy": 0.31,
+      "profit_factor": 1.4769
+    },
+    "Profit giveback of 1.20 from peak with support fading": {
+      "trades": 1,
+      "net": 1.92,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.92,
+      "average_loss": null,
+      "expectancy": 1.92,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.21 from peak with support fading": {
+      "trades": 1,
+      "net": 0.32,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.32,
+      "average_loss": null,
+      "expectancy": 0.32,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.27 from peak with support fading": {
+      "trades": 2,
+      "net": 1.78,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 2.82,
+      "average_loss": -1.04,
+      "expectancy": 0.89,
+      "profit_factor": 2.7115
+    },
+    "Profit giveback of 1.29 from peak with support fading": {
+      "trades": 1,
+      "net": 1.51,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.51,
+      "average_loss": null,
+      "expectancy": 1.51,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.37 from peak with support fading": {
+      "trades": 1,
+      "net": 0.92,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.92,
+      "average_loss": null,
+      "expectancy": 0.92,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.40 from peak with support fading": {
+      "trades": 1,
+      "net": -0.03,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -0.03,
+      "expectancy": -0.03,
+      "profit_factor": 0.0
+    },
+    "Profit giveback of 1.43 from peak with support fading": {
+      "trades": 3,
+      "net": 0.41,
+      "wins": 1,
+      "losses": 2,
+      "average_win": 2.14,
+      "average_loss": -0.865,
+      "expectancy": 0.1367,
+      "profit_factor": 1.237
+    },
+    "Profit giveback of 1.56 from peak with support fading": {
+      "trades": 1,
+      "net": 0.8,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.8,
+      "average_loss": null,
+      "expectancy": 0.8,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.58 from peak with support fading": {
+      "trades": 1,
+      "net": -0.3,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -0.3,
+      "expectancy": -0.3,
+      "profit_factor": 0.0
+    },
+    "Profit giveback of 1.67 from peak with support fading": {
+      "trades": 1,
+      "net": 1.23,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 1.23,
+      "average_loss": null,
+      "expectancy": 1.23,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.70 from peak with support fading": {
+      "trades": 1,
+      "net": 0.34,
+      "wins": 1,
+      "losses": 0,
+      "average_win": 0.34,
+      "average_loss": null,
+      "expectancy": 0.34,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.75 from peak with support fading": {
+      "trades": 2,
+      "net": 0.57,
+      "wins": 2,
+      "losses": 0,
+      "average_win": 0.285,
+      "average_loss": null,
+      "expectancy": 0.285,
+      "profit_factor": null
+    },
+    "Profit giveback of 1.80 from peak with support fading": {
+      "trades": 2,
+      "net": 2.4,
+      "wins": 1,
+      "losses": 1,
+      "average_win": 2.45,
+      "average_loss": -0.05,
+      "expectancy": 1.2,
+      "profit_factor": 49.0
+    },
+    "Profit lock: retained 80% of position peak after $6.00 arm": {
+      "trades": 7,
+      "net": 35.92,
+      "wins": 7,
+      "losses": 0,
+      "average_win": 5.1314,
+      "average_loss": null,
+      "expectancy": 5.1314,
+      "profit_factor": null
+    },
+    "Protected winner returned to breakeven; banking it rather than risking the stop": {
+      "trades": 28,
+      "net": 3.24,
+      "wins": 16,
+      "losses": 12,
+      "average_win": 0.8231,
+      "average_loss": -0.8275,
+      "expectancy": 0.1157,
+      "profit_factor": 1.3263
+    },
+    "Sustained executable quote reversal with loss or profit giveback": {
+      "trades": 7,
+      "net": -13.08,
+      "wins": 0,
+      "losses": 7,
+      "average_win": null,
+      "average_loss": -1.8686,
+      "expectancy": -1.8686,
+      "profit_factor": 0.0
+    },
+    "[sl 4119.98]": {
+      "trades": 1,
+      "net": -5.02,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.02,
+      "expectancy": -5.02,
+      "profit_factor": 0.0
+    },
+    "[sl 4121.21]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4121.60]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4124.99]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4126.25]": {
+      "trades": 1,
+      "net": -4.96,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.96,
+      "expectancy": -4.96,
+      "profit_factor": 0.0
+    },
+    "[sl 4134.76]": {
+      "trades": 1,
+      "net": -2.26,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.26,
+      "expectancy": -2.26,
+      "profit_factor": 0.0
+    },
+    "[sl 4134.86]": {
+      "trades": 1,
+      "net": -5.05,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.05,
+      "expectancy": -5.05,
+      "profit_factor": 0.0
+    },
+    "[sl 4135.83]": {
+      "trades": 1,
+      "net": -2.21,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.21,
+      "expectancy": -2.21,
+      "profit_factor": 0.0
+    },
+    "[sl 4137.05]": {
+      "trades": 1,
+      "net": -2.53,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.53,
+      "expectancy": -2.53,
+      "profit_factor": 0.0
+    },
+    "[sl 4137.50]": {
+      "trades": 1,
+      "net": -2.93,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.93,
+      "expectancy": -2.93,
+      "profit_factor": 0.0
+    },
+    "[sl 4139.08]": {
+      "trades": 1,
+      "net": -3.22,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.22,
+      "expectancy": -3.22,
+      "profit_factor": 0.0
+    },
+    "[sl 4140.17]": {
+      "trades": 1,
+      "net": -2.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.99,
+      "expectancy": -2.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4140.54]": {
+      "trades": 1,
+      "net": -2.78,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.78,
+      "expectancy": -2.78,
+      "profit_factor": 0.0
+    },
+    "[sl 4142.00]": {
+      "trades": 1,
+      "net": -2.08,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.08,
+      "expectancy": -2.08,
+      "profit_factor": 0.0
+    },
+    "[sl 4142.21]": {
+      "trades": 1,
+      "net": -2.26,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.26,
+      "expectancy": -2.26,
+      "profit_factor": 0.0
+    },
+    "[sl 4142.86]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4143.35]": {
+      "trades": 1,
+      "net": -2.11,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.11,
+      "expectancy": -2.11,
+      "profit_factor": 0.0
+    },
+    "[sl 4145.11]": {
+      "trades": 1,
+      "net": -2.07,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.07,
+      "expectancy": -2.07,
+      "profit_factor": 0.0
+    },
+    "[sl 4145.13]": {
+      "trades": 1,
+      "net": -1.98,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.98,
+      "expectancy": -1.98,
+      "profit_factor": 0.0
+    },
+    "[sl 4145.33]": {
+      "trades": 1,
+      "net": -2.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.0,
+      "expectancy": -2.0,
+      "profit_factor": 0.0
+    },
+    "[sl 4146.70]": {
+      "trades": 1,
+      "net": -3.09,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.09,
+      "expectancy": -3.09,
+      "profit_factor": 0.0
+    },
+    "[sl 4146.81]": {
+      "trades": 1,
+      "net": -4.3,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.3,
+      "expectancy": -4.3,
+      "profit_factor": 0.0
+    },
+    "[sl 4146.87]": {
+      "trades": 1,
+      "net": -3.24,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.24,
+      "expectancy": -3.24,
+      "profit_factor": 0.0
+    },
+    "[sl 4146.90]": {
+      "trades": 1,
+      "net": -2.06,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.06,
+      "expectancy": -2.06,
+      "profit_factor": 0.0
+    },
+    "[sl 4148.28]": {
+      "trades": 1,
+      "net": -4.18,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.18,
+      "expectancy": -4.18,
+      "profit_factor": 0.0
+    },
+    "[sl 4148.42]": {
+      "trades": 1,
+      "net": -3.12,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.12,
+      "expectancy": -3.12,
+      "profit_factor": 0.0
+    },
+    "[sl 4148.61]": {
+      "trades": 1,
+      "net": -2.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.0,
+      "expectancy": -2.0,
+      "profit_factor": 0.0
+    },
+    "[sl 4149.70]": {
+      "trades": 1,
+      "net": -3.13,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.13,
+      "expectancy": -3.13,
+      "profit_factor": 0.0
+    },
+    "[sl 4150.87]": {
+      "trades": 1,
+      "net": -2.48,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.48,
+      "expectancy": -2.48,
+      "profit_factor": 0.0
+    },
+    "[sl 4151.60]": {
+      "trades": 1,
+      "net": -3.55,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.55,
+      "expectancy": -3.55,
+      "profit_factor": 0.0
+    },
+    "[sl 4151.76]": {
+      "trades": 1,
+      "net": -4.93,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.93,
+      "expectancy": -4.93,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.10]": {
+      "trades": 1,
+      "net": -2.53,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.53,
+      "expectancy": -2.53,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.23]": {
+      "trades": 1,
+      "net": -4.03,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.03,
+      "expectancy": -4.03,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.32]": {
+      "trades": 1,
+      "net": -2.15,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.15,
+      "expectancy": -2.15,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.46]": {
+      "trades": 1,
+      "net": -3.69,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.69,
+      "expectancy": -3.69,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.65]": {
+      "trades": 1,
+      "net": -2.44,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.44,
+      "expectancy": -2.44,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.68]": {
+      "trades": 1,
+      "net": -4.85,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.85,
+      "expectancy": -4.85,
+      "profit_factor": 0.0
+    },
+    "[sl 4152.87]": {
+      "trades": 1,
+      "net": -4.53,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.53,
+      "expectancy": -4.53,
+      "profit_factor": 0.0
+    },
+    "[sl 4154.56]": {
+      "trades": 1,
+      "net": -4.19,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.19,
+      "expectancy": -4.19,
+      "profit_factor": 0.0
+    },
+    "[sl 4155.63]": {
+      "trades": 1,
+      "net": -1.78,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.78,
+      "expectancy": -1.78,
+      "profit_factor": 0.0
+    },
+    "[sl 4155.73]": {
+      "trades": 1,
+      "net": -3.47,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.47,
+      "expectancy": -3.47,
+      "profit_factor": 0.0
+    },
+    "[sl 4155.75]": {
+      "trades": 2,
+      "net": -6.65,
+      "wins": 0,
+      "losses": 2,
+      "average_win": null,
+      "average_loss": -3.325,
+      "expectancy": -3.325,
+      "profit_factor": 0.0
+    },
+    "[sl 4155.76]": {
+      "trades": 1,
+      "net": -2.18,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.18,
+      "expectancy": -2.18,
+      "profit_factor": 0.0
+    },
+    "[sl 4155.79]": {
+      "trades": 1,
+      "net": -2.33,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.33,
+      "expectancy": -2.33,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.10]": {
+      "trades": 1,
+      "net": -1.73,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.73,
+      "expectancy": -1.73,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.13]": {
+      "trades": 1,
+      "net": -1.63,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.63,
+      "expectancy": -1.63,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.21]": {
+      "trades": 1,
+      "net": -1.78,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.78,
+      "expectancy": -1.78,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.36]": {
+      "trades": 1,
+      "net": -2.62,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.62,
+      "expectancy": -2.62,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.47]": {
+      "trades": 1,
+      "net": -2.16,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.16,
+      "expectancy": -2.16,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.65]": {
+      "trades": 1,
+      "net": -4.53,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.53,
+      "expectancy": -4.53,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.67]": {
+      "trades": 1,
+      "net": -1.71,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.71,
+      "expectancy": -1.71,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.82]": {
+      "trades": 1,
+      "net": -2.1,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.1,
+      "expectancy": -2.1,
+      "profit_factor": 0.0
+    },
+    "[sl 4156.89]": {
+      "trades": 1,
+      "net": -1.77,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.77,
+      "expectancy": -1.77,
+      "profit_factor": 0.0
+    },
+    "[sl 4157.04]": {
+      "trades": 1,
+      "net": -1.88,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.88,
+      "expectancy": -1.88,
+      "profit_factor": 0.0
+    },
+    "[sl 4157.53]": {
+      "trades": 1,
+      "net": -2.13,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.13,
+      "expectancy": -2.13,
+      "profit_factor": 0.0
+    },
+    "[sl 4157.84]": {
+      "trades": 1,
+      "net": -4.68,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.68,
+      "expectancy": -4.68,
+      "profit_factor": 0.0
+    },
+    "[sl 4157.95]": {
+      "trades": 1,
+      "net": -2.24,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.24,
+      "expectancy": -2.24,
+      "profit_factor": 0.0
+    },
+    "[sl 4158.14]": {
+      "trades": 1,
+      "net": -3.12,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.12,
+      "expectancy": -3.12,
+      "profit_factor": 0.0
+    },
+    "[sl 4158.16]": {
+      "trades": 1,
+      "net": -1.88,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.88,
+      "expectancy": -1.88,
+      "profit_factor": 0.0
+    },
+    "[sl 4158.29]": {
+      "trades": 1,
+      "net": -2.18,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -2.18,
+      "expectancy": -2.18,
+      "profit_factor": 0.0
+    },
+    "[sl 4158.92]": {
+      "trades": 1,
+      "net": -1.68,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.68,
+      "expectancy": -1.68,
+      "profit_factor": 0.0
+    },
+    "[sl 4159.42]": {
+      "trades": 1,
+      "net": -1.69,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.69,
+      "expectancy": -1.69,
+      "profit_factor": 0.0
+    },
+    "[sl 4160.18]": {
+      "trades": 1,
+      "net": -1.65,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.65,
+      "expectancy": -1.65,
+      "profit_factor": 0.0
+    },
+    "[sl 4161.10]": {
+      "trades": 1,
+      "net": -1.63,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.63,
+      "expectancy": -1.63,
+      "profit_factor": 0.0
+    },
+    "[sl 4162.41]": {
+      "trades": 1,
+      "net": -4.76,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.76,
+      "expectancy": -4.76,
+      "profit_factor": 0.0
+    },
+    "[sl 4164.73]": {
+      "trades": 1,
+      "net": -3.56,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -3.56,
+      "expectancy": -3.56,
+      "profit_factor": 0.0
+    },
+    "[sl 4168.67]": {
+      "trades": 1,
+      "net": -4.15,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.15,
+      "expectancy": -4.15,
+      "profit_factor": 0.0
+    },
+    "[sl 4174.65]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4179.29]": {
+      "trades": 1,
+      "net": -5.12,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.12,
+      "expectancy": -5.12,
+      "profit_factor": 0.0
+    },
+    "[sl 4179.44]": {
+      "trades": 1,
+      "net": -4.96,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.96,
+      "expectancy": -4.96,
+      "profit_factor": 0.0
+    },
+    "[sl 4180.47]": {
+      "trades": 1,
+      "net": -5.01,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.01,
+      "expectancy": -5.01,
+      "profit_factor": 0.0
+    },
+    "[sl 4180.66]": {
+      "trades": 1,
+      "net": -4.92,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.92,
+      "expectancy": -4.92,
+      "profit_factor": 0.0
+    },
+    "[sl 4180.85]": {
+      "trades": 1,
+      "net": -4.97,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.97,
+      "expectancy": -4.97,
+      "profit_factor": 0.0
+    },
+    "[sl 4181.43]": {
+      "trades": 1,
+      "net": -4.95,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.95,
+      "expectancy": -4.95,
+      "profit_factor": 0.0
+    },
+    "[sl 4186.14]": {
+      "trades": 1,
+      "net": -5.04,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.04,
+      "expectancy": -5.04,
+      "profit_factor": 0.0
+    },
+    "[sl 4186.38]": {
+      "trades": 1,
+      "net": -5.02,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.02,
+      "expectancy": -5.02,
+      "profit_factor": 0.0
+    },
+    "[sl 4186.41]": {
+      "trades": 1,
+      "net": -5.11,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.11,
+      "expectancy": -5.11,
+      "profit_factor": 0.0
+    },
+    "[sl 4188.66]": {
+      "trades": 1,
+      "net": -5.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.0,
+      "expectancy": -5.0,
+      "profit_factor": 0.0
+    },
+    "[sl 4193.87]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "[sl 4195.52]": {
+      "trades": 1,
+      "net": -5.04,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.04,
+      "expectancy": -5.04,
+      "profit_factor": 0.0
+    },
+    "[sl 4196.12]": {
+      "trades": 1,
+      "net": -5.0,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -5.0,
+      "expectancy": -5.0,
+      "profit_factor": 0.0
+    },
+    "[sl 4197.04]": {
+      "trades": 1,
+      "net": -4.99,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -4.99,
+      "expectancy": -4.99,
+      "profit_factor": 0.0
+    },
+    "protective close": {
+      "trades": 1,
+      "net": -1.88,
+      "wins": 0,
+      "losses": 1,
+      "average_win": null,
+      "average_loss": -1.88,
+      "expectancy": -1.88,
+      "profit_factor": 0.0
+    }
+  },
+  "scalp_recorded_evidence": {
+    "85_or_more": {
+      "trades": 117,
+      "net": -13.41,
+      "wins": 57,
+      "losses": 60,
+      "average_win": 1.9932,
+      "average_loss": -2.117,
+      "expectancy": -0.1146,
+      "profit_factor": 0.8944
+    },
+    "below_85": {
+      "trades": 248,
+      "net": -127.26,
+      "wins": 109,
+      "losses": 139,
+      "average_win": 1.7358,
+      "average_loss": -2.2767,
+      "expectancy": -0.5131,
+      "profit_factor": 0.5979
+    }
+  },
+  "recent_scalp": {
+    "trades": 30,
+    "net": -38.35,
+    "wins": 9,
+    "losses": 21,
+    "average_win": 1.3389,
+    "average_loss": -2.4,
+    "expectancy": -1.2783,
+    "profit_factor": 0.2391
+  },
+  "recent_trades": [
+    {
+      "position_id": 58918568831,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4157.57,
+      "exit_price": 4159.71,
+      "profit": 2.14,
+      "result": "WIN",
+      "opened_at": "2026-10-15T14:51:21.618000+00:00",
+      "closed_at": "2026-10-15T14:54:19.597000+00:00",
+      "hold_seconds": 178.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 57.66,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.25102,
+      "exit_reason": "Profit giveback of 1.43 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 57.66,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:56:21.510911+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 57.62,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:55:28.721185+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:53:17.537388+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918589997,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4160.1,
+      "exit_price": 4159.75,
+      "profit": -0.35,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T14:52:07.548000+00:00",
+      "closed_at": "2026-10-15T14:54:19.711000+00:00",
+      "hold_seconds": 132.2,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 73.19,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.335357,
+      "exit_reason": "Profit giveback of 1.43 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 73.19,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:57:07.453964+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 57.62,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:56:27.126170+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:54:07.019380+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918613258,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4161.13,
+      "exit_price": 4159.75,
+      "profit": -1.38,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T14:52:54.137000+00:00",
+      "closed_at": "2026-10-15T14:54:19.822000+00:00",
+      "hold_seconds": 85.7,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 73.19,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.245102,
+      "exit_reason": "Profit giveback of 1.43 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 73.19,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:57:54.111650+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 73.11,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:57:29.155344+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:54:50.734691+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918678760,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4158.75,
+      "exit_price": 4154.56,
+      "profit": -4.19,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T14:56:01.756000+00:00",
+      "closed_at": "2026-10-15T15:03:11.732000+00:00",
+      "hold_seconds": 430.0,
+      "close_comment": "[sl 4154.56]",
+      "horizon": "SCALP",
+      "evidence": 71.91,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.224426,
+      "exit_reason": "[sl 4154.56]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 71.91,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:01:01.650783+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 71.44,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:00:28.184619+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:58:01.710379+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918687623,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4159.96,
+      "exit_price": 4155.75,
+      "profit": -4.21,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T14:56:29.226000+00:00",
+      "closed_at": "2026-10-15T15:02:19.733000+00:00",
+      "hold_seconds": 350.5,
+      "close_comment": "[sl 4155.75]",
+      "horizon": "SCALP",
+      "evidence": 72.42,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.322147,
+      "exit_reason": "[sl 4155.75]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 72.42,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:01:28.534560+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 71.66,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:01:28.550309+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T14:58:29.145859+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918862286,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4156.26,
+      "exit_price": 4152.23,
+      "profit": -4.03,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T15:05:03.448000+00:00",
+      "closed_at": "2026-10-15T15:06:14.307000+00:00",
+      "hold_seconds": 70.9,
+      "close_comment": "[sl 4152.23]",
+      "horizon": "SCALP",
+      "evidence": 58.63,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.211889,
+      "exit_reason": "[sl 4152.23]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 58.63,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:10:03.427365+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "BUY",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 61.3,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:09:31.198904+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 51.41,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:06:59.966188+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918932985,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4152.88,
+      "exit_price": 4154.39,
+      "profit": 1.51,
+      "result": "WIN",
+      "opened_at": "2026-10-15T15:08:00.173000+00:00",
+      "closed_at": "2026-10-15T15:09:13.662000+00:00",
+      "hold_seconds": 73.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 58.63,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.2396,
+      "exit_reason": "Profit giveback of 1.29 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 58.63,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:13:00.105624+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 58.58,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:12:32.402352+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:09:59.716591+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58918970431,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4153.88,
+      "exit_price": 4154.86,
+      "profit": 0.98,
+      "result": "WIN",
+      "opened_at": "2026-10-15T15:09:43.991000+00:00",
+      "closed_at": "2026-10-15T15:10:31.962000+00:00",
+      "hold_seconds": 48.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 58.63,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.215827,
+      "exit_reason": "Flow reversal risk 0.85 while 0.93 in profit (floor 0.84); banking it rather than waiting for a target",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 58.63,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:14:43.868602+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 58.58,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:14:33.257612+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:11:42.406198+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919373766,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4155.48,
+      "exit_price": 4153.1,
+      "profit": -2.38,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T15:30:05.205000+00:00",
+      "closed_at": "2026-10-15T15:31:13.728000+00:00",
+      "hold_seconds": 68.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 53.74,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.276069,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.74,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:35:05.168721+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:34:39.304736+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:32:01.992764+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919415217,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4155.34,
+      "exit_price": 4156.08,
+      "profit": 0.74,
+      "result": "WIN",
+      "opened_at": "2026-10-15T15:32:00.089000+00:00",
+      "closed_at": "2026-10-15T15:34:21.553000+00:00",
+      "hold_seconds": 141.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 53.74,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.227488,
+      "exit_reason": "Flow reversal risk 0.86 while 0.74 in profit (floor 0.50); banking it rather than waiting for a target",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.74,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:37:00.031811+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:36:40.724023+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:33:55.585912+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919472602,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4156.15,
+      "exit_price": 4152.46,
+      "profit": -3.69,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T15:34:52.301000+00:00",
+      "closed_at": "2026-10-15T15:36:39.354000+00:00",
+      "hold_seconds": 107.1,
+      "close_comment": "[sl 4152.46]",
+      "horizon": "SCALP",
+      "evidence": 53.74,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.262514,
+      "exit_reason": "[sl 4152.46]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.74,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:39:52.324874+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 53.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:39:41.128310+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:36:48.380706+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919564417,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4150.56,
+      "exit_price": 4152.26,
+      "profit": 1.7,
+      "result": "WIN",
+      "opened_at": "2026-10-15T15:39:00.233000+00:00",
+      "closed_at": "2026-10-15T15:40:53.811000+00:00",
+      "hold_seconds": 113.6,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 54.96,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.208884,
+      "exit_reason": "Flow reversal risk 0.80 while 1.70 in profit (floor 0.66); banking it rather than waiting for a target",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.96,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:44:00.181231+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 54.98,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:43:42.410254+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:40:57.273282+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919821414,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4150.9,
+      "exit_price": 4150.58,
+      "profit": 0.32,
+      "result": "WIN",
+      "opened_at": "2026-10-15T15:52:06.863000+00:00",
+      "closed_at": "2026-10-15T16:00:16.515000+00:00",
+      "hold_seconds": 489.7,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 69.01,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.226204,
+      "exit_reason": "Profit giveback of 1.21 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 69.01,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:57:06.815076+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "SELL",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 69.46,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:56:44.906633+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T15:54:06.866532+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58919964474,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4149.34,
+      "exit_price": 4146.46,
+      "profit": 2.88,
+      "result": "WIN",
+      "opened_at": "2026-10-15T16:01:02.029000+00:00",
+      "closed_at": "2026-10-15T16:11:59.969000+00:00",
+      "hold_seconds": 657.9,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 68.97,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.241437,
+      "exit_reason": "Profit giveback of 1.15 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 68.97,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:06:02.025385+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 69.07,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:05:52.407691+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:02:58.131749+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58920122034,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4146.03,
+      "exit_price": 4146.46,
+      "profit": -0.43,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T16:10:03.676000+00:00",
+      "closed_at": "2026-10-15T16:12:00.078000+00:00",
+      "hold_seconds": 116.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 76.72,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.27198,
+      "exit_reason": "Profit giveback of 1.15 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:15:03.703557+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 71.1,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:14:49.366012+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T16:11:59.328175+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58920141872,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4144.94,
+      "exit_price": 4146.46,
+      "profit": -1.52,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T16:10:51.762000+00:00",
+      "closed_at": "2026-10-15T16:12:00.189000+00:00",
+      "hold_seconds": 68.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 76.72,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.238898,
+      "exit_reason": "Profit giveback of 1.15 from peak with support fading",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:15:51.769383+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.75,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:15:49.746203+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T16:12:48.797481+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58920185443,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4145.3,
+      "exit_price": 4148.42,
+      "profit": -3.12,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T16:13:00.072000+00:00",
+      "closed_at": "2026-10-15T16:20:49.717000+00:00",
+      "hold_seconds": 469.6,
+      "close_comment": "[sl 4148.42]",
+      "horizon": "SCALP",
+      "evidence": 76.72,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.22246,
+      "exit_reason": "[sl 4148.42]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:18:00.071648+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.75,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:17:49.929023+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T16:14:59.620291+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58920196385,
+      "direction": "SELL",
+      "volume": 0.01,
+      "entry_price": 4143.61,
+      "exit_price": 4146.7,
+      "profit": -3.09,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T16:13:27.139000+00:00",
+      "closed_at": "2026-10-15T16:15:17.485000+00:00",
+      "hold_seconds": 110.3,
+      "close_comment": "[sl 4146.70]",
+      "horizon": "SCALP",
+      "evidence": 76.72,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.247545,
+      "exit_reason": "[sl 4146.70]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.72,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:18:27.174984+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "SELL",
+          "evidence": 76.75,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:17:49.929023+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T16:15:26.724112+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922248356,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4158.15,
+      "exit_price": 4159.44,
+      "profit": 1.29,
+      "result": "WIN",
+      "opened_at": "2026-10-15T18:33:03.332000+00:00",
+      "closed_at": "2026-10-15T19:05:14.333000+00:00",
+      "hold_seconds": 1931.0,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 92.97,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.028746,
+      "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 92.97,
+          "source_usable": true,
+          "valid_until": "2026-10-15T18:38:02.022879+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 93.06,
+          "source_usable": true,
+          "valid_until": "2026-10-15T18:37:38.147836+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T18:35:02.807674+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922413383,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4158.92,
+      "exit_price": 4157.04,
+      "profit": -1.88,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T18:50:59.216000+00:00",
+      "closed_at": "2026-10-15T18:58:12.670000+00:00",
+      "hold_seconds": 433.5,
+      "close_comment": "[sl 4157.04]",
+      "horizon": "SCALP",
+      "evidence": 93.04,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4157.04]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 93.04,
+          "source_usable": true,
+          "valid_until": "2026-10-15T18:55:58.778391+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 93.58,
+          "source_usable": true,
+          "valid_until": "2026-10-15T18:55:43.896142+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T18:52:54.820512+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922504447,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4158.95,
+      "exit_price": 4159.44,
+      "profit": 0.49,
+      "result": "WIN",
+      "opened_at": "2026-10-15T19:00:15.941000+00:00",
+      "closed_at": "2026-10-15T19:05:14.442000+00:00",
+      "hold_seconds": 298.5,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 74.21,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 74.21,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:05:15.289076+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 73.16,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:04:48.820045+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:02:11.384605+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922551121,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4160.63,
+      "exit_price": 4159.44,
+      "profit": -1.19,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:04:00.433000+00:00",
+      "closed_at": "2026-10-15T19:05:14.547000+00:00",
+      "hold_seconds": 74.1,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 94.8,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "Protected winner returned to breakeven; banking it rather than risking the stop",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 94.8,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:08:59.902475+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 95.28,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:08:51.947868+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 57.3,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:05:59.967258+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922581959,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4160.6,
+      "exit_price": 4158.92,
+      "profit": -1.68,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:07:00.945000+00:00",
+      "closed_at": "2026-10-15T19:07:42.755000+00:00",
+      "hold_seconds": 41.8,
+      "close_comment": "[sl 4158.92]",
+      "horizon": "SCALP",
+      "evidence": 95.88,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.362604,
+      "exit_reason": "[sl 4158.92]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 95.88,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:12:00.036107+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 95.94,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:11:53.358933+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:08:58.608646+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922602972,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4159.91,
+      "exit_price": 4158.16,
+      "profit": -1.88,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:09:10.438000+00:00",
+      "closed_at": "2026-10-15T22:00:11.836000+00:00",
+      "hold_seconds": 10261.4,
+      "close_comment": "[sl 4158.16]",
+      "horizon": "SCALP",
+      "evidence": 94.44,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4158.16]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 94.44,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:14:10.066912+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 93.33,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:13:52.580703+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:11:08.144022+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922624277,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4161.11,
+      "exit_price": 4159.42,
+      "profit": -1.69,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:11:39.542000+00:00",
+      "closed_at": "2026-10-15T19:21:02.311000+00:00",
+      "hold_seconds": 562.8,
+      "close_comment": "[sl 4159.42]",
+      "horizon": "SCALP",
+      "evidence": 94.82,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.06443,
+      "exit_reason": "[sl 4159.42]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 94.82,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:16:39.122261+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 93.83,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:15:53.702833+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 47.85,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:13:38.734809+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922662764,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4161.83,
+      "exit_price": 4160.18,
+      "profit": -1.65,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:15:15.678000+00:00",
+      "closed_at": "2026-10-15T19:18:25.530000+00:00",
+      "hold_seconds": 189.9,
+      "close_comment": "[sl 4160.18]",
+      "horizon": "SCALP",
+      "evidence": 98.02,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4160.18]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 98.02,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:20:15.277947+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 95.94,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:19:53.845535+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T19:17:15.375576+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58922673363,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4162.73,
+      "exit_price": 4161.1,
+      "profit": -1.63,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T19:15:58.993000+00:00",
+      "closed_at": "2026-10-15T19:17:46.370000+00:00",
+      "hold_seconds": 107.4,
+      "close_comment": "[sl 4161.10]",
+      "horizon": "SCALP",
+      "evidence": 98.02,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4161.10]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 98.02,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:20:58.693265+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 98.06,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:20:54.427455+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T19:17:58.296336+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58923500451,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4171.55,
+      "exit_price": 4168.85,
+      "profit": -2.7,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T22:09:12.259000+00:00",
+      "closed_at": "2026-10-15T22:21:12.660000+00:00",
+      "hold_seconds": 720.4,
+      "close_comment": "SCALPPolicyClose",
+      "horizon": "SCALP",
+      "evidence": 78.33,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "Confirmed market thesis invalidation",
+      "setup_available": false,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 78.33,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:14:10.374426+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 92.26,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:13:49.591811+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 39.78,
+          "source_usable": false,
+          "valid_until": "2026-10-15T22:11:08.420125+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58923515572,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4172.82,
+      "exit_price": 4168.67,
+      "profit": -4.15,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T22:12:54.635000+00:00",
+      "closed_at": "2026-10-15T22:20:42.432000+00:00",
+      "hold_seconds": 467.8,
+      "close_comment": "[sl 4168.67]",
+      "horizon": "SCALP",
+      "evidence": 92.77,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4168.67]",
+      "setup_available": false,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 92.77,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:17:52.755277+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "BUY",
+          "evidence": 100.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:17:52.062859+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "WAIT",
+          "evidence": 0.0,
+          "source_usable": false,
+          "valid_until": "2026-10-15T22:14:50.156102+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    },
+    {
+      "position_id": 58923582936,
+      "direction": "BUY",
+      "volume": 0.01,
+      "entry_price": 4168.29,
+      "exit_price": 4164.73,
+      "profit": -3.56,
+      "result": "LOSS",
+      "opened_at": "2026-10-15T22:26:04.588000+00:00",
+      "closed_at": "2026-10-15T22:28:09.741000+00:00",
+      "hold_seconds": 125.2,
+      "close_comment": "[sl 4164.73]",
+      "horizon": "SCALP",
+      "evidence": 75.3,
+      "entry_mode": "ADVISOR1_PRIMARY",
+      "quote_age": 0.0,
+      "exit_reason": "[sl 4164.73]",
+      "setup_available": true,
+      "entry_contributors": [
+        {
+          "action": "WAIT",
+          "advisor": "MT5_CANDLES",
+          "bias": "BUY",
+          "evidence": 75.3,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:31:02.666828+00:00",
+          "validity_reason": "",
+          "weight": 0.3
+        },
+        {
+          "action": "WAIT",
+          "advisor": "API_CANDLES",
+          "bias": "WAIT",
+          "evidence": 15.0,
+          "source_usable": true,
+          "valid_until": "2026-10-15T22:30:54.422271+00:00",
+          "validity_reason": "",
+          "weight": 0.1
+        },
+        {
+          "action": "WAIT",
+          "advisor": "MT5_TICK_FLOW",
+          "bias": "BUY",
+          "evidence": 67.03,
+          "source_usable": false,
+          "valid_until": "2026-10-15T22:28:02.722837+00:00",
+          "validity_reason": "",
+          "weight": 0.6
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Historical policies are mixed unless explicitly stratified by cohort.",
+    "Signal evidence is heuristic, not a probability; this audit does not select a profitable threshold.",
+    "Journal/order joins can be missing. Broker net P/L includes available position fees.",
+    "Only fully closed positions with recoverable opening deals in the requested window are included."
+  ]
+}

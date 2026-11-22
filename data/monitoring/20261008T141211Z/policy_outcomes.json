@@ -1,0 +1,49 @@
+{
+  "available": true,
+  "deployed_at": "2026-10-08T13:17:49.8817802Z",
+  "cohort_start_utc": "2026-10-08T14:14:46.909857+00:00",
+  "first_sample": "2026-10-08T14:14:56.661799+00:00",
+  "latest_sample": "2026-10-08T14:26:58.893342+00:00",
+  "samples": 49,
+  "observed_new_entry_tickets": [
+    "58823687866"
+  ],
+  "outcomes": {
+    "new_entries": {
+      "closed_trades": 0,
+      "realized": 0,
+      "open_positions": 1,
+      "floating": 0.49,
+      "total": 0.49,
+      "closed": [],
+      "open_tickets": [
+        58823687866
+      ]
+    },
+    "carried_entries": {
+      "closed_trades": 0,
+      "realized": 0,
+      "open_positions": 0,
+      "floating": 0,
+      "total": 0,
+      "closed": [],
+      "open_tickets": []
+    }
+  },
+  "allocation_denial_samples": {
+    "INTRADAY": 1,
+    "INTRADAY_UNOCCUPIED_DIRECTIONAL": 1
+  },
+  "maximum_observed_positions": 1,
+  "unprotected_observed_tickets": [],
+  "advisor_error_samples": {},
+  "skipped_partial_lines": 0,
+  "limitations": [
+    "Observed captured positions and bounded closed histories; this is not an exhaustive broker audit.",
+    "New entries are classified by normalized UTC fill time, not their later closing time.",
+    "Carried outcomes do not measure the entry-allocation change.",
+    "Denial samples are repeated observations, not unique opportunities or necessarily executable trades.",
+    "First sample follows deployment; sampled quotes and histories may miss short-lived events.",
+    "Profitability needs adequate prospective independent setups; no positive edge is inferred here."
+  ]
+}

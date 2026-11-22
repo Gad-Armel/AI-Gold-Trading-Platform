@@ -1,0 +1,70 @@
+{
+    "started": "2026-10-28T22:27:08.306606+00:00",
+    "ended": "2026-10-28T22:32:11.904417+00:00",
+    "requested_minutes": 5.0,
+    "samples": 61,
+    "directions": {
+        "SELL": 5,
+        "WAIT": 56
+    },
+    "top_blocks": [
+        [
+            "Six-second follow-through is too weak relative to spread or too noisy",
+            60
+        ],
+        [
+            "Both bid and ask must progress in the signal direction; midpoint alone is insufficient",
+            58
+        ],
+        [
+            "S30 has no usable direction above the evidence threshold.",
+            56
+        ],
+        [
+            "The directional policy has not authorized an entry.",
+            56
+        ],
+        [
+            "Signal persistence is 0.0s; 1.0s required.",
+            56
+        ],
+        [
+            "Completed S30 candles do not agree",
+            56
+        ],
+        [
+            "Recent S30 range does not clear three times estimated round-trip cost",
+            38
+        ],
+        [
+            "Current quote has reversed or is extended beyond one recent S30 range",
+            3
+        ],
+        [
+            "Insufficient continuous six-second quote coverage",
+            2
+        ],
+        [
+            "No fresh XAUUSD quote: last broker tick is 2.7s old. Check feed connection and symbol session.",
+            1
+        ]
+    ],
+    "observed_position_tickets": [],
+    "initial_broker": {
+        "available": true,
+        "account_fingerprint": "e3cd3d3b96d2d2fa382a7ff6ac4eef1d4f62e94ead9dfa24b8984b3f5fe008d4",
+        "positions": [],
+        "quote_age": 0.0
+    },
+    "final_broker": {
+        "available": true,
+        "account_fingerprint": "e3cd3d3b96d2d2fa382a7ff6ac4eef1d4f62e94ead9dfa24b8984b3f5fe008d4",
+        "positions": [],
+        "quote_age": 0.219257,
+        "history_available": true,
+        "deals": []
+    },
+    "errors": [],
+    "account_continuity": true,
+    "note": "Read-only observation, not calibrated signal accuracy or proof of future profitability."
+}
