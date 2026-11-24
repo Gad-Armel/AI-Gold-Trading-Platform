@@ -69,8 +69,8 @@ class GoldAdvisoryTests(unittest.TestCase):
         self.assertIn("WHY THERE IS NO ENTRY",rendered)
         self.assertIn("Do not chase the move",rendered)
         self.assertIn("SCALP",rendered)
-        self.assertIn("Analysis completed (UTC)",rendered)
-        self.assertIn("VALID WINDOW (UTC)",rendered)
+        self.assertIn("Analysis completed (local",rendered)
+        self.assertIn("VALID WINDOW (LOCAL)",rendered)
         self.assertIn("no longer valid",rendered)
         self.assertIn("->",rendered)
 

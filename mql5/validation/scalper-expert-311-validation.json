@@ -1,0 +1,49 @@
+{
+  "verified_utc": "2026-09-30T07:53:42.649950+00:00",
+  "version": "3.11",
+  "compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 14308 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 3565 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 1950 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 1636 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsBridge": "Result: 0 errors, 0 warnings, 1759 ms elapsed, cpu='X64 Regular'"
+  },
+  "native_checks": 150,
+  "native_failures": 0,
+  "browser": {
+    "passed": 6,
+    "checks": [
+      "live countdown",
+      "analysis visible independently of lock",
+      "heartbeat age deducted",
+      "stale feed has no live countdown",
+      "expired lock panel hidden",
+      "missing snapshot clears lock panel"
+    ]
+  },
+  "protected_advisor1": 18,
+  "protected_modified": [],
+  "installed_sha256": "4d7c908b9ff933944ffafa8dcbe7c15ea465f377a921f09aae21b8f3de9f67ee",
+  "live": {
+    "main": "live",
+    "advisor": "live",
+    "mode": "DEMO / EXECUTION",
+    "locked": true,
+    "paused": false,
+    "risk": {
+      "text": "SECURITE jusqu'au 2026.09.30 22:17",
+      "lot": 0.01,
+      "max_positions": 3,
+      "per_trade": 2.0,
+      "aggregate": 4.0,
+      "daily_equity_percent": 3.0,
+      "lock_remaining_seconds": 41002,
+      "locked_until": "2026.09.30 22:17:04"
+    },
+    "analysis": "SCALP: waiting for directional tick impulse 3/8 s",
+    "state": "SAFETY LOCK / ANALYZING"
+  },
+  "observation_file": "scalper-expert-311-live-samples.json",
+  "changes": "Continuous signal evaluation before unchanged entry gates; live safety countdown with stale-feed handling.",
+  "limitations": "No safety reset or policy loosening. No new executed trades; functional fix does not establish profitability."
+}

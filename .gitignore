@@ -1,18 +1,52 @@
+# dependencies
+node_modules/
+
+# expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macos
+.DS_Store
+*.pem
+
+# env files
+.env*.local
+.env
+
+# typescript
+*.tsbuildinfo
+
+# Python build and test artifacts
 __pycache__/
 *.py[cod]
-.env
-.env.*
-!.env.example
-*.log
-logs/*
-!logs/README.md
-data/microstructure/ticks/
-data/microstructure/features/
-data/microstructure/state/
-data/microstructure/*.duckdb
-data/execution_audit/date=*/
-data/runtime/*
-!data/runtime/README.md
-data/research/*.jsonl
-data/research/v6_shadow_lanes/
-data/research/v6_shadow_lane_candidates/
+.pytest_cache/
+
+# Runtime market captures, journals, locks and generated MT5 validation copies
+data/runtime/
+data/research/
+data/monitoring/
+data/raw/
+data/candles/
+data/context/
+logs/
+runtime/
+.mt5-validation/
+.freebuff/

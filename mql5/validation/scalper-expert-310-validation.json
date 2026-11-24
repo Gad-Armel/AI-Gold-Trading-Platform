@@ -1,0 +1,66 @@
+{
+  "verified_utc": "2026-09-30T07:39:41.840782+00:00",
+  "version": "3.10",
+  "compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 17635 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 7845 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 3202 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 2246 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsBridge": "Result: 0 errors, 0 warnings, 1947 ms elapsed, cpu='X64 Regular'"
+  },
+  "native_checks": 150,
+  "native_failures": 0,
+  "python_tests": 44,
+  "browser": {
+    "passed": 10,
+    "checks": [
+      "fresh controls enabled",
+      "pause request",
+      "queued is not execution",
+      "duplicate click suppressed",
+      "native ack changes button",
+      "safety lock disables resume",
+      "cancel close confirmation does not send",
+      "confirmed close queued",
+      "stale disables controls",
+      "EA restart invalidates pending ack"
+    ]
+  },
+  "advisor1_protected_files": 18,
+  "advisor1_modified": [],
+  "installed_binary_sha256": "ee8a1b44962b0f7c61678392536cd7166382465f7a766e5cc9143b42379c6603",
+  "live": {
+    "main": "live",
+    "advisor": "live",
+    "mode": "DEMO / EXECUTION",
+    "locked": true,
+    "paused": false,
+    "risk": {
+      "text": "SECURITE jusqu'au 2026.09.30 22:17",
+      "lot": 0.01,
+      "max_positions": 3,
+      "per_trade": 2.0,
+      "aggregate": 4.0,
+      "daily_equity_percent": 3.0,
+      "locked_until": "2026.09.30 22:17:04"
+    },
+    "positions": 0,
+    "pending_orders": 0,
+    "news": "OK / calendrier natif"
+  },
+  "control_probe": {
+    "version": "3.10",
+    "http_locked_resume": 409,
+    "native_control_result": "rejected: safety lock, liquidation or execution disabled",
+    "safety_lock_preserved": true,
+    "locked_until_server": "2026.09.30 22:17:04",
+    "account_flat": true,
+    "main_state": "live"
+  },
+  "limitations": [
+    "No completed 3.10 trades yet; existing safety lock preserved.",
+    "Functional validation and native quote diagnostic are not a complete profitability backtest.",
+    "15 earlier 3.00 demo positions lost $4.90; no demonstrated positive edge.",
+    "Demo balance $23643.11 does not validate operation on $100."
+  ]
+}

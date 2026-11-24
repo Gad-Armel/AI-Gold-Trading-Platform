@@ -68,7 +68,7 @@ def _is_unverified_conservative_event(event):
     )
 
 
-def assess_news_event_risk(symbol=None, current_time=None):
+def assess_news_event_risk(symbol=None, current_time=None, *, extra_events=None):
     """
     Blocks trading around high-impact manually listed news events.
 
@@ -90,6 +90,10 @@ def assess_news_event_risk(symbol=None, current_time=None):
         }
 
     events = _load_news_events()
+    if extra_events:
+        # Optional caller-owned schedules stay in memory. Existing callers and
+        # the shared economic_events.json retain their original behavior.
+        events = list(events) + [event for event in extra_events if isinstance(event, dict)]
 
     block_before = int(getattr(settings, "NEWS_BLOCK_BEFORE_MINUTES", 30))
     block_after = int(getattr(settings, "NEWS_BLOCK_AFTER_MINUTES", 15))

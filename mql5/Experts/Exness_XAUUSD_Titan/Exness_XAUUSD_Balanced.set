@@ -1,0 +1,56 @@
+;==================================================================
+; EXNESS XAUUSD TITAN QUANT EA - BALANCED PRESET
+; Recommended for: Standard, Pro, and Raw Spread accounts
+; Focus: Capital preservation, high confluence, trend-pullback scalping
+;==================================================================
+InpSymbol=AUTO
+InpMagicNumber=778899
+InpTradeComment=TITAN_BALANCED
+
+;--- Strategy & Operational Mode
+InpTradingMode=0
+InpMicroTF=1
+InpMacroTF=5
+InpMinConfidence=65.00000000
+
+;--- Technical Indicators & Filters
+InpMacroEMABase=200
+InpMacroEMATrend=50
+InpMicroEMAFast=9
+InpMicroEMASlow=21
+InpRSIPeriod=14
+InpATRPeriod=14
+InpMomentumPeriod=14
+
+;--- Risk Management & Capital Bounds
+InpRiskMode=0
+InpRiskPercent=1.00000000
+InpFixedLot=0.01000000
+InpMaxDailyDrawdown=3.00000000
+InpCloseAllOnDailyDD=1
+InpMaxConcurrentPos=2
+InpMaxExposureLots=0.20000000
+InpMaxConsecutiveLosses=3
+InpStreakCooldownMin=60
+
+;--- Execution & Spread Protection
+InpMaxSpreadPoints=35.00000000
+InpMaxSlippagePoints=30
+InpMaxOrderRetries=3
+InpTickThrottleMs=100
+
+;--- Position Lifecycle & Exit Logic
+InpEnableBreakEven=1
+InpBETriggerATR=1.00000000
+InpBELockPoints=10.00000000
+InpEnableTrailing=1
+InpTrailDistATR=1.30000000
+InpTrailStepATR=0.30000000
+InpEnablePartialClose=1
+InpPartialTriggerATR=1.50000000
+InpPartialClosePct=50.00000000
+
+;--- Telemetry & Diagnostics
+InpShowDashboard=1
+InpLogLevel=1
+InpEnableFileLog=0

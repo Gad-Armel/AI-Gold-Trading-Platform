@@ -153,6 +153,7 @@ FMP_API_KEY = ""
 # ======================================================================
 
 ENABLE_AUTO_ECONOMIC_CALENDAR = True
+ENABLE_FMP_ECONOMIC_CALENDAR = True
 
 # The FMP calendar endpoint may return 403 on the free plan.
 # The free calendar fallback must remain enabled below.

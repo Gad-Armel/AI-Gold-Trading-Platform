@@ -1,0 +1,62 @@
+# ==============================================================================
+# XAUUSD AI Market Intelligence Engine - System Configuration
+# ==============================================================================
+
+symbol: "XAUUSD"
+point_value: 0.01  # For XAUUSD, 1 point = 0.01 USD (1 pip = 0.10 USD or 10 points)
+lot_size: 100.0    # 1 standard lot = 100 troy ounces
+
+timeframes:
+  execution_tf: "M1"
+  structure_tfs: ["M1", "M5", "M15", "H1"]
+  primary_alpha_tf: "M15"
+
+mt5:
+  enabled: true
+  path: ""  # Leave empty for default terminal path
+  login: 0  # Replace with trading account number
+  password: ""
+  server: ""
+  timeout_ms: 60000
+  historical_bars_load: 5000
+
+market_structure:
+  swing_pivot_order: 5  # Number of bars left and right to define a swing pivot
+  fvg_threshold_points: 15.0  # Fair Value Gap minimum point spread
+  liquidity_sweep_lookback: 50  # Bars to evaluate liquidity runs
+
+regime_detection:
+  adx_trend_threshold: 25.0
+  bb_squeeze_percentile: 20.0
+  abnormal_volatility_multiplier: 2.8  # ATR multiplier above rolling median to flag news/flash spike
+  abnormal_spread_points: 60.0  # Flag abnormal spread (e.g. 60 points = $0.60/oz)
+
+alpha_model:
+  prediction_horizon_bars: 8  # Predict forward 8 bars on M15 (~2 hours)
+  min_confidence_threshold: 0.65  # Confidence required to issue BUY/SELL; otherwise NO_TRADE
+  triple_barrier:
+    pt_atr_mult: 2.0  # Profit target in ATR multiples
+    sl_atr_mult: 1.5  # Stop loss in ATR multiples
+    max_holding_bars: 12
+  model_type: "HistGradientBoosting"  # Options: HistGradientBoosting, RandomForest, CalibratedMLP
+  probability_calibration: "isotonic"  # "isotonic" or "sigmoid"
+
+risk_estimation:
+  atr_period: 14
+  risk_reward_ratio_target: 1.5
+  max_recommended_sl_points: 180.0  # Hard ceiling for advisory SL distance ($1.80/oz)
+  min_recommended_sl_points: 30.0   # Hard floor for advisory SL distance ($0.30/oz)
+
+validation:
+  n_walk_forward_splits: 5
+  train_window_bars: 2500
+  test_window_bars: 500
+  embargo_pct: 0.02  # 2% embargo between train and test sets to eliminate autoregressive leakage
+
+bridge:
+  mode: "both"  # "file", "api", or "both"
+  file_path: "MQL5/Files/xauusd_ai_signals.json"
+  api_host: "127.0.0.1"
+  api_port: 8000
+  heartbeat_interval_sec: 5
+  stale_data_timeout_sec: 20

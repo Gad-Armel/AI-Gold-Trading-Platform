@@ -1,0 +1,38 @@
+{
+  "validated_at_utc": "2026-09-29T08:45:51.759249+00:00",
+  "version": "2.02",
+  "native_checks": 85,
+  "native_failures": 0,
+  "python_tests": 21,
+  "python_failures": 0,
+  "compiled_programs": 5,
+  "compilation_errors": 0,
+  "compilation_warnings": 0,
+  "native_wire_parsed_with_python": true,
+  "installed_and_started": true,
+  "live_api": {
+    "state": "live",
+    "age_seconds": 0.6,
+    "candles": 180,
+    "news": "OK / calendrier natif",
+    "advisor": "REQUIS / WAIT 15/100",
+    "support": {
+      "advisor": "Report bridge OK",
+      "report_age_seconds": 7.1
+    },
+    "blockers": [
+      "Outside 13:00-16:00 UTC or broker market closed",
+      "ATR / relative-volume filter",
+      "Spread filter / warm-up",
+      "M1 / M5 / M15 / H1 not aligned"
+    ]
+  },
+  "browser_visual_check": "mql5/validation/gold-dashboard-live-202.png",
+  "advisor1_protected_files_unchanged": 18,
+  "limits": {
+    "lot": 0.01,
+    "max_positions": 3
+  },
+  "trading_session_utc": "13:00-16:00",
+  "profitability_tested": false
+}

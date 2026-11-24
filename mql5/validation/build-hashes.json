@@ -1,0 +1,50 @@
+﻿[
+    {
+        "file":  "GoldScalpAI.ex5",
+        "sha256":  "27B67B94F62131CC6F81D0D67D8C35A94F83C0E41434E669EA94362AFBCDBCB5"
+    },
+    {
+        "file":  "GoldScalpAI.mq5",
+        "sha256":  "73DD8CA7AD2FBE88924AE939A0830BDD1D9606AF7B3138C34A7CD7186520F023"
+    },
+    {
+        "file":  "GoldScalpExit.mqh",
+        "sha256":  "54E25558D522BBFB832525CC84176186C3E21480A8E7D1CA48DBCF93D00A0815"
+    },
+    {
+        "file":  "GoldScalpFlow.mqh",
+        "sha256":  "73E7F7BB8FD13BFA808191EDC4A6960984D1AF864C89E4AC655FF102A3C5353B"
+    },
+    {
+        "file":  "GoldScalpLearning.mqh",
+        "sha256":  "81CA6BE8191E031DFD2AE1A11F4DCD2A5D690134DEF56E3D1847286EEF99E33A"
+    },
+    {
+        "file":  "GoldScalpMath.mqh",
+        "sha256":  "4141644987ADD3CE453547696885666037A2506B89E7156245B6CC9C075256B3"
+    },
+    {
+        "file":  "GoldScalpSelfTest.ex5",
+        "sha256":  "1342B6EA931B35AFD76C155B797B0B39C7C06BAE08CCEDD39683904B765C19EF"
+    },
+    {
+        "file":  "GoldScalpSelfTest.mq5",
+        "sha256":  "83393C5913CB89E663F4B889E78F5A92CDEB9724386A1A82CD4B3328EA32E520"
+    },
+    {
+        "file":  "GoldScalpSafety.mqh",
+        "sha256":  "B1DD5E294230D4872DB722AF874CD29590F6DE213A362482E910F34D085BD264"
+    },
+    {
+        "file":  "GoldScalpOrders.mqh",
+        "sha256":  "A82F5CBAADE6AEF8466296B8B37AC46CCFD02D4FDBAD889ED46FFA76A71E81CB"
+    },
+    {
+        "file":  "GoldScalpRuntime.mqh",
+        "sha256":  "2ECBA1E35A4073DB084746E0956D7DA93D1197A44D6DDBB1AF288F57FB1543B5"
+    },
+    {
+        "file":  "GoldScalpControls.mqh",
+        "sha256":  "F297E6B2FB4BE1B3F74CA6340162723F236248F1D018212812B10EFA83E390A2"
+    }
+]

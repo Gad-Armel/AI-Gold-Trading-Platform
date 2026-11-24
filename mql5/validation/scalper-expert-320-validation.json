@@ -1,0 +1,68 @@
+{
+  "verified_utc": "2026-10-01T04:08:45.615851+00:00",
+  "version": "3.20",
+  "compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 15072 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 3620 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 1749 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 2715 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsBridge": "Result: 0 errors, 0 warnings, 4195 ms elapsed, cpu='X64 Regular'"
+  },
+  "native_checks": 176,
+  "native_failures": 0,
+  "python_tests": 46,
+  "browser": {
+    "passed": 7,
+    "checks": [
+      "calendar visible",
+      "every native release rendered",
+      "release names rendered as text",
+      "unknown actuals retained",
+      "readable unit scaling",
+      "stale calendar explicitly labelled",
+      "missing feed clears panel"
+    ]
+  },
+  "advisor1_files_unchanged": 18,
+  "installed_sha256": "2fa1b78e22dde2f555f93460fe2040c6fed322d55501492ab478e87de827ca2d",
+  "live": {
+    "main": "live",
+    "advisor": "live",
+    "mode": "DEMO / EXECUTION",
+    "paused": false,
+    "locked": false,
+    "risk": {
+      "text": "0.01 fixe | max 3 | equity -3.0% / 24h",
+      "lot": 0.01,
+      "max_positions": 3,
+      "per_trade": 2.0,
+      "aggregate": 4.0,
+      "daily_equity_percent": 3.0,
+      "lock_remaining_seconds": 0,
+      "locked_until": ""
+    },
+    "status": "Filtre spread absolu / glissant actif",
+    "entry_lane": "MICRO IMPULSE / 3-8 s",
+    "calendar_fresh": true,
+    "calendar_events": 18,
+    "account": {
+      "balance": 23641.92,
+      "equity": 23641.92,
+      "floating": 0.0,
+      "margin_free": 23641.92,
+      "position_count": 0,
+      "pending_count": 0
+    }
+  },
+  "settings": {
+    "confirmation_seconds": 1,
+    "entry_spacing_seconds": 3,
+    "rapid_continuation": true,
+    "trend_continuation": true
+  },
+  "limitations": [
+    "Functional tests and overlapping quote diagnostics do not establish profitability.",
+    "Pre-update demo history: 20 closed positions, net -$6.09, PF 0.55.",
+    "Existing demo balance is not the intended $100 starting account."
+  ]
+}

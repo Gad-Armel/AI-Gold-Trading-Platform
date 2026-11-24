@@ -1,0 +1,12 @@
+# Main Bot
+
+cd "C:\Users\Gad Asopjio\Desktop\AI Trading Platform"
+python -B .\run_gold_ai.py --max-minutes 0
+
+# Titan
+
+cd "C:\Users\Gad Asopjio\Desktop\AI Trading Platform"
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\start_gold_scalp_mt5.ps1
+
+cd "C:\Users\Gad Asopjio\Desktop\AI Trading Platform"
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\start_gold_scalp_mt5.ps1 -DemoOrders

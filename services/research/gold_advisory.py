@@ -121,7 +121,9 @@ def build_gold_advisory(snapshot: ScalpingSnapshotState) -> dict[str, Any]:
             "supporting_timeframes": list(config["frames"]), "votes": {"BUY": buy, "SELL": sell},
             "review_at": review_at.isoformat(), "valid_until": valid_until.isoformat(),
             "valid_for_minutes": config["minutes"], "reasons": reasons, "blocks": blocks,
-            "levels": _levels(snapshot, direction, atr, config) if action in {"BUY", "SELL"} else {},
+            # Levels describe the directional BIAS even when ACTION is WAIT due
+            # to spread/VWAP caution. Execution policies decide independently.
+            "levels": _levels(snapshot, direction, atr, config) if direction in {"BUY", "SELL"} and atr > 0 else {},
         }
     actionable = [name for name, item in outputs.items() if item["action"] in {"BUY", "SELL"}]
     directions = {outputs[name]["action"] for name in actionable}

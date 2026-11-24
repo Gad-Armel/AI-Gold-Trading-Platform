@@ -1,0 +1,53 @@
+{
+  "validated_at_utc": "2026-09-28T04:18:27.295283+00:00",
+  "feature": "Native GoldScalpAI 2.01 browser dashboard",
+  "compilation": {
+    "GoldScalpAI": "Result: 0 errors, 0 warnings, 31544 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpSelfTest": "Result: 0 errors, 0 warnings, 6830 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpDashboardPreview": "Result: 0 errors, 0 warnings, 8146 ms elapsed, cpu='X64 Regular'",
+    "GoldScalpNewsFeed": "Result: 0 errors, 0 warnings, 2718 ms elapsed, cpu='X64 Regular'"
+  },
+  "dashboard_tests": {
+    "checks": 17,
+    "failures": 0
+  },
+  "native_self_tests": {
+    "checks": 79,
+    "failures": 0,
+    "note": "Existing math and execution helper invariants; not a full live broker test."
+  },
+  "advisor1_protected_files_unchanged": 18,
+  "browser_validation": {
+    "browser": "Headless Chrome",
+    "screenshots": [
+      "gold-dashboard-desktop.png",
+      "gold-dashboard-mobile.png"
+    ],
+    "data": "Explicitly labelled synthetic UI fixture, no real orders",
+    "verified": [
+      "candles",
+      "position table",
+      "execution table",
+      "decision text",
+      "stale heartbeat",
+      "fresh heartbeat",
+      "narrow layout"
+    ]
+  },
+  "live_broker_end_to_end_test": false,
+  "ea_installed_or_activated_on_user_chart": false,
+  "source_sha256": {
+    "run_gold_scalp_dashboard.py": "b9429890cd636519490d12f1f09d00b7c45e15d28ce2c62604465ce5d08af0dc",
+    "services/dashboard/gold_scalp_web.py": "ad5f73903f12e01622e7bf52de85bea9bf3b575d4851c5f483615d93d14aaa12",
+    "tests/test_gold_scalp_web.py": "1464f71438a4a6e6fee75ea89f55266b0769f0576e7202e28316627da70a8a02",
+    "docs/GOLD_SCALP_DASHBOARD.md": "55fa67d3452b17c5d953b42567de55b767797a687f9d2acc211a4a452e2544a8",
+    "services/dashboard/gold_scalp_assets/app.js": "0ca6e28f859e606cc56bca5a1fca10a29d61801a52c16ff90c13427b3922e86d",
+    "services/dashboard/gold_scalp_assets/index.html": "2cb946ee06d22466db71a4e6784ac459a43e4424edde1394bf13df1e0e13ce9c",
+    "services/dashboard/gold_scalp_assets/style.css": "e3ec7be5d4eceb5e4b91801d66ab62ba06e1972dd0a0412710d6f32c06539ee6",
+    "mql5/Experts/GoldScalpAI/GoldScalpAI.mq5": "98697da6c7d1c06838212613c4f4d9f162b38946fc11c9801a75f898bd4995ca",
+    "mql5/Experts/GoldScalpAI/GoldScalpTelemetry.mqh": "6d32aeb78284fded3bb18c3c3dedf6a24c3e76e2f97e06f9ec6526bafbcd05f2",
+    "mql5/Experts/GoldScalpAI/GoldScalpRuntime.mqh": "e517cf9f08880ba7bafd9da0c9e0ca673cbfa2adb844fcb157df6e1704edc079",
+    "mql5/Experts/GoldScalpAI/GoldScalpOrders.mqh": "f37066df09adf20c11920a985532b6e9b9cdc085410e486f88491e9c5dc1357b",
+    "mql5/Experts/GoldScalpAI/GoldScalpAI.ex5": "4f7fc8ce2fb4ca03eab90d15998a9475eee29ffa56509141151d6e823a17c6db"
+  }
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>XAUUSD Titan | Scalper Expert</title>
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+<header class="topbar"><div class="brand"><span class="monogram">XAU</span><div><strong>XAUUSD <span>Titan</span></strong><small>Live desk / SCALPER EXPERT / MT5 EXECUTION CONSOLE</small></div></div>
+  <div class="connection"><span id="heartbeat" class="pill amber">CONNECTING</span><span id="clock">—</span></div>
+</header>
+<main>
+  <nav class="desk-nav" aria-label="Dashboards"><a href="/" aria-current="page">Main bot / Live trading</a><a href="/advisor" target="_blank" rel="noopener">Advisor 1 / Analysis &#8599;</a></nav>
+  <section class="intro"><div><p class="eyebrow">YOUR MARKET. YOUR POSITIONS. IN REAL TIME.</p><h1>Gold, in focus.</h1><p id="identity">Native EA dashboard · Local connection · Demo controls</p></div>
+    <label class="feed-label">MT5 account feed<select id="source" aria-label="Choose MT5 account feed"><option value="">Waiting for an EA feed</option></select></label>
+  </section>
+  <div id="notice" class="notice" role="status">Connecting to the dashboard server…</div>
+  <div id="safety-lock" class="notice" role="status" hidden></div>
+  <section class="panel control-panel" aria-label="EA controls"><div><h2>Trading controls</h2><p>Pause stops new entries; exits remain active. Close All applies to the entire displayed account.</p></div><div class="control-buttons"><button id="pause-trading" disabled>Pause entries</button><button id="reset-session" disabled>Reset loss session &amp; restart</button><button id="close-all" class="danger-button" disabled>Close All / account</button></div><p id="control-feedback" role="status">Waiting for native control availability.</p></section>
+  <div id="blocker-panel" class="notice" hidden><strong id="blocker-heading">Entry filters currently blocking:</strong><ul id="blockers"></ul><p id="support-health"></p></div>
+  <section id="setup" class="setup panel" hidden><h2>Connect your main bot</h2><p>Install the current compiled Scalper Expert, then attach it to an XAUUSD M1 chart in MT5. Keep <strong>ExportWebDashboard = true</strong>. No browser plugins or API keys are needed.</p><p>The browser displays the EA's real data as soon as its first snapshot arrives. No sample trades are shown here.</p></section>
+  <section class="kpis" aria-label="Account and bot performance">
+    <article class="panel kpi"><span>ACCOUNT EQUITY</span><strong id="equity">—</strong><small id="balance">Balance —</small></article>
+    <article class="panel kpi"><span>ACCOUNT FLOATING P&amp;L</span><strong id="floating">—</strong><small id="positions-count">Positions —</small></article>
+    <article class="panel kpi"><span>EA NET TODAY</span><strong id="day">—</strong><small id="week">This week —</small></article>
+    <article class="panel kpi"><span>EA WIN RATE · 30 DAYS</span><strong id="winrate">—</strong><small id="pf">Profit factor —</small></article>
+  </section>
+  <section class="market-layout">
+    <article class="panel" id="macro-panel" hidden><div class="panel-heading"><h2>USD economic releases / native MT5 calendar</h2><span id="macro-health" class="pill"></span></div><p id="macro-context"></p><div class="table-scroll"><table><thead><tr><th>Release (server time)</th><th>Event</th><th>Actual</th><th>Forecast</th><th>Previous</th><th>Unit / scale</th></tr></thead><tbody id="macro-events"></tbody></table></div><p class="footnote">Upcoming actual values are unknown. Calendar values are context; gold's observed response supplies at most ±2 evidence points. No automatic BUY/SELL from a headline. NA means unavailable.</p></article>
+    <article class="panel chart-panel"><div class="panel-heading"><div><h2 id="symbol">XAUUSD <span class="tag">M1</span></h2><p>Broker candles · position entries, SL and TP</p></div><div class="quote"><strong id="bid">—</strong><small id="ask">Ask —</small></div></div>
+      <div class="chart-toolbar"><span id="quote-health" class="pill amber">WAITING FOR QUOTES</span><label>Visible candles <select id="range"><option value="60">60 minutes</option><option value="120" selected>120 minutes</option><option value="180">180 minutes</option></select></label></div>
+      <canvas id="candles" role="img" aria-label="Live gold M1 candlestick chart with position entry and protective stop levels"></canvas>
+      <div class="chart-footer"><span id="candle-time">Next M1 —</span><span>Times shown in broker server time</span></div>
+    </article>
+    <aside class="panel decision-panel"><div class="panel-heading"><h2>Bot's live decision</h2><span id="mode" class="pill">—</span></div><div id="decision" class="decision">Waiting for the native EA…</div>
+      <dl class="filters"><div><dt>Spread / allowed</dt><dd id="spread">—</dd></div><div><dt>Mean spread · 100 ticks</dt><dd id="spread-mean">—</dd></div><div><dt>ATR / relative volume</dt><dd id="volatility">—</dd></div><div><dt>Micro flow</dt><dd id="flow">—</dd></div><div><dt>M1 / M5 / M15 / H1</dt><dd id="mtf">—</dd></div><div><dt>Session</dt><dd id="session">—</dd></div><div><dt>News calendar</dt><dd id="news">—</dd></div><div><dt>Advisor 1</dt><dd id="advisor">—</dd></div></dl>
+    </aside>
+  </section>
+  <section class="panel manual-signal-panel" aria-labelledby="manual-signal-heading">
+    <div class="panel-heading"><div><h2 id="manual-signal-heading">Manual scalp analysis</h2><p>Separate read-only candle + tick-flow evidence. This does not control the EA or place orders.</p></div><span id="manual-signal-state" class="pill amber">WAITING FOR REPORT</span></div>
+    <div class="manual-signal-body">
+      <div class="manual-signal-summary"><strong id="manual-signal-action">WAIT</strong><span id="manual-signal-bias">No current advisory</span><span id="manual-signal-age">—</span></div>
+      <div class="manual-evidence">
+        <div class="manual-score"><div><span>Directional evidence · not win probability</span><strong id="manual-score">—</strong></div><div class="manual-score-track" role="presentation"><span id="manual-score-bar"></span></div><small id="manual-score-note">Scores are uncalibrated research evidence, not estimated odds.</small></div>
+        <dl class="filters manual-filters">
+          <div><dt>Candle model</dt><dd id="manual-candle">—</dd></div><div><dt>Tick-flow model</dt><dd id="manual-tick">—</dd></div>
+          <div><dt>Agreement</dt><dd id="manual-agreement">—</dd></div><div><dt>Quote · spread</dt><dd id="manual-quote">—</dd></div>
+          <div><dt>Valid until</dt><dd id="manual-expiry">—</dd></div><div><dt>Scenario R:R</dt><dd id="manual-rr">—</dd></div>
+        </dl>
+      </div>
+      <div class="manual-levels" aria-label="Manual scenario levels">
+        <div><span>ENTRY ZONE</span><strong id="manual-entry">—</strong></div><div><span>STOP SCENARIO</span><strong id="manual-stop">—</strong></div>
+        <div><span>TP1 / TP2 / TP3 SCENARIOS</span><strong id="manual-targets">—</strong></div>
+      </div>
+      <div class="manual-explanations"><div><h3>Supporting evidence</h3><ul id="manual-reasons"><li class="empty">Waiting for report.</li></ul></div><div><h3>Blocks / cautions</h3><ul id="manual-blocks"><li class="empty">Waiting for report.</li></ul></div></div>
+    </div>
+    <p class="footnote">Scenario prices are not guaranteed fills. Tick-flow is a broker quote-change proxy, not centralized trade-aggressor data. Independently verify the live quote and your risk plan; skip WAIT, stale, or expired reports.</p>
+  </section>
+  <section class="panel positions-panel"><div class="panel-heading"><div><h2>Open positions <span id="open-count" class="tag">0</span></h2><p>All account positions. GoldScalpAI trades are labelled EA. Floating P&amp;L includes swap, excludes entry commissions.</p></div></div>
+    <div class="table-scroll"><table><thead><tr><th>Ticket / owner</th><th>Symbol</th><th>Side</th><th>Lots</th><th>Entry</th><th>Current</th><th>Stop loss</th><th>Take profit</th><th>Floating P&amp;L</th><th>Profit protection</th><th>Opened</th></tr></thead><tbody id="positions"><tr><td colspan="11" class="empty">Waiting for position data.</td></tr></tbody></table></div>
+  </section>
+  <section id="scalp-policy" class="panel positions-panel" hidden><div class="panel-heading"><div><h2>Scalper Expert / adaptive sessions</h2><p id="scalp-summary"></p><p id="micro-diagnostics"></p><p id="execution-diagnostics"></p></div><span class="tag">CLOSED OUTCOMES / 30 DAYS</span></div><div class="table-scroll"><table><thead><tr><th>Session (UTC buckets)</th><th>Completed trades</th><th>Net after fees</th><th>Evidence adjustment</th><th>Learning status</th></tr></thead><tbody id="scalp-sessions"></tbody></table></div><p class="footnote">Session adjustments start after 20 completed Scalper Expert trades per session and account for outcome variability. No session advantage is assumed in advance. Profit protection is an exit trigger; the final fill can differ because of price gaps or slippage.</p></section>
+  <section class="bottom-layout"><article class="panel"><div class="panel-heading"><h2>Account equity</h2><span class="tag">THIS BROWSER SESSION</span></div><canvas id="equity-chart" role="img" aria-label="Account equity observed while this dashboard is open"></canvas><p class="footnote">Observed samples only; resets when you change account or reload. Gaps indicate missing heartbeats.</p></article>
+    <article class="panel risk-panel"><div class="panel-heading"><h2>Risk &amp; execution</h2><span id="risk-state" class="pill">—</span></div><p id="risk-summary">Waiting for risk settings.</p><dl class="filters"><div><dt>Planned risk / trade</dt><dd id="risk-trade">—</dd></div><div><dt>Aggregate risk limit</dt><dd id="risk-total">—</dd></div><div><dt>Free margin</dt><dd id="margin">—</dd></div><div><dt>Observed drawdown</dt><dd id="drawdown">—</dd></div></dl><p id="execution" class="detail">—</p><p id="learning" class="detail">—</p><p class="footnote">Browser Pause/Close All commands are acknowledged by the native EA. MT5 Trade-tab controls remain available. Closing this browser does not stop the EA.</p></article>
+  </section>
+  <section class="panel"><div class="panel-heading"><div><h2>Recent executions</h2><p>Last 60 account deals over 7 days, scanning up to 1,000 recent deals. Refreshes every 10 seconds.</p></div><button id="export" disabled>Export CSV</button></div><div class="table-scroll"><table><thead><tr><th>Time</th><th>Ticket / owner</th><th>Symbol</th><th>Execution side</th><th>Entry / exit</th><th>Lots</th><th>Price</th><th>Net deal P&amp;L</th><th>Broker reason</th></tr></thead><tbody id="deals"><tr><td colspan="9" class="empty">Waiting for execution history.</td></tr></tbody></table></div><p class="footnote">An exit SELL can close a BUY position. Deal P&amp;L includes that deal's commission, swap and fee; it is not the total P&amp;L of a completed position. Win rate and profit factor use completed EA positions.</p></section>
+  <section class="panel"><div class="panel-heading"><div><h2>Decision &amp; execution activity</h2><p>Last 40 events since EA attachment. Requests are intentions; broker executions appear above.</p></div></div><ol id="events" class="events"><li class="empty">Waiting for activity.</li></ol></section>
+  <footer><span>GOLD SCALP AI / LOCAL TRADING DESK</span><span>Fixed 0.01 lot · Maximum 3 positions · Demo EA</span></footer>
+</main>
+</body></html>

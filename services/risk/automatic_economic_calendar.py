@@ -727,6 +727,11 @@ def _convert_fmp_event_to_internal(
         ),
         "category": category,
         "utc_time": str(raw_date),
+        "actual": event.get("actual", event.get("Actual")),
+        "forecast": event.get("estimate", event.get("Estimate", event.get("forecast"))),
+        "previous": event.get("previous", event.get("Previous")),
+        "calendar_confidence": "PROVIDER_VERIFIED",
+        "source_detail": "fmp_economic_calendar",
     }
 
 
@@ -1628,6 +1633,8 @@ def _save_failed_sync(
 
 def sync_auto_economic_calendar(
     force: bool = False,
+    *,
+    free_only: bool = False,
 ) -> dict[str, Any]:
     """
     Synchronizes economic events.
@@ -1640,6 +1647,11 @@ def sync_auto_economic_calendar(
     ENABLE_FMP_ECONOMIC_CALENDAR=True is explicitly configured.
     """
 
+    if type(free_only) is not bool:
+        raise ValueError('free_only must be a boolean')
+    fmp_enabled = _fmp_calendar_enabled() and not free_only
+    if free_only and _load_sync_metadata().get('fmp_calendar_enabled'):
+        force = True
     auto_calendar_enabled = _safe_bool(
         getattr(
             settings,
@@ -1662,7 +1674,7 @@ def sync_auto_economic_calendar(
                 load_events()
             ),
             "fmp_calendar_enabled": (
-                _fmp_calendar_enabled()
+                fmp_enabled
             ),
             "fmp_api_call_made": False,
         }
@@ -1695,13 +1707,11 @@ def sync_auto_economic_calendar(
             "fmp_calendar_enabled": (
                 metadata.get(
                     "fmp_calendar_enabled",
-                    _fmp_calendar_enabled(),
+                    fmp_enabled,
                 )
             ),
             "fmp_api_call_made": False,
         }
-
-    fmp_enabled = _fmp_calendar_enabled()
 
     # ==================================================================
     # OPTIONAL FMP PATH
@@ -1903,9 +1913,9 @@ def sync_auto_economic_calendar(
     )
 
 
-def sync_auto_economic_calendar_if_needed() -> dict[str, Any]:
+def sync_auto_economic_calendar_if_needed(*, free_only: bool = False) -> dict[str, Any]:
     return sync_auto_economic_calendar(
-        force=False
+        force=False, free_only=free_only
     )
 
 

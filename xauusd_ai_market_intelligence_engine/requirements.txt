@@ -1,0 +1,28 @@
+# ==============================================================================
+# XAUUSD AI Market Intelligence Engine - Requirements
+# ==============================================================================
+
+# Core Scientific & Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Machine Learning & Statistics
+scikit-learn>=1.3.0
+joblib>=1.3.2
+
+# Deep Learning (Optional / Justified for Temporal Sequences)
+torch>=2.1.0
+
+# MetaTrader 5 Integration (Windows native client)
+# Note: On Linux / macOS, a built-in high-fidelity simulation and synthetic feed
+# is automatically activated to enable complete offline research and testing.
+MetaTrader5>=5.0.45; sys_platform == 'win32'
+
+# API & IPC Bridges
+fastapi>=0.110.0
+uvicorn>=0.28.0
+pydantic>=2.6.0
+requests>=2.31.0
+pyyaml>=6.0.1
+aiofiles>=23.2.1
